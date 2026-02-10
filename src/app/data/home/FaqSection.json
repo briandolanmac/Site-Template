@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "eyebrow": "FAQs",
+  "title": "Common Questions",
+  "subtitle": "Everything you need to know about going solar",
+  "items": [
+    {
+      "question": "How does Solar PV work?",
+      "answer": "Photovoltaic (PV) technology uses semiconductor cells to convert daylight (not just direct sunlight) into electricity. This electricity can power your home, reducing dependency on the grid. Excess energy can be stored in a battery, heat your hot water, or charge an EV."
+    },
+    {
+      "question": "How much can I save?",
+      "answer": "Savings depend on your system size and usage, but we aim for at least a 70% reduction in electricity bills. Many systems achieve a Return on Investment (ROI) in 4-6 years, offering free electricity for decades after."
+    },
+    {
+      "question": "What size system do I need?",
+      "answer": "This depends on your consumption and roof space. We analyse your bills to design a system that fits your actual needs, ensuring you don't overpay for a system that's too big. We also future-proof designs for later expansion."
+    },
+    {
+      "question": "Is my roof suitable?",
+      "answer": "Most roofs are suitable as long as they are in good condition. We can install on almost any roof structure. Our on-site survey will confirm suitability before any work begins."
+    },
+    {
+      "question": "Are there grants available?",
+      "answer": "Yes! The SEAI grant offers up to €1,800 for residential solar PV systems (for 4kWp systems and above). There is also a grant of up to €300 for EV chargers. We handle the paperwork for you."
+    },
+    {
+      "question": "Do I need planning permission?",
+      "answer": "Generally, no. As of October 2021, planning laws changed so you don't need permission for rooftop solar panels unless you live in specific zones like air traffic control areas or protected structures."
+    },
+    {
+      "question": "Is battery storage important?",
+      "answer": "Yes, it helps you use more of the power you generate (self-consumption) rather than sending it to the grid. It also allows \"Time of Use\" charging—filling the battery with cheap night-rate electricity to use during expensive peak hours."
+    },
+    {
+      "question": "What about maintenance?",
+      "answer": "Solar panels are generally self-cleaning with rainwater. Our systems come with a 2-year installation warranty, 12-25 year panel manufacturer warranty, and 10-year battery/inverter warranties."
+    },
+    {
+      "question": "How long does installation take?",
+      "answer": "Typical residential installations take 1-2 days. External roof work and internal electrical work are usually done simultaneously to minimise disruption."
+    }
+  ]
+}

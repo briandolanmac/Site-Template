@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "navigation": true,
+    "hero": true,
+    "serviceCards": true,
+    "trustBar": true,
+    "partnersStrip": true,
+    "video": true,
+    "services": true,
+    "whyChoose": true,
+    "impact": true,
+    "caseStudies": true,
+    "how": true,
+    "testimonials": true,
+    "faq": true,
+    "accreditations": true,
+    "finalCta": true,
+    "footer": true
+  },
+  "order": [
+    "hero",
+    "serviceCards",
+    "trustBar",
+    "partnersStrip",
+    "video",
+    "services",
+    "whyChoose",
+    "impact",
+    "caseStudies",
+    "how",
+    "testimonials",
+    "faq",
+    "accreditations",
+    "finalCta"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "enabled": true,
+  "ratingLabel": "5.0 Rating",
+  "ratingStars": "★★★★★",
+  "quoteMark": "\"",
+  "title": "What Our Customers Think",
+  "subtitle": "Join 500+ satisfied customers - from Fortune 500 companies to family homes across Ireland",
+  "groups": [
+    {
+      "label": "Commercial & Industrial",
+      "tone": "default",
+      "items": [
+        {
+          "company": "Suir Engineering",
+          "quote": "From the initial engagement with Infinite, the project team were very knowledgeable, competent and professional. I would highly recommend Niall and the Infinite Energy team for all future large-scale projects.",
+          "author": "Fran Conroy",
+          "role": "Projects Director",
+          "avatar": "F",
+          "variant": "b2b"
+        },
+        {
+          "company": "Axiseng",
+          "quote": "We have worked with Niall and the Infinite Energy team on several occasions. In all cases Niall and the team were found to be professional and diligent in their approach to projects.",
+          "author": "Cian Dowling",
+          "role": "Director",
+          "avatar": "C",
+          "variant": "b2b"
+        },
+        {
+          "company": "Mondello Park",
+          "quote": "The installation by Infinite Energy was seamless; everything was done in just over a week. They installed a 115 kW system. We'd highly recommend Infinite Energy.",
+          "author": "Ian Beatty",
+          "role": "Operations Director",
+          "avatar": "I",
+          "variant": "b2b"
+        }
+      ]
+    },
+    {
+      "label": "Residential",
+      "tone": "aqua",
+      "items": [
+        {
+          "quote": "I honestly can't praise this company enough. The service and installation was second to none. From first consultation to plan the system, right through to post install visit. Highly recommend them.",
+          "author": "David Farrelly",
+          "role": "Dublin",
+          "avatar": "D",
+          "variant": "residential"
+        },
+        {
+          "quote": "Local business to me, straight talking and delivered as promised. Workers were clean and tidy and everything was delivered as we expected. I'd definitely recommend.",
+          "author": "Declan McMahon",
+          "role": "Meath",
+          "avatar": "D",
+          "variant": "residential"
+        },
+        {
+          "quote": "My Solar PV system is installed just over one week. I found them completely professional, straightforward, and easy to deal with. The communication on how to apply for the grant was excellent.",
+          "author": "Francis Barrett",
+          "role": "Wicklow",
+          "avatar": "F",
+          "variant": "residential"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "label": "Read All 100+ Reviews →",
+    "href": "https://www.google.com/search?q=Infinite+Energy+Reviews"
+  }
+}

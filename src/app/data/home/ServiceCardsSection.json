@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "arrow": "→",
+  "cards": [
+    {
+      "title": "Solar Panels",
+      "description": "Harness clean energy for your home or business",
+      "href": "/solar-panels"
+    },
+    {
+      "title": "Battery",
+      "description": "Store excess energy for when you need it",
+      "href": "/battery-storage"
+    },
+    {
+      "title": "EV Chargers",
+      "description": "Power your electric vehicle at home",
+      "href": "/ev-chargers"
+    },
+    {
+      "title": "Servicing",
+      "description": "Expert maintenance and support",
+      "href": "/contact"
+    }
+  ]
+}

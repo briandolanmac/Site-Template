@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "eyebrow": "About Infinite Energy",
+  "title": "Meet Your Sustainability Partner",
+  "subtitle": "Discover how we're helping Irish homes and businesses transition to clean, renewable energy.",
+  "video": {
+    "src": "/videos/Introductory Video.mp4",
+    "playIcon": "▶",
+    "playLabel": "Play video"
+  },
+  "caption": "Learn about our mission to make sustainable energy accessible to everyone in Ireland."
+}

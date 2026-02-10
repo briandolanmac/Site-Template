@@ -1,0 +1,77 @@
+{
+  "enabled": true,
+  "logoAlt": "Infinite Energy",
+  "logoSrc": "/images/branding/og-image.svg",
+  "contact": {
+    "phone": {
+      "icon": "📞",
+      "label": "059 916 8075",
+      "href": "tel:0599168075"
+    },
+    "email": {
+      "icon": "✉️",
+      "label": "info@infiniteenergy.ie",
+      "href": "mailto:info@infiniteenergy.ie"
+    }
+  },
+  "utilityLinks": [
+    { "label": "About Us", "href": "/about" },
+    { "label": "Grants", "href": "/grants" },
+    { "label": "Finance", "href": "/finance" }
+  ],
+  "socialLinks": [
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/infiniteenergyireland"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/infinite-energy-ireland"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/infiniteenergyireland"
+    }
+  ],
+  "dropdowns": [
+    {
+      "id": "home",
+      "label": "For Home",
+      "mobileLabel": "🏠 For Home",
+      "links": [
+        { "label": "Solar PV", "href": "/solar-panels" },
+        { "label": "Battery Storage", "href": "/battery-storage" },
+        { "label": "Grants", "href": "/grants" }
+      ]
+    },
+    {
+      "id": "business",
+      "label": "For Business",
+      "mobileLabel": "🏢 For Business",
+      "links": [
+        { "label": "Commercial Solar", "href": "/commercial-solar" },
+        { "label": "Funding Options", "href": "/funding-options" }
+      ]
+    }
+  ],
+  "chevron": "▾",
+  "mobileArrow": "›",
+  "primaryLinks": [
+    { "label": "EV Chargers", "href": "/ev-chargers" },
+    { "label": "Our Work", "href": "/projects" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "cta": { "label": "Get Free Quote", "href": "/quote-builder" },
+  "mobile": {
+    "closeLabel": "✕",
+    "openMenuLabel": "Open menu",
+    "closeMenuLabel": "Close menu",
+    "links": [
+      { "label": "🔌 EV Chargers", "href": "/ev-chargers" },
+      { "label": "Our Work", "href": "/projects" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "cta": { "label": "Get Free Quote", "href": "/quote-builder" },
+    "themeLabel": "Theme:"
+  }
+}

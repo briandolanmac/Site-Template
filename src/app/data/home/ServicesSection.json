@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "eyebrow": "Our Services",
+  "title": "Solar Solutions for Every Need",
+  "subtitle": "From family homes to commercial warehouses, we deliver tailored solar power installations across Ireland.",
+  "cards": [
+    {
+      "image": { "src": "/images/9.webp", "alt": "Residential Solar Installation" },
+      "tag": "Power Your Home",
+      "title": "Residential Solar",
+      "description": "Up to 70% savings on electricity bills. SEAI grants available for Irish homeowners.",
+      "bullets": [
+        "SEAI grant (up to €1,800)",
+        "25-year warranty",
+        "Battery storage options"
+      ],
+      "cta": { "value": "€800+", "label": "Annual Savings →", "href": "/solar-panels" }
+    },
+    {
+      "image": { "src": "/images/commercial/17.webp", "alt": "Commercial Solar Installation" },
+      "tag": "Power Your Business",
+      "title": "Commercial Solar",
+      "description": "40-50% electricity savings. 3-5 year payback period for Irish businesses.",
+      "bullets": [
+        "3-5 year payback",
+        "Up to €162k SEAI grant available",
+        "Meet ESG targets"
+      ],
+      "cta": { "value": "40-50%", "label": "Bill Reduction →", "href": "/commercial-solar" }
+    }
+  ]
+}

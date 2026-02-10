@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "title": "Get A Free Quote",
+  "subtitle": "Join 500+ Irish businesses and homeowners saving with solar. Get your free quote today.",
+  "buttons": [
+    { "label": "Get My Free Quote", "href": "/quote-builder", "variant": "primary" },
+    { "label": "Talk to an Expert", "href": "/contact", "variant": "outline" }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "title": "Trusted By Ireland's Leading Brands",
+  "logos": [
+    {
+      "src": "/images/logos/Untitled-design-2024-02-22T220539.960.webp",
+      "alt": "MSD"
+    },
+    {
+      "src": "/images/logos/Untitled-design-2024-02-22T215828.183.webp",
+      "alt": "Abbott"
+    },
+    {
+      "src": "/images/logos/Untitled-design-2024-02-22T210128.234.webp",
+      "alt": "Supervalu"
+    },
+    {
+      "src": "/images/logos/Untitled-design-2024-02-27T110918.165.webp",
+      "alt": "Allianz"
+    },
+    {
+      "src": "/images/logos/Untitled-design-2024-02-22T215615.184.webp",
+      "alt": "SUIR Engineering"
+    },
+    {
+      "src": "/images/logos/Untitled-design-2024-02-22T213115.801.webp",
+      "alt": "Uisce Eireann"
+    },
+    { "src": "/images/logos/glanbia-1.webp", "alt": "Glanbia" },
+    { "src": "/images/logos/aviva-2.webp", "alt": "Aviva" }
+  ]
+}

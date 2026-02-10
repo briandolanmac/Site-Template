@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "title": "Affiliations",
+  "logos": [
+    { "src": "/images/affiliations/sigenergy.jpeg", "alt": "Sigenergy Certified" },
+    { "src": "/images/affiliations/seai.webp", "alt": "SEAI Registered" },
+    { "src": "/images/affiliations/safe_electric.png", "alt": "Safe Electric Certified" },
+    { "src": "/images/affiliations/qqi_award.png", "alt": "QQI Award" },
+    { "src": "/images/affiliations/ISEA.jpeg", "alt": "ISEA" },
+    { "src": "/images/affiliations/RECI.png", "alt": "RECI" }
+  ]
+}

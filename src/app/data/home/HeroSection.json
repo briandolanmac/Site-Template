@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "image": {
+    "src": "/images/hero/hero-residential-new.jpg",
+    "alt": "Beautiful Irish home with solar panels"
+  },
+  "eyebrow": "Certified Sigenergy Installers",
+  "headlineLines": ["Power Your", "Future With"],
+  "headlineHighlight": "Clean Energy",
+  "subheading": "Ireland's most trusted solar installers. Reduce bills by up to 80% with premium solar panels, battery storage, and EV chargers.",
+  "cta": [
+    { "label": "For Home", "href": "/solar-panels", "variant": "home" },
+    { "label": "For Business", "href": "/commercial-solar", "variant": "business" }
+  ],
+  "ctaArrow": "→",
+  "badges": ["0% VAT", "25yr Warranty", "SEAI Grants"],
+  "mobileStats": [
+    { "value": "1000+", "label": "Installations" },
+    { "value": "100+", "label": "5★ Reviews" },
+    { "value": "€2,400", "label": "Avg. Savings" }
+  ],
+  "floatAward": {
+    "icon": "🏆",
+    "label": "Winner",
+    "titleLines": ["Carlow Business", "Awards 2024 & 2025"]
+  },
+  "floatStats": {
+    "icon": "⚡",
+    "value": "1000+",
+    "label": "Installations",
+    "stars": "★★★★★",
+    "reviews": "100+ Reviews"
+  },
+  "floatCert": {
+    "icon": "🛡️",
+    "title": "SEAI Registered",
+    "sub": "Certified Installer"
+  },
+  "scrollLabel": "Explore"
+}

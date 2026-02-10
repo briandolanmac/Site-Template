@@ -1,0 +1,71 @@
+{
+  "enabled": true,
+  "logoAlt": "Infinite Energy",
+  "logoSrc": "/images/branding/og-image.svg",
+  "tagline": "Your Sustainability Partner. Helping homeowners and businesses across Ireland save money while reducing their carbon footprint.",
+  "badges": {
+    "primary": "Certified Sigenergy Installers",
+    "secondary": "SEAI Registered | Safe Electric Certified"
+  },
+  "socialLinks": [
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/infiniteenergyireland"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/infinite-energy-ireland"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/infiniteenergyireland"
+    }
+  ],
+  "columns": [
+    {
+      "title": "Solutions",
+      "links": [
+        { "label": "Residential Solar PV", "href": "/solar-panels" },
+        { "label": "Commercial Solar", "href": "/commercial-solar" },
+        { "label": "Battery Storage", "href": "/battery-storage" },
+        { "label": "EV Chargers", "href": "/ev-chargers" },
+        { "label": "SEAI Grants", "href": "/grants" }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        { "label": "Portfolio", "href": "/projects" },
+        { "label": "Testimonials", "href": "/testimonials" },
+        { "label": "Finance Ireland", "href": "/finance" },
+        { "label": "Why Choose Us", "href": "/about" },
+        { "label": "Contact Us", "href": "/contact" }
+      ]
+    }
+  ],
+  "contact": {
+    "heading": "Get In Touch",
+    "phoneIcon": "📞",
+    "phone": {
+      "label": "059 916 8075",
+      "href": "tel:0599168075"
+    },
+    "emailIcon": "✉️",
+    "email": {
+      "label": "info@infiniteenergy.ie",
+      "href": "mailto:info@infiniteenergy.ie"
+    },
+    "locationIcon": "📍",
+    "location": "Ireland — Serving all of Ireland",
+    "cta": { "label": "Talk to an Expert", "href": "/contact" },
+    "hours": "Mon-Fri: 9am-5pm"
+  },
+  "bottom": {
+    "copyright": "© 2025 Infinite Energy. All rights reserved.",
+    "links": [
+      { "label": "Privacy Policy", "href": "/privacy-policy" },
+      { "label": "Cookie Policy", "href": "/cookies" },
+      { "label": "Contact", "href": "/contact" }
+    ]
+  }
+}
