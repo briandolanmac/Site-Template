@@ -248,38 +248,231 @@ const HomePageClient = () => {
       );
     }
 
-    let animateObserver: IntersectionObserver | null = null;
+    // ===== HERO ENTRANCE ANIMATION =====
+    const heroText = document.querySelector<HTMLElement>(".hero-text");
+    if (heroText) {
+      const eyebrow = heroText.querySelector<HTMLElement>(".eyebrow-wrap");
+      const headline = heroText.querySelector<HTMLElement>(".hero-headline");
+      const sub = heroText.querySelector<HTMLElement>(".hero-sub");
+      const ctas = heroText.querySelector<HTMLElement>(".hero-ctas");
+      const badges = heroText.querySelector<HTMLElement>(".hero-badges");
+
+      if (eyebrow) eyebrow.classList.add("hero-entrance");
+      if (headline) headline.classList.add("hero-entrance");
+      if (sub) sub.classList.add("hero-entrance-delay");
+      if (ctas) ctas.classList.add("hero-entrance-delay-2");
+      if (badges) badges.classList.add("hero-entrance-delay-2");
+    }
+
+    const heroFloats = document.querySelector<HTMLElement>(".hero-floats");
+    if (heroFloats) {
+      const floatElements = heroFloats.querySelectorAll<HTMLElement>(
+        ".hero-award, .hero-stats-float, .hero-cert"
+      );
+      floatElements.forEach((el, i) => {
+        el.classList.add("hero-float-enter");
+        el.style.setProperty("--float-delay", `${0.6 + i * 0.2}s`);
+      });
+    }
+
+    // ===== SCROLL-TRIGGERED ANIMATIONS =====
+    let scrollObserver: IntersectionObserver | null = null;
+    let staggerObserver: IntersectionObserver | null = null;
+    let counterObserver: IntersectionObserver | null = null;
+    const staggerTimers: ReturnType<typeof setTimeout>[] = [];
+    const extraObservers: IntersectionObserver[] = [];
 
     if ("IntersectionObserver" in window) {
-      const animateOnScroll = document.querySelectorAll<HTMLElement>(
-        ".service-card, .case-card, .how-step, .testimonial-card, .service-card-lg"
+      // General scroll reveal for individual elements
+      const scrollElements = document.querySelectorAll<HTMLElement>(
+        ".service-card, .case-card, .how-step, .testimonial-card, .service-card-lg, .video-wrap, .why-img, .why-content, .faq-list, .trust-bar-inner, .rating-badge"
       );
 
-      animateObserver = new IntersectionObserver(
+      scrollElements.forEach((el) => {
+        el.classList.add("animate-on-scroll");
+      });
+
+      // Slide directions for the why-choose 2-col layout
+      const whyImg = document.querySelector<HTMLElement>(".why-img.animate-on-scroll");
+      if (whyImg) whyImg.classList.add("slide-left");
+
+      const whyContent = document.querySelector<HTMLElement>(".why-content.animate-on-scroll");
+      if (whyContent) whyContent.classList.add("slide-right");
+
+      const videoWrap = document.querySelector<HTMLElement>(".video-wrap.animate-on-scroll");
+      if (videoWrap) videoWrap.classList.add("scale-in");
+
+      scrollObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
-              const target = entry.target as HTMLElement;
-              target.style.opacity = "1";
-              target.style.transform = "translateY(0)";
+              entry.target.classList.add("visible");
             }
           });
         },
-        { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
+        { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
       );
 
-      animateOnScroll.forEach((el) => {
-        el.style.opacity = "0";
-        el.style.transform = "translateY(20px)";
-        el.style.transition = "opacity 0.5s ease, transform 0.5s ease";
-        animateObserver?.observe(el);
+      scrollElements.forEach((el) => scrollObserver?.observe(el));
+
+      // Section header animations
+      const sectionContainers = document.querySelectorAll<HTMLElement>(
+        ".section > .container, .video-section > .container, .case-studies > .container"
+      );
+      sectionContainers.forEach((container) => {
+        const hasHeader = container.querySelector(".section-eyebrow, .section-title");
+        if (hasHeader) {
+          container.classList.add("section-header-animate");
+          scrollObserver?.observe(container);
+        }
       });
+
+      // Stagger children in grids
+      const staggerGrids = document.querySelectorAll<HTMLElement>(
+        ".service-cards, .how-grid, .testimonials-grid, .case-grid, .impact-grid, .services-grid"
+      );
+
+      staggerObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const children = entry.target.children;
+              Array.from(children).forEach((child, i) => {
+                const el = child as HTMLElement;
+                el.classList.add("stagger-child");
+                const timer = setTimeout(() => {
+                  el.classList.add("visible");
+                }, 100 + i * 120);
+                staggerTimers.push(timer);
+              });
+              staggerObserver?.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.15, rootMargin: "0px 0px -30px 0px" }
+      );
+
+      staggerGrids.forEach((grid) => staggerObserver?.observe(grid));
+
+      // Partners logo animation
+      const partnerLogos = document.querySelectorAll<HTMLElement>(".partners-logos");
+      partnerLogos.forEach((logos) => {
+        logos.classList.add("animated");
+        const logoObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const imgs = entry.target.querySelectorAll("img");
+                imgs.forEach((img, i) => {
+                  (img as HTMLElement).style.transitionDelay = `${i * 0.08}s`;
+                });
+                entry.target.classList.add("visible");
+                logoObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.2 }
+        );
+        logoObserver.observe(logos);
+        extraObservers.push(logoObserver);
+      });
+
+      // Counter animation for impact values
+      const impactValues = document.querySelectorAll<HTMLElement>(".impact-value");
+      if (impactValues.length > 0) {
+        counterObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const el = entry.target as HTMLElement;
+                const parent = el.closest(".impact-item");
+                if (parent) parent.classList.add("visible");
+                const finalText = el.textContent || "";
+                const numMatch = finalText.match(/([\d,]+)/);
+                if (numMatch) {
+                  const idx = finalText.indexOf(numMatch[0]);
+                  const prefix = finalText.substring(0, idx);
+                  const suffix = finalText.substring(idx + numMatch[0].length);
+                  const target = parseInt(numMatch[0].replace(/,/g, ""), 10);
+                  const duration = 1500;
+                  const startTime = performance.now();
+                  el.classList.add("counter-animate");
+
+                  const animate = (now: number) => {
+                    const elapsed = now - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3);
+                    const current = Math.round(eased * target);
+                    el.textContent =
+                      prefix + current.toLocaleString() + suffix;
+                    if (progress < 1) {
+                      requestAnimationFrame(animate);
+                    } else {
+                      el.textContent = finalText;
+                      el.classList.add("counting");
+                    }
+                  };
+                  requestAnimationFrame(animate);
+                }
+                counterObserver?.unobserve(el);
+              }
+            });
+          },
+          { threshold: 0.5 }
+        );
+
+        impactValues.forEach((el) => counterObserver?.observe(el));
+      }
+
+      const whyStats = document.querySelectorAll<HTMLElement>(".why-stats strong");
+      if (whyStats.length > 0) {
+        const whyCounterObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const el = entry.target as HTMLElement;
+                const finalText = el.textContent || "";
+                const numMatch = finalText.match(/([\d,]+)/);
+                if (numMatch) {
+                  const prefix = finalText.substring(0, finalText.indexOf(numMatch[0]));
+                  const suffix = finalText.substring(finalText.indexOf(numMatch[0]) + numMatch[0].length);
+                  const target = parseInt(numMatch[0].replace(/,/g, ""), 10);
+                  const duration = 1200;
+                  const startTime = performance.now();
+
+                  const animate = (now: number) => {
+                    const elapsed = now - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3);
+                    const current = Math.round(eased * target);
+                    el.textContent = prefix + current.toLocaleString() + suffix;
+                    if (progress < 1) {
+                      requestAnimationFrame(animate);
+                    } else {
+                      el.textContent = finalText;
+                    }
+                  };
+                  requestAnimationFrame(animate);
+                }
+                whyCounterObserver.unobserve(el);
+              }
+            });
+          },
+          { threshold: 0.5 }
+        );
+        whyStats.forEach((el) => whyCounterObserver.observe(el));
+        extraObservers.push(whyCounterObserver);
+      }
     }
 
     return () => {
       cleanupHandlers.forEach((cleanup) => cleanup());
+      staggerTimers.forEach((t) => clearTimeout(t));
       videoObserver?.disconnect();
-      animateObserver?.disconnect();
+      scrollObserver?.disconnect();
+      staggerObserver?.disconnect();
+      counterObserver?.disconnect();
+      extraObservers.forEach((obs) => obs.disconnect());
     };
   }, []);
 
