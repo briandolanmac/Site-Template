@@ -11,11 +11,31 @@ A Next.js 16 website for Infinite Energy, an Irish solar energy company. The sit
 
 ### Directory Structure
 ```
-src/app/          - Next.js App Router pages and components
-src/app/components/ - Reusable React components
-src/app/data/     - Data files
-public/           - Static assets (images, videos, SVGs)
+src/app/              - Next.js App Router pages and layout
+src/app/components/   - Reusable React components
+  home/               - Homepage-specific components (Navigation, Footer, sections)
+  PageLayout.tsx      - Shared layout wrapper for inner pages (Navigation + Footer + client JS)
+src/app/data/         - JSON data files for sections
+src/app/[route]/      - Individual page routes (about, solar-panels, contact, etc.)
+public/               - Static assets (images, videos, SVGs)
 ```
+
+### Pages
+- `/` - Homepage with hero, services, impact stats, testimonials, FAQ
+- `/about` - Company story, team, values
+- `/solar-panels` - Residential solar PV systems
+- `/battery-storage` - Home battery storage solutions
+- `/commercial-solar` - Commercial solar solutions
+- `/ev-chargers` - EV charger installation
+- `/grants` - SEAI grants information
+- `/finance` - Finance Ireland partnership
+- `/funding-options` - Business funding/SSAP grants
+- `/projects` - Portfolio/case studies
+- `/contact` - Contact form and info
+- `/quote-builder` - Free quote request form
+- `/testimonials` - Customer reviews
+- `/privacy-policy` - Privacy policy
+- `/cookies` - Cookie policy
 
 ## Running the Project
 - **Dev**: `npx next dev --hostname 0.0.0.0 --port 5000`
@@ -23,4 +43,6 @@ public/           - Static assets (images, videos, SVGs)
 - **Start**: `npm run start`
 
 ## Recent Changes
+- 2026-02-10: Created all 14 missing pages and PageLayout component to fix 404 navigation errors
+- 2026-02-10: Added scroll-triggered animations (IntersectionObserver-based) throughout homepage
 - 2026-02-10: Imported from GitHub, configured for Replit environment (allowedDevOrigins, port 5000)
