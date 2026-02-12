@@ -43,6 +43,7 @@ public/               - Static assets (images, videos, SVGs)
 - **Start**: `npm run start`
 
 ## Recent Changes
+- 2026-02-12: Visual overhaul to casual/fun tone - brighter cyan/sky blue palette, coral/purple accents, rounder corners, unique colorful hero gradients per page
 - 2026-02-10: Created all 14 missing pages and PageLayout component to fix 404 navigation errors
 - 2026-02-10: Added scroll-triggered animations (IntersectionObserver-based) throughout homepage
 - 2026-02-10: Imported from GitHub, configured for Replit environment (allowedDevOrigins, port 5000)
