@@ -282,9 +282,9 @@ ul {
 }
 
 .nav-utility {
-  background: var(--teal);
-  color: var(--white);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  background: linear-gradient(90deg, #0891b2, #06b6d4, #0891b2);
+  color: #fff;
+  transition: background 0.3s ease, color 0.3s ease;
   font-size: 0.875rem;
 }
 .nav-utility-inner {
@@ -448,18 +448,18 @@ ul {
 }
 
 .btn-cta {
-  background: var(--aqua) !important;
-  color: var(--white) !important;
+  background: linear-gradient(135deg, #f97316, #ef4444) !important;
+  color: #fff !important;
   padding: 0.625rem 1.5rem !important;
   border-radius: 9999px;
   font-weight: 700;
-  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.3);
+  box-shadow: 0 4px 14px rgba(249, 115, 22, 0.4);
   transition: all 0.3s;
 }
 .btn-cta:hover {
-  background: var(--teal) !important;
-  transform: scale(1.02);
-  box-shadow: 0 6px 20px rgba(56, 189, 248, 0.4);
+  background: linear-gradient(135deg, #ea580c, #dc2626) !important;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(249, 115, 22, 0.5);
 }
 
 @media (min-width: 1024px) {
@@ -639,16 +639,16 @@ ul {
   inset: 0;
   background: linear-gradient(
       to right,
-      var(--text-primary) 0%,
-      rgba(30, 41, 59, 0.9) 35%,
-      rgba(30, 41, 59, 0.5) 60%,
+      rgba(8, 145, 178, 0.95) 0%,
+      rgba(6, 182, 212, 0.85) 35%,
+      rgba(56, 189, 248, 0.5) 60%,
       transparent 80%
     ),
     linear-gradient(
       to top,
-      var(--text-primary) 0%,
+      rgba(8, 145, 178, 0.9) 0%,
       transparent 40%,
-      rgba(30, 41, 59, 0.3) 100%
+      rgba(56, 189, 248, 0.2) 100%
     );
 }
 
@@ -947,12 +947,12 @@ ul {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #06b6d4, #38bdf8);
-  color: var(--white);
-  box-shadow: 0 4px 14px rgba(6, 182, 212, 0.35);
+  background: linear-gradient(135deg, #06b6d4, #8b5cf6);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(139, 92, 247, 0.35);
 }
 .btn-primary:hover {
-  box-shadow: 0 8px 25px rgba(56, 189, 248, 0.45);
+  box-shadow: 0 8px 25px rgba(139, 92, 247, 0.45);
   transform: translateY(-2px) scale(1.02);
 }
 .btn .arrow {
@@ -1090,12 +1090,11 @@ ul {
   z-index: 20;
   margin-top: -1rem;
   padding-bottom: 2rem;  
-  background: var(--slate);
+  background: linear-gradient(135deg, #0891b2, #06b6d4, #38bdf8);
   padding-top: 2rem;
 }
 [data-theme="dark"] .service-cards-section {
-  --slate: #111827;
-  background: var(--slate);
+  background: linear-gradient(135deg, #164e63, #155e75, #0e7490);
 }
 @media (min-width: 768px) {
   .service-cards-section {
@@ -1144,6 +1143,18 @@ ul {
 .service-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 20px 40px rgba(6, 182, 212, 0.3);
+}
+.service-card:nth-child(1) {
+  background: linear-gradient(135deg, #f97316, #fb923c);
+}
+.service-card:nth-child(2) {
+  background: linear-gradient(135deg, #8b5cf6, #a78bfa);
+}
+.service-card:nth-child(3) {
+  background: linear-gradient(135deg, #06b6d4, #38bdf8);
+}
+.service-card:nth-child(4) {
+  background: linear-gradient(135deg, #10b981, #34d399);
 }
 
 .sc-icon-wrap {
@@ -1223,13 +1234,12 @@ ul {
 
 /* ===== TRUST BAR ===== */
 .trust-bar {
-  background: var(--slate);
+  background: linear-gradient(135deg, #7c3aed, #8b5cf6, #a78bfa);
   padding: 2rem 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: none;
 }
 [data-theme="dark"] .trust-bar {
-  --slate: #111827;
-  background: var(--slate);
+  background: linear-gradient(135deg, #4c1d95, #5b21b6, #6d28d9);
 }
 .trust-bar-inner {
   display: flex;
@@ -1319,19 +1329,18 @@ ul {
   opacity: 0.9;
 }
 .accreditations {
-  background: var(--gray-50);
+  background: linear-gradient(135deg, #fffbeb, #fef3c7, #fff7ed);
   padding: 2.5rem 0;
 }
 
 /* ===== VIDEO SECTION ===== */
 .video-section {
   padding: 4rem 0 5rem;
-  background: var(--slate);
+  background: linear-gradient(135deg, #0891b2, #0e7490);
   text-align: center;
 }
 [data-theme="dark"] .video-section {
-  --slate: #111827;
-  background: var(--slate);
+  background: linear-gradient(135deg, #164e63, #155e75);
 }
 .video-section .section-eyebrow {
   color: var(--aqua);
@@ -1349,9 +1358,10 @@ ul {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   margin-bottom: 0.75rem;
+  color: #f97316;
 }
 .section-eyebrow.teal {
-  color: var(--aqua);
+  color: #06b6d4;
 }
 .section-title {
   margin-bottom: 0.75rem;
@@ -1601,6 +1611,7 @@ ul {
 /* ===== WHY CHOOSE US ===== */
 .why-choose {
   overflow: hidden;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
 }
 .grid-2 {
   display: grid;
@@ -1708,7 +1719,7 @@ ul {
 /* ===== IMPACT ===== */
 .impact-section {
   padding: 4rem 0;
-  background: linear-gradient(135deg, var(--aqua), #1a9a9f, var(--teal));
+  background: linear-gradient(135deg, #f97316, #ef4444, #ec4899);
   position: relative;
   overflow: hidden;
 }
@@ -1785,6 +1796,7 @@ ul {
 /* ===== CASE STUDIES ===== */
 .case-studies {
   padding: 5rem 0;
+  background: linear-gradient(135deg, #fdf4ff, #fce7f3, #fff1f2);
 }
 @media (min-width: 768px) {
   .case-studies {
@@ -1983,7 +1995,7 @@ ul {
 
 /* ===== HOW IT WORKS ===== */
 .how-section {
-  background: var(--gray-50);
+  background: linear-gradient(135deg, #ecfeff, #e0f2fe, #f0f9ff);
 }
 .how-grid {
   display: grid;
@@ -2086,7 +2098,7 @@ ul {
 
 /* ===== TESTIMONIALS ===== */
 .testimonials-section {
-  background: var(--bg-primary);
+  background: linear-gradient(180deg, #f0f9ff, #ffffff);
   color: var(--text-primary);
 }
 .testimonials-header {
@@ -2185,11 +2197,8 @@ ul {
   top: 0;
   left: 0;
   right: 0;
-  height: 4px;
-  background: var(--teal);
-}
-.testimonial-card.residential::before {
-  background: var(--aqua);
+  height: 5px;
+  background: linear-gradient(90deg, #06b6d4, #8b5cf6, #f97316);
 }
 .testimonial-card:hover {
   transform: translateY(-4px);
@@ -2303,6 +2312,7 @@ ul {
   padding: 1.5rem 2rem;
   box-shadow: var(--shadow-lg);
   text-align: left;
+  border: 2px solid rgba(6, 182, 212, 0.2);
 }
 @media (min-width: 768px) {
   .faq-list {
@@ -2362,8 +2372,8 @@ ul {
 /* ===== FINAL CTA ===== */
 .final-cta {
   padding: 5rem 0;
-  background: linear-gradient(135deg, var(--aqua), var(--teal), var(--aqua));
-  color: var(--white);
+  background: linear-gradient(135deg, #f97316, #ef4444, #ec4899, #8b5cf6);
+  color: #fff;
   position: relative;
   overflow: hidden;
 }
@@ -2441,7 +2451,7 @@ ul {
 
 /* ===== FOOTER ===== */
 .footer {
-  background: var(--bg-secondary);
+  background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
   color: var(--text-primary);
   padding: 4rem 0 2rem;
 }
