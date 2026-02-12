@@ -11,7 +11,7 @@ export default function ProjectsPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0d9488 0%, #065f46 100%)",
+          background: "linear-gradient(135deg, #ea580c 0%, #f97316 50%, #fb923c 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -113,7 +113,7 @@ export default function ProjectsPage() {
               { value: "15MW+", label: "Capacity Installed" },
             ].map((stat) => (
               <div key={stat.label}>
-                <div className="text-3xl md:text-4xl font-extrabold text-teal-600 mb-2">{stat.value}</div>
+                <div className="text-3xl md:text-4xl font-extrabold mb-2" style={{ color: "#06b6d4" }}>{stat.value}</div>
                 <div className="text-gray-600">{stat.label}</div>
               </div>
             ))}
@@ -123,7 +123,7 @@ export default function ProjectsPage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #0d9488 0%, #10b981 100%)",
+          background: "linear-gradient(135deg, #ea580c 0%, #f97316 50%, #fb923c 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -139,7 +139,7 @@ export default function ProjectsPage() {
             href="/quote-builder"
             style={{
               background: "#fff",
-              color: "#0d9488",
+              color: "#06b6d4",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

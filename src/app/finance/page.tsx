@@ -11,7 +11,7 @@ export default function FinancePage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0d9488 0%, #065f46 100%)",
+          background: "linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -34,7 +34,7 @@ export default function FinancePage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest text-teal-600 mb-2">
+              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#06b6d4" }}>
                 Finance Ireland Partnership
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -93,7 +93,7 @@ export default function FinancePage() {
               <div key={item.step} className="text-center p-8 rounded-2xl shadow-sm" style={{ background: "var(--bg-primary)" }}>
                 <div
                   className="w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4"
-                  style={{ background: "#0d9488" }}
+                  style={{ background: "#06b6d4" }}
                 >
                   {item.step}
                 </div>
@@ -107,7 +107,7 @@ export default function FinancePage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #0d9488 0%, #10b981 100%)",
+          background: "linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -123,7 +123,7 @@ export default function FinancePage() {
             href="/quote-builder"
             style={{
               background: "#fff",
-              color: "#0d9488",
+              color: "#06b6d4",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

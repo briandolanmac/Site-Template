@@ -11,7 +11,7 @@ export default function ContactPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0d9488 0%, #065f46 100%)",
+          background: "linear-gradient(135deg, #0891b2 0%, #06b6d4 50%, #22d3ee 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -41,7 +41,7 @@ export default function ContactPage() {
                     <label className="block text-sm font-semibold mb-2">First Name</label>
                     <input
                       type="text"
-                      className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-teal-500"
+                      className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
                       style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                       placeholder="John"
                     />
@@ -50,7 +50,7 @@ export default function ContactPage() {
                     <label className="block text-sm font-semibold mb-2">Last Name</label>
                     <input
                       type="text"
-                      className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-teal-500"
+                      className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
                       style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                       placeholder="Smith"
                     />
@@ -60,7 +60,7 @@ export default function ContactPage() {
                   <label className="block text-sm font-semibold mb-2">Email Address</label>
                   <input
                     type="email"
-                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-teal-500"
+                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                     placeholder="john@example.com"
                   />
@@ -69,7 +69,7 @@ export default function ContactPage() {
                   <label className="block text-sm font-semibold mb-2">Phone Number</label>
                   <input
                     type="tel"
-                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-teal-500"
+                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                     placeholder="087 123 4567"
                   />
@@ -77,7 +77,7 @@ export default function ContactPage() {
                 <div>
                   <label className="block text-sm font-semibold mb-2">Service Interested In</label>
                   <select
-                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-teal-500"
+                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                   >
                     <option value="">Select a service</option>
@@ -92,7 +92,7 @@ export default function ContactPage() {
                   <label className="block text-sm font-semibold mb-2">Message</label>
                   <textarea
                     rows={5}
-                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-teal-500"
+                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                     placeholder="Tell us about your project..."
                   ></textarea>
@@ -100,7 +100,7 @@ export default function ContactPage() {
                 <button
                   type="submit"
                   className="w-full py-3 rounded-lg text-white font-bold text-lg"
-                  style={{ background: "#0d9488" }}
+                  style={{ background: "#06b6d4" }}
                 >
                   Send Message
                 </button>
@@ -140,14 +140,14 @@ export default function ContactPage() {
                     <div key={item.title} className="flex gap-4 items-start">
                       <div
                         className="w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0"
-                        style={{ background: "#d1fae5" }}
+                        style={{ background: "#e0f2fe" }}
                       >
                         {item.icon}
                       </div>
                       <div>
                         <h3 className="font-bold mb-1">{item.title}</h3>
                         {item.href ? (
-                          <a href={item.href} className="text-teal-600 hover:underline">
+                          <a href={item.href} style={{ color: "#06b6d4" }} className="hover:underline">
                             {item.content}
                           </a>
                         ) : (
@@ -172,7 +172,7 @@ export default function ContactPage() {
                     "Carlow Business Awards Winner 2024 & 2025",
                   ].map((cert) => (
                     <li key={cert} className="flex items-center gap-2 text-gray-600">
-                      <span className="text-teal-600">✓</span> {cert}
+                      <span style={{ color: "#06b6d4" }}>✓</span> {cert}
                     </li>
                   ))}
                 </ul>
@@ -180,7 +180,7 @@ export default function ContactPage() {
 
               <div
                 className="p-6 rounded-2xl"
-                style={{ background: "#f0fdfa" }}
+                style={{ background: "#e0f2fe" }}
               >
                 <h3 className="font-bold text-lg mb-2">Prefer a Quick Quote?</h3>
                 <p className="text-gray-600 mb-4">
@@ -191,7 +191,7 @@ export default function ContactPage() {
                   href="/quote-builder"
                   className="inline-block font-bold"
                   style={{
-                    background: "#0d9488",
+                    background: "#06b6d4",
                     color: "#fff",
                     padding: "0.75rem 1.5rem",
                     borderRadius: "0.5rem",

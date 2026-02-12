@@ -11,7 +11,7 @@ export default function AboutPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0d9488 0%, #065f46 100%)",
+          background: "linear-gradient(135deg, #0891b2 0%, #06b6d4 50%, #38bdf8 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -138,7 +138,7 @@ export default function AboutPage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #0d9488 0%, #10b981 100%)",
+          background: "linear-gradient(135deg, #0891b2 0%, #06b6d4 50%, #38bdf8 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -156,7 +156,7 @@ export default function AboutPage() {
               className="btn btn-cta"
               style={{
                 background: "#fff",
-                color: "#0d9488",
+                color: "#06b6d4",
                 padding: "0.875rem 2rem",
                 borderRadius: "0.5rem",
                 fontWeight: 700,

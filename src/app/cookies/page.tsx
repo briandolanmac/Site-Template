@@ -11,7 +11,7 @@ export default function CookiesPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0d9488 0%, #065f46 100%)",
+          background: "linear-gradient(135deg, #475569 0%, #64748b 50%, #94a3b8 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -74,7 +74,7 @@ export default function CookiesPage() {
                       {cookie.required && (
                         <span
                           className="text-xs font-semibold px-3 py-1 rounded-full"
-                          style={{ background: "#d1fae5", color: "#065f46" }}
+                          style={{ background: "#e0f2fe", color: "#0284c7" }}
                         >
                           Required
                         </span>
@@ -99,9 +99,9 @@ export default function CookiesPage() {
                 You can control and manage cookies in several ways:
               </p>
               <ul className="space-y-2 text-gray-600">
-                <li className="flex items-start gap-2"><span className="text-teal-600 mt-1">•</span> Most browsers allow you to refuse or delete cookies through their settings</li>
-                <li className="flex items-start gap-2"><span className="text-teal-600 mt-1">•</span> You can set your browser to notify you when a cookie is being set</li>
-                <li className="flex items-start gap-2"><span className="text-teal-600 mt-1">•</span> You can delete cookies that have already been stored on your device</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#06b6d4" }} className="mt-1">•</span> Most browsers allow you to refuse or delete cookies through their settings</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#06b6d4" }} className="mt-1">•</span> You can set your browser to notify you when a cookie is being set</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#06b6d4" }} className="mt-1">•</span> You can delete cookies that have already been stored on your device</li>
               </ul>
               <p className="text-gray-600 leading-relaxed mt-3">
                 Please note that disabling cookies may affect the functionality of our website and your user experience.
@@ -118,7 +118,7 @@ export default function CookiesPage() {
             <div>
               <h2 className="text-2xl font-extrabold mb-4">Contact Us</h2>
               <p className="text-gray-600 leading-relaxed">
-                If you have any questions about our use of cookies, please contact us at <a href="mailto:info@infiniteenergy.ie" className="text-teal-600 hover:underline">info@infiniteenergy.ie</a> or call <a href="tel:0599168075" className="text-teal-600 hover:underline">059 916 8075</a>.
+                If you have any questions about our use of cookies, please contact us at <a href="mailto:info@infiniteenergy.ie" style={{ color: "#06b6d4" }} className="hover:underline">info@infiniteenergy.ie</a> or call <a href="tel:0599168075" style={{ color: "#06b6d4" }} className="hover:underline">059 916 8075</a>.
               </p>
             </div>
 

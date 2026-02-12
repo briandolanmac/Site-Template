@@ -11,7 +11,7 @@ export default function SolarPanelsPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0d9488 0%, #065f46 100%)",
+          background: "linear-gradient(135deg, #f59e0b 0%, #f97316 50%, #ef4444 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -34,7 +34,7 @@ export default function SolarPanelsPage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest text-teal-600 mb-2">
+              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#06b6d4" }}>
                 Why Solar PV?
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -60,7 +60,7 @@ export default function SolarPanelsPage() {
                   "Sell excess energy back to the grid",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <span className="text-teal-600 font-bold mt-0.5">✓</span>
+                    <span style={{ color: "#06b6d4" }} className="font-bold mt-0.5">✓</span>
                     <span className="text-gray-600">{item}</span>
                   </li>
                 ))}
@@ -80,7 +80,7 @@ export default function SolarPanelsPage() {
       <section className="py-16 md:py-20" style={{ background: "var(--bg-secondary)" }}>
         <div className="container">
           <div className="text-center mb-12">
-            <p className="text-sm font-semibold uppercase tracking-widest text-teal-600 mb-2">
+            <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#06b6d4" }}>
               Our Process
             </p>
             <h2 className="text-3xl font-extrabold">From Consultation to Installation</h2>
@@ -95,7 +95,7 @@ export default function SolarPanelsPage() {
               <div key={item.step} className="text-center">
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4"
-                  style={{ background: "#0d9488" }}
+                  style={{ background: "#06b6d4" }}
                 >
                   {item.step}
                 </div>
@@ -137,7 +137,7 @@ export default function SolarPanelsPage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #0d9488 0%, #10b981 100%)",
+          background: "linear-gradient(135deg, #f59e0b 0%, #f97316 50%, #ef4444 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -154,7 +154,7 @@ export default function SolarPanelsPage() {
               href="/quote-builder"
               style={{
                 background: "#fff",
-                color: "#0d9488",
+                color: "#06b6d4",
                 padding: "0.875rem 2rem",
                 borderRadius: "0.5rem",
                 fontWeight: 700,
