@@ -11,7 +11,7 @@ export default function GrantsPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #059669 0%, #10b981 50%, #34d399 100%)",
+          background: "linear-gradient(135deg, #007a54 0%, #009968 50%, #112F5B 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -34,7 +34,7 @@ export default function GrantsPage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#06b6d4" }}>
+              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
                 Grant Details
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -98,7 +98,7 @@ export default function GrantsPage() {
       <section className="py-16 md:py-20" style={{ background: "var(--bg-secondary)" }}>
         <div className="container">
           <div className="text-center mb-12">
-            <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#06b6d4" }}>
+            <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
               Eligibility
             </p>
             <h2 className="text-3xl font-extrabold">Who Can Apply?</h2>
@@ -139,7 +139,7 @@ export default function GrantsPage() {
               <div key={item.step} className="text-center">
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4"
-                  style={{ background: "#06b6d4" }}
+                  style={{ background: "#009968" }}
                 >
                   {item.step}
                 </div>
@@ -153,7 +153,7 @@ export default function GrantsPage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #059669 0%, #10b981 50%, #34d399 100%)",
+          background: "linear-gradient(135deg, #007a54 0%, #009968 50%, #112F5B 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -169,7 +169,7 @@ export default function GrantsPage() {
             href="/quote-builder"
             style={{
               background: "#fff",
-              color: "#06b6d4",
+              color: "#009968",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

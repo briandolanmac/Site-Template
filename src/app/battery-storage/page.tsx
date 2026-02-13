@@ -11,7 +11,7 @@ export default function BatteryStoragePage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #d946ef 100%)",
+          background: "linear-gradient(135deg, #112F5B 0%, #009968 50%, #007a54 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -34,7 +34,7 @@ export default function BatteryStoragePage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#06b6d4" }}>
+              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
                 Sigenergy Battery Systems
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -97,7 +97,7 @@ export default function BatteryStoragePage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #d946ef 100%)",
+          background: "linear-gradient(135deg, #112F5B 0%, #009968 50%, #007a54 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -114,7 +114,7 @@ export default function BatteryStoragePage() {
             href="/quote-builder"
             style={{
               background: "#fff",
-              color: "#06b6d4",
+              color: "#009968",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

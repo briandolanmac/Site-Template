@@ -11,7 +11,7 @@ export default function TestimonialsPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #7c3aed 0%, #8b5cf6 50%, #a78bfa 100%)",
+          background: "linear-gradient(135deg, #112F5B 0%, #009968 50%, #00b377 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -133,15 +133,15 @@ export default function TestimonialsPage() {
         <div className="container text-center">
           <div className="grid grid-cols-3 gap-8 max-w-lg mx-auto mb-8">
             <div>
-              <div className="text-3xl font-extrabold" style={{ color: "#06b6d4" }}>100+</div>
+              <div className="text-3xl font-extrabold" style={{ color: "#009968" }}>100+</div>
               <div className="text-sm text-gray-600">5-Star Reviews</div>
             </div>
             <div>
-              <div className="text-3xl font-extrabold" style={{ color: "#06b6d4" }}>1,000+</div>
+              <div className="text-3xl font-extrabold" style={{ color: "#009968" }}>1,000+</div>
               <div className="text-sm text-gray-600">Installations</div>
             </div>
             <div>
-              <div className="text-3xl font-extrabold" style={{ color: "#06b6d4" }}>4.9</div>
+              <div className="text-3xl font-extrabold" style={{ color: "#009968" }}>4.9</div>
               <div className="text-sm text-gray-600">Average Rating</div>
             </div>
           </div>
@@ -150,7 +150,7 @@ export default function TestimonialsPage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #7c3aed 0%, #8b5cf6 50%, #a78bfa 100%)",
+          background: "linear-gradient(135deg, #112F5B 0%, #009968 50%, #00b377 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -167,7 +167,7 @@ export default function TestimonialsPage() {
             href="/quote-builder"
             style={{
               background: "#fff",
-              color: "#06b6d4",
+              color: "#009968",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

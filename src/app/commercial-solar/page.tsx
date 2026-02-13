@@ -11,7 +11,7 @@ export default function CommercialSolarPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0891b2 0%, #0284c7 50%, #1d4ed8 100%)",
+          background: "linear-gradient(135deg, #12222E 0%, #112F5B 50%, #009968 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -34,7 +34,7 @@ export default function CommercialSolarPage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#06b6d4" }}>
+              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
                 Solar for Business
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -117,7 +117,7 @@ export default function CommercialSolarPage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #0891b2 0%, #0284c7 50%, #1d4ed8 100%)",
+          background: "linear-gradient(135deg, #12222E 0%, #112F5B 50%, #009968 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -134,7 +134,7 @@ export default function CommercialSolarPage() {
             href="/contact"
             style={{
               background: "#fff",
-              color: "#06b6d4",
+              color: "#009968",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

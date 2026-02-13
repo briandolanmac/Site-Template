@@ -11,7 +11,7 @@ export default function QuoteBuilderPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #059669 0%, #10b981 50%, #34d399 100%)",
+          background: "linear-gradient(135deg, #009968 0%, #00b377 50%, #007a54 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -156,7 +156,7 @@ export default function QuoteBuilderPage() {
               <button
                 type="submit"
                 className="w-full py-4 rounded-lg text-white font-bold text-lg"
-                style={{ background: "#06b6d4" }}
+                style={{ background: "#009968" }}
               >
                 Get My Free Quote
               </button>

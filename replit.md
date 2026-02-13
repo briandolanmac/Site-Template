@@ -43,6 +43,7 @@ public/               - Static assets (images, videos, SVGs)
 - **Start**: `npm run start`
 
 ## Recent Changes
+- 2026-02-13: Color palette updated to match green-house.ie - emerald green (#009968) primary, dark navy (#112F5B) secondary, gold (#CBB492) accent, dark teal (#12222E) backgrounds
 - 2026-02-12: Visual overhaul to casual/fun tone - brighter cyan/sky blue palette, coral/purple accents, rounder corners, unique colorful hero gradients per page
 - 2026-02-10: Created all 14 missing pages and PageLayout component to fix 404 navigation errors
 - 2026-02-10: Added scroll-triggered animations (IntersectionObserver-based) throughout homepage
