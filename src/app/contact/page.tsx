@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Infinite Energy",
-  description: "Get in touch with Infinite Energy. Call 059 916 8075 or email info@infiniteenergy.ie. Based in Carlow, serving all of Ireland.",
+  title: "Contact Us | Green-House Renewables",
+  description: "Get in touch with Green-House Renewables. Call +353 1 207 0006 or email info@green-house.ie. Based in Blackrock, Dublin, serving all of Ireland.",
 };
 
 export default function ContactPage() {
@@ -115,19 +115,19 @@ export default function ContactPage() {
                     {
                       icon: "📞",
                       title: "Phone",
-                      content: "059 916 8075",
-                      href: "tel:0599168075",
+                      content: "+353 1 207 0006",
+                      href: "tel:+35312070006",
                     },
                     {
                       icon: "✉️",
                       title: "Email",
-                      content: "info@infiniteenergy.ie",
-                      href: "mailto:info@infiniteenergy.ie",
+                      content: "info@green-house.ie",
+                      href: "mailto:info@green-house.ie",
                     },
                     {
                       icon: "📍",
                       title: "Location",
-                      content: "Carlow, Ireland — Serving all of Ireland",
+                      content: "Deansgrange Business Park, Blackrock, Dublin",
                       href: null,
                     },
                     {

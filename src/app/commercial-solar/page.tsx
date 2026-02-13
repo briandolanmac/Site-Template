@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Commercial Solar Solutions | Infinite Energy",
+  title: "Commercial Solar Solutions | Green-House Renewables",
   description: "Commercial and business solar PV installations across Ireland. Reduce operating costs, meet sustainability targets, and benefit from SSAP grants. 1000+ installations completed.",
 };
 

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "About Us | Infinite Energy",
-  description: "Learn about Infinite Energy, Ireland's trusted solar energy company based in Carlow. SEAI registered, Safe Electric certified, and Carlow Business Award winners 2024 & 2025.",
+  title: "About Us | Green-House Renewables",
+  description: "Learn about Green-House Renewables, Ireland's trusted solar energy company based in Blackrock, Dublin. SEAI registered, Safe Electric certified, and Carlow Business Award winners 2024 & 2025.",
 };
 
 export default function AboutPage() {
@@ -21,7 +21,7 @@ export default function AboutPage() {
             Who We Are
           </p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-            About Infinite Energy
+            About Green-House Renewables
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
             Your sustainability partner — helping homeowners and businesses across Ireland
@@ -41,7 +41,7 @@ export default function AboutPage() {
                 Powering Ireland&apos;s Green Future
               </h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Based in Carlow and serving all of Ireland, Infinite Energy was founded with a
+                Based in Deansgrange Business Park, Blackrock, Dublin and serving all of Ireland, Green-House Renewables was founded with a
                 clear mission: to make renewable energy accessible and affordable for every Irish
                 home and business. We are proud Certified Sigenergy Installers, SEAI Registered,
                 and Safe Electric Certified.
@@ -60,7 +60,7 @@ export default function AboutPage() {
             <div className="relative">
               <img
                 src="/images/team.jpg"
-                alt="The Infinite Energy team"
+                alt="The Green-House Renewables team"
                 className="rounded-2xl shadow-lg w-full"
               />
             </div>

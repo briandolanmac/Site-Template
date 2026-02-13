@@ -2,31 +2,31 @@
   "enabled": true,
   "eyebrow": "Simple 3-Step Process",
   "title": "How It Works",
-  "subtitle": "Installed in as little as four weeks",
+  "subtitle": "We handle everything — paperwork, installation, and setup",
   "steps": [
     {
       "number": "1",
       "icon": "📋",
       "time": "5 mins",
       "title": "Get Your Quote",
-      "description": "Answer a few simple questions online",
+      "description": "Fill in the quick form to receive your tailored quotation",
       "bullets": ["Free instant estimate", "No obligation", "SEAI grant included"]
     },
     {
       "number": "2",
       "icon": "🔍",
       "time": "1 hour",
-      "title": "Site Survey",
-      "description": "We visit to design your system",
+      "title": "Free Site Survey",
+      "description": "We visit to advise on the best system for your needs",
       "bullets": ["Expert assessment", "Roof analysis", "Custom solution"]
     },
     {
       "number": "3",
       "icon": "🔧",
       "time": "1-2 days",
-      "title": "Installation",
-      "description": "Professional same-day installation",
-      "bullets": ["Certified installers", "Clean & tidy", "Start saving"]
+      "title": "Professional Installation",
+      "description": "Smooth, tidy, and respectful installation on time and on budget",
+      "bullets": ["Certified installers", "Clean & tidy", "Lifetime guarantee"]
     }
   ],
   "cta": { "label": "Get Your Free Quote", "href": "/quote-builder" }

@@ -1,9 +1,9 @@
 {
   "enabled": true,
-  "title": "Get A Free Quote",
-  "subtitle": "Join 500+ Irish businesses and homeowners saving with solar. Get your free quote today.",
+  "title": "Get A No-Obligation Quote Today",
+  "subtitle": "Join 1,000+ happy customers across Ireland. Get your free quote and see why hundreds of homeowners trust Green-House.",
   "buttons": [
-    { "label": "Get My Free Quote", "href": "/quote-builder", "variant": "primary" },
-    { "label": "Talk to an Expert", "href": "/contact", "variant": "outline" }
+    { "label": "Get a Quote", "href": "/quote-builder", "variant": "primary" },
+    { "label": "Talk to Our Team", "href": "/contact", "variant": "outline" }
   ]
 }

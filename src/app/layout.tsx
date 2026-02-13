@@ -16,9 +16,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Infinite Energy | Certified Sigenergy Installers",
+  title: "Green-House Renewables | Renewable Home Energy Solutions",
   description:
-    "Your Sustainability Partner. Certified Sigenergy Installers providing quality solar PV systems, battery storage & EV chargers. SEAI grants available. Serving residential and commercial customers across Ireland.",
+    "Your Sustainability Partner. Renewable Home Energy Solutions providing quality solar PV systems, battery storage & EV chargers. SEAI grants available. Serving residential and commercial customers across Ireland.",
   icons: {
     icon: "/icon.svg",
   },

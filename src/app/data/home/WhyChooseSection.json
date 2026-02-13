@@ -1,28 +1,28 @@
 {
   "enabled": true,
-  "eyebrow": "Your Award-Winning Partner",
-  "title": "Why Choose Infinite Energy?",
-  "description": "With over 1000 installations completed, we're one of Ireland's most trusted solar installers. Our team of certified professionals has helped Fortune 500 companies like MSD and Abbott, as well as hundreds of homeowners, make the switch to clean energy.",
+  "eyebrow": "Since 2006",
+  "title": "Why Choose Green-House?",
+  "description": "Green-House are one of Ireland's leading renewable and mechanical installers, specialising in both domestic and commercial projects of any size. We offer fully designed, bespoke energy-efficient heating systems to homeowners, builders, contractors, and architects nationwide.",
   "image": {
     "src": "/images/team.jpg",
-    "alt": "Infinite Energy Team - Carlow Business Awards 2025"
+    "alt": "Green-House Renewables Team"
   },
   "award": {
     "icon": "🏆",
-    "title": "Carlow Business Awards 2024 & 2025",
-    "subtitle": "Outstanding Medium Business"
+    "title": "Pioneers Since 2006",
+    "subtitle": "Solar & Renewable Energy"
   },
   "trustItems": [
-    "✓ Sigenergy Certified",
-    "✓ Fortune 500 Clients",
-    "✓ SEAI Registered",
-    "✓ 25-Year Warranties"
+    "✓ SEAI Approved Installer",
+    "✓ Lifetime Guarantee",
+    "✓ 20+ Years Experience",
+    "✓ Bespoke Energy Solutions"
   ],
   "stats": [
-    { "value": "1000+", "label": "Installations" },
-    { "value": "5.0", "label": "★ Google Rating" },
-    { "value": "100+", "label": "Reviews" },
-    { "value": "30+", "label": "Years Experience" }
+    { "value": "1,000+", "label": "Happy Customers" },
+    { "value": "18+", "label": "Years Experience" },
+    { "value": "2,800+", "label": "Projects Completed" },
+    { "value": "15+", "label": "Dedicated Employees" }
   ],
   "cta": { "label": "Learn More →", "href": "/about" }
 }

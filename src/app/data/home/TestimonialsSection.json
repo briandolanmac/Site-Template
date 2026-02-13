@@ -4,68 +4,71 @@
   "ratingStars": "★★★★★",
   "quoteMark": "\"",
   "title": "What Our Customers Think",
-  "subtitle": "Join 500+ satisfied customers - from Fortune 500 companies to family homes across Ireland",
+  "subtitle": "Join 1,000+ happy customers across Ireland who trust Green-House with their renewable energy needs",
   "groups": [
     {
-      "label": "Commercial & Industrial",
+      "label": "Homeowners",
       "tone": "default",
       "items": [
         {
-          "company": "Suir Engineering",
-          "quote": "From the initial engagement with Infinite, the project team were very knowledgeable, competent and professional. I would highly recommend Niall and the Infinite Energy team for all future large-scale projects.",
-          "author": "Fran Conroy",
-          "role": "Projects Director",
-          "avatar": "F",
-          "variant": "b2b"
+          "company": "",
+          "quote": "Green-House made the whole process incredibly easy. From the initial consultation to the final installation, everything was professional and hassle-free. Our electricity bills have dropped dramatically.",
+          "author": "Sarah M.",
+          "role": "Dublin",
+          "avatar": "S",
+          "variant": "residential"
         },
         {
-          "company": "Axiseng",
-          "quote": "We have worked with Niall and the Infinite Energy team on several occasions. In all cases Niall and the team were found to be professional and diligent in their approach to projects.",
-          "author": "Cian Dowling",
-          "role": "Director",
-          "avatar": "C",
-          "variant": "b2b"
+          "company": "",
+          "quote": "We chose Green-House because of their experience and reputation. The team was clean, tidy, and finished on time. Highly recommend them to anyone considering solar.",
+          "author": "Michael O.",
+          "role": "Wicklow",
+          "avatar": "M",
+          "variant": "residential"
         },
         {
-          "company": "Mondello Park",
-          "quote": "The installation by Infinite Energy was seamless; everything was done in just over a week. They installed a 115 kW system. We'd highly recommend Infinite Energy.",
-          "author": "Ian Beatty",
-          "role": "Operations Director",
-          "avatar": "I",
-          "variant": "b2b"
+          "company": "",
+          "quote": "Fantastic service from start to finish. They handled all the SEAI grant paperwork and the installation was completed in just two days. Couldn't be happier with the results.",
+          "author": "James K.",
+          "role": "Kildare",
+          "avatar": "J",
+          "variant": "residential"
         }
       ]
     },
     {
-      "label": "Residential",
+      "label": "Commercial",
       "tone": "aqua",
       "items": [
         {
-          "quote": "I honestly can't praise this company enough. The service and installation was second to none. From first consultation to plan the system, right through to post install visit. Highly recommend them.",
-          "author": "David Farrelly",
-          "role": "Dublin",
-          "avatar": "D",
-          "variant": "residential"
+          "company": "Commercial Client",
+          "quote": "Green-House delivered a comprehensive solar solution for our commercial property. Their expertise and attention to detail was second to none. The system is performing beyond expectations.",
+          "author": "Patrick D.",
+          "role": "Business Owner",
+          "avatar": "P",
+          "variant": "b2b"
         },
         {
-          "quote": "Local business to me, straight talking and delivered as promised. Workers were clean and tidy and everything was delivered as we expected. I'd definitely recommend.",
-          "author": "Declan McMahon",
-          "role": "Meath",
-          "avatar": "D",
-          "variant": "residential"
+          "company": "Retail Business",
+          "quote": "Professional from day one. Green-House designed a system perfectly tailored to our energy needs. We're already seeing significant savings on our electricity costs.",
+          "author": "Emma R.",
+          "role": "Operations Manager",
+          "avatar": "E",
+          "variant": "b2b"
         },
         {
-          "quote": "My Solar PV system is installed just over one week. I found them completely professional, straightforward, and easy to deal with. The communication on how to apply for the grant was excellent.",
-          "author": "Francis Barrett",
-          "role": "Wicklow",
-          "avatar": "F",
-          "variant": "residential"
+          "company": "Property Developer",
+          "quote": "We've worked with Green-House on multiple new-build projects. Their renewable heating systems are always top quality and their team is reliable and knowledgeable.",
+          "author": "David C.",
+          "role": "Project Director",
+          "avatar": "D",
+          "variant": "b2b"
         }
       ]
     }
   ],
   "cta": {
-    "label": "Read All 100+ Reviews →",
-    "href": "https://www.google.com/search?q=Infinite+Energy+Reviews"
+    "label": "Read All Reviews →",
+    "href": "https://www.google.com/search?q=Green+House+Renewables+Reviews"
   }
 }

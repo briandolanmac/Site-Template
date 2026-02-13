@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Our Projects & Case Studies | Infinite Energy",
-  description: "View our portfolio of 1,000+ solar installations across Ireland. Residential, commercial, and industrial case studies from Infinite Energy.",
+  title: "Our Projects & Case Studies | Green-House Renewables",
+  description: "View our portfolio of 1,000+ solar installations across Ireland. Residential, commercial, and industrial case studies from Green-House Renewables.",
 };
 
 export default function ProjectsPage() {

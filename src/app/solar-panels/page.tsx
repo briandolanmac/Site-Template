@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Solar Panels Ireland | Infinite Energy",
-  description: "Residential solar PV systems installed across Ireland. Up to €2,100 SEAI grant, 0% VAT. Save up to 70% on electricity bills with Infinite Energy.",
+  title: "Solar Panels Ireland | Green-House Renewables",
+  description: "Residential solar PV systems installed across Ireland. Up to €2,100 SEAI grant, 0% VAT. Save up to 70% on electricity bills with Green-House Renewables.",
 };
 
 export default function SolarPanelsPage() {

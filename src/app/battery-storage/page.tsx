@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Battery Storage Solutions | Infinite Energy",
+  title: "Battery Storage Solutions | Green-House Renewables",
   description: "Home battery storage systems by Sigenergy. Store excess solar energy, reduce grid dependence, and power your home day and night. Certified Sigenergy Installers.",
 };
 

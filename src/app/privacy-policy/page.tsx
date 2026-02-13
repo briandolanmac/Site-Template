@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Infinite Energy",
-  description: "Read the Infinite Energy privacy policy. Learn how we collect, use, and protect your personal data.",
+  title: "Privacy Policy | Green-House Renewables",
+  description: "Read the Green-House Renewables privacy policy. Learn how we collect, use, and protect your personal data.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -21,7 +21,7 @@ export default function PrivacyPolicyPage() {
             Privacy Policy
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-            How Infinite Energy collects, uses, and protects your personal data.
+            How Green-House Renewables collects, uses, and protects your personal data.
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function PrivacyPolicyPage() {
             <div>
               <h2 className="text-2xl font-extrabold mb-4">1. Introduction</h2>
               <p className="text-gray-600 leading-relaxed">
-                Infinite Energy (&ldquo;we&rdquo;, &ldquo;our&rdquo;, &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. We are based in Carlow, Ireland, and operate in accordance with the General Data Protection Regulation (GDPR) and the Irish Data Protection Act 2018.
+                Green-House Renewables (&ldquo;we&rdquo;, &ldquo;our&rdquo;, &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. We are based in Blackrock, Dublin, Ireland, and operate in accordance with the General Data Protection Regulation (GDPR) and the Irish Data Protection Act 2018.
               </p>
             </div>
 
@@ -103,7 +103,7 @@ export default function PrivacyPolicyPage() {
             <div>
               <h2 className="text-2xl font-extrabold mb-4">8. Contact Us</h2>
               <p className="text-gray-600 leading-relaxed">
-                If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us at: <a href="mailto:info@infiniteenergy.ie" style={{ color: "#009968" }} className="hover:underline">info@infiniteenergy.ie</a> or call <a href="tel:0599168075" style={{ color: "#009968" }} className="hover:underline">059 916 8075</a>.
+                If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us at: <a href="mailto:info@green-house.ie" style={{ color: "#009968" }} className="hover:underline">info@green-house.ie</a> or call <a href="tel:+35312070006" style={{ color: "#009968" }} className="hover:underline">+353 1 207 0006</a>.
               </p>
             </div>
 

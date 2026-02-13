@@ -1,10 +1,11 @@
 {
   "enabled": true,
-  "title": "Making A Difference",
-  "titleHighlight": "Together",
+  "title": "About",
+  "titleHighlight": "Green-House",
   "items": [
-    { "icon": "🏠", "value": "1000+", "label": "Installations" },
-    { "icon": "🌿", "value": "850", "label": "Tonnes CO₂ Saved" },
-    { "icon": "☀️", "value": "500+", "label": "Homes Powered" }
+    { "icon": "😊", "value": "1,000+", "label": "Happy Customers" },
+    { "icon": "📅", "value": "18+", "label": "Years Of Experience" },
+    { "icon": "🏗️", "value": "2,800+", "label": "Projects Completed" },
+    { "icon": "👥", "value": "15+", "label": "Dedicated Employees" }
   ]
 }

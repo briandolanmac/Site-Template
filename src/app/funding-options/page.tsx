@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Business Funding & SSAP Grants | Infinite Energy",
+  title: "Business Funding & SSAP Grants | Green-House Renewables",
   description: "Business funding options for commercial solar including SSAP grants, accelerated capital allowances, and SEAI support schemes. Reduce upfront costs for your business.",
 };
 

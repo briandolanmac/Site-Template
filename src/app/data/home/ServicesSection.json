@@ -1,18 +1,18 @@
 {
   "enabled": true,
   "eyebrow": "Our Services",
-  "title": "Solar Solutions for Every Need",
-  "subtitle": "From family homes to commercial warehouses, we deliver tailored solar power installations across Ireland.",
+  "title": "Clean Energy Solutions for Every Need",
+  "subtitle": "From family homes to commercial properties, we deliver tailored renewable energy installations across Ireland.",
   "cards": [
     {
       "image": { "src": "/images/9.webp", "alt": "Residential Solar Installation" },
       "tag": "Power Your Home",
-      "title": "Residential Solar",
-      "description": "Up to 70% savings on electricity bills. SEAI grants available for Irish homeowners.",
+      "title": "Solar Panels",
+      "description": "Generate your own energy and save money every month. SEAI grants available for Irish homeowners.",
       "bullets": [
-        "SEAI grant (up to €1,800)",
-        "25-year warranty",
-        "Battery storage options"
+        "SEAI grant available (up to €1,800)",
+        "Lifetime workmanship guarantee",
+        "Get paid for surplus power"
       ],
       "cta": { "value": "€800+", "label": "Annual Savings →", "href": "/solar-panels" }
     },
@@ -20,11 +20,11 @@
       "image": { "src": "/images/commercial/17.webp", "alt": "Commercial Solar Installation" },
       "tag": "Power Your Business",
       "title": "Commercial Solar",
-      "description": "40-50% electricity savings. 3-5 year payback period for Irish businesses.",
+      "description": "Expert installation tailored to your business's specific energy needs. Maximise energy production and reduce bills.",
       "bullets": [
-        "3-5 year payback",
-        "Up to €162k SEAI grant available",
-        "Meet ESG targets"
+        "Customised solutions",
+        "Ongoing support & maintenance",
+        "Increased property value"
       ],
       "cta": { "value": "40-50%", "label": "Bill Reduction →", "href": "/commercial-solar" }
     }

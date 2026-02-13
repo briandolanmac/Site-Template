@@ -10,35 +10,31 @@
     },
     {
       "question": "How much can I save?",
-      "answer": "Savings depend on your system size and usage, but we aim for at least a 70% reduction in electricity bills. Many systems achieve a Return on Investment (ROI) in 4-6 years, offering free electricity for decades after."
+      "answer": "Savings depend on your system size and usage, but we aim for at least a 70% reduction in electricity bills. Many systems achieve a return on investment in 4-6 years, offering free electricity for decades after."
     },
     {
-      "question": "What size system do I need?",
-      "answer": "This depends on your consumption and roof space. We analyse your bills to design a system that fits your actual needs, ensuring you don't overpay for a system that's too big. We also future-proof designs for later expansion."
-    },
-    {
-      "question": "Is my roof suitable?",
-      "answer": "Most roofs are suitable as long as they are in good condition. We can install on almost any roof structure. Our on-site survey will confirm suitability before any work begins."
-    },
-    {
-      "question": "Are there grants available?",
-      "answer": "Yes! The SEAI grant offers up to €1,800 for residential solar PV systems (for 4kWp systems and above). There is also a grant of up to €300 for EV chargers. We handle the paperwork for you."
+      "question": "What grants are available?",
+      "answer": "The SEAI grant offers up to €1,800 for residential solar PV systems. There is also a grant of up to €300 for EV chargers. We guide you through the grant process and help you claim every euro available."
     },
     {
       "question": "Do I need planning permission?",
-      "answer": "Generally, no. As of October 2021, planning laws changed so you don't need permission for rooftop solar panels unless you live in specific zones like air traffic control areas or protected structures."
+      "answer": "Generally, no. Planning laws changed so you don't need permission for rooftop solar panels unless you live in specific zones like air traffic control areas or protected structures."
     },
     {
       "question": "Is battery storage important?",
-      "answer": "Yes, it helps you use more of the power you generate (self-consumption) rather than sending it to the grid. It also allows \"Time of Use\" charging—filling the battery with cheap night-rate electricity to use during expensive peak hours."
+      "answer": "Yes, it helps you maximise your solar energy utilisation. Store excess energy generated during the day for use at night or during cloudy periods, reducing reliance on the grid and lowering your energy bills."
     },
     {
       "question": "What about maintenance?",
-      "answer": "Solar panels are generally self-cleaning with rainwater. Our systems come with a 2-year installation warranty, 12-25 year panel manufacturer warranty, and 10-year battery/inverter warranties."
+      "answer": "Solar panels are generally self-cleaning with rainwater. Our systems come with a lifetime workmanship guarantee, plus manufacturer warranties on panels and inverters for your total peace of mind."
     },
     {
       "question": "How long does installation take?",
-      "answer": "Typical residential installations take 1-2 days. External roof work and internal electrical work are usually done simultaneously to minimise disruption."
+      "answer": "Typical residential installations take 1-2 days. Our professional team delivers a smooth, tidy, and respectful installation on time and on budget."
+    },
+    {
+      "question": "What areas do you cover?",
+      "answer": "We serve homeowners across Dublin, Wicklow, Kildare, Meath and beyond. Contact us to discuss your project regardless of location."
     }
   ]
 }

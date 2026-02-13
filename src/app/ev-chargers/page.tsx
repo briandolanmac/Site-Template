@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "EV Charger Installation | Infinite Energy",
+  title: "EV Charger Installation | Green-House Renewables",
   description: "Professional EV charger installation for homes and businesses across Ireland. SEAI grant available. Charge your electric vehicle with solar energy.",
 };
 

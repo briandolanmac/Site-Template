@@ -1,31 +1,31 @@
 {
   "enabled": true,
-  "logoAlt": "Infinite Energy",
-  "logoSrc": "/images/branding/og-image.svg",
-  "tagline": "Your Sustainability Partner. Helping homeowners and businesses across Ireland save money while reducing their carbon footprint.",
+  "logoAlt": "Green House Renewables",
+  "logoSrc": "/images/branding/greenhouse-logo.jpg",
+  "tagline": "Since 2006, we have been pioneers in the world of solar and renewable energy. We offer fully designed, bespoke energy-efficient solutions nationwide.",
   "badges": {
-    "primary": "Certified Sigenergy Installers",
-    "secondary": "SEAI Registered | Safe Electric Certified"
+    "primary": "SEAI Approved Installer",
+    "secondary": "Lifetime Workmanship Guarantee"
   },
   "socialLinks": [
     {
       "label": "Facebook",
-      "href": "https://www.facebook.com/infiniteenergyireland"
+      "href": "https://www.facebook.com/greenhouserenewables"
     },
     {
       "label": "LinkedIn",
-      "href": "https://www.linkedin.com/company/infinite-energy-ireland"
+      "href": "https://www.linkedin.com/company/green-house-renewables"
     },
     {
       "label": "Instagram",
-      "href": "https://www.instagram.com/infiniteenergyireland"
+      "href": "https://www.instagram.com/greenhouserenewables"
     }
   ],
   "columns": [
     {
       "title": "Solutions",
       "links": [
-        { "label": "Residential Solar PV", "href": "/solar-panels" },
+        { "label": "Solar Panels", "href": "/solar-panels" },
         { "label": "Commercial Solar", "href": "/commercial-solar" },
         { "label": "Battery Storage", "href": "/battery-storage" },
         { "label": "EV Chargers", "href": "/ev-chargers" },
@@ -35,33 +35,33 @@
     {
       "title": "Resources",
       "links": [
-        { "label": "Portfolio", "href": "/projects" },
+        { "label": "Our Projects", "href": "/projects" },
         { "label": "Testimonials", "href": "/testimonials" },
-        { "label": "Finance Ireland", "href": "/finance" },
-        { "label": "Why Choose Us", "href": "/about" },
+        { "label": "Finance Options", "href": "/finance" },
+        { "label": "About Us", "href": "/about" },
         { "label": "Contact Us", "href": "/contact" }
       ]
     }
   ],
   "contact": {
-    "heading": "Get In Touch",
+    "heading": "Where to Find Us",
     "phoneIcon": "📞",
     "phone": {
-      "label": "059 916 8075",
-      "href": "tel:0599168075"
+      "label": "+353 1 207 0006",
+      "href": "tel:+35312070006"
     },
     "emailIcon": "✉️",
     "email": {
-      "label": "info@infiniteenergy.ie",
-      "href": "mailto:info@infiniteenergy.ie"
+      "label": "info@green-house.ie",
+      "href": "mailto:info@green-house.ie"
     },
     "locationIcon": "📍",
-    "location": "Ireland — Serving all of Ireland",
-    "cta": { "label": "Talk to an Expert", "href": "/contact" },
-    "hours": "Mon-Fri: 9am-5pm"
+    "location": "Deansgrange Business Park, Blackrock, Dublin",
+    "cta": { "label": "Get a Quote", "href": "/contact" },
+    "hours": "Mon - Fri: 9am - 4pm"
   },
   "bottom": {
-    "copyright": "© 2025 Infinite Energy. All rights reserved.",
+    "copyright": "© 2025 Green-House Renewables. All rights reserved.",
     "links": [
       { "label": "Privacy Policy", "href": "/privacy-policy" },
       { "label": "Cookie Policy", "href": "/cookies" },
