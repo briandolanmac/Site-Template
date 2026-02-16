@@ -59,9 +59,9 @@
     "reviews": "1,000+ Happy Customers"
   },
   "floatCert": {
-    "icon": "🛡️",
-    "title": "SEAI Registered",
-    "sub": "Certified Installer"
+    "icon": "",
+    "title": "",
+    "sub": ""
   },
   "scrollLabel": "Explore"
 }
