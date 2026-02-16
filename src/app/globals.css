@@ -294,7 +294,7 @@ ul {
   height: 2.25rem;
 }
 .nav-contact {
-  display: none;
+  display: flex;
   gap: 1rem;
   align-items: center;
 }
