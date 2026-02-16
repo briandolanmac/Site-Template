@@ -406,6 +406,17 @@ export default function AdminSidebar() {
                   </span>
                 )}
                 <button
+                  onClick={() => {
+                    setModified(new Set());
+                    loadData();
+                  }}
+                  disabled={loading}
+                  className="sb-btn-refresh"
+                  title="Refresh data"
+                >
+                  {loading ? "..." : "↻"}
+                </button>
+                <button
                   onClick={() => handleSave(activeFile)}
                   disabled={saving || !modified.has(activeFile)}
                   className="sb-btn-save"
