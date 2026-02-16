@@ -46,7 +46,7 @@ export default function QuoteBuilderPage() {
                   <input
                     type="text"
                     required
-                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                     placeholder="John Smith"
                   />
@@ -56,7 +56,7 @@ export default function QuoteBuilderPage() {
                   <input
                     type="tel"
                     required
-                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                     placeholder="087 123 4567"
                   />
@@ -68,7 +68,7 @@ export default function QuoteBuilderPage() {
                 <input
                   type="email"
                   required
-                  className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                  className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                   style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                   placeholder="john@example.com"
                 />
@@ -79,7 +79,7 @@ export default function QuoteBuilderPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                  className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                   style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                   placeholder="R93 AB12 or full address"
                 />
@@ -96,7 +96,7 @@ export default function QuoteBuilderPage() {
                   ].map((option) => (
                     <label
                       key={option}
-                      className="flex items-center gap-3 p-4 rounded-lg border cursor-pointer hover:border-cyan-500 transition-colors"
+                      className="flex items-center gap-3 p-4 rounded-lg border cursor-pointer hover:border-emerald-500 transition-colors"
                       style={{ borderColor: "var(--gray-300)" }}
                     >
                       <input type="checkbox" className="w-4 h-4 accent-cyan-600" />
@@ -109,7 +109,7 @@ export default function QuoteBuilderPage() {
               <div>
                 <label className="block text-sm font-semibold mb-2">Property Type</label>
                 <select
-                  className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                  className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                   style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                 >
                   <option value="">Select property type</option>
@@ -128,7 +128,7 @@ export default function QuoteBuilderPage() {
                   Average Monthly Electricity Bill
                 </label>
                 <select
-                  className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                  className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                   style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                 >
                   <option value="">Select range</option>
@@ -147,7 +147,7 @@ export default function QuoteBuilderPage() {
                 </label>
                 <textarea
                   rows={4}
-                  className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                  className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                   style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                   placeholder="Any additional information about your property or requirements..."
                 ></textarea>

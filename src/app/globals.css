@@ -852,7 +852,7 @@ ul {
 .pulse {
   width: 0.75rem;
   height: 0.75rem;
-  background: var(--aqua);
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 50%;
   position: relative;
 }
@@ -860,7 +860,7 @@ ul {
   content: "";
   position: absolute;
   inset: -4px;
-  background: var(--aqua);
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 50%;
   animation: pulse 2s ease-out infinite;
   opacity: 0.5;
@@ -880,21 +880,19 @@ ul {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: var(--aqua);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .hero-headline {
-  color: var(--white);
+  color: #ffffff;
   margin-bottom: 1.5rem;
   line-height: 0.95;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 .gradient-text {
-  background: linear-gradient(90deg, #CBB492, #e0cdb0, #CBB492);
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: shimmer 3s linear infinite;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 @keyframes shimmer {
   0% {
@@ -907,7 +905,7 @@ ul {
 
 .hero-sub {
   font-size: 1.125rem;
-  color: var(--gray-300);
+  color: rgba(255, 255, 255, 0.85);
   margin-bottom: 2.5rem;
   max-width: 32rem;
   line-height: 1.7;
@@ -1343,13 +1341,13 @@ ul {
   background: linear-gradient(135deg, #004d34, #006644);
 }
 .video-section .section-eyebrow {
-  color: var(--aqua);
+  color: rgba(255, 255, 255, 0.85);
 }
 .video-section .section-title {
   color: var(--white);
 }
 .video-section .section-sub {
-  color: var(--gray-300);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .section-eyebrow {
@@ -2410,7 +2408,7 @@ ul {
   text-align: center;
 }
 .final-cta-title {
-  color: var(--white);
+  color: #ffffff;
   margin-bottom: 0.75rem;
 }
 .final-cta-sub {
@@ -2431,28 +2429,28 @@ ul {
   justify-content: center;
 }
 .btn-white {
-  background: var(--white);
+  background: #ffffff;
   color: var(--teal);
   box-shadow: var(--shadow-xl);
 }
 .btn-white:hover {
   background: var(--slate);
-  color: var(--white);
+  color: #ffffff;
 }
 .btn-outline-white {
   background: transparent;
-  color: var(--white);
-  border: 2px solid var(--white);
+  color: #ffffff;
+  border: 2px solid #ffffff;
 }
 .btn-outline-white:hover {
-  background: var(--white);
+  background: #ffffff;
   color: var(--teal);
 }
 
 /* ===== FOOTER ===== */
 .footer {
   background: linear-gradient(135deg, #0a1a20, #12222E, #1a3040);
-  color: var(--text-primary);
+  color: #d1d8dc;
   padding: 4rem 0 2rem;
 }
 .footer-grid {
@@ -2474,7 +2472,7 @@ ul {
 
 .footer-logo {
   display: inline-block;
-  background: var(--white);
+  background: #ffffff;
   padding: 0.75rem 1rem;
   border-radius: var(--radius-lg);
   margin-bottom: 1.25rem;
@@ -2507,7 +2505,7 @@ ul {
   width: 3rem;
   height: 3rem;
   background: rgba(255, 255, 255, 0.1);
-  color: var(--white);
+  color: #ffffff;
   border-radius: var(--radius-lg);
   display: flex;
   align-items: center;
@@ -2522,7 +2520,7 @@ ul {
 .footer h4 {
   font-size: 1.125rem;
   font-weight: 700;
-  color: var(--aqua);
+  color: #00cc88;
   margin-bottom: 1.25rem;
 }
 .footer ul {
@@ -2536,7 +2534,7 @@ ul {
   transition: color 0.2s;
 }
 .footer li a:hover {
-  color: var(--white);
+  color: #ffffff;
 }
 
 .footer-contact p {
@@ -2552,7 +2550,7 @@ ul {
   transition: color 0.2s;
 }
 .footer-contact p a:hover {
-  color: var(--white);
+  color: #ffffff;
 }
 .footer-icon {
   font-size: 1rem;
@@ -2560,15 +2558,15 @@ ul {
 .btn-footer-cta {
   display: inline-block;
   margin-top: 1.25rem;
-  background: var(--aqua);
-  color: var(--white);
+  background: #00cc88;
+  color: #ffffff;
   padding: 0.875rem 1.75rem;
   border-radius: 9999px;
   font-weight: 700;
   transition: all 0.3s;
 }
 .btn-footer-cta:hover {
-  background: var(--white);
+  background: #ffffff;
   color: var(--teal);
   transform: translateY(-2px);
 }
@@ -2597,7 +2595,7 @@ ul {
   transition: color 0.2s;
 }
 .footer-bottom a:hover {
-  color: var(--white);
+  color: #ffffff;
 }
 @media (min-width: 768px) {
   .footer-bottom {

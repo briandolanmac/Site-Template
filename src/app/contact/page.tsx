@@ -41,7 +41,7 @@ export default function ContactPage() {
                     <label className="block text-sm font-semibold mb-2">First Name</label>
                     <input
                       type="text"
-                      className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                      className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                       style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                       placeholder="John"
                     />
@@ -50,7 +50,7 @@ export default function ContactPage() {
                     <label className="block text-sm font-semibold mb-2">Last Name</label>
                     <input
                       type="text"
-                      className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                      className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                       style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                       placeholder="Smith"
                     />
@@ -60,7 +60,7 @@ export default function ContactPage() {
                   <label className="block text-sm font-semibold mb-2">Email Address</label>
                   <input
                     type="email"
-                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                     placeholder="john@example.com"
                   />
@@ -69,7 +69,7 @@ export default function ContactPage() {
                   <label className="block text-sm font-semibold mb-2">Phone Number</label>
                   <input
                     type="tel"
-                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                     placeholder="087 123 4567"
                   />
@@ -77,7 +77,7 @@ export default function ContactPage() {
                 <div>
                   <label className="block text-sm font-semibold mb-2">Service Interested In</label>
                   <select
-                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                   >
                     <option value="">Select a service</option>
@@ -92,7 +92,7 @@ export default function ContactPage() {
                   <label className="block text-sm font-semibold mb-2">Message</label>
                   <textarea
                     rows={5}
-                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                     placeholder="Tell us about your project..."
                   ></textarea>
