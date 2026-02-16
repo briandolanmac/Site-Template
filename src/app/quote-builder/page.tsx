@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Get a Free Quote | Green-House Renewables",
+  title: "Get a Free Quote | Solar Path",
   description: "Get a free, no-obligation quote for solar panels, battery storage, or EV chargers. Serving all of Ireland with SEAI grants available.",
 };
 

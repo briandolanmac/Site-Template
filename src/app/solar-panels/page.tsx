@@ -3,8 +3,8 @@ import PageLayout from "../components/PageLayout";
 import pageData from "../data/pages/SolarPanelsPage.json";
 
 export const metadata: Metadata = {
-  title: "Solar Panels Ireland | Green-House Renewables",
-  description: "Residential solar PV systems installed across Ireland. Up to €2,100 SEAI grant, 0% VAT. Save up to 70% on electricity bills with Green-House Renewables.",
+  title: "Solar Panels Ireland | Solar Path",
+  description: "Residential solar PV systems installed across Ireland. Up to €2,100 SEAI grant, 0% VAT. Save up to 70% on electricity bills with Solar Path.",
 };
 
 export default function SolarPanelsPage() {

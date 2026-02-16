@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "SEAI Grants for Solar Panels | Green-House Renewables",
-  description: "Get up to €2,100 SEAI grant for solar panels in Ireland. 0% VAT on solar installations. Green-House Renewables handles your grant application.",
+  title: "SEAI Grants for Solar Panels | Solar Path",
+  description: "Get up to €2,100 SEAI grant for solar panels in Ireland. 0% VAT on solar installations. Solar Path handles your grant application.",
 };
 
 export default function GrantsPage() {
@@ -51,7 +51,7 @@ export default function GrantsPage() {
                 of up to 70%, solar panels pay for themselves within a few years.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                As SEAI Registered installers, Green-House Renewables handles the entire grant
+                As SEAI Registered installers, Solar Path handles the entire grant
                 application process on your behalf — so you can sit back and enjoy the savings.
               </p>
             </div>
@@ -69,7 +69,7 @@ export default function GrantsPage() {
                 },
                 {
                   title: "We Handle Everything",
-                  desc: "Green-House Renewables manages your full SEAI grant application process",
+                  desc: "Solar Path manages your full SEAI grant application process",
                   icon: "📋",
                 },
                 {

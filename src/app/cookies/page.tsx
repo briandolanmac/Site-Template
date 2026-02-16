@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy | Green-House Renewables",
-  description: "Learn about how Green-House Renewables uses cookies on our website. Manage your cookie preferences.",
+  title: "Cookie Policy | Solar Path",
+  description: "Learn about how Solar Path uses cookies on our website. Manage your cookie preferences.",
 };
 
 export default function CookiesPage() {
@@ -21,7 +21,7 @@ export default function CookiesPage() {
             Cookie Policy
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-            How Green-House Renewables uses cookies and similar technologies on our website.
+            How Solar Path uses cookies and similar technologies on our website.
           </p>
         </div>
       </section>
@@ -39,7 +39,7 @@ export default function CookiesPage() {
             <div>
               <h2 className="text-2xl font-extrabold mb-4">How We Use Cookies</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Green-House Renewables uses cookies for the following purposes:
+                Solar Path uses cookies for the following purposes:
               </p>
               <div className="space-y-4">
                 {[
@@ -118,7 +118,7 @@ export default function CookiesPage() {
             <div>
               <h2 className="text-2xl font-extrabold mb-4">Contact Us</h2>
               <p className="text-gray-600 leading-relaxed">
-                If you have any questions about our use of cookies, please contact us at <a href="mailto:info@green-house.ie" style={{ color: "#F5A623" }} className="hover:underline">info@green-house.ie</a> or call <a href="tel:+35312070006" style={{ color: "#F5A623" }} className="hover:underline">+353 1 207 0006</a>.
+                If you have any questions about our use of cookies, please contact us at <a href="mailto:sales@solarpath.ie" style={{ color: "#F5A623" }} className="hover:underline">sales@solarpath.ie</a> or call <a href="tel:+353872591114" style={{ color: "#F5A623" }} className="hover:underline">087 259 1114</a>.
               </p>
             </div>
 

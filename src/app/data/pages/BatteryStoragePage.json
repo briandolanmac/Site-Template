@@ -1,16 +1,16 @@
 {
   "hero": {
-    "eyebrow": "PV Battery Storage",
+    "eyebrow": "Smart Energy Management",
     "title": "Battery Storage Solutions",
-    "subtitle": "Maximise your solar energy utilisation with Green-House Renewables' PV Battery Storage solutions. Store excess energy for use when you need it most."
+    "subtitle": "Adding battery storage to your solar PV installation transforms how you use the energy generated. Store excess electricity for use at night or during price spikes."
   },
   "about": {
-    "eyebrow": "Why Battery Storage?",
+    "eyebrow": "Battery Storage Integration",
     "title": "Maximise Your Solar Investment",
     "paragraphs": [
-      "Store excess energy generated during the day for use at night or during cloudy periods, reducing reliance on the grid and lowering your energy bills.",
-      "Achieve energy independence by protecting your home and business from grid outages and price fluctuations, while enhancing the environmental benefits of your solar system by fully utilising clean, renewable energy.",
-      "Our expertly installed systems integrate seamlessly with your existing solar setup, boosting property value and offering a sustainable, efficient energy solution."
+      "Battery storage allows you to store excess electricity produced during daylight hours for use at night or during power price spikes. With a hybrid inverter, you stay in control of your own power, even when demand on the national grid is high.",
+      "Modern lithium-ion battery systems integrate seamlessly with solar PV panels through advanced hybrid inverter technology. This combination creates a comprehensive energy solution that maximises the value of your solar investment.",
+      "For properties with higher electricity demand or those seeking greater energy independence, battery storage represents a logical extension of solar power technology, complementing the solar array and enhancing overall system performance."
     ],
     "image": {
       "src": "/images/case-studies/battery_storage.webp",
@@ -20,17 +20,17 @@
   "benefits": {
     "title": "Benefits of Battery Storage",
     "items": [
-      { "title": "Maximise Solar Utilisation", "desc": "Store excess solar energy instead of exporting it — use every kilowatt you generate", "icon": "☀️" },
-      { "title": "Lower Energy Bills", "desc": "Use stored solar energy in the evening when grid electricity costs are highest", "icon": "💰" },
-      { "title": "Energy Independence", "desc": "Protect your home from grid outages and rising energy prices with stored power", "icon": "🔋" },
-      { "title": "Eco-Friendly Solution", "desc": "Fully utilise clean, renewable energy and enhance the environmental benefits of your solar system", "icon": "🌱" },
-      { "title": "Increased Property Value", "desc": "A battery storage system adds value to your home and demonstrates energy efficiency", "icon": "🏠" },
-      { "title": "Seamless Integration", "desc": "Our systems integrate perfectly with your existing solar setup for a complete energy solution", "icon": "🔄" }
+      { "title": "Store Excess Electricity", "desc": "Store excess electricity produced during daylight hours for use when you need it most", "icon": "☀️" },
+      { "title": "Use Solar at Night", "desc": "Use your own solar electricity during evening periods when grid rates are highest", "icon": "🌙" },
+      { "title": "Grid Independence", "desc": "Reduce dependence on the national grid and maintain power during outages", "icon": "🔋" },
+      { "title": "Optimise Self-Consumption", "desc": "Ensure more of the electricity generated remains available for your use", "icon": "📊" },
+      { "title": "Hybrid Inverter Technology", "desc": "Advanced hybrid inverter technology enables efficient energy management", "icon": "⚡" },
+      { "title": "Seamless Integration", "desc": "Our systems integrate perfectly with your existing solar PV setup", "icon": "🔄" }
     ]
   },
   "cta": {
-    "title": "Add Battery Storage to Your Home",
-    "subtitle": "Whether you already have solar panels or are starting fresh, we can design the perfect battery storage solution for your home.",
-    "primaryButton": { "label": "Get Free Quote", "href": "/quote-builder" }
+    "title": "Add Battery Storage to Your Solar System",
+    "subtitle": "Contact Solar Path for a free consultation about battery storage. We'll design the perfect solution for your energy needs.",
+    "primaryButton": { "label": "Request Quotation", "href": "/quote-builder" }
   }
 }

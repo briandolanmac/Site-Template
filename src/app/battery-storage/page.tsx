@@ -3,7 +3,7 @@ import PageLayout from "../components/PageLayout";
 import pageData from "../data/pages/BatteryStoragePage.json";
 
 export const metadata: Metadata = {
-  title: "Battery Storage Solutions | Green-House Renewables",
+  title: "Battery Storage Solutions | Solar Path",
   description: "Home battery storage systems by Sigenergy. Store excess solar energy, reduce grid dependence, and power your home day and night. Certified Sigenergy Installers.",
 };
 

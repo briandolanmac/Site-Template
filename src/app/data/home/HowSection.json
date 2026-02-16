@@ -1,33 +1,33 @@
 {
   "enabled": true,
-  "eyebrow": "Easy as 1-2-3",
-  "title": "How It Works",
-  "subtitle": "We handle everything — from paperwork and grants to installation and setup!",
+  "eyebrow": "Solar PV Process",
+  "title": "From Quote to Power On",
+  "subtitle": "Solar Path follows a structured, professional process to deliver the best solar PV solution for your property.",
   "steps": [
     {
       "number": "1",
       "icon": "📋",
-      "time": "5 mins",
-      "title": "Get Your Free Quote",
-      "description": "Fill in our quick form and get a tailored quote. We'll also guide you through SEAI grants and available funding.",
-      "bullets": ["Free no-obligation quote", "SEAI grant guidance", "Tailored to your needs"]
+      "time": "Free",
+      "title": "Initial Consultation & Bill Analysis",
+      "description": "We examine your electricity usage to propose the right solar system for your needs and budget.",
+      "bullets": ["Free no-obligation consultation", "Electricity bill analysis", "SEAI grant guidance"]
     },
     {
       "number": "2",
       "icon": "🔍",
-      "time": "1 hour",
+      "time": "Free",
       "title": "Free Site Survey",
-      "description": "Our experts visit your property to assess your roof, energy usage, and design the perfect system for your home.",
-      "bullets": ["Expert energy assessment", "Roof and property analysis", "Custom system design"]
+      "description": "Our engineers assess your property for ideal system size, layout, and optimal panel placement.",
+      "bullets": ["Expert property assessment", "Roof and orientation analysis", "Custom system design"]
     },
     {
       "number": "3",
       "icon": "🔧",
       "time": "1-2 days",
-      "title": "Professional Installation",
-      "description": "Our own qualified team handles the full installation — no sub-contracting. Clean, tidy, on time, and on budget.",
-      "bullets": ["Certified installers", "No sub-contracting", "Lifetime workmanship guarantee"]
+      "title": "Installation & Commissioning",
+      "description": "Our SEAI-registered team installs your system to certified standards, then connects and tests to verify performance.",
+      "bullets": ["Certified installers", "Transparent pricing", "Aftercare & support"]
     }
   ],
-  "cta": { "label": "Get Your Free Quote", "href": "/quote-builder" }
+  "cta": { "label": "Request Quotation", "href": "/quote-builder" }
 }

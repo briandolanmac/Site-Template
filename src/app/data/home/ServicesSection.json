@@ -1,32 +1,32 @@
 {
   "enabled": true,
-  "eyebrow": "Our Services",
-  "title": "Clean Energy Solutions That Work For You",
-  "subtitle": "We offer fully designed, bespoke energy-efficient systems for homes and businesses nationwide. From solar panels to heat pumps, we've got you covered.",
+  "eyebrow": "Our Solutions",
+  "title": "Nationwide Solar Panel Installation with Cutting-Edge Technology",
+  "subtitle": "We supply and install solar panel systems in Cork, Dublin, Limerick, Wicklow, and nationwide. Our team manages every step: consultation, site survey, design, and installation.",
   "cards": [
     {
       "image": { "src": "/images/9.webp", "alt": "Residential Solar Installation" },
       "tag": "For Your Home",
-      "title": "Solar Panels",
-      "description": "With over 20 years in business and more than 1,000 installations, we're one of South Dublin's most experienced and trusted solar energy providers.",
+      "title": "Solar PV Systems",
+      "description": "Our residential solar panel systems transform how Irish homeowners power their homes. Our systems work in all weather, producing clean electricity all year round.",
       "bullets": [
-        "SEAI grants available — up to €1,800",
-        "Lifetime workmanship guarantee",
-        "Get paid for surplus power sent to the grid"
+        "SEAI solar grants up to €1,800",
+        "Sell excess electricity to the grid",
+        "Add optional battery storage"
       ],
-      "cta": { "value": "€800+", "label": "Annual Savings →", "href": "/solar-panels" }
+      "cta": { "value": "50-70%", "label": "Bill Reduction →", "href": "/solar-panels" }
     },
     {
       "image": { "src": "/images/commercial/17.webp", "alt": "Commercial Solar Installation" },
       "tag": "For Your Business",
       "title": "Commercial Solar",
-      "description": "We specialise in delivering high-quality, customised solar solutions for commercial properties. Expert installation tailored to your business's specific energy needs.",
+      "description": "Commercial solar PV helps Irish businesses cut operational costs while demonstrating environmental responsibility. We install systems that match usage, location, and business objectives.",
       "bullets": [
-        "Tailored to your unique energy goals",
-        "Ongoing maintenance and support",
-        "Boost your property value"
+        "SEAI grants up to €162,600 for businesses",
+        "Reduce energy costs by up to 75%",
+        "Typical payback period of 2-3 years"
       ],
-      "cta": { "value": "40-50%", "label": "Bill Reduction →", "href": "/commercial-solar" }
+      "cta": { "value": "75%", "label": "Cost Reduction →", "href": "/commercial-solar" }
     }
   ]
 }

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Green-House Renewables",
-  description: "Get in touch with Green-House Renewables. Call +353 1 207 0006 or email info@green-house.ie. Based in Blackrock, Dublin, serving all of Ireland.",
+  title: "Contact Us | Solar Path",
+  description: "Get in touch with Solar Path. Call 087 259 1114 or email sales@solarpath.ie. Based in Cork, serving all of Ireland.",
 };
 
 export default function ContactPage() {
@@ -115,19 +115,19 @@ export default function ContactPage() {
                     {
                       icon: "📞",
                       title: "Phone",
-                      content: "+353 1 207 0006",
-                      href: "tel:+35312070006",
+                      content: "087 259 1114",
+                      href: "tel:+353872591114",
                     },
                     {
                       icon: "✉️",
                       title: "Email",
-                      content: "info@green-house.ie",
-                      href: "mailto:info@green-house.ie",
+                      content: "sales@solarpath.ie",
+                      href: "mailto:sales@solarpath.ie",
                     },
                     {
                       icon: "📍",
                       title: "Location",
-                      content: "Deansgrange Business Park, Blackrock, Dublin",
+                      content: "82 South Mall, Cork, T12 E3TT",
                       href: null,
                     },
                     {

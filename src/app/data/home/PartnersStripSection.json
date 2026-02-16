@@ -1,32 +1,32 @@
 {
   "enabled": true,
-  "title": "Some of the Amazing Brands We Work With",
+  "title": "Our Partners",
   "logos": [
     {
       "src": "/images/logos/Untitled-design-2024-02-22T220539.960.webp",
-      "alt": "MSD"
+      "alt": "Longi"
     },
     {
       "src": "/images/logos/Untitled-design-2024-02-22T215828.183.webp",
-      "alt": "Abbott"
+      "alt": "Trina Solar"
     },
     {
       "src": "/images/logos/Untitled-design-2024-02-22T210128.234.webp",
-      "alt": "Supervalu"
+      "alt": "Solis Inverters"
     },
     {
       "src": "/images/logos/Untitled-design-2024-02-27T110918.165.webp",
-      "alt": "Allianz"
+      "alt": "myenergi"
     },
     {
       "src": "/images/logos/Untitled-design-2024-02-22T215615.184.webp",
-      "alt": "SUIR Engineering"
+      "alt": "Sigenergy"
     },
     {
       "src": "/images/logos/Untitled-design-2024-02-22T213115.801.webp",
-      "alt": "Uisce Eireann"
+      "alt": "Weco"
     },
-    { "src": "/images/logos/glanbia-1.webp", "alt": "Glanbia" },
-    { "src": "/images/logos/aviva-2.webp", "alt": "Aviva" }
+    { "src": "/images/logos/glanbia-1.webp", "alt": "Aiko" },
+    { "src": "/images/logos/aviva-2.webp", "alt": "Toorak Construction" }
   ]
 }

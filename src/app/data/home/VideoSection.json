@@ -1,12 +1,12 @@
 {
   "enabled": true,
-  "eyebrow": "Get to Know Us",
-  "title": "Say Hello to Green-House!",
-  "subtitle": "Since 2006, we've been pioneers in the world of solar and renewable energy. Hit play and see what makes us Ireland's trusted renewable energy partner!",
+  "eyebrow": "See Our Work",
+  "title": "Solar Path in Action",
+  "subtitle": "All Solar Path installations include real-time monitoring via mobile, so you can track your generation daily. Watch how we deliver professional solar PV installations across Ireland.",
   "video": {
     "src": "/videos/Introductory Video.mp4",
     "playIcon": "▶",
     "playLabel": "Play video"
   },
-  "caption": "Over 2,800 projects completed and 1,000+ happy customers across Ireland."
+  "caption": "Professional solar PV installations across Cork and Ireland."
 }

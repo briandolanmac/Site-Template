@@ -3,7 +3,7 @@ import PageLayout from "../components/PageLayout";
 import pageData from "../data/pages/EvChargersPage.json";
 
 export const metadata: Metadata = {
-  title: "EV Charger Installation | Green-House Renewables",
+  title: "EV Charger Installation | Solar Path",
   description: "Professional EV charger installation for homes and businesses across Ireland. SEAI grant available. Charge your electric vehicle with solar energy.",
 };
 

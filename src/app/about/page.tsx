@@ -3,7 +3,7 @@ import PageLayout from "../components/PageLayout";
 import aboutData from "../data/pages/AboutPage.json";
 
 export const metadata: Metadata = {
-  title: "About Us | Green-House Renewables",
+  title: "About Us | Solar Path",
   description: aboutData.hero.description,
 };
 

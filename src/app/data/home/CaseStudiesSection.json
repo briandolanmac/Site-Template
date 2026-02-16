@@ -1,8 +1,8 @@
 {
   "enabled": true,
-  "eyebrow": "Our Work",
-  "title": "See Our Recent Projects",
-  "subtitle": "From residential homes to large-scale commercial installations, we've completed over 2,800 projects across Ireland. Here's a glimpse of our recent work.",
+  "eyebrow": "Case Studies & Stories",
+  "title": "Proven Results From Real Solar Path Customers",
+  "subtitle": "See how real homes, schools, and businesses across Ireland benefit from our solar PV systems. These projects show what happens after the install — real savings, performance data, and long-term satisfaction.",
   "cards": [
     {
       "image": { "src": "/images/case-studies/msd.webp", "alt": "Residential Solar Installation" },
@@ -11,8 +11,8 @@
         "alt": "Residential"
       },
       "sub": "Residential Solar",
-      "title": "Home Solar Installation",
-      "description": "A full solar PV system designed to maximise energy generation, lower electricity bills, and increase home value. Professional installation by our certified team.",
+      "title": "Home Solar PV Installation",
+      "description": "A full solar PV system designed to maximise energy generation, lower electricity bills, and increase home value. Professional installation by our certified team in Cork.",
       "stats": [
         { "value": "10", "label": "kWp" },
         { "value": "24", "label": "Panels" },
@@ -37,18 +37,18 @@
       "cta": { "label": "Get a Similar Quote →", "href": "/commercial-solar" }
     },
     {
-      "image": { "src": "/images/case-studies/UISCE.png", "alt": "New Build Development" },
+      "image": { "src": "/images/case-studies/UISCE.png", "alt": "Farm Solar Installation" },
       "logo": {
         "src": "/images/logos/Untitled-design-2024-02-22T213115.801.webp",
-        "alt": "New Build"
+        "alt": "Farm"
       },
-      "sub": "New Build Project",
-      "title": "Residential Development",
-      "description": "Full renewable mechanical systems for an entire housing development — heat pumps, underfloor heating, and solar. Every home meets strict building regulations.",
+      "sub": "Agricultural Solar",
+      "title": "Farm Solar PV System",
+      "description": "Agricultural solar PV installations offering farmers significant savings on energy costs, supporting agricultural electrification and energy independence.",
       "stats": [
-        { "value": "26", "label": "Houses" },
-        { "value": "Full", "label": "Renewable" },
-        { "value": "A-Rated", "label": "BER", "highlight": true }
+        { "value": "50+", "label": "kWp" },
+        { "value": "120", "label": "Panels" },
+        { "value": "€15k/yr", "label": "Savings", "highlight": true }
       ],
       "cta": { "label": "Get a Similar Quote →", "href": "/commercial-solar" }
     }

@@ -3,8 +3,8 @@
   "ratingLabel": "5.0 Rating",
   "ratingStars": "★★★★★",
   "quoteMark": "\"",
-  "title": "Don't Just Take Our Word For It",
-  "subtitle": "Over 1,000 happy customers across Ireland — here's what they have to say about working with us!",
+  "title": "Trusted by Homeowners Across Cork & Ireland",
+  "subtitle": "Looking for verified feedback from actual customers? These reviews reflect the full journey, from quote and survey to installation, monitoring, and aftercare.",
   "groups": [
     {
       "label": "Homeowners",
@@ -12,26 +12,26 @@
       "items": [
         {
           "company": "",
-          "quote": "Honestly, Green-House made the whole thing a breeze. From the first chat to flipping the switch, everything was smooth and stress-free. Our electricity bills? Way, way down!",
-          "author": "Sarah M.",
-          "role": "Dublin",
-          "avatar": "S",
+          "quote": "The quality of work from Solar Path was top-notch from start to finish. Everything was installed neatly and efficiently, and the team were a pleasure to deal with. We couldn't be happier with the whole experience and the level of support we received.",
+          "author": "Alanna Collins",
+          "role": "Cork",
+          "avatar": "A",
           "variant": "residential"
         },
         {
           "company": "",
-          "quote": "We picked Green-House because everyone said they were brilliant — and they totally lived up to it. The team were super tidy, finished on time, and left our roof looking great. Can't recommend them enough!",
-          "author": "Michael O.",
-          "role": "Wicklow",
+          "quote": "Genuinely delighted with the job Solar Path did. They were here bang on time, and from the minute they came in, they were nothing but professional. The whole team were sound out and really respectful of the house. 10 out of 10.",
+          "author": "Daria Buzykina",
+          "role": "Cork",
+          "avatar": "D",
+          "variant": "residential"
+        },
+        {
+          "company": "",
+          "quote": "I recently had Solar Path install a Sigenergy inverter with 8kWh storage and 15 solar panels, and I couldn't be happier with the entire experience. From the first consultation to the final installation, their team was professional, knowledgeable, and incredibly helpful.",
+          "author": "Michal Pekar",
+          "role": "Cork",
           "avatar": "M",
-          "variant": "residential"
-        },
-        {
-          "company": "",
-          "quote": "Brilliant from start to finish! They sorted all the SEAI paperwork for us (huge relief) and had the panels up in two days. Absolutely delighted with the results.",
-          "author": "James K.",
-          "role": "Kildare",
-          "avatar": "J",
           "variant": "residential"
         }
       ]
@@ -41,27 +41,27 @@
       "tone": "aqua",
       "items": [
         {
-          "company": "Commercial Client",
-          "quote": "Green-House really knocked it out of the park for us. They put together a solar setup that's already outperforming what they promised. Seriously impressed!",
-          "author": "Patrick D.",
+          "company": "Business Client",
+          "quote": "Solar Path answered all my questions and advice during the process based on my requirements to get a customized solution which allows me working from home reducing my bills and provides fault tolerance in case of power outage.",
+          "author": "Javier",
           "role": "Business Owner",
-          "avatar": "P",
+          "avatar": "J",
           "variant": "b2b"
         },
         {
-          "company": "Retail Business",
-          "quote": "These guys just get it. They designed a system that was spot-on for our needs, and we're already seeing the savings roll in. Total pros from day one.",
-          "author": "Emma R.",
-          "role": "Operations Manager",
-          "avatar": "E",
+          "company": "Homeowner",
+          "quote": "Very happy working with SolarPath to get our 20 panel 5kW system installed. Ken and his team couldn't have been more helpful in getting the correct solution for our needs. The after service support has been very strong and reassuring.",
+          "author": "John Paul O'Gorman",
+          "role": "Cork",
+          "avatar": "J",
           "variant": "b2b"
         },
         {
-          "company": "Property Developer",
-          "quote": "We keep going back to Green-House for our developments because they're reliable, knowledgeable, and always deliver top-notch work. Wouldn't use anyone else!",
-          "author": "David C.",
-          "role": "Project Director",
-          "avatar": "D",
+          "company": "Homeowner",
+          "quote": "Excellent value for money & high quality products & work. The installation was unobtrusive & despite inclement weather conditions the works were completed as agreed. Communications were clear with regular updating.",
+          "author": "Thomas Quigley",
+          "role": "Cork",
+          "avatar": "T",
           "variant": "b2b"
         }
       ]
@@ -69,6 +69,6 @@
   ],
   "cta": {
     "label": "See All Reviews →",
-    "href": "https://www.google.com/search?q=Green+House+Renewables+Reviews"
+    "href": "https://www.google.com/search?q=Solar+Path+Cork+Reviews"
   }
 }

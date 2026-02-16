@@ -1,29 +1,29 @@
 {
   "enabled": true,
-  "eyebrow": "Since 2006",
-  "title": "Why Go With Green-House?",
-  "description": "Green-House are one of Ireland's leading renewable and mechanical installers, specialising in both domestic and commercial projects of any size. From our vast experience we know that every home and family have different requirements. We tailor our renewable systems to match your needs, treating every project as if it was our own home.",
+  "eyebrow": "Trusted Solar Panel Company",
+  "title": "Why Solar Path Is Ireland's Leading SEAI-Registered Installer",
+  "description": "At Solar Path, our mission is to lead the solar industry in Ireland by providing professional, expert, and honest advice to deliver sustainable, customer-focused solutions. We set new standards in reliability, environmental responsibility, and cleanliness, ensuring excellence at every stage.",
   "image": {
-    "src": "/images/green-house-van.avif",
-    "alt": "Green-House Renewables Van"
+    "src": "/images/hero/hero-residential-new.jpg",
+    "alt": "Solar Path installation"
   },
   "award": {
     "icon": "🏆",
-    "title": "Pioneers Since 2006",
-    "subtitle": "Solar & Renewable Energy"
+    "title": "5-Star Rated",
+    "subtitle": "Solar Panel Company"
   },
   "trustItems": [
-    "✓ SEAI Approved Installer",
-    "✓ Lifetime Workmanship Guarantee",
-    "✓ 20+ Years Experience",
-    "✓ No Sub-Contracting",
-    "✓ Bespoke Energy Solutions"
+    "✓ SEAI Registered Solar Panel Company",
+    "✓ 5-Star Rating from Past Customers",
+    "✓ Full Warranty on All Installations",
+    "✓ Certified Electrical Contractors",
+    "✓ Transparent Pricing, No Hidden Costs"
   ],
   "stats": [
-    { "value": "1,000+", "label": "Happy Customers" },
-    { "value": "20+", "label": "Years Experience" },
-    { "value": "2,800+", "label": "Projects Completed" },
-    { "value": "15+", "label": "Dedicated Employees" }
+    { "value": "5.0", "label": "Star Rating" },
+    { "value": "30+", "label": "Google Reviews" },
+    { "value": "25+", "label": "Years Panel Lifespan" },
+    { "value": "70%", "label": "Bill Reduction" }
   ],
   "cta": { "label": "Get to Know Us →", "href": "/about" }
 }

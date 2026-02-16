@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Commercial Solar Solutions | Green-House Renewables",
-  description: "Commercial and business solar PV installations across Ireland. Reduce operating costs, meet sustainability targets, and benefit from SSAP grants. 1000+ installations completed.",
+  title: "Commercial Solar Solutions | Solar Path",
+  description: "Commercial and business solar PV installations across Ireland. Reduce operating costs, meet sustainability targets, and benefit from SSAP grants.",
 };
 
 export default function CommercialSolarPage() {
@@ -98,7 +98,7 @@ export default function CommercialSolarPage() {
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-extrabold">Trusted by Leading Businesses</h2>
-            <p className="text-gray-600 mt-2">We have completed 1,000+ installations for businesses across Ireland</p>
+            <p className="text-gray-600 mt-2">Trusted by businesses across Ireland for quality solar installations</p>
           </div>
           <div className="grid grid-cols-3 md:grid-cols-6 gap-6 items-center opacity-60">
             {[

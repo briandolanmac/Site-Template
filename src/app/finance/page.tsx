@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Finance Options | Green-House Renewables",
+  title: "Finance Options | Solar Path",
   description: "Affordable solar panel finance through our Finance Ireland partnership. Spread the cost with flexible payment plans. Go solar with no large upfront cost.",
 };
 

@@ -1,23 +1,23 @@
 {
   "hero": {
-    "eyebrow": "Trusted Home Solar Installers",
-    "title": "Solar Panel Installation",
-    "subtitle": "Get your free quote today and see why hundreds of homeowners trust Green-House to power their homes with clean, reliable solar energy."
+    "eyebrow": "Leading Solar Panel Company in Ireland",
+    "title": "Solar PV Panel Installation",
+    "subtitle": "Contact Solar Path for a free consultation about your solar project. We cover your €1,800 SEAI grant — no upfront cost."
   },
   "whySolar": {
-    "eyebrow": "Why Choose Green-House?",
-    "title": "A Smart Investment That Pays for Itself",
+    "eyebrow": "Why Choose Solar Path?",
+    "title": "Leading Solar Panel Company in Ireland",
     "paragraphs": [
-      "With over 20 years in business and more than 1,000 installations completed, Green-House is one of South Dublin's most experienced and trusted solar energy providers. As an SEAI-approved installer, we make the switch to solar simple, affordable, and completely hassle-free for homeowners across Dublin, Wicklow, Kildare, Meath and beyond.",
-      "Solar PV doesn't just lower your energy bills — it adds value to your home and gives you independence from rising electricity costs. Our systems are designed for long-term performance and backed by our lifetime guarantee."
+      "When choosing a solar installer, proven ability and background matter. At Solar Path, we stand among Ireland's top providers, delivering customised solar panel installation packages for homeowners, businesses, and the agri sector. Our priority on quality, reliability, and client satisfaction positions us as the go-to name in solar panels.",
+      "We supply a full service, handling every stage from initial consultation to final handover. Our expert solar PV team concentrates on domestic solar panel installation, matching each system to your household's energy requirements and budget. We also offer follow-up assistance to strengthen your peace of mind."
     ],
     "bullets": [
-      "SEAI Grants Available — up to €1,800 towards your solar system",
-      "Professional installation — smooth, tidy, and on time",
-      "We handle everything — paperwork, installation, and setup",
-      "Lifetime workmanship guarantee for total peace of mind",
-      "Lower your electricity bills every month",
-      "Get paid for surplus power sent back to the grid"
+      "SEAI solar grants available — up to €1,800",
+      "Sell excess electricity to the grid",
+      "Increase your property's value",
+      "Add optional battery storage",
+      "Real-time monitoring via mobile app",
+      "Full warranty on all installations"
     ],
     "image": {
       "src": "/images/hero/hero-residential-new.jpg",
@@ -25,30 +25,30 @@
     }
   },
   "process": {
-    "eyebrow": "Our Process",
-    "title": "From Consultation to Installation",
+    "eyebrow": "Solar PV Process",
+    "title": "From Quote to Power On",
     "steps": [
-      { "step": "1", "title": "Free Site Survey", "desc": "We visit your property to assess your roof, energy usage, and advise on the best solar system for your needs" },
-      { "step": "2", "title": "Custom Design", "desc": "We design a bespoke solar PV system tailored to your home for maximum energy generation" },
-      { "step": "3", "title": "Professional Install", "desc": "Our own certified team installs your system — no sub-contracting. Clean, tidy, and on budget" },
-      { "step": "4", "title": "Start Saving", "desc": "Your system goes live and you immediately start generating your own clean electricity" }
+      { "step": "1", "title": "Initial Consultation & Bill Analysis", "desc": "We examine your electricity usage to propose the right solar system for your needs" },
+      { "step": "2", "title": "Free Site Survey", "desc": "Our engineers assess your property for ideal system size and layout" },
+      { "step": "3", "title": "Custom System Design", "desc": "We design a solar PV array optimised for your specific requirements" },
+      { "step": "4", "title": "Installation & Commissioning", "desc": "Our SEAI-registered team installs your system to certified standards and verifies performance" }
     ]
   },
   "included": {
-    "title": "What's Included",
+    "title": "Benefits of Installing Solar Panels",
     "items": [
-      { "title": "Premium Solar Panels", "desc": "Cutting-edge solar technology with 25+ year performance warranty and maximum efficiency", "icon": "☀️" },
-      { "title": "Hybrid Inverter", "desc": "High-efficiency inverters that convert solar energy for home use and battery storage", "icon": "🔌" },
-      { "title": "Full Monitoring", "desc": "Real-time monitoring app so you can track your energy generation and savings", "icon": "📱" },
-      { "title": "SEAI Grant Handling", "desc": "We guide you through the grant process and help you claim up to €1,800", "icon": "📋" },
-      { "title": "Certified Installation", "desc": "Installed by our own Safe Electric certified electricians — no sub-contracting", "icon": "🔒" },
-      { "title": "Lifetime Guarantee", "desc": "We stand over our work with a lifetime workmanship guarantee for your total peace of mind", "icon": "🛡️" }
+      { "title": "Reduced Energy Bills", "desc": "Cut monthly costs with a solar PV system, creating free power and saving up to 70%", "icon": "💰" },
+      { "title": "Sustainable Choice", "desc": "Use renewable energy to reduce your carbon footprint and generate clean electricity from the sun", "icon": "🌱" },
+      { "title": "Higher Property Value", "desc": "Homes with solar panels attract more buyers and command higher prices", "icon": "🏠" },
+      { "title": "SEAI Grants", "desc": "Access a solar electricity grant of up to €1,800 — we handle the paperwork", "icon": "📋" },
+      { "title": "Minimal Upkeep", "desc": "Solar panels work efficiently with little or no maintenance for 25+ years", "icon": "🔧" },
+      { "title": "Fast Setup", "desc": "Solar panel installation can finish quickly, letting you enjoy energy savings right away", "icon": "⚡" }
     ]
   },
   "cta": {
-    "title": "Ready to Go Solar?",
-    "subtitle": "Fill in the quick form to receive your tailored home solar panel installation quote. We also offer a free site survey to advise on the best solar system for your needs.",
-    "primaryButton": { "label": "Get Free Quote", "href": "/quote-builder" },
+    "title": "Get Expert Solar PV Installation Today",
+    "subtitle": "Contact Solar Path for a free consultation. Our team will conduct a site survey and provide a detailed quote for your solar PV design and installation.",
+    "primaryButton": { "label": "Request Quotation", "href": "/quote-builder" },
     "secondaryButton": { "label": "Learn About Grants", "href": "/grants" }
   }
 }

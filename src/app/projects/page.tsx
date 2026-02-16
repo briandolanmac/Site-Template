@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Our Projects & Case Studies | Green-House Renewables",
-  description: "View our portfolio of 1,000+ solar installations across Ireland. Residential, commercial, and industrial case studies from Green-House Renewables.",
+  title: "Our Projects & Case Studies | Solar Path",
+  description: "View our portfolio of solar installations across Ireland. Residential, commercial, and industrial case studies from Solar Path.",
 };
 
 export default function ProjectsPage() {
@@ -24,8 +24,8 @@ export default function ProjectsPage() {
             Projects &amp; Case Studies
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-            Over 1,000 successful installations across Ireland — from family homes to
-            major commercial facilities.
+            Successful installations across Ireland — from family homes to
+            commercial facilities.
           </p>
         </div>
       </section>
@@ -107,10 +107,10 @@ export default function ProjectsPage() {
         <div className="container">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
-              { value: "1,000+", label: "Installations" },
-              { value: "100+", label: "5-Star Reviews" },
-              { value: "26", label: "Counties Served" },
-              { value: "15MW+", label: "Capacity Installed" },
+              { value: "5★", label: "Customer Rating" },
+              { value: "100%", label: "Customer Satisfaction" },
+              { value: "SEAI", label: "Registered Installer" },
+              { value: "Full", label: "Warranty Included" },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-3xl md:text-4xl font-extrabold mb-2" style={{ color: "#F5A623" }}>{stat.value}</div>
@@ -133,7 +133,7 @@ export default function ProjectsPage() {
             Your Project Could Be Next
           </h2>
           <p className="text-lg mb-8 opacity-90 max-w-xl mx-auto">
-            Join over 1,000 happy customers across Ireland.
+            Join our growing list of happy customers across Ireland.
           </p>
           <a
             href="/quote-builder"

@@ -1,20 +1,20 @@
 {
   "hero": {
-    "eyebrow": "Who We Are",
-    "title": "About Green-House Renewables",
-    "description": "Renewable home energy solutions — one of Ireland's leading renewable and mechanical installers, specialising in both domestic and commercial projects of any size."
+    "eyebrow": "About Solar Path",
+    "title": "Shaping a Sustainable Future",
+    "description": "At Solar Path, our mission is to lead the solar industry in Ireland by providing professional, expert, and honest advice to deliver sustainable, customer-focused solutions."
   },
   "story": {
-    "eyebrow": "Our Story",
-    "title": "Get to Know Us",
+    "eyebrow": "Our Mission",
+    "title": "Solar Energy Experts in Ireland",
     "paragraphs": [
-      "Green-House Renewables was founded in early 2006. The two owners, Vinny Novotny and Stephen O'Kane, were former employees of the company before having the opportunity to take over the business in 2013.",
-      "After completing their first full renewable mechanical project — a residential development of 26 new-build houses in Lyndhurst on the Herbert Road — they decided to push forward with the Green-House strategy of always supplying and installing the highest quality renewable energy systems to their main contractor and architect customers, as well as branching out to homeowners who wanted to retrofit their property with the same systems.",
-      "Vinny and Stephen have since grown the company to where it is today and continue to guide and direct the installation teams as well as the office staff who provide Green-House clients with bespoke heating and solar designs, SEAI grant details, and a wealth of knowledge and experience that has been built over the years."
+      "At Solar Path, our mission is to lead the solar industry in Ireland by providing professional, expert, and honest advice to deliver sustainable, customer-focused solutions. We set new standards in reliability, environmental responsibility, and cleanliness, ensuring excellence at every stage.",
+      "Our vision is to be at the forefront of Ireland's renewable energy transformation by pioneering solar advancements and driving large-scale projects, while continually evolving to meet the energy needs of homes, businesses, and communities.",
+      "At Solar Path, our team's expertise and dedication drive our mission to create sustainable solar solutions. Led by co-founders Ken Hegarty and John Dennehy, our team brings together backgrounds in law, property development, and Internet technology to deliver the best solar PV installations in Cork and across Ireland."
     ],
     "image": {
-      "src": "/images/green-house-van.avif",
-      "alt": "Green-House Renewables van"
+      "src": "/images/hero/hero-residential-new.jpg",
+      "alt": "Solar Path installation"
     }
   },
   "values": {
@@ -22,18 +22,18 @@
     "title": "Our Values",
     "items": [
       {
-        "title": "Bespoke Solutions",
-        "desc": "From our vast experience we know that every home and family have different requirements. We tailor our renewable heating systems to match your needs and ensure maximum comfort while delivering the most efficient system.",
+        "title": "Customer Focused",
+        "desc": "We prioritise each customer's specific requirements, treating every home with the utmost care. Our approach ensures you get a customised solution that matches your energy needs.",
         "icon": "🎯"
       },
       {
-        "title": "Quality & Experience",
-        "desc": "With over 18 years of experience and 2,800+ completed projects, we design, install, and back up our renewable systems — treating every project as if it were our own home.",
+        "title": "Technical Excellence",
+        "desc": "Certified commercial PV installers with extensive industry experience. Advanced system design for seamless integration, comprehensive maintenance and technical support.",
         "icon": "⭐"
       },
       {
-        "title": "Full Service",
-        "desc": "We handle everything from SEAI grants and paperwork to design, installation, and ongoing support. No sub-contracting — all work is done by our own qualified team.",
+        "title": "End-to-End Service",
+        "desc": "Detailed site assessments and energy analysis, bespoke solar power system designs, professional installations by accredited teams, and ongoing support with real-time system monitoring.",
         "icon": "🤝"
       }
     ]
@@ -47,24 +47,24 @@
         "icon": "✅"
       },
       {
-        "label": "Safe Electric Certified",
+        "label": "Certified Electrical Contractors",
         "icon": "🔒"
       },
       {
-        "label": "Certified Sigenergy Installers",
+        "label": "5-Star Customer Rating",
         "icon": "🏆"
       },
       {
-        "label": "Lifetime Workmanship Guarantee",
+        "label": "Full Warranty on All Installations",
         "icon": "🛡️"
       }
     ]
   },
   "cta": {
-    "title": "Ready to Start Your Renewable Energy Journey?",
-    "description": "Get a free, no-obligation quote from our expert team today. We'll guide you through the entire process.",
+    "title": "Get Expert Solar PV Installation Today",
+    "description": "Contact Solar Path for a free consultation about your solar project. Our team will conduct a site survey and provide a detailed quote.",
     "primaryButton": {
-      "label": "Get Free Quote",
+      "label": "Request Quotation",
       "href": "/quote-builder"
     },
     "secondaryButton": {

@@ -1,11 +1,11 @@
 {
   "enabled": true,
-  "title": "About",
-  "titleHighlight": "Green-House",
+  "title": "Why Choose",
+  "titleHighlight": "Solar Path",
   "items": [
-    { "icon": "😊", "value": "1,000+", "label": "Happy Customers" },
-    { "icon": "📅", "value": "20+", "label": "Years of Experience" },
-    { "icon": "🏗️", "value": "2,800+", "label": "Projects Completed" },
-    { "icon": "👥", "value": "15+", "label": "Team Members" }
+    { "icon": "⭐", "value": "5.0", "label": "Star Rating" },
+    { "icon": "📋", "value": "€1,800", "label": "SEAI Grant Covered" },
+    { "icon": "💰", "value": "70%", "label": "Bill Reduction" },
+    { "icon": "🔧", "value": "25+", "label": "Year Panel Lifespan" }
   ]
 }

@@ -1,7 +1,7 @@
-# Green-House Renewables - Next.js Website
+# Solar Path - Next.js Website
 
 ## Overview
-A Next.js 16 website for Green-House Renewables, an Irish solar energy company. The site showcases solar panel installations, battery storage, EV chargers, and related services for both residential and commercial customers.
+A Next.js 16 website for Solar Path (solarpath.ie), an Irish solar panel installer based in Cork. The site showcases solar PV installations for homes, farms, and businesses, plus battery storage and EV chargers. Features a modern dark navy (#0B1D3A) and orange/amber (#F5A623, #E8930C) color scheme.
 
 ## Project Architecture
 - **Framework**: Next.js 16.1.6 with React 19, TypeScript, Tailwind CSS 4
@@ -19,20 +19,20 @@ src/app/components/   - Reusable React components
   home/               - Homepage-specific components (Navigation, Footer, sections)
   PageLayout.tsx      - Shared layout wrapper for inner pages (Navigation + Footer + client JS)
 src/app/data/home/    - JSON data files for homepage sections (17 files)
-src/app/data/pages/   - JSON data files for inner pages (Solar Panels, Battery Storage, EV Chargers)
+src/app/data/pages/   - JSON data files for inner pages (Solar Panels, Battery Storage, EV Chargers, About)
 src/app/[route]/      - Individual page routes (about, solar-panels, contact, etc.)
 public/               - Static assets (images, videos, SVGs)
 ```
 
 ### Pages
 - `/` - Homepage with hero, services, impact stats, testimonials, FAQ
-- `/about` - Company story, team, values
+- `/about` - Company mission, team, values
 - `/solar-panels` - Residential solar PV systems
 - `/battery-storage` - Home battery storage solutions
 - `/commercial-solar` - Commercial solar solutions
 - `/ev-chargers` - EV charger installation
 - `/grants` - SEAI grants information
-- `/finance` - Finance Ireland partnership
+- `/finance` - Finance options
 - `/funding-options` - Business funding/SSAP grants
 - `/projects` - Portfolio/case studies
 - `/contact` - Contact form and info
@@ -54,16 +54,17 @@ public/               - Static assets (images, videos, SVGs)
 - **Start**: `npm run start`
 
 ## Recent Changes
-- 2026-02-16: Color scheme redesigned to match solarpath.ie - dark navy (#0B1D3A) primary, orange/amber (#F5A623, #E8930C) accents, replacing emerald green palette throughout all pages and components
+- 2026-02-16: Complete rebranding from Green-House Renewables to Solar Path - all JSON data files, page content, contact info, logos, social links, and metadata updated
+- 2026-02-16: Color scheme: dark navy (#0B1D3A) primary, orange/amber (#F5A623, #E8930C) accents
 - 2026-02-16: Added JSON data files and admin editing for Solar Panels, Battery Storage, and EV Chargers pages
-- 2026-02-16: Added admin panel at /admin for editing JSON data files, password-protected via ADMIN_PASSWORD env var
-- 2026-02-16: Fixed remaining cyan focus rings to emerald green, improved hero text contrast
-- 2026-02-13: Color palette updated to match green-house.ie - emerald green (#009968) primary, dark navy (#112F5B) secondary, gold (#CBB492) accent, dark teal (#12222E) backgrounds
-- 2026-02-12: Visual overhaul to casual/fun tone - brighter cyan/sky blue palette, coral/purple accents, rounder corners, unique colorful hero gradients per page
-- 2026-02-10: Created all 14 missing pages and PageLayout component to fix 404 navigation errors
-- 2026-02-10: Added scroll-triggered animations (IntersectionObserver-based) throughout homepage
-- 2026-02-10: Imported from GitHub, configured for Replit environment (allowedDevOrigins, port 5000)
+- 2026-02-16: Added admin panel at /admin for editing JSON data files
+- 2026-02-10: Created all pages and PageLayout component
+- 2026-02-10: Added scroll-triggered animations throughout homepage
+- 2026-02-10: Imported from GitHub, configured for Replit environment
 
 ## User Preferences
-- Brand: Green-House Renewables (green-house.ie)
-- Contact: +353 1 207 0006, info@green-house.ie, Deansgrange Business Park Blackrock Dublin
+- Brand: Solar Path (solarpath.ie)
+- Contact: 087 259 1114, sales@solarpath.ie, 82 South Mall Cork T12 E3TT
+- Social: Facebook (solarpathire), Instagram (solarpath.ireland)
+- Team: Ken Hegarty (CEO), John Dennehy (Director), Jose Alfaro, Neil Brown, David Walsh, Bryan O Sullivan
+- Design: Dark navy (#0B1D3A) primary, orange (#F5A623, #E8930C) accents

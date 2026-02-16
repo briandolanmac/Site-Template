@@ -3,8 +3,8 @@
   "arrow": "→",
   "cards": [
     {
-      "title": "Solar Panels",
-      "description": "Generate your own clean electricity and slash your energy bills",
+      "title": "Solar PV Panels",
+      "description": "Generate your own clean electricity and reduce your bills by up to 70%",
       "href": "/solar-panels"
     },
     {
@@ -19,7 +19,7 @@
     },
     {
       "title": "Commercial Solar",
-      "description": "Customised solar solutions for businesses of any size",
+      "description": "Cut operational costs with solar systems for businesses of any size",
       "href": "/commercial-solar"
     }
   ]

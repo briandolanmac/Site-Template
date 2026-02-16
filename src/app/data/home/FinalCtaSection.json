@@ -1,16 +1,16 @@
 {
   "enabled": true,
-  "title": "Ready to Make the Switch?",
-  "subtitle": "Join 1,000+ happy customers who've already gone solar with Green-House. Get your free, no-obligation quote today — we'll take care of everything.",
+  "title": "Book an Expert Solar PV Assessment",
+  "subtitle": "Contact Solar Path for a free consultation about your solar project. Our team will conduct a site survey and provide a detailed quote for your solar PV design and installation.",
   "buttons": [
     {
-      "label": "Get a Free Quote",
+      "label": "Request Quotation",
       "href": "/quote-builder",
       "variant": "primary"
     },
     {
-      "label": "Chat With Us",
-      "href": "/contact",
+      "label": "Call 087 259 1114",
+      "href": "tel:+353872591114",
       "variant": "outline"
     }
   ]

@@ -3,66 +3,66 @@
   "overlayOpacity": 5,
   "image": {
     "src": "/images/hero/hero-residential-new.jpg",
-    "alt": "Beautiful Irish home with solar panels"
+    "alt": "Solar panels installed on an Irish home"
   },
-  "eyebrow": "Renewable Home Energy Solutions",
+  "eyebrow": "We Cover Your €1,800 SEAI Grant",
   "headlineLines": [
-    "Power and Heat",
-    "Your Home With"
+    "Expert Solar PV",
+    "Installation in"
   ],
-  "headlineHighlight": "The Sun & The Air",
-  "subheading": "Your one-stop-shop for solar panels, heat pumps, EV chargers, and underfloor heating. Serving Irish homes and businesses since 2006.",
+  "headlineHighlight": "Cork & Ireland",
+  "subheading": "Leading solar panel installers in Cork and nationwide. From consultation to installation, Solar Path delivers customised solar PV systems for homes, farms, and businesses.",
   "cta": [
     {
-      "label": "Get a Free Quote",
+      "label": "Request Quotation",
       "href": "/quote-builder",
       "variant": "home"
     },
     {
-      "label": "Speak to an Expert",
-      "href": "/contact",
+      "label": "087 259 1114",
+      "href": "tel:+353872591114",
       "variant": "business"
     }
   ],
   "ctaArrow": "→",
   "badges": [
-    "SEAI Approved",
-    "20+ Years Experience",
-    "Lifetime Guarantee"
+    "SEAI Registered",
+    "5-Star Rated",
+    "Full Warranty"
   ],
   "mobileStats": [
     {
-      "value": "1,000+",
-      "label": "Happy Customers"
+      "value": "5.0",
+      "label": "Star Rating"
     },
     {
-      "value": "2,800+",
-      "label": "Projects Completed"
+      "value": "30+",
+      "label": "Google Reviews"
     },
     {
-      "value": "20+",
-      "label": "Years Experience"
+      "value": "100%",
+      "label": "Satisfaction"
     }
   ],
   "floatAward": {
     "icon": "🏆",
     "label": "Trusted",
     "titleLines": [
-      "SEAI Approved",
+      "SEAI Registered",
       "Installer"
     ]
   },
   "floatStats": {
     "icon": "⚡",
-    "value": "2,800+",
-    "label": "Projects Completed",
+    "value": "5.0",
+    "label": "Star Rating",
     "stars": "★★★★★",
-    "reviews": "1,000+ Happy Customers"
+    "reviews": "30+ Google Reviews"
   },
   "floatCert": {
     "icon": "🛡️",
-    "title": "Safe Electric",
-    "sub": "Certified"
+    "title": "Certified Electricians",
+    "sub": "Safe Electric"
   },
   "scrollLabel": "Explore"
 }
