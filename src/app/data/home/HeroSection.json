@@ -2,8 +2,8 @@
   "enabled": true,
   "overlayOpacity": 5,
   "image": {
-    "src": "/images/hero/hero-residential-new.jpg",
-    "alt": "Solar panels installed on an Irish home"
+    "src": "/images/hero/hero-solar-house.png",
+    "alt": "Irish countryside house with solar panels on the roof"
   },
   "eyebrow": "We Cover Your €1,800 SEAI Grant",
   "headlineLines": [
@@ -19,7 +19,7 @@
       "variant": "home"
     },
     {
-      "label": "087 259 1114",
+      "label": "Talk To An Expert",
       "href": "tel:+353872591114",
       "variant": "business"
     }
