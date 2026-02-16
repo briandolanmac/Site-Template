@@ -250,6 +250,27 @@ export default function AdminSidebar() {
   }, [getHeaders]);
 
   useEffect(() => {
+    const wasOpen = sessionStorage.getItem("admin_sidebar_open");
+    const storedFile = sessionStorage.getItem("admin_sidebar_file");
+    if (wasOpen === "true") {
+      setOpen(true);
+      if (storedFile) setActiveFile(storedFile);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (open) {
+      sessionStorage.setItem("admin_sidebar_open", "true");
+    } else {
+      sessionStorage.removeItem("admin_sidebar_open");
+    }
+  }, [open]);
+
+  useEffect(() => {
+    sessionStorage.setItem("admin_sidebar_file", activeFile);
+  }, [activeFile]);
+
+  useEffect(() => {
     if (!open) return;
     const stored = sessionStorage.getItem("admin_password");
     if (stored) {
@@ -299,13 +320,15 @@ export default function AdminSidebar() {
       });
 
       if (res.ok) {
-        setSaveStatus("Saved!");
+        setSaveStatus("Saved! Refreshing...");
         setModified((prev) => {
           const next = new Set(prev);
           next.delete(fileName);
           return next;
         });
-        setTimeout(() => setSaveStatus(""), 3000);
+        setTimeout(() => {
+          window.location.reload();
+        }, 500);
       } else {
         setSaveStatus("Error saving");
       }
