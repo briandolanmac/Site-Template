@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className="hero">
     <div className="hero-bg">
       <img src={heroData.image.src} alt={heroData.image.alt} />
-      <div className="hero-overlay"></div>
+      <div className="hero-overlay" style={{ opacity: heroData.overlayOpacity ?? 1 }}></div>
     </div>
 
     <div className="hero-floats">
