@@ -13,7 +13,7 @@
       "We are honoured to have won the Carlow Business Awards in both 2024 and 2025, recognising our commitment to excellence and community impact."
     ],
     "image": {
-      "src": "/images/team.avif",
+      "src": "/images/green-house-van.avif",
       "alt": "Green-House Renewables van"
     }
   },
@@ -42,10 +42,22 @@
     "eyebrow": "Our Credentials",
     "title": "Trusted & Certified",
     "items": [
-      { "label": "SEAI Registered", "icon": "✅" },
-      { "label": "Safe Electric Certified", "icon": "🔒" },
-      { "label": "Certified Sigenergy Installers", "icon": "🏆" },
-      { "label": "Carlow Business Awards 2024 & 2025", "icon": "🥇" }
+      {
+        "label": "SEAI Registered",
+        "icon": "✅"
+      },
+      {
+        "label": "Safe Electric Certified",
+        "icon": "🔒"
+      },
+      {
+        "label": "Certified Sigenergy Installers",
+        "icon": "🏆"
+      },
+      {
+        "label": "Carlow Business Awards 2024 & 2025",
+        "icon": "🥇"
+      }
     ]
   },
   "cta": {
