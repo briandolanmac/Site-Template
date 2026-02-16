@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
+import pageData from "../data/pages/BatteryStoragePage.json";
 
 export const metadata: Metadata = {
   title: "Battery Storage Solutions | Green-House Renewables",
@@ -7,6 +8,8 @@ export const metadata: Metadata = {
 };
 
 export default function BatteryStoragePage() {
+  const { hero, about, benefits, cta } = pageData;
+
   return (
     <PageLayout>
       <section
@@ -18,14 +21,13 @@ export default function BatteryStoragePage() {
       >
         <div className="container text-center">
           <p className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-80">
-            Energy Storage
+            {hero.eyebrow}
           </p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-            Home Battery Storage
+            {hero.title}
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-            Store your solar energy and use it when you need it most. Certified Sigenergy
-            battery systems for maximum independence.
+            {hero.subtitle}
           </p>
         </div>
       </section>
@@ -35,31 +37,19 @@ export default function BatteryStoragePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
-                Sigenergy Battery Systems
+                {about.eyebrow}
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
-                Power Your Home Day &amp; Night
+                {about.title}
               </h2>
-              <p className="text-gray-600 mb-4 leading-relaxed">
-                Without battery storage, excess solar energy generated during the day is
-                exported to the grid. A home battery stores this energy so you can use it in
-                the evening and at night — when electricity costs are highest.
-              </p>
-              <p className="text-gray-600 mb-4 leading-relaxed">
-                As Certified Sigenergy Installers, we provide cutting-edge battery systems
-                that integrate seamlessly with your solar panels. Sigenergy batteries are
-                known for their reliability, efficiency, and sleek design.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                A typical home battery can store 5-15kWh of energy, enough to power your home
-                through the evening and overnight. Combined with solar panels, you can achieve
-                up to 90% energy independence.
-              </p>
+              {about.paragraphs.map((p, i) => (
+                <p key={i} className={`text-gray-600 leading-relaxed ${i < about.paragraphs.length - 1 ? "mb-4" : ""}`}>{p}</p>
+              ))}
             </div>
             <div>
               <img
-                src="/images/case-studies/battery_storage.webp"
-                alt="Home battery storage system"
+                src={about.image.src}
+                alt={about.image.alt}
                 className="rounded-2xl shadow-lg w-full"
               />
             </div>
@@ -70,17 +60,10 @@ export default function BatteryStoragePage() {
       <section className="py-16 md:py-20" style={{ background: "var(--bg-secondary)" }}>
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold">Benefits of Battery Storage</h2>
+            <h2 className="text-3xl font-extrabold">{benefits.title}</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            {[
-              { title: "Energy Independence", desc: "Reduce your reliance on the grid and protect against rising energy prices", icon: "🔋" },
-              { title: "Use Solar at Night", desc: "Store daytime solar energy and use it in the evening when you need it most", icon: "🌙" },
-              { title: "Backup Power", desc: "Keep essential appliances running during power outages with battery backup", icon: "⚡" },
-              { title: "Smart Management", desc: "Intelligent energy management optimises when to store, use, or export energy", icon: "🧠" },
-              { title: "Maximise Savings", desc: "Use more of your own solar energy instead of buying expensive grid electricity", icon: "💰" },
-              { title: "Future Proof", desc: "Scalable systems that can grow with your energy needs over time", icon: "🔄" },
-            ].map((item) => (
+            {benefits.items.map((item) => (
               <div
                 key={item.title}
                 className="p-6 rounded-xl shadow-sm text-center"
@@ -104,14 +87,13 @@ export default function BatteryStoragePage() {
       >
         <div className="container text-center">
           <h2 className="text-3xl font-extrabold mb-4">
-            Add Battery Storage to Your Home
+            {cta.title}
           </h2>
           <p className="text-lg mb-8 opacity-90 max-w-xl mx-auto">
-            Whether you already have solar panels or are starting fresh, we can design the
-            perfect battery storage solution for your home.
+            {cta.subtitle}
           </p>
           <a
-            href="/quote-builder"
+            href={cta.primaryButton.href}
             style={{
               background: "#fff",
               color: "#009968",
@@ -121,7 +103,7 @@ export default function BatteryStoragePage() {
               display: "inline-block",
             }}
           >
-            Get Free Quote
+            {cta.primaryButton.label}
           </a>
         </div>
       </section>

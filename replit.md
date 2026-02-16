@@ -19,6 +19,7 @@ src/app/components/   - Reusable React components
   home/               - Homepage-specific components (Navigation, Footer, sections)
   PageLayout.tsx      - Shared layout wrapper for inner pages (Navigation + Footer + client JS)
 src/app/data/home/    - JSON data files for homepage sections (17 files)
+src/app/data/pages/   - JSON data files for inner pages (Solar Panels, Battery Storage, EV Chargers)
 src/app/[route]/      - Individual page routes (about, solar-panels, contact, etc.)
 public/               - Static assets (images, videos, SVGs)
 ```
@@ -53,6 +54,7 @@ public/               - Static assets (images, videos, SVGs)
 - **Start**: `npm run start`
 
 ## Recent Changes
+- 2026-02-16: Added JSON data files and admin editing for Solar Panels, Battery Storage, and EV Chargers pages
 - 2026-02-16: Added admin panel at /admin for editing JSON data files, password-protected via ADMIN_PASSWORD env var
 - 2026-02-16: Fixed remaining cyan focus rings to emerald green, improved hero text contrast
 - 2026-02-13: Color palette updated to match green-house.ie - emerald green (#009968) primary, dark navy (#112F5B) secondary, gold (#CBB492) accent, dark teal (#12222E) backgrounds

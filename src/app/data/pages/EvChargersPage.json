@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "eyebrow": "Electric Vehicle Charging",
+    "title": "EV Charger Installation",
+    "subtitle": "Charge your electric vehicle at home or work with a professionally installed EV charger. Pair with solar panels for free motoring."
+  },
+  "about": {
+    "eyebrow": "Home EV Charging",
+    "title": "Charge at Home, Save Every Day",
+    "paragraphs": [
+      "A home EV charger is up to 3x faster than a standard plug socket and far safer for daily use. Our Safe Electric certified electricians install your charger to the highest safety standards.",
+      "Pair your EV charger with a solar PV system and charge your car with free, clean energy from your roof. This combination can save you thousands per year compared to petrol or diesel.",
+      "SEAI grants are available for home EV charger installations, further reducing the cost of making the switch to electric driving."
+    ],
+    "features": [
+      { "title": "Fast Charging", "desc": "Up to 7.4kW home chargers — fully charge overnight", "icon": "⚡" },
+      { "title": "Solar Compatible", "desc": "Integrate with your solar panels for free charging", "icon": "☀️" },
+      { "title": "Smart Features", "desc": "Schedule charging, monitor usage, and optimise costs via app", "icon": "📱" },
+      { "title": "SEAI Grant", "desc": "Grants available for home EV charger installations", "icon": "💰" }
+    ]
+  },
+  "business": {
+    "title": "Business EV Charging",
+    "subtitle": "We also install commercial EV charging stations for workplaces, car parks, and public locations.",
+    "items": [
+      { "title": "Workplace Charging", "desc": "Provide charging for employees and visitors at your business premises", "icon": "🏢" },
+      { "title": "Fleet Charging", "desc": "Charge your company fleet vehicles efficiently and cost-effectively", "icon": "🚐" },
+      { "title": "Public Charging", "desc": "Install public EV chargers for retail, hospitality, and leisure venues", "icon": "🅿️" }
+    ]
+  },
+  "cta": {
+    "title": "Get an EV Charger Installed",
+    "subtitle": "Fast, professional installation by certified electricians. Contact us today.",
+    "primaryButton": { "label": "Get a Quote", "href": "/contact" }
+  }
+}

@@ -2,27 +2,42 @@ import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 
-const DATA_DIR = path.join(process.cwd(), "src/app/data/home");
+const DATA_BASE = path.join(process.cwd(), "src/app/data");
 
 const VALID_FILES = [
-  "HeroSection.json",
-  "Navigation.json",
-  "Footer.json",
-  "ServiceCardsSection.json",
-  "ServicesSection.json",
-  "TestimonialsSection.json",
-  "FaqSection.json",
-  "ImpactSection.json",
-  "FinalCtaSection.json",
-  "HomePage.json",
-  "VideoSection.json",
-  "CaseStudiesSection.json",
-  "HowSection.json",
-  "WhyChooseSection.json",
-  "TrustBarSection.json",
-  "PartnersStripSection.json",
-  "AccreditationsSection.json",
+  "home/HeroSection.json",
+  "home/Navigation.json",
+  "home/Footer.json",
+  "home/ServiceCardsSection.json",
+  "home/ServicesSection.json",
+  "home/TestimonialsSection.json",
+  "home/FaqSection.json",
+  "home/ImpactSection.json",
+  "home/FinalCtaSection.json",
+  "home/HomePage.json",
+  "home/VideoSection.json",
+  "home/CaseStudiesSection.json",
+  "home/HowSection.json",
+  "home/WhyChooseSection.json",
+  "home/TrustBarSection.json",
+  "home/PartnersStripSection.json",
+  "home/AccreditationsSection.json",
+  "pages/SolarPanelsPage.json",
+  "pages/BatteryStoragePage.json",
+  "pages/EvChargersPage.json",
 ];
+
+function toApiKey(fullPath: string): string {
+  if (fullPath.startsWith("home/")) return fullPath.replace("home/", "");
+  return fullPath;
+}
+
+function toFullPath(apiKey: string): string | null {
+  if (VALID_FILES.includes(apiKey)) return apiKey;
+  const homePath = "home/" + apiKey;
+  if (VALID_FILES.includes(homePath)) return homePath;
+  return null;
+}
 
 function checkAuth(request: NextRequest): boolean {
   const password = request.headers.get("x-admin-password");
@@ -53,10 +68,11 @@ export async function GET(request: NextRequest) {
 
   try {
     if (file) {
-      if (!VALID_FILES.includes(file)) {
+      const fullPath = toFullPath(file);
+      if (!fullPath) {
         return NextResponse.json({ error: "Invalid file" }, { status: 400 });
       }
-      const filePath = path.join(DATA_DIR, file);
+      const filePath = path.join(DATA_BASE, fullPath);
       const result = readJsonFile(filePath);
       if (result.error) {
         return NextResponse.json({ error: result.error }, { status: 500 });
@@ -66,12 +82,13 @@ export async function GET(request: NextRequest) {
 
     const files = [];
     for (const f of VALID_FILES) {
-      const filePath = path.join(DATA_DIR, f);
+      const filePath = path.join(DATA_BASE, f);
       const result = readJsonFile(filePath);
+      const key = toApiKey(f);
       if (result.error) {
-        files.push({ file: f, data: {}, error: result.error });
+        files.push({ file: key, data: {}, error: result.error });
       } else {
-        files.push({ file: f, data: result.data });
+        files.push({ file: key, data: result.data });
       }
     }
 
@@ -90,7 +107,8 @@ export async function PUT(request: NextRequest) {
     const body = await request.json();
     const { file, data } = body;
 
-    if (!file || !VALID_FILES.includes(file)) {
+    const fullPath = toFullPath(file);
+    if (!file || !fullPath) {
       return NextResponse.json({ error: "Invalid file" }, { status: 400 });
     }
 
@@ -98,7 +116,7 @@ export async function PUT(request: NextRequest) {
       return NextResponse.json({ error: "No data provided" }, { status: 400 });
     }
 
-    const filePath = path.join(DATA_DIR, file);
+    const filePath = path.join(DATA_BASE, fullPath);
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + "\n");
 
     return NextResponse.json({ success: true, file });

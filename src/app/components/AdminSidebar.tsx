@@ -20,6 +20,9 @@ const SECTION_LABELS: Record<string, string> = {
   "AccreditationsSection.json": "Accreditations",
   "FinalCtaSection.json": "Final CTA",
   "Footer.json": "Footer",
+  "pages/SolarPanelsPage.json": "Solar Panels Page",
+  "pages/BatteryStoragePage.json": "Battery Storage Page",
+  "pages/EvChargersPage.json": "EV Chargers Page",
 };
 
 const SECTION_ORDER = [
@@ -40,6 +43,9 @@ const SECTION_ORDER = [
   "AccreditationsSection.json",
   "FinalCtaSection.json",
   "Footer.json",
+  "pages/SolarPanelsPage.json",
+  "pages/BatteryStoragePage.json",
+  "pages/EvChargersPage.json",
 ];
 
 interface FileData {

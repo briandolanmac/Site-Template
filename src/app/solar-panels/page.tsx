@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
+import pageData from "../data/pages/SolarPanelsPage.json";
 
 export const metadata: Metadata = {
   title: "Solar Panels Ireland | Green-House Renewables",
@@ -7,6 +8,8 @@ export const metadata: Metadata = {
 };
 
 export default function SolarPanelsPage() {
+  const { hero, whySolar, process, included, cta } = pageData;
+
   return (
     <PageLayout>
       <section
@@ -18,14 +21,13 @@ export default function SolarPanelsPage() {
       >
         <div className="container text-center">
           <p className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-80">
-            Residential Solar
+            {hero.eyebrow}
           </p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-            Solar Panels for Your Home
+            {hero.title}
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-            Generate your own clean electricity, reduce your bills by up to 70%, and increase
-            your property value with a premium solar PV system.
+            {hero.subtitle}
           </p>
         </div>
       </section>
@@ -35,30 +37,16 @@ export default function SolarPanelsPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
-                Why Solar PV?
+                {whySolar.eyebrow}
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
-                Power Your Home with Sunshine
+                {whySolar.title}
               </h2>
-              <p className="text-gray-600 mb-4 leading-relaxed">
-                Solar PV panels convert sunlight into electricity for your home. Even in
-                Ireland&apos;s climate, solar panels generate significant energy — enough to
-                reduce your electricity bills by up to 70% per year.
-              </p>
-              <p className="text-gray-600 mb-4 leading-relaxed">
-                With the SEAI grant of up to €2,100 and 0% VAT, there has never been a better
-                time to invest in solar. Combined with the microgeneration scheme, you can even
-                sell excess electricity back to the grid.
-              </p>
+              {whySolar.paragraphs.map((p, i) => (
+                <p key={i} className="text-gray-600 mb-4 leading-relaxed">{p}</p>
+              ))}
               <ul className="space-y-3">
-                {[
-                  "Save up to 70% on electricity bills",
-                  "Up to €2,100 SEAI grant available",
-                  "0% VAT on residential installations",
-                  "25+ year panel warranty",
-                  "Increase your property value",
-                  "Sell excess energy back to the grid",
-                ].map((item) => (
+                {whySolar.bullets.map((item) => (
                   <li key={item} className="flex items-start gap-2">
                     <span style={{ color: "#009968" }} className="font-bold mt-0.5">✓</span>
                     <span className="text-gray-600">{item}</span>
@@ -68,8 +56,8 @@ export default function SolarPanelsPage() {
             </div>
             <div>
               <img
-                src="/images/hero/hero-residential-new.jpg"
-                alt="Solar panels installed on a residential home"
+                src={whySolar.image.src}
+                alt={whySolar.image.alt}
                 className="rounded-2xl shadow-lg w-full"
               />
             </div>
@@ -81,17 +69,12 @@ export default function SolarPanelsPage() {
         <div className="container">
           <div className="text-center mb-12">
             <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
-              Our Process
+              {process.eyebrow}
             </p>
-            <h2 className="text-3xl font-extrabold">From Consultation to Installation</h2>
+            <h2 className="text-3xl font-extrabold">{process.title}</h2>
           </div>
           <div className="grid md:grid-cols-4 gap-8">
-            {[
-              { step: "1", title: "Free Survey", desc: "Our experts assess your roof, energy usage, and design the optimal system" },
-              { step: "2", title: "Custom Design", desc: "We design a bespoke solar PV system tailored to your home and needs" },
-              { step: "3", title: "Professional Install", desc: "Our certified electricians install your system in just 1-2 days" },
-              { step: "4", title: "Start Saving", desc: "Your system goes live and you immediately start generating free electricity" },
-            ].map((item) => (
+            {process.steps.map((item) => (
               <div key={item.step} className="text-center">
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4"
@@ -110,17 +93,10 @@ export default function SolarPanelsPage() {
       <section className="py-16 md:py-20">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold">What&apos;s Included</h2>
+            <h2 className="text-3xl font-extrabold">{included.title}</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            {[
-              { title: "Premium Solar Panels", desc: "Tier 1 panels with 25+ year performance warranty and maximum efficiency", icon: "☀️" },
-              { title: "Hybrid Inverter", desc: "High-efficiency inverters that convert solar energy for home use and battery storage", icon: "🔌" },
-              { title: "Full Monitoring", desc: "Real-time monitoring app so you can track your energy generation and savings", icon: "📱" },
-              { title: "SEAI Grant Handling", desc: "We manage your complete SEAI grant application from start to finish", icon: "📋" },
-              { title: "Certified Installation", desc: "Installed by Safe Electric certified electricians to the highest standards", icon: "🔒" },
-              { title: "Aftercare Support", desc: "Ongoing support and maintenance to ensure your system performs optimally", icon: "🛠️" },
-            ].map((item) => (
+            {included.items.map((item) => (
               <div
                 key={item.title}
                 className="p-6 rounded-xl shadow-sm border text-center"
@@ -144,14 +120,14 @@ export default function SolarPanelsPage() {
       >
         <div className="container text-center">
           <h2 className="text-3xl font-extrabold mb-4">
-            Ready to Go Solar?
+            {cta.title}
           </h2>
           <p className="text-lg mb-8 opacity-90 max-w-xl mx-auto">
-            Get a free, no-obligation quote and start saving on your energy bills today.
+            {cta.subtitle}
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="/quote-builder"
+              href={cta.primaryButton.href}
               style={{
                 background: "#fff",
                 color: "#009968",
@@ -161,21 +137,23 @@ export default function SolarPanelsPage() {
                 display: "inline-block",
               }}
             >
-              Get Free Quote
+              {cta.primaryButton.label}
             </a>
-            <a
-              href="/grants"
-              style={{
-                border: "2px solid #fff",
-                color: "#fff",
-                padding: "0.875rem 2rem",
-                borderRadius: "0.5rem",
-                fontWeight: 700,
-                display: "inline-block",
-              }}
-            >
-              Learn About Grants
-            </a>
+            {cta.secondaryButton && (
+              <a
+                href={cta.secondaryButton.href}
+                style={{
+                  border: "2px solid #fff",
+                  color: "#fff",
+                  padding: "0.875rem 2rem",
+                  borderRadius: "0.5rem",
+                  fontWeight: 700,
+                  display: "inline-block",
+                }}
+              >
+                {cta.secondaryButton.label}
+              </a>
+            )}
           </div>
         </div>
       </section>

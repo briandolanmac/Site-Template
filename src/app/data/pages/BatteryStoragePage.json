@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "eyebrow": "Energy Storage",
+    "title": "Home Battery Storage",
+    "subtitle": "Store your solar energy and use it when you need it most. Certified Sigenergy battery systems for maximum independence."
+  },
+  "about": {
+    "eyebrow": "Sigenergy Battery Systems",
+    "title": "Power Your Home Day & Night",
+    "paragraphs": [
+      "Without battery storage, excess solar energy generated during the day is exported to the grid. A home battery stores this energy so you can use it in the evening and at night — when electricity costs are highest.",
+      "As Certified Sigenergy Installers, we provide cutting-edge battery systems that integrate seamlessly with your solar panels. Sigenergy batteries are known for their reliability, efficiency, and sleek design.",
+      "A typical home battery can store 5-15kWh of energy, enough to power your home through the evening and overnight. Combined with solar panels, you can achieve up to 90% energy independence."
+    ],
+    "image": {
+      "src": "/images/case-studies/battery_storage.webp",
+      "alt": "Home battery storage system"
+    }
+  },
+  "benefits": {
+    "title": "Benefits of Battery Storage",
+    "items": [
+      { "title": "Energy Independence", "desc": "Reduce your reliance on the grid and protect against rising energy prices", "icon": "🔋" },
+      { "title": "Use Solar at Night", "desc": "Store daytime solar energy and use it in the evening when you need it most", "icon": "🌙" },
+      { "title": "Backup Power", "desc": "Keep essential appliances running during power outages with battery backup", "icon": "⚡" },
+      { "title": "Smart Management", "desc": "Intelligent energy management optimises when to store, use, or export energy", "icon": "🧠" },
+      { "title": "Maximise Savings", "desc": "Use more of your own solar energy instead of buying expensive grid electricity", "icon": "💰" },
+      { "title": "Future Proof", "desc": "Scalable systems that can grow with your energy needs over time", "icon": "🔄" }
+    ]
+  },
+  "cta": {
+    "title": "Add Battery Storage to Your Home",
+    "subtitle": "Whether you already have solar panels or are starting fresh, we can design the perfect battery storage solution for your home.",
+    "primaryButton": { "label": "Get Free Quote", "href": "/quote-builder" }
+  }
+}

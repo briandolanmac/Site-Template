@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "eyebrow": "Residential Solar",
+    "title": "Solar Panels for Your Home",
+    "subtitle": "Generate your own clean electricity, reduce your bills by up to 70%, and increase your property value with a premium solar PV system."
+  },
+  "whySolar": {
+    "eyebrow": "Why Solar PV?",
+    "title": "Power Your Home with Sunshine",
+    "paragraphs": [
+      "Solar PV panels convert sunlight into electricity for your home. Even in Ireland's climate, solar panels generate significant energy — enough to reduce your electricity bills by up to 70% per year.",
+      "With the SEAI grant of up to €2,100 and 0% VAT, there has never been a better time to invest in solar. Combined with the microgeneration scheme, you can even sell excess electricity back to the grid."
+    ],
+    "bullets": [
+      "Save up to 70% on electricity bills",
+      "Up to €2,100 SEAI grant available",
+      "0% VAT on residential installations",
+      "25+ year panel warranty",
+      "Increase your property value",
+      "Sell excess energy back to the grid"
+    ],
+    "image": {
+      "src": "/images/hero/hero-residential-new.jpg",
+      "alt": "Solar panels installed on a residential home"
+    }
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "title": "From Consultation to Installation",
+    "steps": [
+      { "step": "1", "title": "Free Survey", "desc": "Our experts assess your roof, energy usage, and design the optimal system" },
+      { "step": "2", "title": "Custom Design", "desc": "We design a bespoke solar PV system tailored to your home and needs" },
+      { "step": "3", "title": "Professional Install", "desc": "Our certified electricians install your system in just 1-2 days" },
+      { "step": "4", "title": "Start Saving", "desc": "Your system goes live and you immediately start generating free electricity" }
+    ]
+  },
+  "included": {
+    "title": "What's Included",
+    "items": [
+      { "title": "Premium Solar Panels", "desc": "Tier 1 panels with 25+ year performance warranty and maximum efficiency", "icon": "☀️" },
+      { "title": "Hybrid Inverter", "desc": "High-efficiency inverters that convert solar energy for home use and battery storage", "icon": "🔌" },
+      { "title": "Full Monitoring", "desc": "Real-time monitoring app so you can track your energy generation and savings", "icon": "📱" },
+      { "title": "SEAI Grant Handling", "desc": "We manage your complete SEAI grant application from start to finish", "icon": "📋" },
+      { "title": "Certified Installation", "desc": "Installed by Safe Electric certified electricians to the highest standards", "icon": "🔒" },
+      { "title": "Aftercare Support", "desc": "Ongoing support and maintenance to ensure your system performs optimally", "icon": "🛠️" }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Go Solar?",
+    "subtitle": "Get a free, no-obligation quote and start saving on your energy bills today.",
+    "primaryButton": { "label": "Get Free Quote", "href": "/quote-builder" },
+    "secondaryButton": { "label": "Learn About Grants", "href": "/grants" }
+  }
+}
