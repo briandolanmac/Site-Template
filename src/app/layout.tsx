@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, League_Spartan } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
+import "./admin-sidebar.css";
+import AdminSidebar from "./components/AdminSidebar";
 
 const leagueSpartan = League_Spartan({
   variable: "--font-league-spartan",
@@ -36,6 +38,7 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="data-theme" defaultTheme="light">
           {children}
+          <AdminSidebar />
         </ThemeProvider>
       </body>
     </html>

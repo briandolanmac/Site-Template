@@ -5,24 +5,51 @@
     "alt": "Beautiful Irish home with solar panels"
   },
   "eyebrow": "Renewable Home Energy Solutions",
-  "headlineLines": ["Power and Heat", "Your Home With"],
-  "headlineHighlight": "the Sun and the Air",
+  "headlineLines": [
+    "Power and Heat",
+    "Your Home With"
+  ],
+  "headlineHighlight": "the Sun and the Air!",
   "subheading": "We are your one-stop-shop for researching, purchasing, and installing advanced clean energy solutions, including solar panels, electric car chargers, and heat pumps.",
   "cta": [
-    { "label": "Get a Quote", "href": "/quote-builder", "variant": "home" },
-    { "label": "Our Services", "href": "#services", "variant": "business" }
+    {
+      "label": "Get a Quote",
+      "href": "/quote-builder",
+      "variant": "home"
+    },
+    {
+      "label": "Our Services",
+      "href": "#services",
+      "variant": "business"
+    }
   ],
   "ctaArrow": "→",
-  "badges": ["SEAI Grants", "Lifetime Guarantee", "20+ Years Experience"],
+  "badges": [
+    "SEAI Grants",
+    "Lifetime Guarantee",
+    "20+ Years Experience"
+  ],
   "mobileStats": [
-    { "value": "1,000+", "label": "Happy Customers" },
-    { "value": "2,800+", "label": "Projects" },
-    { "value": "18+", "label": "Years Experience" }
+    {
+      "value": "1,000+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": "2,800+",
+      "label": "Projects"
+    },
+    {
+      "value": "18+",
+      "label": "Years Experience"
+    }
   ],
   "floatAward": {
     "icon": "🏆",
     "label": "Trusted",
-    "titleLines": ["SEAI Approved", "Installer"]
+    "titleLines": [
+      "SEAI Approved",
+      "Installer"
+    ]
   },
   "floatStats": {
     "icon": "⚡",
