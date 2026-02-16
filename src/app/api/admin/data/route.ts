@@ -22,6 +22,7 @@ const VALID_FILES = [
   "home/TrustBarSection.json",
   "home/PartnersStripSection.json",
   "home/AccreditationsSection.json",
+  "pages/AboutPage.json",
   "pages/SolarPanelsPage.json",
   "pages/BatteryStoragePage.json",
   "pages/EvChargersPage.json",

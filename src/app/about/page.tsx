@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
+import aboutData from "../data/pages/AboutPage.json";
 
 export const metadata: Metadata = {
   title: "About Us | Green-House Renewables",
-  description: "Learn about Green-House Renewables, Ireland's trusted solar energy company based in Blackrock, Dublin. SEAI registered, Safe Electric certified, and Carlow Business Award winners 2024 & 2025.",
+  description: aboutData.hero.description,
 };
 
 export default function AboutPage() {
@@ -18,14 +19,13 @@ export default function AboutPage() {
       >
         <div className="container text-center">
           <p className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-80">
-            Who We Are
+            {aboutData.hero.eyebrow}
           </p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-            About Green-House Renewables
+            {aboutData.hero.title}
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-            Your sustainability partner — helping homeowners and businesses across Ireland
-            save money while reducing their carbon footprint.
+            {aboutData.hero.description}
           </p>
         </div>
       </section>
@@ -35,32 +35,21 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-sm font-semibold uppercase tracking-widest text-teal-600 mb-2">
-                Our Story
+                {aboutData.story.eyebrow}
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
-                Powering Ireland&apos;s Green Future
+                {aboutData.story.title}
               </h2>
-              <p className="text-gray-600 mb-4 leading-relaxed">
-                Based in Deansgrange Business Park, Blackrock, Dublin and serving all of Ireland, Green-House Renewables was founded with a
-                clear mission: to make renewable energy accessible and affordable for every Irish
-                home and business. We are proud Certified Sigenergy Installers, SEAI Registered,
-                and Safe Electric Certified.
-              </p>
-              <p className="text-gray-600 mb-4 leading-relaxed">
-                With over 1,000 successful installations and 100+ five-star reviews, we have
-                built a reputation for quality workmanship, transparent pricing, and exceptional
-                customer service. Our team of qualified engineers and electricians bring years of
-                expertise to every project.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                We are honoured to have won the Carlow Business Awards in both 2024 and 2025,
-                recognising our commitment to excellence and community impact.
-              </p>
+              {aboutData.story.paragraphs.map((p, i) => (
+                <p key={i} className={`text-gray-600 leading-relaxed ${i < aboutData.story.paragraphs.length - 1 ? "mb-4" : ""}`}>
+                  {p}
+                </p>
+              ))}
             </div>
             <div className="relative">
               <img
-                src="/images/team.jpg"
-                alt="The Green-House Renewables team"
+                src={aboutData.story.image.src}
+                alt={aboutData.story.image.alt}
                 className="rounded-2xl shadow-lg w-full"
               />
             </div>
@@ -72,28 +61,12 @@ export default function AboutPage() {
         <div className="container">
           <div className="text-center mb-12">
             <p className="text-sm font-semibold uppercase tracking-widest text-teal-600 mb-2">
-              Why Choose Us
+              {aboutData.values.eyebrow}
             </p>
-            <h2 className="text-3xl font-extrabold">Our Values</h2>
+            <h2 className="text-3xl font-extrabold">{aboutData.values.title}</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                title: "Quality First",
-                desc: "We use only premium components and follow best-practice installation standards. Every system is designed to deliver maximum performance for decades.",
-                icon: "⭐",
-              },
-              {
-                title: "Customer Focus",
-                desc: "From initial consultation to aftercare, we guide you through every step. Our 100+ five-star reviews speak to the experience we deliver.",
-                icon: "🤝",
-              },
-              {
-                title: "Sustainability",
-                desc: "We are passionate about reducing Ireland's carbon emissions. Every solar panel we install helps create a cleaner, greener future for generations to come.",
-                icon: "🌱",
-              },
-            ].map((item) => (
+            {aboutData.values.items.map((item) => (
               <div
                 key={item.title}
                 className="bg-white rounded-2xl p-8 shadow-md text-center"
@@ -112,17 +85,12 @@ export default function AboutPage() {
         <div className="container">
           <div className="text-center mb-12">
             <p className="text-sm font-semibold uppercase tracking-widest text-teal-600 mb-2">
-              Our Credentials
+              {aboutData.credentials.eyebrow}
             </p>
-            <h2 className="text-3xl font-extrabold">Trusted &amp; Certified</h2>
+            <h2 className="text-3xl font-extrabold">{aboutData.credentials.title}</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {[
-              { label: "SEAI Registered", icon: "✅" },
-              { label: "Safe Electric Certified", icon: "🔒" },
-              { label: "Certified Sigenergy Installers", icon: "🏆" },
-              { label: "Carlow Business Awards 2024 & 2025", icon: "🥇" },
-            ].map((cert) => (
+            {aboutData.credentials.items.map((cert) => (
               <div
                 key={cert.label}
                 className="rounded-xl p-6 text-center shadow-sm border"
@@ -145,14 +113,14 @@ export default function AboutPage() {
       >
         <div className="container text-center">
           <h2 className="text-3xl font-extrabold mb-4">
-            Ready to Start Your Solar Journey?
+            {aboutData.cta.title}
           </h2>
           <p className="text-lg mb-8 opacity-90 max-w-xl mx-auto">
-            Get a free, no-obligation quote from our expert team today.
+            {aboutData.cta.description}
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="/quote-builder"
+              href={aboutData.cta.primaryButton.href}
               className="btn btn-cta"
               style={{
                 background: "#fff",
@@ -162,10 +130,10 @@ export default function AboutPage() {
                 fontWeight: 700,
               }}
             >
-              Get Free Quote
+              {aboutData.cta.primaryButton.label}
             </a>
             <a
-              href="/contact"
+              href={aboutData.cta.secondaryButton.href}
               style={{
                 border: "2px solid #fff",
                 color: "#fff",
@@ -174,7 +142,7 @@ export default function AboutPage() {
                 fontWeight: 700,
               }}
             >
-              Contact Us
+              {aboutData.cta.secondaryButton.label}
             </a>
           </div>
         </div>

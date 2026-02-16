@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "eyebrow": "Who We Are",
+    "title": "About Green-House Renewables",
+    "description": "Your sustainability partner — helping homeowners and businesses across Ireland save money while reducing their carbon footprint."
+  },
+  "story": {
+    "eyebrow": "Our Story",
+    "title": "Powering Ireland's Green Future",
+    "paragraphs": [
+      "Based in Deansgrange Business Park, Blackrock, Dublin and serving all of Ireland, Green-House Renewables was founded with a clear mission: to make renewable energy accessible and affordable for every Irish home and business. We are proud Certified Sigenergy Installers, SEAI Registered, and Safe Electric Certified.",
+      "With over 1,000 successful installations and 100+ five-star reviews, we have built a reputation for quality workmanship, transparent pricing, and exceptional customer service. Our team of qualified engineers and electricians bring years of expertise to every project.",
+      "We are honoured to have won the Carlow Business Awards in both 2024 and 2025, recognising our commitment to excellence and community impact."
+    ],
+    "image": {
+      "src": "/images/team.jpg",
+      "alt": "The Green-House Renewables team"
+    }
+  },
+  "values": {
+    "eyebrow": "Why Choose Us",
+    "title": "Our Values",
+    "items": [
+      {
+        "title": "Quality First",
+        "desc": "We use only premium components and follow best-practice installation standards. Every system is designed to deliver maximum performance for decades.",
+        "icon": "⭐"
+      },
+      {
+        "title": "Customer Focus",
+        "desc": "From initial consultation to aftercare, we guide you through every step. Our 100+ five-star reviews speak to the experience we deliver.",
+        "icon": "🤝"
+      },
+      {
+        "title": "Sustainability",
+        "desc": "We are passionate about reducing Ireland's carbon emissions. Every solar panel we install helps create a cleaner, greener future for generations to come.",
+        "icon": "🌱"
+      }
+    ]
+  },
+  "credentials": {
+    "eyebrow": "Our Credentials",
+    "title": "Trusted & Certified",
+    "items": [
+      { "label": "SEAI Registered", "icon": "✅" },
+      { "label": "Safe Electric Certified", "icon": "🔒" },
+      { "label": "Certified Sigenergy Installers", "icon": "🏆" },
+      { "label": "Carlow Business Awards 2024 & 2025", "icon": "🥇" }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Start Your Solar Journey?",
+    "description": "Get a free, no-obligation quote from our expert team today.",
+    "primaryButton": {
+      "label": "Get Free Quote",
+      "href": "/quote-builder"
+    },
+    "secondaryButton": {
+      "label": "Contact Us",
+      "href": "/contact"
+    }
+  }
+}
