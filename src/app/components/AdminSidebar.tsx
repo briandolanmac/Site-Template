@@ -127,9 +127,15 @@ function SmartEditor({
   if (typeof data === "number") {
     return (
       <input
-        type="number"
-        value={data}
-        onChange={(e) => onChange(path, Number(e.target.value))}
+        type="text"
+        inputMode="numeric"
+        value={String(data)}
+        onChange={(e) => {
+          const v = e.target.value;
+          if (v === "" || v === "-") { onChange(path, 0); return; }
+          const n = Number(v);
+          if (!isNaN(n)) onChange(path, n);
+        }}
         className="sb-input"
       />
     );

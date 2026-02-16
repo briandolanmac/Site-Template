@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "overlayOpacity": 7,
+  "overlayOpacity": 10,
   "image": {
     "src": "/images/hero/hero-residential-new.jpg",
     "alt": "Beautiful Irish home with solar panels"
