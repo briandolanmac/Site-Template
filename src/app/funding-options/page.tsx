@@ -11,7 +11,7 @@ export default function FundingOptionsPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #2B475C 0%, #112F5B 50%, #007a54 100%)",
+          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -93,7 +93,7 @@ export default function FundingOptionsPage() {
                 href="/contact"
                 className="inline-block mt-4"
                 style={{
-                  background: "#009968",
+                  background: "#0B1D3A",
                   color: "#fff",
                   padding: "0.875rem 2rem",
                   borderRadius: "0.5rem",
@@ -115,7 +115,7 @@ export default function FundingOptionsPage() {
                   className="p-6 rounded-xl text-center"
                   style={{ background: "var(--bg-primary)", boxShadow: "var(--shadow-sm)" }}
                 >
-                  <div className="text-2xl font-extrabold mb-1" style={{ color: "#009968" }}>{stat.value}</div>
+                  <div className="text-2xl font-extrabold mb-1" style={{ color: "#F5A623" }}>{stat.value}</div>
                   <div className="text-sm text-gray-600">{stat.label}</div>
                 </div>
               ))}
@@ -126,7 +126,7 @@ export default function FundingOptionsPage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #2B475C 0%, #112F5B 50%, #007a54 100%)",
+          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -142,7 +142,7 @@ export default function FundingOptionsPage() {
             href="/contact"
             style={{
               background: "#fff",
-              color: "#009968",
+              color: "#F5A623",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

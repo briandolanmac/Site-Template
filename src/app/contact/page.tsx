@@ -11,7 +11,7 @@ export default function ContactPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #009968 0%, #00b377 50%, #007a54 100%)",
+          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -100,7 +100,7 @@ export default function ContactPage() {
                 <button
                   type="submit"
                   className="w-full py-3 rounded-lg text-white font-bold text-lg"
-                  style={{ background: "#009968" }}
+                  style={{ background: "#0B1D3A" }}
                 >
                   Send Message
                 </button>
@@ -147,7 +147,7 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-bold mb-1">{item.title}</h3>
                         {item.href ? (
-                          <a href={item.href} style={{ color: "#009968" }} className="hover:underline">
+                          <a href={item.href} style={{ color: "#F5A623" }} className="hover:underline">
                             {item.content}
                           </a>
                         ) : (
@@ -172,7 +172,7 @@ export default function ContactPage() {
                     "Carlow Business Awards Winner 2024 & 2025",
                   ].map((cert) => (
                     <li key={cert} className="flex items-center gap-2 text-gray-600">
-                      <span style={{ color: "#009968" }}>✓</span> {cert}
+                      <span style={{ color: "#F5A623" }}>✓</span> {cert}
                     </li>
                   ))}
                 </ul>
@@ -191,7 +191,7 @@ export default function ContactPage() {
                   href="/quote-builder"
                   className="inline-block font-bold"
                   style={{
-                    background: "#009968",
+                    background: "#0B1D3A",
                     color: "#fff",
                     padding: "0.75rem 1.5rem",
                     borderRadius: "0.5rem",

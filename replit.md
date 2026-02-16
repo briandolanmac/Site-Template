@@ -54,6 +54,7 @@ public/               - Static assets (images, videos, SVGs)
 - **Start**: `npm run start`
 
 ## Recent Changes
+- 2026-02-16: Color scheme redesigned to match solarpath.ie - dark navy (#0B1D3A) primary, orange/amber (#F5A623, #E8930C) accents, replacing emerald green palette throughout all pages and components
 - 2026-02-16: Added JSON data files and admin editing for Solar Panels, Battery Storage, and EV Chargers pages
 - 2026-02-16: Added admin panel at /admin for editing JSON data files, password-protected via ADMIN_PASSWORD env var
 - 2026-02-16: Fixed remaining cyan focus rings to emerald green, improved hero text contrast

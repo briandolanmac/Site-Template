@@ -14,7 +14,7 @@ export default function EvChargersPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #009968 0%, #112F5B 50%, #12222E 100%)",
+          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -36,7 +36,7 @@ export default function EvChargersPage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
+              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#F5A623" }}>
                 {about.eyebrow}
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -89,7 +89,7 @@ export default function EvChargersPage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #009968 0%, #112F5B 50%, #12222E 100%)",
+          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -105,7 +105,7 @@ export default function EvChargersPage() {
             href={cta.primaryButton.href}
             style={{
               background: "#fff",
-              color: "#009968",
+              color: "#F5A623",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,
