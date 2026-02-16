@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "overlayOpacity": 5,
+  "overlayOpacity": 7,
   "image": {
     "src": "/images/hero/hero-solar-house.png",
     "alt": "Irish countryside house with solar panels on the roof"
