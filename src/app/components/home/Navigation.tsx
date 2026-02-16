@@ -1,6 +1,5 @@
 import type { ReactNode } from "react";
 import navData from "../../data/home/Navigation.json";
-import { ThemeButtons } from "../theme-buttons";
 
 const socialIcons: Record<string, ReactNode> = {
   Facebook: (
@@ -123,10 +122,6 @@ const Navigation = () => {
           <a href={navData.cta.href} className="btn btn-cta">
             {navData.cta.label}
           </a>
-          <div style={{ display: "flex", alignItems: "center", gap: "1.5rem", marginLeft: "1rem" }}>
-            <div style={{ width: "1px", height: "1.5rem", background: "var(--gray-200)" }}></div>
-            <ThemeButtons />
-          </div>
         </div>
         <button
           type="button"
@@ -185,10 +180,6 @@ const Navigation = () => {
         <a href={navData.contact.email.href}>
           {navData.contact.email.icon} {navData.contact.email.label}
         </a>
-      </div>
-      <div className="nav-mobile-themes">
-        <span className="nav-mobile-themes-label">{navData.mobile.themeLabel}</span>
-        <ThemeButtons />
       </div>
     </div>
     </nav>
