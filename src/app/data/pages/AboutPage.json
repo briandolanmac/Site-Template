@@ -2,15 +2,15 @@
   "hero": {
     "eyebrow": "Who We Are",
     "title": "About Green-House Renewables",
-    "description": "Your sustainability partner — helping homeowners and businesses across Ireland save money while reducing their carbon footprint."
+    "description": "Renewable home energy solutions — one of Ireland's leading renewable and mechanical installers, specialising in both domestic and commercial projects of any size."
   },
   "story": {
     "eyebrow": "Our Story",
-    "title": "Powering Ireland's Green Future",
+    "title": "Get to Know Us",
     "paragraphs": [
-      "Based in Deansgrange Business Park, Blackrock, Dublin and serving all of Ireland, Green-House Renewables was founded with a clear mission: to make renewable energy accessible and affordable for every Irish home and business. We are proud Certified Sigenergy Installers, SEAI Registered, and Safe Electric Certified.",
-      "With over 1,000 successful installations and 100+ five-star reviews, we have built a reputation for quality workmanship, transparent pricing, and exceptional customer service. Our team of qualified engineers and electricians bring years of expertise to every project.",
-      "We are honoured to have won the Carlow Business Awards in both 2024 and 2025, recognising our commitment to excellence and community impact."
+      "Green-House Renewables was founded in early 2006. The two owners, Vinny Novotny and Stephen O'Kane, were former employees of the company before having the opportunity to take over the business in 2013.",
+      "After completing their first full renewable mechanical project — a residential development of 26 new-build houses in Lyndhurst on the Herbert Road — they decided to push forward with the Green-House strategy of always supplying and installing the highest quality renewable energy systems to their main contractor and architect customers, as well as branching out to homeowners who wanted to retrofit their property with the same systems.",
+      "Vinny and Stephen have since grown the company to where it is today and continue to guide and direct the installation teams as well as the office staff who provide Green-House clients with bespoke heating and solar designs, SEAI grant details, and a wealth of knowledge and experience that has been built over the years."
     ],
     "image": {
       "src": "/images/green-house-van.avif",
@@ -22,19 +22,19 @@
     "title": "Our Values",
     "items": [
       {
-        "title": "Quality First",
-        "desc": "We use only premium components and follow best-practice installation standards. Every system is designed to deliver maximum performance for decades.",
+        "title": "Bespoke Solutions",
+        "desc": "From our vast experience we know that every home and family have different requirements. We tailor our renewable heating systems to match your needs and ensure maximum comfort while delivering the most efficient system.",
+        "icon": "🎯"
+      },
+      {
+        "title": "Quality & Experience",
+        "desc": "With over 18 years of experience and 2,800+ completed projects, we design, install, and back up our renewable systems — treating every project as if it were our own home.",
         "icon": "⭐"
       },
       {
-        "title": "Customer Focus",
-        "desc": "From initial consultation to aftercare, we guide you through every step. Our 100+ five-star reviews speak to the experience we deliver.",
+        "title": "Full Service",
+        "desc": "We handle everything from SEAI grants and paperwork to design, installation, and ongoing support. No sub-contracting — all work is done by our own qualified team.",
         "icon": "🤝"
-      },
-      {
-        "title": "Sustainability",
-        "desc": "We are passionate about reducing Ireland's carbon emissions. Every solar panel we install helps create a cleaner, greener future for generations to come.",
-        "icon": "🌱"
       }
     ]
   },
@@ -55,14 +55,14 @@
         "icon": "🏆"
       },
       {
-        "label": "Carlow Business Awards 2024 & 2025",
-        "icon": "🥇"
+        "label": "Lifetime Workmanship Guarantee",
+        "icon": "🛡️"
       }
     ]
   },
   "cta": {
-    "title": "Ready to Start Your Solar Journey?",
-    "description": "Get a free, no-obligation quote from our expert team today.",
+    "title": "Ready to Start Your Renewable Energy Journey?",
+    "description": "Get a free, no-obligation quote from our expert team today. We'll guide you through the entire process.",
     "primaryButton": {
       "label": "Get Free Quote",
       "href": "/quote-builder"

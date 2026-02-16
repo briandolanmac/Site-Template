@@ -2,11 +2,11 @@
   "enabled": true,
   "eyebrow": "Get to Know Us",
   "title": "Say Hello to Green-House!",
-  "subtitle": "We're on a mission to make clean energy the easiest decision you'll ever make. Hit play and see what we're all about!",
+  "subtitle": "Since 2006, we've been pioneers in the world of solar and renewable energy. Hit play and see what makes us Ireland's trusted renewable energy partner!",
   "video": {
     "src": "/videos/Introductory Video.mp4",
     "playIcon": "▶",
     "playLabel": "Play video"
   },
-  "caption": "Spoiler: we're pretty passionate about saving you money and saving the planet."
+  "caption": "Over 2,800 projects completed and 1,000+ happy customers across Ireland."
 }

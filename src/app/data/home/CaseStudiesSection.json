@@ -1,8 +1,8 @@
 {
   "enabled": true,
   "eyebrow": "Our Work",
-  "title": "Check Out What We've Done",
-  "subtitle": "Real projects, real results. See why hundreds of homeowners and businesses trust us to power their properties with clean energy!",
+  "title": "See Our Recent Projects",
+  "subtitle": "From residential homes to large-scale commercial installations, we've completed over 2,800 projects across Ireland. Here's a glimpse of our recent work.",
   "cards": [
     {
       "image": { "src": "/images/case-studies/msd.webp", "alt": "Residential Solar Installation" },
@@ -12,7 +12,7 @@
       },
       "sub": "Residential Solar",
       "title": "Home Solar Installation",
-      "description": "A full solar PV system designed to squeeze every bit of energy from the sky and slash this family's electricity bills.",
+      "description": "A full solar PV system designed to maximise energy generation, lower electricity bills, and increase home value. Professional installation by our certified team.",
       "stats": [
         { "value": "10", "label": "kWp" },
         { "value": "24", "label": "Panels" },
@@ -28,7 +28,7 @@
       },
       "sub": "Commercial Solar",
       "title": "Business Solar Installation",
-      "description": "A large-scale commercial install that's saving this business serious money while shrinking their carbon footprint.",
+      "description": "A large-scale commercial install delivering optimal energy efficiency, significant cost savings, and demonstrating a commitment to sustainability.",
       "stats": [
         { "value": "100+", "label": "kWp" },
         { "value": "250+", "label": "Panels" },
@@ -42,9 +42,9 @@
         "src": "/images/logos/Untitled-design-2024-02-22T213115.801.webp",
         "alt": "New Build"
       },
-      "sub": "New Build Development",
+      "sub": "New Build Project",
       "title": "Residential Development",
-      "description": "Full renewable systems for an entire housing development — heat pumps, underfloor heating, the works. Every home is A-rated!",
+      "description": "Full renewable mechanical systems for an entire housing development — heat pumps, underfloor heating, and solar. Every home meets strict building regulations.",
       "stats": [
         { "value": "26", "label": "Houses" },
         { "value": "Full", "label": "Renewable" },

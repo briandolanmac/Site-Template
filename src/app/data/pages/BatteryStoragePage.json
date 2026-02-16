@@ -1,16 +1,16 @@
 {
   "hero": {
-    "eyebrow": "Energy Storage",
-    "title": "Home Battery Storage",
-    "subtitle": "Store your solar energy and use it when you need it most. Certified Sigenergy battery systems for maximum independence."
+    "eyebrow": "PV Battery Storage",
+    "title": "Battery Storage Solutions",
+    "subtitle": "Maximise your solar energy utilisation with Green-House Renewables' PV Battery Storage solutions. Store excess energy for use when you need it most."
   },
   "about": {
-    "eyebrow": "Sigenergy Battery Systems",
-    "title": "Power Your Home Day & Night",
+    "eyebrow": "Why Battery Storage?",
+    "title": "Maximise Your Solar Investment",
     "paragraphs": [
-      "Without battery storage, excess solar energy generated during the day is exported to the grid. A home battery stores this energy so you can use it in the evening and at night — when electricity costs are highest.",
-      "As Certified Sigenergy Installers, we provide cutting-edge battery systems that integrate seamlessly with your solar panels. Sigenergy batteries are known for their reliability, efficiency, and sleek design.",
-      "A typical home battery can store 5-15kWh of energy, enough to power your home through the evening and overnight. Combined with solar panels, you can achieve up to 90% energy independence."
+      "Store excess energy generated during the day for use at night or during cloudy periods, reducing reliance on the grid and lowering your energy bills.",
+      "Achieve energy independence by protecting your home and business from grid outages and price fluctuations, while enhancing the environmental benefits of your solar system by fully utilising clean, renewable energy.",
+      "Our expertly installed systems integrate seamlessly with your existing solar setup, boosting property value and offering a sustainable, efficient energy solution."
     ],
     "image": {
       "src": "/images/case-studies/battery_storage.webp",
@@ -20,12 +20,12 @@
   "benefits": {
     "title": "Benefits of Battery Storage",
     "items": [
-      { "title": "Energy Independence", "desc": "Reduce your reliance on the grid and protect against rising energy prices", "icon": "🔋" },
-      { "title": "Use Solar at Night", "desc": "Store daytime solar energy and use it in the evening when you need it most", "icon": "🌙" },
-      { "title": "Backup Power", "desc": "Keep essential appliances running during power outages with battery backup", "icon": "⚡" },
-      { "title": "Smart Management", "desc": "Intelligent energy management optimises when to store, use, or export energy", "icon": "🧠" },
-      { "title": "Maximise Savings", "desc": "Use more of your own solar energy instead of buying expensive grid electricity", "icon": "💰" },
-      { "title": "Future Proof", "desc": "Scalable systems that can grow with your energy needs over time", "icon": "🔄" }
+      { "title": "Maximise Solar Utilisation", "desc": "Store excess solar energy instead of exporting it — use every kilowatt you generate", "icon": "☀️" },
+      { "title": "Lower Energy Bills", "desc": "Use stored solar energy in the evening when grid electricity costs are highest", "icon": "💰" },
+      { "title": "Energy Independence", "desc": "Protect your home from grid outages and rising energy prices with stored power", "icon": "🔋" },
+      { "title": "Eco-Friendly Solution", "desc": "Fully utilise clean, renewable energy and enhance the environmental benefits of your solar system", "icon": "🌱" },
+      { "title": "Increased Property Value", "desc": "A battery storage system adds value to your home and demonstrates energy efficiency", "icon": "🏠" },
+      { "title": "Seamless Integration", "desc": "Our systems integrate perfectly with your existing solar setup for a complete energy solution", "icon": "🔄" }
     ]
   },
   "cta": {
