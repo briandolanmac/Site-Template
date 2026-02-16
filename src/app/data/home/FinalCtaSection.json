@@ -1,15 +1,15 @@
 {
   "enabled": true,
-  "title": "Get A No-Obligation Quote Today",
-  "subtitle": "Join 1,000+ happy customers across Ireland. Get your free quote and see why hundreds of homeowners trust Green-House.",
+  "title": "Ready to Make the Switch?",
+  "subtitle": "Join 1,000+ happy customers who've already gone solar with us. Grab your free quote — it only takes a minute!",
   "buttons": [
     {
-      "label": "Get a Quote",
+      "label": "Get a Free Quote",
       "href": "/quote-builder",
       "variant": "primary"
     },
     {
-      "label": "Talk to Our Team",
+      "label": "Chat With Us",
       "href": "/contact",
       "variant": "outline"
     }

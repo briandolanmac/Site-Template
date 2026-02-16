@@ -4,8 +4,8 @@
   "titleHighlight": "Green-House",
   "items": [
     { "icon": "😊", "value": "1,000+", "label": "Happy Customers" },
-    { "icon": "📅", "value": "18+", "label": "Years Of Experience" },
+    { "icon": "📅", "value": "18+", "label": "Years of Experience" },
     { "icon": "🏗️", "value": "2,800+", "label": "Projects Completed" },
-    { "icon": "👥", "value": "15+", "label": "Dedicated Employees" }
+    { "icon": "👥", "value": "15+", "label": "Team Members" }
   ]
 }

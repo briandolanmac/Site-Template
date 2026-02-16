@@ -3,8 +3,8 @@
   "ratingLabel": "5.0 Rating",
   "ratingStars": "★★★★★",
   "quoteMark": "\"",
-  "title": "What Our Customers Think",
-  "subtitle": "Join 1,000+ happy customers across Ireland who trust Green-House with their renewable energy needs",
+  "title": "Don't Just Take Our Word For It",
+  "subtitle": "Over 1,000 happy customers across Ireland — here's what they have to say about working with us!",
   "groups": [
     {
       "label": "Homeowners",
@@ -12,7 +12,7 @@
       "items": [
         {
           "company": "",
-          "quote": "Green-House made the whole process incredibly easy. From the initial consultation to the final installation, everything was professional and hassle-free. Our electricity bills have dropped dramatically.",
+          "quote": "Honestly, Green-House made the whole thing a breeze. From the first chat to flipping the switch, everything was smooth and stress-free. Our electricity bills? Way, way down!",
           "author": "Sarah M.",
           "role": "Dublin",
           "avatar": "S",
@@ -20,7 +20,7 @@
         },
         {
           "company": "",
-          "quote": "We chose Green-House because of their experience and reputation. The team was clean, tidy, and finished on time. Highly recommend them to anyone considering solar.",
+          "quote": "We picked Green-House because everyone said they were brilliant — and they totally lived up to it. The team were super tidy, finished on time, and left our roof looking great. Can't recommend them enough!",
           "author": "Michael O.",
           "role": "Wicklow",
           "avatar": "M",
@@ -28,7 +28,7 @@
         },
         {
           "company": "",
-          "quote": "Fantastic service from start to finish. They handled all the SEAI grant paperwork and the installation was completed in just two days. Couldn't be happier with the results.",
+          "quote": "Brilliant from start to finish! They sorted all the SEAI paperwork for us (huge relief) and had the panels up in two days. Absolutely delighted with the results.",
           "author": "James K.",
           "role": "Kildare",
           "avatar": "J",
@@ -42,7 +42,7 @@
       "items": [
         {
           "company": "Commercial Client",
-          "quote": "Green-House delivered a comprehensive solar solution for our commercial property. Their expertise and attention to detail was second to none. The system is performing beyond expectations.",
+          "quote": "Green-House really knocked it out of the park for us. They put together a solar setup that's already outperforming what they promised. Seriously impressed!",
           "author": "Patrick D.",
           "role": "Business Owner",
           "avatar": "P",
@@ -50,7 +50,7 @@
         },
         {
           "company": "Retail Business",
-          "quote": "Professional from day one. Green-House designed a system perfectly tailored to our energy needs. We're already seeing significant savings on our electricity costs.",
+          "quote": "These guys just get it. They designed a system that was spot-on for our needs, and we're already seeing the savings roll in. Total pros from day one.",
           "author": "Emma R.",
           "role": "Operations Manager",
           "avatar": "E",
@@ -58,7 +58,7 @@
         },
         {
           "company": "Property Developer",
-          "quote": "We've worked with Green-House on multiple new-build projects. Their renewable heating systems are always top quality and their team is reliable and knowledgeable.",
+          "quote": "We keep going back to Green-House for our developments because they're reliable, knowledgeable, and always deliver top-notch work. Wouldn't use anyone else!",
           "author": "David C.",
           "role": "Project Director",
           "avatar": "D",
@@ -68,7 +68,7 @@
     }
   ],
   "cta": {
-    "label": "Read All Reviews →",
+    "label": "See All Reviews →",
     "href": "https://www.google.com/search?q=Green+House+Renewables+Reviews"
   }
 }

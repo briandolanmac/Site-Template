@@ -1,12 +1,12 @@
 {
   "enabled": true,
-  "eyebrow": "About Green-House Renewables",
-  "title": "Meet Your Sustainability Partner",
-  "subtitle": "Discover how we're helping Irish homes and businesses transition to clean, renewable energy.",
+  "eyebrow": "Get to Know Us",
+  "title": "Say Hello to Green-House!",
+  "subtitle": "We're on a mission to make clean energy the easiest decision you'll ever make. Hit play and see what we're all about!",
   "video": {
     "src": "/videos/Introductory Video.mp4",
     "playIcon": "▶",
     "playLabel": "Play video"
   },
-  "caption": "Learn about our mission to make sustainable energy accessible to everyone in Ireland."
+  "caption": "Spoiler: we're pretty passionate about saving you money and saving the planet."
 }

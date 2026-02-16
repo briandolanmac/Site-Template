@@ -1,30 +1,30 @@
 {
   "enabled": true,
-  "eyebrow": "Our Services",
-  "title": "Clean Energy Solutions for Every Need",
-  "subtitle": "From family homes to commercial properties, we deliver tailored renewable energy installations across Ireland.",
+  "eyebrow": "What We Do",
+  "title": "Clean Energy That Actually Makes Sense",
+  "subtitle": "Whether it's your family home or your business, we've got the perfect energy setup to save you money and help the planet. Win-win!",
   "cards": [
     {
       "image": { "src": "/images/9.webp", "alt": "Residential Solar Installation" },
-      "tag": "Power Your Home",
+      "tag": "For Your Home",
       "title": "Solar Panels",
-      "description": "Generate your own energy and save money every month. SEAI grants available for Irish homeowners.",
+      "description": "Start generating your own energy and watch those electricity bills shrink. Plus, SEAI grants make it super affordable!",
       "bullets": [
         "SEAI grant available (up to €1,800)",
         "Lifetime workmanship guarantee",
-        "Get paid for surplus power"
+        "Get paid for surplus power — yes, really!"
       ],
       "cta": { "value": "€800+", "label": "Annual Savings →", "href": "/solar-panels" }
     },
     {
       "image": { "src": "/images/commercial/17.webp", "alt": "Commercial Solar Installation" },
-      "tag": "Power Your Business",
+      "tag": "For Your Business",
       "title": "Commercial Solar",
-      "description": "Expert installation tailored to your business's specific energy needs. Maximise energy production and reduce bills.",
+      "description": "Slash your overheads and go green at the same time. We design systems that fit your business like a glove.",
       "bullets": [
-        "Customised solutions",
-        "Ongoing support & maintenance",
-        "Increased property value"
+        "Tailored to your energy needs",
+        "Ongoing support when you need it",
+        "Boost your property value"
       ],
       "cta": { "value": "40-50%", "label": "Bill Reduction →", "href": "/commercial-solar" }
     }

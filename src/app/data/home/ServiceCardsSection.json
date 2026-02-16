@@ -4,22 +4,22 @@
   "cards": [
     {
       "title": "Solar Panels",
-      "description": "Harness clean energy for your home or business",
+      "description": "Turn sunlight into savings for your home or business",
       "href": "/solar-panels"
     },
     {
       "title": "Heat Pumps",
-      "description": "Efficient heating from the air around you",
+      "description": "Cosy heating straight from the air around you",
       "href": "/battery-storage"
     },
     {
       "title": "EV Chargers",
-      "description": "Power your electric vehicle at home",
+      "description": "Charge up your ride right at home",
       "href": "/ev-chargers"
     },
     {
       "title": "Underfloor Heating",
-      "description": "Comfortable and energy-efficient heating",
+      "description": "Warm toes, happy home — pure comfort",
       "href": "/contact"
     }
   ]

@@ -10,15 +10,15 @@
     "Home With"
   ],
   "headlineHighlight": "Solar !",
-  "subheading": "We are your one-stop!",
+  "subheading": "Your local solar experts — making clean energy easy and affordable for every Irish home.",
   "cta": [
     {
-      "label": "Get a Quote",
+      "label": "Get a Free Quote",
       "href": "/quote-builder",
       "variant": "home"
     },
     {
-      "label": "Our Services",
+      "label": "See What We Do",
       "href": "#services",
       "variant": "business"
     }

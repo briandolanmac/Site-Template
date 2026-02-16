@@ -2,7 +2,7 @@
   "enabled": true,
   "logoAlt": "Green House Renewables",
   "logoSrc": "/images/branding/greenhouse-logo.jpg",
-  "tagline": "Since 2006, we have been pioneers in the world of solar and renewable energy. We offer fully designed, bespoke energy-efficient solutions nationwide.",
+  "tagline": "Helping Ireland go green since 2006! We design bespoke, energy-efficient solutions for homes and businesses all over the country.",
   "badges": {
     "primary": "SEAI Approved Installer",
     "secondary": "Lifetime Workmanship Guarantee"
@@ -44,7 +44,7 @@
     }
   ],
   "contact": {
-    "heading": "Where to Find Us",
+    "heading": "Come Say Hello",
     "phoneIcon": "📞",
     "phone": {
       "label": "+353 1 207 0006",

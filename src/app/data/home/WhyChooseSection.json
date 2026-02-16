@@ -1,8 +1,8 @@
 {
   "enabled": true,
   "eyebrow": "Since 2006",
-  "title": "Why Choose Green-House?",
-  "description": "Green-House are one of Ireland's leading renewable and mechanical installers, specialising in both domestic and commercial projects of any size. We offer fully designed, bespoke energy-efficient heating systems to homeowners, builders, contractors, and architects nationwide.",
+  "title": "Why Go With Green-House?",
+  "description": "We've been doing this since 2006 — so yeah, we know our stuff! From cosy family homes to massive commercial projects, we design energy solutions that actually work for you. No cookie-cutter installs here — everything is tailored to your space and your needs.",
   "image": {
     "src": "/images/team.jpg",
     "alt": "Green-House Renewables Team"
@@ -24,5 +24,5 @@
     { "value": "2,800+", "label": "Projects Completed" },
     { "value": "15+", "label": "Dedicated Employees" }
   ],
-  "cta": { "label": "Learn More →", "href": "/about" }
+  "cta": { "label": "Get to Know Us →", "href": "/about" }
 }
