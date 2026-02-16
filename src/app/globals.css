@@ -622,6 +622,7 @@ ul {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  padding-bottom: 15vh;
   background: var(--slate);
   overflow: hidden;
 }
