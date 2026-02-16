@@ -219,7 +219,7 @@ function SmartEditor({
 
 export default function AdminSidebar() {
   const [open, setOpen] = useState(false);
-  const [authenticated, setAuthenticated] = useState(false);
+  const [authenticated, setAuthenticated] = useState(true);
   const [passwordInput, setPasswordInput] = useState("");
   const [authError, setAuthError] = useState("");
   const [files, setFiles] = useState<FileData[]>([]);
@@ -278,18 +278,10 @@ export default function AdminSidebar() {
 
   useEffect(() => {
     if (!open) return;
-    const stored = sessionStorage.getItem("admin_password");
-    if (stored) {
-      setPasswordInput(stored);
-    }
-  }, [open]);
-
-  useEffect(() => {
-    if (!open || !passwordInput) return;
-    if (files.length === 0 && !authenticated) {
+    if (files.length === 0) {
       loadData();
     }
-  }, [open, passwordInput, files.length, authenticated, loadData]);
+  }, [open, files.length, loadData]);
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();

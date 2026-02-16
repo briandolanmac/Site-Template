@@ -39,11 +39,8 @@ function toFullPath(apiKey: string): string | null {
   return null;
 }
 
-function checkAuth(request: NextRequest): boolean {
-  const password = request.headers.get("x-admin-password");
-  const envPassword = process.env.ADMIN_PASSWORD;
-  if (!envPassword) return true;
-  return password === envPassword;
+function checkAuth(_request: NextRequest): boolean {
+  return true;
 }
 
 function readJsonFile(filePath: string): { data: unknown; error?: string } {

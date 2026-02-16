@@ -220,7 +220,7 @@ function setNestedValue(obj: unknown, path: string, value: unknown): unknown {
 }
 
 export default function AdminPage() {
-  const [authenticated, setAuthenticated] = useState(false);
+  const [authenticated, setAuthenticated] = useState(true);
   const [passwordInput, setPasswordInput] = useState("");
   const [authError, setAuthError] = useState("");
   const [files, setFiles] = useState<FileData[]>([]);
@@ -258,39 +258,7 @@ export default function AdminPage() {
   }, [getHeaders]);
 
   useEffect(() => {
-    const stored = sessionStorage.getItem("admin_password");
-    if (stored) {
-      setPasswordInput(stored);
-    }
-  }, []);
-
-  const handleLogin = async (e: React.FormEvent) => {
-    e.preventDefault();
-    sessionStorage.setItem("admin_password", passwordInput);
-    await loadData();
-  };
-
-  useEffect(() => {
-    const stored = sessionStorage.getItem("admin_password");
-    if (stored !== null) {
-      loadData();
-    } else {
-      fetch("/api/admin/data")
-        .then((res) => {
-          if (res.ok) {
-            setAuthenticated(true);
-            return res.json();
-          }
-          setLoading(false);
-          return null;
-        })
-        .then((json) => {
-          if (json) {
-            setFiles(json.files);
-            setLoading(false);
-          }
-        });
-    }
+    loadData();
   }, [loadData]);
 
   const handleFieldChange = (filePath: string, fieldPath: string, value: unknown) => {
@@ -367,33 +335,6 @@ export default function AdminPage() {
     SECTION_LABELS[f]?.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  if (!authenticated && !loading) {
-    return (
-      <div className="admin-login-page">
-        <div className="admin-login-card">
-          <div className="admin-login-logo">
-            <span className="admin-login-icon">🔒</span>
-            <h1>Admin Panel</h1>
-            <p>Green-House Renewables</p>
-          </div>
-          <form onSubmit={handleLogin}>
-            <input
-              type="password"
-              value={passwordInput}
-              onChange={(e) => setPasswordInput(e.target.value)}
-              placeholder="Enter admin password"
-              className="admin-login-input"
-              autoFocus
-            />
-            {authError && <p className="admin-login-error">{authError}</p>}
-            <button type="submit" className="admin-login-btn">
-              Sign In
-            </button>
-          </form>
-        </div>
-      </div>
-    );
-  }
 
   if (loading) {
     return (
