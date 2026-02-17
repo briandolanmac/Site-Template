@@ -2,7 +2,21 @@
 
 import { useState, useEffect, useCallback } from "react";
 
+const FONT_OPTIONS = [
+  "League Spartan",
+  "Inter",
+  "Poppins",
+  "Montserrat",
+  "Raleway",
+  "Open Sans",
+  "Lato",
+  "Roboto",
+  "Nunito",
+  "Work Sans",
+];
+
 const SECTION_LABELS: Record<string, string> = {
+  "SiteSettings.json": "Site Settings",
   "HomePage.json": "Page Settings",
   "Navigation.json": "Navigation",
   "HeroSection.json": "Hero Section",
@@ -27,6 +41,7 @@ const SECTION_LABELS: Record<string, string> = {
 };
 
 const SECTION_ORDER = [
+  "SiteSettings.json",
   "HomePage.json",
   "Navigation.json",
   "HeroSection.json",
@@ -142,6 +157,22 @@ function SmartEditor({
   }
 
   if (typeof data === "string") {
+    if (path === "font" && FONT_OPTIONS.includes(data)) {
+      return (
+        <select
+          value={data}
+          onChange={(e) => onChange(path, e.target.value)}
+          className="sb-input"
+          style={{ fontFamily: `"${data}", sans-serif` }}
+        >
+          {FONT_OPTIONS.map((f) => (
+            <option key={f} value={f} style={{ fontFamily: `"${f}", sans-serif` }}>
+              {f}
+            </option>
+          ))}
+        </select>
+      );
+    }
     if (data.length > 60) {
       return (
         <textarea
