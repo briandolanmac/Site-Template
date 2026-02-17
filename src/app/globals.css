@@ -1618,6 +1618,16 @@ ul {
 .why-choose {
   overflow: hidden;
   background: linear-gradient(135deg, #009968 0%, #007a54 50%, #112F5B 100%);
+  color: #fff;
+}
+.why-choose .section-title {
+  color: #fff;
+}
+.why-choose .section-eyebrow {
+  color: #CBB492;
+}
+.why-choose .section-subtitle {
+  color: rgba(255, 255, 255, 0.85);
 }
 .grid-2 {
   display: grid;
