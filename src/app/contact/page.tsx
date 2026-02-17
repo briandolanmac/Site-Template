@@ -100,7 +100,7 @@ export default function ContactPage() {
                 <button
                   type="submit"
                   className="w-full py-3 rounded-lg text-white font-bold text-lg"
-                  style={{ background: "#009968" }}
+                  style={{ background: "var(--teal)" }}
                 >
                   Send Message
                 </button>
@@ -147,7 +147,7 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-bold mb-1">{item.title}</h3>
                         {item.href ? (
-                          <a href={item.href} style={{ color: "#009968" }} className="hover:underline">
+                          <a href={item.href} className="text-brand hover:underline">
                             {item.content}
                           </a>
                         ) : (
@@ -172,7 +172,7 @@ export default function ContactPage() {
                     "Carlow Business Awards Winner 2024 & 2025",
                   ].map((cert) => (
                     <li key={cert} className="flex items-center gap-2 text-gray-600">
-                      <span style={{ color: "#009968" }}>✓</span> {cert}
+                      <span className="text-brand">✓</span> {cert}
                     </li>
                   ))}
                 </ul>
@@ -191,7 +191,7 @@ export default function ContactPage() {
                   href="/quote-builder"
                   className="inline-block font-bold"
                   style={{
-                    background: "#009968",
+                    background: "var(--teal)",
                     color: "#fff",
                     padding: "0.75rem 1.5rem",
                     borderRadius: "0.5rem",

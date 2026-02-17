@@ -34,7 +34,7 @@ export default function AboutPage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest text-teal-600 mb-2">
+              <p className="page-eyebrow">
                 {aboutData.story.eyebrow}
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -60,7 +60,7 @@ export default function AboutPage() {
       <section className="py-16 md:py-20" style={{ background: "var(--bg-secondary)" }}>
         <div className="container">
           <div className="text-center mb-12">
-            <p className="text-sm font-semibold uppercase tracking-widest text-teal-600 mb-2">
+            <p className="page-eyebrow">
               {aboutData.values.eyebrow}
             </p>
             <h2 className="text-3xl font-extrabold">{aboutData.values.title}</h2>
@@ -84,7 +84,7 @@ export default function AboutPage() {
       <section className="py-16 md:py-20">
         <div className="container">
           <div className="text-center mb-12">
-            <p className="text-sm font-semibold uppercase tracking-widest text-teal-600 mb-2">
+            <p className="page-eyebrow">
               {aboutData.credentials.eyebrow}
             </p>
             <h2 className="text-3xl font-extrabold">{aboutData.credentials.title}</h2>
@@ -124,7 +124,7 @@ export default function AboutPage() {
               className="btn btn-cta"
               style={{
                 background: "#fff",
-                color: "#009968",
+                color: "var(--teal)",
                 padding: "0.875rem 2rem",
                 borderRadius: "0.5rem",
                 fontWeight: 700,

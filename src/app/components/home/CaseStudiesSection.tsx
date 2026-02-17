@@ -4,11 +4,11 @@ const CaseStudiesSection = () => {
   if (!caseStudiesData.enabled) return null;
 
   return (
-    <section className="section section-dark case-studies">
+    <section className="section case-studies">
     <div className="container">
       <p className="section-eyebrow">{caseStudiesData.eyebrow}</p>
       <h2 className="section-title">{caseStudiesData.title}</h2>
-      <p className="section-sub light">{caseStudiesData.subtitle}</p>
+      <p className="section-sub">{caseStudiesData.subtitle}</p>
       <div className="case-grid">
         {caseStudiesData.cards.map((card) => (
           <div key={card.title} className="case-card">

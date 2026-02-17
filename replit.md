@@ -53,7 +53,17 @@ public/               - Static assets (images, videos, SVGs)
 - **Build**: `npm run build`
 - **Start**: `npm run start`
 
+## CSS Color System
+- All section titles use `var(--text-primary)` (adapts to light/dark theme)
+- All section eyebrows use `var(--teal)` for brand green
+- All section subtitles use `var(--text-secondary)`
+- Sections on dark backgrounds add class `section-on-dark` to auto-switch: eyebrow → gold, title → white, subtitle → white/80%
+- Brand color utility classes: `.text-brand` (teal), `.text-brand-dark`, `.text-brand-muted`, `.text-brand-accent` (gold)
+- Inner pages use `.page-eyebrow` and `.page-title` for consistent typography
+- No hardcoded hex colors in text — all flow from CSS variables defined in :root
+
 ## Recent Changes
+- 2026-02-17: Refactored CSS to remove all hardcoded title/eyebrow colors; unified typography via CSS variables and section-on-dark modifier
 - 2026-02-16: Added JSON data files and admin editing for Solar Panels, Battery Storage, and EV Chargers pages
 - 2026-02-16: Added admin panel at /admin for editing JSON data files, password-protected via ADMIN_PASSWORD env var
 - 2026-02-16: Fixed remaining cyan focus rings to emerald green, improved hero text contrast

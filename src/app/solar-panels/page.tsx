@@ -36,7 +36,7 @@ export default function SolarPanelsPage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
+              <p className="page-eyebrow">
                 {whySolar.eyebrow}
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -48,7 +48,7 @@ export default function SolarPanelsPage() {
               <ul className="space-y-3">
                 {whySolar.bullets.map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <span style={{ color: "#009968" }} className="font-bold mt-0.5">✓</span>
+                    <span className="text-brand font-bold mt-0.5">✓</span>
                     <span className="text-gray-600">{item}</span>
                   </li>
                 ))}
@@ -68,7 +68,7 @@ export default function SolarPanelsPage() {
       <section className="py-16 md:py-20" style={{ background: "var(--bg-secondary)" }}>
         <div className="container">
           <div className="text-center mb-12">
-            <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
+            <p className="page-eyebrow">
               {process.eyebrow}
             </p>
             <h2 className="text-3xl font-extrabold">{process.title}</h2>
@@ -78,7 +78,7 @@ export default function SolarPanelsPage() {
               <div key={item.step} className="text-center">
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4"
-                  style={{ background: "#009968" }}
+                  style={{ background: "var(--teal)" }}
                 >
                   {item.step}
                 </div>
@@ -130,7 +130,7 @@ export default function SolarPanelsPage() {
               href={cta.primaryButton.href}
               style={{
                 background: "#fff",
-                color: "#009968",
+                color: "var(--teal)",
                 padding: "0.875rem 2rem",
                 borderRadius: "0.5rem",
                 fontWeight: 700,

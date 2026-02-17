@@ -34,7 +34,7 @@ export default function FinancePage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
+              <p className="page-eyebrow">
                 Finance Ireland Partnership
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -93,7 +93,7 @@ export default function FinancePage() {
               <div key={item.step} className="text-center p-8 rounded-2xl shadow-sm" style={{ background: "var(--bg-primary)" }}>
                 <div
                   className="w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4"
-                  style={{ background: "#009968" }}
+                  style={{ background: "var(--teal)" }}
                 >
                   {item.step}
                 </div>
@@ -123,7 +123,7 @@ export default function FinancePage() {
             href="/quote-builder"
             style={{
               background: "#fff",
-              color: "#009968",
+              color: "var(--teal)",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

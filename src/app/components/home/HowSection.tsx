@@ -6,9 +6,9 @@ const HowSection = () => {
   return (
     <section className="section section-light how-section">
     <div className="container">
-      <p className="section-eyebrow teal">{howData.eyebrow}</p>
-      <h2 className="section-title dark">{howData.title}</h2>
-      <p className="section-sub dark">{howData.subtitle}</p>
+      <p className="section-eyebrow">{howData.eyebrow}</p>
+      <h2 className="section-title">{howData.title}</h2>
+      <p className="section-sub">{howData.subtitle}</p>
       <div className="how-grid">
         {howData.steps.map((step) => (
           <div key={step.number} className="how-step">

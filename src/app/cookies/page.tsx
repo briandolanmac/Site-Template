@@ -99,9 +99,9 @@ export default function CookiesPage() {
                 You can control and manage cookies in several ways:
               </p>
               <ul className="space-y-2 text-gray-600">
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Most browsers allow you to refuse or delete cookies through their settings</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> You can set your browser to notify you when a cookie is being set</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> You can delete cookies that have already been stored on your device</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Most browsers allow you to refuse or delete cookies through their settings</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> You can set your browser to notify you when a cookie is being set</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> You can delete cookies that have already been stored on your device</li>
               </ul>
               <p className="text-gray-600 leading-relaxed mt-3">
                 Please note that disabling cookies may affect the functionality of our website and your user experience.
@@ -118,7 +118,7 @@ export default function CookiesPage() {
             <div>
               <h2 className="text-2xl font-extrabold mb-4">Contact Us</h2>
               <p className="text-gray-600 leading-relaxed">
-                If you have any questions about our use of cookies, please contact us at <a href="mailto:info@green-house.ie" style={{ color: "#009968" }} className="hover:underline">info@green-house.ie</a> or call <a href="tel:+35312070006" style={{ color: "#009968" }} className="hover:underline">+353 1 207 0006</a>.
+                If you have any questions about our use of cookies, please contact us at <a href="mailto:info@green-house.ie" className="text-brand hover:underline">info@green-house.ie</a> or call <a href="tel:+35312070006" className="text-brand hover:underline">+353 1 207 0006</a>.
               </p>
             </div>
 

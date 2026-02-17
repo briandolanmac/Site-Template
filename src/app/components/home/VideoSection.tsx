@@ -4,7 +4,7 @@ const VideoSection = () => {
   if (!videoData.enabled) return null;
 
   return (
-    <section className="video-section">
+    <section className="video-section section-on-dark">
     <div className="container">
       <p className="section-eyebrow">{videoData.eyebrow}</p>
       <h2 className="section-title">{videoData.title}</h2>

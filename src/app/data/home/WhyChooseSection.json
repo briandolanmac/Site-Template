@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "eyebrow": "Since 2006",
-  "title": "Why Choose Us",
+  "eyebrow": "Why Choose Us",
+  "title": "Putting Customers First Since 2006",
   "description": "Green-House are one of Ireland's leading renewable and mechanical installers, specialising in both domestic and commercial projects of any size. From our vast experience we know that every home and family have different requirements. We tailor our renewable systems to match your needs, treating every project as if it was our own home.",
   "image": {
     "src": "/images/green-house-van.avif",
@@ -20,10 +20,25 @@
     "✓ Bespoke Energy Solutions"
   ],
   "stats": [
-    { "value": "1,000+", "label": "Happy Customers" },
-    { "value": "20+", "label": "Years Experience" },
-    { "value": "2,800+", "label": "Projects Completed" },
-    { "value": "15+", "label": "Dedicated Employees" }
+    {
+      "value": "1,000+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": "20+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "2,800+",
+      "label": "Projects Completed"
+    },
+    {
+      "value": "15+",
+      "label": "Dedicated Employees"
+    }
   ],
-  "cta": { "label": "Get to Know Us →", "href": "/about" }
+  "cta": {
+    "label": "Get to Know Us →",
+    "href": "/about"
+  }
 }

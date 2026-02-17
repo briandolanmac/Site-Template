@@ -1348,52 +1348,77 @@ ul {
 [data-theme="dark"] .video-section {
   background: linear-gradient(135deg, #004d34, #006644);
 }
-.video-section .section-eyebrow {
-  color: rgba(255, 255, 255, 0.85);
-}
-.video-section .section-title {
-  color: var(--white);
-}
-.video-section .section-sub {
-  color: rgba(255, 255, 255, 0.8);
-}
-
 .section-eyebrow {
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   margin-bottom: 0.75rem;
-  color: #009968;
-}
-.section-eyebrow.teal {
-  color: #009968;
+  color: var(--teal);
 }
 .section-title {
   margin-bottom: 0.75rem;
+  color: var(--text-primary);
 }
-.section-title.dark {
-  color: var(--teal);
-}
+.section-subtitle,
 .section-sub {
   font-size: 1rem;
-  color: var(--gray-500);
+  color: var(--text-secondary);
   max-width: 42rem;
   margin: 0 auto 2.5rem;
   line-height: 1.7;
-}
-.section-sub.dark {
-  color: var(--gray-600);
-}
-.section-sub.light {
-  color: var(--gray-300);
 }
 @media (min-width: 768px) {
   .section-eyebrow {
     font-size: 0.875rem;
   }
+  .section-subtitle,
   .section-sub {
     font-size: 1.125rem;
+  }
+}
+
+/* --- Dark-background section overrides --- */
+.section-on-dark .section-eyebrow {
+  color: var(--amber);
+}
+.section-on-dark .section-title {
+  color: #fff;
+}
+.section-on-dark .section-subtitle,
+.section-on-dark .section-sub {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* --- Brand color utilities (use instead of hardcoded hex) --- */
+.text-brand       { color: var(--teal); }
+.text-brand-dark  { color: var(--text-primary); }
+.text-brand-muted { color: var(--text-secondary); }
+.text-brand-accent{ color: var(--amber); }
+.bg-brand         { background-color: var(--teal); }
+.bg-brand-dark    { background-color: var(--slate); }
+
+/* --- Page-level heading styles (inner pages using Tailwind layout) --- */
+.page-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5rem;
+  color: var(--teal);
+}
+.page-hero .page-eyebrow {
+  color: rgba(255, 255, 255, 0.85);
+}
+.page-title {
+  color: var(--text-primary);
+}
+.page-hero .page-title {
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .page-eyebrow {
+    font-size: 0.875rem;
   }
 }
 
@@ -1489,12 +1514,6 @@ ul {
 .section-dark {
   background: var(--bg-secondary);
   color: var(--text-primary);
-}
-.section-dark .section-title {
-  color: var(--text-primary);
-}
-.section-dark .section-eyebrow {
-  color: var(--aqua);
 }
 .section > .container {
   text-align: center;
@@ -1619,15 +1638,6 @@ ul {
   overflow: hidden;
   background: linear-gradient(135deg, #009968 0%, #007a54 50%, #112F5B 100%);
   color: #fff;
-}
-section.why-choose .section-title {
-  color: #fff !important;
-}
-section.why-choose .section-eyebrow {
-  color: #CBB492 !important;
-}
-section.why-choose .section-subtitle {
-  color: rgba(255, 255, 255, 0.85) !important;
 }
 .grid-2 {
   display: grid;

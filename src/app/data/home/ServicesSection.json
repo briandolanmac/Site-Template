@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "enabled": false,
   "eyebrow": "Our Services",
   "title": "Clean Energy Solutions That Work For You",
   "subtitle": "We offer fully designed, bespoke energy-efficient systems for homes and businesses nationwide. From solar panels to heat pumps, we've got you covered.",
   "cards": [
     {
-      "image": { "src": "/images/9.webp", "alt": "Residential Solar Installation" },
+      "image": {
+        "src": "/images/9.webp",
+        "alt": "Residential Solar Installation"
+      },
       "tag": "For Your Home",
       "title": "Solar Panels",
       "description": "With over 20 years in business and more than 1,000 installations, we're one of South Dublin's most experienced and trusted solar energy providers.",
@@ -14,10 +17,17 @@
         "Lifetime workmanship guarantee",
         "Get paid for surplus power sent to the grid"
       ],
-      "cta": { "value": "€800+", "label": "Annual Savings →", "href": "/solar-panels" }
+      "cta": {
+        "value": "€800+",
+        "label": "Annual Savings →",
+        "href": "/solar-panels"
+      }
     },
     {
-      "image": { "src": "/images/commercial/17.webp", "alt": "Commercial Solar Installation" },
+      "image": {
+        "src": "/images/commercial/17.webp",
+        "alt": "Commercial Solar Installation"
+      },
       "tag": "For Your Business",
       "title": "Commercial Solar",
       "description": "We specialise in delivering high-quality, customised solar solutions for commercial properties. Expert installation tailored to your business's specific energy needs.",
@@ -26,7 +36,11 @@
         "Ongoing maintenance and support",
         "Boost your property value"
       ],
-      "cta": { "value": "40-50%", "label": "Bill Reduction →", "href": "/commercial-solar" }
+      "cta": {
+        "value": "40-50%",
+        "label": "Bill Reduction →",
+        "href": "/commercial-solar"
+      }
     }
   ]
 }

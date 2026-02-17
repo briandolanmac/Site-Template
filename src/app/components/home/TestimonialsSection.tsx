@@ -11,8 +11,8 @@ const TestimonialsSection = () => {
           <span className="stars">{testimonialsData.ratingStars}</span>
           <span className="rating-text">{testimonialsData.ratingLabel}</span>
         </div>
-        <h2 className="section-title dark">{testimonialsData.title}</h2>
-        <p className="section-sub dark">{testimonialsData.subtitle}</p>
+        <h2 className="section-title">{testimonialsData.title}</h2>
+        <p className="section-sub">{testimonialsData.subtitle}</p>
       </div>
 
       {testimonialsData.groups.map((group) => (

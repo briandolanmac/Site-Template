@@ -42,11 +42,11 @@ export default function PrivacyPolicyPage() {
                 We may collect the following personal information:
               </p>
               <ul className="space-y-2 text-gray-600">
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Name, email address, phone number, and postal address when you contact us or request a quote</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Property details including Eircode, property type, and energy usage information</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Technical data such as your IP address, browser type, and device information</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Usage data about how you interact with our website</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Cookie data as described in our Cookie Policy</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Name, email address, phone number, and postal address when you contact us or request a quote</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Property details including Eircode, property type, and energy usage information</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Technical data such as your IP address, browser type, and device information</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Usage data about how you interact with our website</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Cookie data as described in our Cookie Policy</li>
               </ul>
             </div>
 
@@ -56,11 +56,11 @@ export default function PrivacyPolicyPage() {
                 We use the information we collect for the following purposes:
               </p>
               <ul className="space-y-2 text-gray-600">
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> To provide quotes, arrange site surveys, and deliver our solar installation services</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> To process SEAI grant applications on your behalf</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> To communicate with you about your enquiry, project, or aftercare</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> To improve our website and services</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> To comply with legal and regulatory obligations</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> To provide quotes, arrange site surveys, and deliver our solar installation services</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> To process SEAI grant applications on your behalf</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> To communicate with you about your enquiry, project, or aftercare</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> To improve our website and services</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> To comply with legal and regulatory obligations</li>
               </ul>
             </div>
 
@@ -91,19 +91,19 @@ export default function PrivacyPolicyPage() {
                 Under GDPR, you have the following rights:
               </p>
               <ul className="space-y-2 text-gray-600">
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Right to access your personal data</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Right to rectification of inaccurate data</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Right to erasure (&ldquo;right to be forgotten&rdquo;)</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Right to restrict processing</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Right to data portability</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Right to object to processing</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Right to access your personal data</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Right to rectification of inaccurate data</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Right to erasure (&ldquo;right to be forgotten&rdquo;)</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Right to restrict processing</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Right to data portability</li>
+                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Right to object to processing</li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-2xl font-extrabold mb-4">8. Contact Us</h2>
               <p className="text-gray-600 leading-relaxed">
-                If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us at: <a href="mailto:info@green-house.ie" style={{ color: "#009968" }} className="hover:underline">info@green-house.ie</a> or call <a href="tel:+35312070006" style={{ color: "#009968" }} className="hover:underline">+353 1 207 0006</a>.
+                If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us at: <a href="mailto:info@green-house.ie" className="text-brand hover:underline">info@green-house.ie</a> or call <a href="tel:+35312070006" className="text-brand hover:underline">+353 1 207 0006</a>.
               </p>
             </div>
 

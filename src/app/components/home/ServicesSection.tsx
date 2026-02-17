@@ -6,9 +6,9 @@ const ServicesSection = () => {
   return (
     <section className="section section-light">
     <div className="container">
-      <p className="section-eyebrow teal">{servicesData.eyebrow}</p>
-      <h2 className="section-title dark">{servicesData.title}</h2>
-      <p className="section-sub dark">{servicesData.subtitle}</p>
+      <p className="section-eyebrow">{servicesData.eyebrow}</p>
+      <h2 className="section-title">{servicesData.title}</h2>
+      <p className="section-sub">{servicesData.subtitle}</p>
       <div className="services-grid">
         {servicesData.cards.map((card) => (
           <a key={card.cta.href} href={card.cta.href} className="service-card-lg">

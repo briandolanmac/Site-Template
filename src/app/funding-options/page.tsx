@@ -93,7 +93,7 @@ export default function FundingOptionsPage() {
                 href="/contact"
                 className="inline-block mt-4"
                 style={{
-                  background: "#009968",
+                  background: "var(--teal)",
                   color: "#fff",
                   padding: "0.875rem 2rem",
                   borderRadius: "0.5rem",
@@ -115,7 +115,7 @@ export default function FundingOptionsPage() {
                   className="p-6 rounded-xl text-center"
                   style={{ background: "var(--bg-primary)", boxShadow: "var(--shadow-sm)" }}
                 >
-                  <div className="text-2xl font-extrabold mb-1" style={{ color: "#009968" }}>{stat.value}</div>
+                  <div className="text-2xl font-extrabold mb-1 text-brand">{stat.value}</div>
                   <div className="text-sm text-gray-600">{stat.label}</div>
                 </div>
               ))}
@@ -142,7 +142,7 @@ export default function FundingOptionsPage() {
             href="/contact"
             style={{
               background: "#fff",
-              color: "#009968",
+              color: "var(--teal)",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

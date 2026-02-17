@@ -34,7 +34,7 @@ export default function CommercialSolarPage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
+              <p className="page-eyebrow">
                 Solar for Business
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -134,7 +134,7 @@ export default function CommercialSolarPage() {
             href="/contact"
             style={{
               background: "#fff",
-              color: "#009968",
+              color: "var(--teal)",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

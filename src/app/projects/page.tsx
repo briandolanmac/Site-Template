@@ -113,7 +113,7 @@ export default function ProjectsPage() {
               { value: "15MW+", label: "Capacity Installed" },
             ].map((stat) => (
               <div key={stat.label}>
-                <div className="text-3xl md:text-4xl font-extrabold mb-2" style={{ color: "#009968" }}>{stat.value}</div>
+                <div className="text-3xl md:text-4xl font-extrabold mb-2 text-brand">{stat.value}</div>
                 <div className="text-gray-600">{stat.label}</div>
               </div>
             ))}
@@ -139,7 +139,7 @@ export default function ProjectsPage() {
             href="/quote-builder"
             style={{
               background: "#fff",
-              color: "#009968",
+              color: "var(--teal)",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

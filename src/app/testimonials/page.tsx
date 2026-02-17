@@ -133,15 +133,15 @@ export default function TestimonialsPage() {
         <div className="container text-center">
           <div className="grid grid-cols-3 gap-8 max-w-lg mx-auto mb-8">
             <div>
-              <div className="text-3xl font-extrabold" style={{ color: "#009968" }}>100+</div>
+              <div className="text-3xl font-extrabold text-brand">100+</div>
               <div className="text-sm text-gray-600">5-Star Reviews</div>
             </div>
             <div>
-              <div className="text-3xl font-extrabold" style={{ color: "#009968" }}>1,000+</div>
+              <div className="text-3xl font-extrabold text-brand">1,000+</div>
               <div className="text-sm text-gray-600">Installations</div>
             </div>
             <div>
-              <div className="text-3xl font-extrabold" style={{ color: "#009968" }}>4.9</div>
+              <div className="text-3xl font-extrabold text-brand">4.9</div>
               <div className="text-sm text-gray-600">Average Rating</div>
             </div>
           </div>
@@ -167,7 +167,7 @@ export default function TestimonialsPage() {
             href="/quote-builder"
             style={{
               background: "#fff",
-              color: "#009968",
+              color: "var(--teal)",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,
