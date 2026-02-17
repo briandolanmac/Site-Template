@@ -1,6 +1,11 @@
 {
-  "enabled": true,
+  "enabled": false,
   "title": "Ireland's Trusted Renewable Energy Experts",
   "subtitle": "Pioneers in the world of solar and renewable energy since 2006 — designing, installing, and backing up every system we deliver.",
-  "badges": ["SEAI Approved", "20+ Years Experience", "Lifetime Guarantee", "No Sub-Contracting"]
+  "badges": [
+    "SEAI Approved",
+    "20+ Years Experience",
+    "Lifetime Guarantee",
+    "No Sub-Contracting"
+  ]
 }

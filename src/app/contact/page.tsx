@@ -1,14 +1,13 @@
-import type { Metadata } from "next";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
 
-export const metadata: Metadata = {
-  title: "Contact Us | Green-House Renewables",
-  description: "Get in touch with Green-House Renewables. Call +353 1 207 0006 or email info@green-house.ie. Based in Blackrock, Dublin, serving all of Ireland.",
-};
+export const metadata = generatePageMetadata("/contact");
 
 export default function ContactPage() {
   return (
     <PageLayout>
+      <StructuredData pageType="contact" pagePath="/contact" />
       <section
         style={{
           background: "linear-gradient(135deg, #009968 0%, #00b377 50%, #007a54 100%)",

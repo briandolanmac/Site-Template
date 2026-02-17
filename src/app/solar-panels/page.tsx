@@ -1,17 +1,17 @@
-import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 import pageData from "../data/pages/SolarPanelsPage.json";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
+import RelatedServices from "../components/RelatedServices";
 
-export const metadata: Metadata = {
-  title: "Solar Panels Ireland | Green-House Renewables",
-  description: "Residential solar PV systems installed across Ireland. Up to €2,100 SEAI grant, 0% VAT. Save up to 70% on electricity bills with Green-House Renewables.",
-};
+export const metadata = generatePageMetadata("/solar-panels");
 
 export default function SolarPanelsPage() {
   const { hero, whySolar, process, included, cta } = pageData;
 
   return (
     <PageLayout>
+      <StructuredData pageType="service" pagePath="/solar-panels" serviceName="Solar Panel Installation" />
       <section
         style={{
           background: "linear-gradient(135deg, #007a54 0%, #009968 50%, #00b377 100%)",
@@ -59,6 +59,7 @@ export default function SolarPanelsPage() {
                 src={whySolar.image.src}
                 alt={whySolar.image.alt}
                 className="rounded-2xl shadow-lg w-full"
+                loading="lazy"
               />
             </div>
           </div>
@@ -110,6 +111,8 @@ export default function SolarPanelsPage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices currentPath="/solar-panels" />
 
       <section
         style={{

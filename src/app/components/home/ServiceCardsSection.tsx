@@ -1,3 +1,4 @@
+import Image from "next/image";
 import cardsData from "../../data/home/ServiceCardsSection.json";
 
 const cardIcons = [
@@ -45,7 +46,7 @@ const ServiceCardsSection = () => {
           {cardsData.cards.map((card) => (
             <a key={card.href} href={card.href} className="service-card-v2">
               <div className="service-card-v2-img">
-                <img src={(card as any).image} alt={card.title} />
+                <Image src={(card as any).image} alt={card.title} width={400} height={250} style={{ objectFit: "cover", width: "100%", height: "100%" }} />
               </div>
               <div className="service-card-v2-body">
                 <h3>{card.title}</h3>

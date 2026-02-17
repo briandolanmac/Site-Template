@@ -1,14 +1,14 @@
-import type { Metadata } from "next";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
+import RelatedServices from "../components/RelatedServices";
 
-export const metadata: Metadata = {
-  title: "Commercial Solar Solutions | Green-House Renewables",
-  description: "Commercial and business solar PV installations across Ireland. Reduce operating costs, meet sustainability targets, and benefit from SSAP grants. 1000+ installations completed.",
-};
+export const metadata = generatePageMetadata("/commercial-solar");
 
 export default function CommercialSolarPage() {
   return (
     <PageLayout>
+      <StructuredData pageType="service" pagePath="/commercial-solar" serviceName="Commercial Solar Solutions" />
       <section
         style={{
           background: "linear-gradient(135deg, #12222E 0%, #112F5B 50%, #009968 100%)",
@@ -114,6 +114,8 @@ export default function CommercialSolarPage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices currentPath="/commercial-solar" />
 
       <section
         style={{

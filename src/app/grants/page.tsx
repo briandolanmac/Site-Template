@@ -1,14 +1,13 @@
-import type { Metadata } from "next";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
 
-export const metadata: Metadata = {
-  title: "SEAI Grants for Solar Panels | Green-House Renewables",
-  description: "Get up to €2,100 SEAI grant for solar panels in Ireland. 0% VAT on solar installations. Green-House Renewables handles your grant application.",
-};
+export const metadata = generatePageMetadata("/grants");
 
 export default function GrantsPage() {
   return (
     <PageLayout>
+      <StructuredData pageType="default" pagePath="/grants" />
       <section
         style={{
           background: "linear-gradient(135deg, #007a54 0%, #009968 50%, #112F5B 100%)",

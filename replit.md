@@ -62,7 +62,17 @@ public/               - Static assets (images, videos, SVGs)
 - Inner pages use `.page-eyebrow` and `.page-title` for consistent typography
 - No hardcoded hex colors in text — all flow from CSS variables defined in :root
 
+## SEO System
+- **SEO Data**: `src/app/data/seo.json` — centralized SEO config with per-page meta info, structured data, business info, and service definitions. Editable via admin panel.
+- **Meta Tags**: All pages use `generatePageMetadata()` from `src/app/components/SeoHead.tsx` — pulls title, description, keywords, OG tags, canonical URLs from seo.json
+- **Structured Data**: `src/app/components/StructuredData.tsx` (client component) — renders JSON-LD schemas (LocalBusiness, WebSite, Service, FAQ, Review, BreadcrumbList) based on page type
+- **Sitemap**: `src/app/sitemap.ts` — auto-generated from seo.json pages with priority/changeFrequency
+- **Robots**: `src/app/robots.ts` — blocks /admin and /api/, points to sitemap
+- **Internal Linking**: `src/app/components/RelatedServices.tsx` — "Our Other Services" section on service pages, sourced from seo.json services array
+- **Image Optimization**: Hero image uses next/image with priority loading; service card images use next/image; inner page images use loading="lazy"
+
 ## Recent Changes
+- 2026-02-17: Comprehensive SEO implementation — structured data, meta tags, sitemap.xml, robots.txt, canonical URLs, OG/Twitter cards, internal linking, image optimization via next/image
 - 2026-02-17: Refactored CSS to remove all hardcoded title/eyebrow colors; unified typography via CSS variables and section-on-dark modifier
 - 2026-02-16: Added JSON data files and admin editing for Solar Panels, Battery Storage, and EV Chargers pages
 - 2026-02-16: Added admin panel at /admin for editing JSON data files, password-protected via ADMIN_PASSWORD env var

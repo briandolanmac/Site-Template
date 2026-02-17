@@ -26,6 +26,7 @@ const VALID_FILES = [
   "pages/SolarPanelsPage.json",
   "pages/BatteryStoragePage.json",
   "pages/EvChargersPage.json",
+  "seo.json",
 ];
 
 function toApiKey(fullPath: string): string {

@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "overlayOpacity": 5,
+  "overlayOpacity": 7,
   "image": {
     "src": "/images/hero/green-house-hero-home.png",
     "alt": "Beautiful Irish home with solar panels"

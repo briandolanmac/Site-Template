@@ -1,3 +1,4 @@
+import Image from "next/image";
 import heroData from "../../data/home/HeroSection.json";
 
 const HeroSection = () => {
@@ -6,7 +7,7 @@ const HeroSection = () => {
   return (
     <section className="hero">
     <div className="hero-bg">
-      <img src={heroData.image.src} alt={heroData.image.alt} />
+      <Image src={heroData.image.src} alt={heroData.image.alt} fill priority sizes="100vw" style={{ objectFit: "cover" }} />
       <div className="hero-overlay" style={{ opacity: (heroData.overlayOpacity ?? 5) / 5 }}></div>
     </div>
 

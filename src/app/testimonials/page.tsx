@@ -1,14 +1,13 @@
-import type { Metadata } from "next";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
 
-export const metadata: Metadata = {
-  title: "Customer Testimonials | Green-House Renewables",
-  description: "Read 100+ five-star reviews from happy Green-House Renewables customers across Ireland. See why homeowners and businesses trust us for solar installations.",
-};
+export const metadata = generatePageMetadata("/testimonials");
 
 export default function TestimonialsPage() {
   return (
     <PageLayout>
+      <StructuredData pageType="testimonials" pagePath="/testimonials" />
       <section
         style={{
           background: "linear-gradient(135deg, #112F5B 0%, #009968 50%, #00b377 100%)",

@@ -1,0 +1,165 @@
+{
+  "siteUrl": "https://www.green-house.ie",
+  "siteName": "Green-House Renewables",
+  "defaultTitle": "Green-House Renewables | Solar Panels & Renewable Energy Ireland",
+  "defaultDescription": "Ireland's trusted solar energy installer. Solar panels, battery storage, EV chargers & heat pumps. SEAI approved, 20+ years experience, 1,000+ happy customers.",
+  "defaultImage": "/images/hero/green-house-hero-home.png",
+  "locale": "en_IE",
+  "twitterHandle": "@greenhouserenew",
+  "business": {
+    "name": "Green-House Renewables",
+    "legalName": "Green-House Renewables Ltd",
+    "type": "LocalBusiness",
+    "url": "https://www.green-house.ie",
+    "logo": "/images/branding/greenhouse-logo.jpg",
+    "description": "Ireland's trusted solar energy installer providing solar panels, battery storage, EV chargers, and heat pump solutions for homes and businesses. SEAI approved with 20+ years experience.",
+    "foundingYear": 2006,
+    "phone": "+353 1 207 0006",
+    "email": "info@green-house.ie",
+    "address": {
+      "street": "Deansgrange Business Park",
+      "city": "Blackrock",
+      "region": "Dublin",
+      "postalCode": "",
+      "country": "IE"
+    },
+    "geo": {
+      "latitude": 53.2867,
+      "longitude": -6.1753
+    },
+    "openingHours": ["Mo-Fr 09:00-16:00"],
+    "priceRange": "€€",
+    "areaServed": "Ireland",
+    "sameAs": [
+      "https://www.facebook.com/greenhouserenewables",
+      "https://www.linkedin.com/company/green-house-renewables",
+      "https://www.instagram.com/greenhouserenewables"
+    ]
+  },
+  "pages": {
+    "/": {
+      "title": "Green-House Renewables | Solar Panels & Renewable Energy Ireland",
+      "description": "Ireland's trusted solar energy installer. Solar panels, battery storage, EV chargers & heat pumps. SEAI approved, 20+ years experience, 1,000+ happy customers.",
+      "keywords": "solar panels Ireland, solar energy, renewable energy, SEAI grants, battery storage, EV chargers, Green-House Renewables",
+      "ogImage": "/images/hero/green-house-hero-home.png"
+    },
+    "/about": {
+      "title": "About Us | Green-House Renewables - 20+ Years in Solar Energy",
+      "description": "Learn about Green-House Renewables, Ireland's trusted solar installer since 2006. SEAI approved, Safe Electric certified, with over 1,000 happy customers nationwide.",
+      "keywords": "about Green-House Renewables, solar energy company Ireland, SEAI approved installer, renewable energy experts",
+      "ogImage": "/images/hero/green-house-hero-home.png"
+    },
+    "/solar-panels": {
+      "title": "Solar Panels Ireland | Residential Solar PV Systems | Green-House Renewables",
+      "description": "Professional solar panel installation across Ireland. Up to €2,100 SEAI grant, 0% VAT. Save up to 70% on electricity bills. Free quote available.",
+      "keywords": "solar panels Ireland, solar PV systems, residential solar, SEAI grant solar panels, solar panel installation Dublin",
+      "ogImage": "/images/services/solar-panels.jpg"
+    },
+    "/battery-storage": {
+      "title": "Home Battery Storage Ireland | Sigenergy Systems | Green-House Renewables",
+      "description": "Home battery storage systems by Sigenergy. Store excess solar energy, reduce grid dependence, and power your home 24/7. Certified Sigenergy installers in Ireland.",
+      "keywords": "battery storage Ireland, home battery, Sigenergy battery, solar battery storage, energy storage systems",
+      "ogImage": "/images/services/battery-storage.jpg"
+    },
+    "/commercial-solar": {
+      "title": "Commercial Solar Panels Ireland | Business Solar Solutions | Green-House Renewables",
+      "description": "Commercial solar PV installations for Irish businesses. Reduce operating costs, meet sustainability targets, and benefit from SSAP grants. 1,000+ installations completed.",
+      "keywords": "commercial solar Ireland, business solar panels, commercial solar installation, SSAP grants, corporate solar energy",
+      "ogImage": "/images/hero/green-house-hero-home.png"
+    },
+    "/ev-chargers": {
+      "title": "EV Charger Installation Ireland | Home & Business | Green-House Renewables",
+      "description": "Professional EV charger installation for homes and businesses across Ireland. SEAI grant available. Charge your electric vehicle with clean solar energy.",
+      "keywords": "EV charger installation Ireland, electric vehicle charger, home EV charger, SEAI grant EV charger, EV charging station",
+      "ogImage": "/images/services/ev-charger.jpg"
+    },
+    "/grants": {
+      "title": "SEAI Grants for Solar Panels Ireland 2025 | Green-House Renewables",
+      "description": "Get up to €2,100 SEAI grant for solar panels in Ireland. 0% VAT on solar installations. We handle all the paperwork for you. Apply today.",
+      "keywords": "SEAI grants, solar panel grants Ireland, SEAI solar grant, renewable energy grants, government grants solar",
+      "ogImage": "/images/hero/green-house-hero-home.png"
+    },
+    "/finance": {
+      "title": "Solar Panel Finance Options Ireland | Green-House Renewables",
+      "description": "Affordable solar panel finance through Finance Ireland. Flexible payment plans, no large upfront cost. Go solar today with easy monthly payments.",
+      "keywords": "solar panel finance Ireland, solar payment plans, Finance Ireland solar, affordable solar panels, solar finance options",
+      "ogImage": "/images/hero/green-house-hero-home.png"
+    },
+    "/funding-options": {
+      "title": "Business Solar Funding & SSAP Grants | Green-House Renewables",
+      "description": "Business funding options for commercial solar. SSAP grants, accelerated capital allowances, and SEAI support schemes to reduce upfront costs.",
+      "keywords": "SSAP grants, business solar funding, commercial solar grants, accelerated capital allowances, SEAI business grants",
+      "ogImage": "/images/hero/green-house-hero-home.png"
+    },
+    "/projects": {
+      "title": "Solar Installation Projects & Case Studies | Green-House Renewables",
+      "description": "View our portfolio of 1,000+ solar installations across Ireland. Residential, commercial, and industrial case studies showcasing our quality workmanship.",
+      "keywords": "solar projects Ireland, solar installation portfolio, case studies solar, Green-House Renewables projects",
+      "ogImage": "/images/hero/green-house-hero-home.png"
+    },
+    "/contact": {
+      "title": "Contact Green-House Renewables | Free Solar Consultation Ireland",
+      "description": "Contact Green-House Renewables for a free solar consultation. Call +353 1 207 0006, email info@green-house.ie. Deansgrange Business Park, Blackrock, Dublin.",
+      "keywords": "contact Green-House Renewables, solar consultation Ireland, solar panel quote Dublin, renewable energy consultation",
+      "ogImage": "/images/hero/green-house-hero-home.png"
+    },
+    "/quote-builder": {
+      "title": "Get a Free Solar Quote | Green-House Renewables Ireland",
+      "description": "Get a free, no-obligation quote for solar panels, battery storage, or EV chargers. SEAI grants available. Serving all of Ireland.",
+      "keywords": "free solar quote Ireland, solar panel quote, solar estimate, Green-House Renewables quote",
+      "ogImage": "/images/hero/green-house-hero-home.png"
+    },
+    "/testimonials": {
+      "title": "Customer Reviews & Testimonials | Green-House Renewables",
+      "description": "Read 100+ five-star reviews from happy Green-House Renewables customers. See why homeowners and businesses across Ireland trust us for solar installations.",
+      "keywords": "Green-House Renewables reviews, solar panel reviews Ireland, customer testimonials, solar installer reviews",
+      "ogImage": "/images/hero/green-house-hero-home.png"
+    },
+    "/privacy-policy": {
+      "title": "Privacy Policy | Green-House Renewables",
+      "description": "Read the Green-House Renewables privacy policy. Learn how we collect, use, and protect your personal data in compliance with GDPR.",
+      "keywords": "",
+      "ogImage": "/images/hero/green-house-hero-home.png"
+    },
+    "/cookies": {
+      "title": "Cookie Policy | Green-House Renewables",
+      "description": "Learn about how Green-House Renewables uses cookies. Manage your cookie preferences and understand our cookie usage.",
+      "keywords": "",
+      "ogImage": "/images/hero/green-house-hero-home.png"
+    }
+  },
+  "services": [
+    {
+      "name": "Solar Panel Installation",
+      "description": "Professional residential solar PV system installation across Ireland. Save up to 70% on electricity bills with SEAI-approved solar panels.",
+      "url": "/solar-panels",
+      "image": "/images/services/solar-panels.jpg",
+      "areaServed": "Ireland",
+      "provider": "Green-House Renewables"
+    },
+    {
+      "name": "Battery Storage Installation",
+      "description": "Home battery storage systems by Sigenergy. Store excess solar energy and power your home 24/7 with certified installation.",
+      "url": "/battery-storage",
+      "image": "/images/services/battery-storage.jpg",
+      "areaServed": "Ireland",
+      "provider": "Green-House Renewables"
+    },
+    {
+      "name": "EV Charger Installation",
+      "description": "Professional EV charger installation for homes and businesses. Charge your electric vehicle with clean solar energy.",
+      "url": "/ev-chargers",
+      "image": "/images/services/ev-charger.jpg",
+      "areaServed": "Ireland",
+      "provider": "Green-House Renewables"
+    },
+    {
+      "name": "Commercial Solar Solutions",
+      "description": "Commercial and business solar PV installations. Reduce operating costs and meet sustainability targets with SSAP grant support.",
+      "url": "/commercial-solar",
+      "image": "/images/hero/green-house-hero-home.png",
+      "areaServed": "Ireland",
+      "provider": "Green-House Renewables"
+    }
+  ]
+}

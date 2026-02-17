@@ -1,15 +1,14 @@
-import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 import aboutData from "../data/pages/AboutPage.json";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
 
-export const metadata: Metadata = {
-  title: "About Us | Green-House Renewables",
-  description: aboutData.hero.description,
-};
+export const metadata = generatePageMetadata("/about");
 
 export default function AboutPage() {
   return (
     <PageLayout>
+      <StructuredData pageType="about" pagePath="/about" />
       <section
         style={{
           background: "linear-gradient(135deg, #009968 0%, #007a54 50%, #112F5B 100%)",
@@ -51,6 +50,7 @@ export default function AboutPage() {
                 src={aboutData.story.image.src}
                 alt={aboutData.story.image.alt}
                 className="rounded-2xl shadow-lg w-full"
+                loading="lazy"
               />
             </div>
           </div>

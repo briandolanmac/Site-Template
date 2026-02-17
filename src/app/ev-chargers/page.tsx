@@ -1,17 +1,17 @@
-import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 import pageData from "../data/pages/EvChargersPage.json";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
+import RelatedServices from "../components/RelatedServices";
 
-export const metadata: Metadata = {
-  title: "EV Charger Installation | Green-House Renewables",
-  description: "Professional EV charger installation for homes and businesses across Ireland. SEAI grant available. Charge your electric vehicle with solar energy.",
-};
+export const metadata = generatePageMetadata("/ev-chargers");
 
 export default function EvChargersPage() {
   const { hero, about, business, cta } = pageData;
 
   return (
     <PageLayout>
+      <StructuredData pageType="service" pagePath="/ev-chargers" serviceName="EV Charger Installation" />
       <section
         style={{
           background: "linear-gradient(135deg, #009968 0%, #112F5B 50%, #12222E 100%)",
@@ -86,6 +86,8 @@ export default function EvChargersPage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices currentPath="/ev-chargers" />
 
       <section
         style={{

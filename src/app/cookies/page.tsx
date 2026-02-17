@@ -1,14 +1,13 @@
-import type { Metadata } from "next";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
 
-export const metadata: Metadata = {
-  title: "Cookie Policy | Green-House Renewables",
-  description: "Learn about how Green-House Renewables uses cookies on our website. Manage your cookie preferences.",
-};
+export const metadata = generatePageMetadata("/cookies");
 
 export default function CookiesPage() {
   return (
     <PageLayout>
+      <StructuredData pageType="default" pagePath="/cookies" />
       <section
         style={{
           background: "linear-gradient(135deg, #2B475C 0%, #12222E 50%, #112F5B 100%)",

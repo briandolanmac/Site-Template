@@ -1,14 +1,13 @@
-import type { Metadata } from "next";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
 
-export const metadata: Metadata = {
-  title: "Finance Options | Green-House Renewables",
-  description: "Affordable solar panel finance through our Finance Ireland partnership. Spread the cost with flexible payment plans. Go solar with no large upfront cost.",
-};
+export const metadata = generatePageMetadata("/finance");
 
 export default function FinancePage() {
   return (
     <PageLayout>
+      <StructuredData pageType="default" pagePath="/finance" />
       <section
         style={{
           background: "linear-gradient(135deg, #112F5B 0%, #2B475C 50%, #009968 100%)",

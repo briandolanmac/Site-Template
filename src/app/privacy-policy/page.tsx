@@ -1,14 +1,13 @@
-import type { Metadata } from "next";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
 
-export const metadata: Metadata = {
-  title: "Privacy Policy | Green-House Renewables",
-  description: "Read the Green-House Renewables privacy policy. Learn how we collect, use, and protect your personal data.",
-};
+export const metadata = generatePageMetadata("/privacy-policy");
 
 export default function PrivacyPolicyPage() {
   return (
     <PageLayout>
+      <StructuredData pageType="default" pagePath="/privacy-policy" />
       <section
         style={{
           background: "linear-gradient(135deg, #2B475C 0%, #12222E 50%, #112F5B 100%)",

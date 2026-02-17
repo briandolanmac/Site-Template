@@ -4,6 +4,7 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import "./admin-sidebar.css";
 import AdminSidebar from "./components/AdminSidebar";
+import seoData from "./data/seo.json";
 
 const leagueSpartan = League_Spartan({
   variable: "--font-league-spartan",
@@ -18,11 +19,50 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Green-House Renewables | Renewable Home Energy Solutions",
-  description:
-    "Your Sustainability Partner. Renewable Home Energy Solutions providing quality solar PV systems, battery storage & EV chargers. SEAI grants available. Serving residential and commercial customers across Ireland.",
+  title: {
+    default: seoData.defaultTitle,
+    template: "%s",
+  },
+  description: seoData.defaultDescription,
   icons: {
     icon: "/icon.svg",
+  },
+  metadataBase: new URL(seoData.siteUrl),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: seoData.defaultTitle,
+    description: seoData.defaultDescription,
+    url: seoData.siteUrl,
+    siteName: seoData.siteName,
+    images: [
+      {
+        url: seoData.defaultImage,
+        width: 1200,
+        height: 630,
+        alt: seoData.siteName,
+      },
+    ],
+    locale: seoData.locale,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: seoData.defaultTitle,
+    description: seoData.defaultDescription,
+    images: [seoData.defaultImage],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 

@@ -1,14 +1,13 @@
-import type { Metadata } from "next";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
 
-export const metadata: Metadata = {
-  title: "Business Funding & SSAP Grants | Green-House Renewables",
-  description: "Business funding options for commercial solar including SSAP grants, accelerated capital allowances, and SEAI support schemes. Reduce upfront costs for your business.",
-};
+export const metadata = generatePageMetadata("/funding-options");
 
 export default function FundingOptionsPage() {
   return (
     <PageLayout>
+      <StructuredData pageType="default" pagePath="/funding-options" />
       <section
         style={{
           background: "linear-gradient(135deg, #2B475C 0%, #112F5B 50%, #007a54 100%)",

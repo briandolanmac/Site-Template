@@ -1,14 +1,13 @@
-import type { Metadata } from "next";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
 
-export const metadata: Metadata = {
-  title: "Our Projects & Case Studies | Green-House Renewables",
-  description: "View our portfolio of 1,000+ solar installations across Ireland. Residential, commercial, and industrial case studies from Green-House Renewables.",
-};
+export const metadata = generatePageMetadata("/projects");
 
 export default function ProjectsPage() {
   return (
     <PageLayout>
+      <StructuredData pageType="default" pagePath="/projects" />
       <section
         style={{
           background: "linear-gradient(135deg, #009968 0%, #007a54 50%, #12222E 100%)",

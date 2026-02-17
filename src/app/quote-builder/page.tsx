@@ -1,14 +1,13 @@
-import type { Metadata } from "next";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
 
-export const metadata: Metadata = {
-  title: "Get a Free Quote | Green-House Renewables",
-  description: "Get a free, no-obligation quote for solar panels, battery storage, or EV chargers. Serving all of Ireland with SEAI grants available.",
-};
+export const metadata = generatePageMetadata("/quote-builder");
 
 export default function QuoteBuilderPage() {
   return (
     <PageLayout>
+      <StructuredData pageType="default" pagePath="/quote-builder" />
       <section
         style={{
           background: "linear-gradient(135deg, #009968 0%, #00b377 50%, #007a54 100%)",

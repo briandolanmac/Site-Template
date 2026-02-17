@@ -1,17 +1,17 @@
-import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 import pageData from "../data/pages/BatteryStoragePage.json";
+import { generatePageMetadata } from "../components/SeoHead";
+import StructuredData from "../components/StructuredData";
+import RelatedServices from "../components/RelatedServices";
 
-export const metadata: Metadata = {
-  title: "Battery Storage Solutions | Green-House Renewables",
-  description: "Home battery storage systems by Sigenergy. Store excess solar energy, reduce grid dependence, and power your home day and night. Certified Sigenergy Installers.",
-};
+export const metadata = generatePageMetadata("/battery-storage");
 
 export default function BatteryStoragePage() {
   const { hero, about, benefits, cta } = pageData;
 
   return (
     <PageLayout>
+      <StructuredData pageType="service" pagePath="/battery-storage" serviceName="Battery Storage Installation" />
       <section
         style={{
           background: "linear-gradient(135deg, #112F5B 0%, #009968 50%, #007a54 100%)",
@@ -51,6 +51,7 @@ export default function BatteryStoragePage() {
                 src={about.image.src}
                 alt={about.image.alt}
                 className="rounded-2xl shadow-lg w-full"
+                loading="lazy"
               />
             </div>
           </div>
@@ -77,6 +78,8 @@ export default function BatteryStoragePage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices currentPath="/battery-storage" />
 
       <section
         style={{
