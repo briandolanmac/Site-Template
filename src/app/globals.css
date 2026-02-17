@@ -764,7 +764,7 @@ ul {
   top: 50%;
   right: 2rem;
   transform: translateY(-50%);
-  background: rgba(0, 153, 104, 0.8);
+  background: rgba(0, 153, 104, 0.2);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 1.5rem;
@@ -792,7 +792,7 @@ ul {
 }
 .stats-float-label {
   font-size: 0.875rem;
-  color: var(--gray-300);
+  color: var(--amber);
   margin: 0 0 0.75rem;
 }
 .hero-stats-float .stars {
