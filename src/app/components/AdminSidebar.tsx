@@ -13,6 +13,14 @@ const FONT_OPTIONS = [
   "Roboto",
   "Nunito",
   "Work Sans",
+  "Quicksand",
+  "Comfortaa",
+  "Baloo 2",
+  "Fredoka",
+  "Chewy",
+  "Pacifico",
+  "Caveat",
+  "Patrick Hand",
 ];
 
 const SECTION_LABELS: Record<string, string> = {

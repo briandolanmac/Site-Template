@@ -12,7 +12,15 @@ const FONT_OPTIONS = [
   "Lato",
   "Roboto",
   "Nunito",
-  "Work Sans"
+  "Work Sans",
+  "Quicksand",
+  "Comfortaa",
+  "Baloo 2",
+  "Fredoka",
+  "Chewy",
+  "Pacifico",
+  "Caveat",
+  "Patrick Hand",
 ];
 
 const GOOGLE_FONTS_URL = "https://fonts.googleapis.com/css2";
