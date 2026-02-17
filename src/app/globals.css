@@ -1256,9 +1256,10 @@ ul {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   transition: transform 0.4s, box-shadow 0.4s;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 .service-card-v2:hover {
   transform: translateY(-6px);
@@ -1283,6 +1284,7 @@ ul {
   display: flex;
   flex-direction: column;
   flex: 1;
+  background: linear-gradient(135deg, #007a54, #009968);
 }
 @media (min-width: 768px) {
   .service-card-v2-body {
