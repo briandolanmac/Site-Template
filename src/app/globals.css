@@ -888,7 +888,7 @@ ul {
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #FFD700;
+  color: var(--amber);
   letter-spacing: 0.15em;
 }
 
