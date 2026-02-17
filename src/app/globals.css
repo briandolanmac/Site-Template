@@ -1256,13 +1256,14 @@ ul {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   transition: transform 0.4s, box-shadow 0.4s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 .service-card-v2:hover {
   transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 .service-card-v2-img {
   position: relative;
@@ -1293,7 +1294,7 @@ ul {
   font-size: 1.15rem;
   font-weight: 700;
   margin-bottom: 0.35rem;
-  color: #fff;
+  color: var(--text-primary, #1a1a1a);
 }
 @media (min-width: 768px) {
   .service-card-v2-body h3 {
@@ -1302,7 +1303,7 @@ ul {
 }
 .service-card-v2-body p {
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--text-secondary, #666);
   margin: 0;
   line-height: 1.55;
 }
