@@ -36,18 +36,42 @@ const cardIcons = [
 const ServiceCardsSection = () => {
   if (!cardsData.enabled) return null;
 
+  const style = (cardsData as any).style || 1;
+
+  if (style === 2) {
+    return (
+      <section className="service-cards-section">
+        <div className="container service-cards-v2">
+          {cardsData.cards.map((card) => (
+            <a key={card.href} href={card.href} className="service-card-v2">
+              <div className="service-card-v2-img">
+                <img src={(card as any).image} alt={card.title} />
+              </div>
+              <div className="service-card-v2-overlay" />
+              <div className="service-card-v2-body">
+                <h3>{card.title}</h3>
+                <p>{card.description}</p>
+              </div>
+              <span className="sc-arrow">{cardsData.arrow}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    );
+  }
+
   return (
     <section className="service-cards-section">
-    <div className="container service-cards">
-      {cardsData.cards.map((card, index) => (
-        <a key={card.href} href={card.href} className="service-card">
-          <div className="sc-icon-wrap">{cardIcons[index]}</div>
-          <h3>{card.title}</h3>
-          <p>{card.description}</p>
-          <span className="sc-arrow">{cardsData.arrow}</span>
-        </a>
-      ))}
-    </div>
+      <div className="container service-cards">
+        {cardsData.cards.map((card, index) => (
+          <a key={card.href} href={card.href} className="service-card">
+            <div className="sc-icon-wrap">{cardIcons[index]}</div>
+            <h3>{card.title}</h3>
+            <p>{card.description}</p>
+            <span className="sc-arrow">{cardsData.arrow}</span>
+          </a>
+        ))}
+      </div>
     </section>
   );
 };

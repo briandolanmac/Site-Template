@@ -1,26 +1,31 @@
 {
   "enabled": true,
+  "style": 2,
   "arrow": "→",
   "cards": [
     {
       "title": "Solar Panels",
       "description": "Generate your own clean electricity and slash your energy bills",
-      "href": "/solar-panels"
+      "href": "/solar-panels",
+      "image": "/images/services/solar-panels.jpg"
     },
     {
       "title": "Battery Storage",
       "description": "Store excess solar energy and use it when you need it most",
-      "href": "/battery-storage"
+      "href": "/battery-storage",
+      "image": "/images/services/battery-storage.jpg"
     },
     {
       "title": "EV Chargers",
       "description": "Effortless, reliable charging for your electric vehicle at home",
-      "href": "/ev-chargers"
+      "href": "/ev-chargers",
+      "image": "/images/services/ev-charger.jpg"
     },
     {
       "title": "Commercial Solar",
       "description": "Customised solar solutions for businesses of any size",
-      "href": "/commercial-solar"
+      "href": "/commercial-solar",
+      "image": "/images/services/commercial-solar.jpg"
     }
   ]
 }

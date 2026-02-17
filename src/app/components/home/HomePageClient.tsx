@@ -285,7 +285,7 @@ const HomePageClient = () => {
     if ("IntersectionObserver" in window) {
       // General scroll reveal for individual elements
       const scrollElements = document.querySelectorAll<HTMLElement>(
-        ".service-card, .case-card, .how-step, .testimonial-card, .service-card-lg, .video-wrap, .why-img, .why-content, .faq-list, .trust-bar-inner, .rating-badge"
+        ".service-card, .service-card-v2, .case-card, .how-step, .testimonial-card, .service-card-lg, .video-wrap, .why-img, .why-content, .faq-list, .trust-bar-inner, .rating-badge"
       );
 
       scrollElements.forEach((el) => {
@@ -329,7 +329,7 @@ const HomePageClient = () => {
 
       // Stagger children in grids
       const staggerGrids = document.querySelectorAll<HTMLElement>(
-        ".service-cards, .how-grid, .testimonials-grid, .case-grid, .impact-grid, .services-grid"
+        ".service-cards, .service-cards-v2, .how-grid, .testimonials-grid, .case-grid, .impact-grid, .services-grid"
       );
 
       staggerObserver = new IntersectionObserver(
