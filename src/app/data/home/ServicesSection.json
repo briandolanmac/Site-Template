@@ -1,18 +1,18 @@
 {
   "enabled": true,
-  "eyebrow": "What We Do",
-  "title": "Clean Energy That Actually Makes Sense",
-  "subtitle": "Whether it's your family home or your business, we've got the perfect energy setup to save you money and help the planet. Win-win!",
+  "eyebrow": "Our Services",
+  "title": "Clean Energy Solutions That Work For You",
+  "subtitle": "We offer fully designed, bespoke energy-efficient systems for homes and businesses nationwide. From solar panels to heat pumps, we've got you covered.",
   "cards": [
     {
       "image": { "src": "/images/9.webp", "alt": "Residential Solar Installation" },
       "tag": "For Your Home",
       "title": "Solar Panels",
-      "description": "Start generating your own energy and watch those electricity bills shrink. Plus, SEAI grants make it super affordable!",
+      "description": "With over 20 years in business and more than 1,000 installations, we're one of South Dublin's most experienced and trusted solar energy providers.",
       "bullets": [
-        "SEAI grant available (up to €1,800)",
+        "SEAI grants available — up to €1,800",
         "Lifetime workmanship guarantee",
-        "Get paid for surplus power — yes, really!"
+        "Get paid for surplus power sent to the grid"
       ],
       "cta": { "value": "€800+", "label": "Annual Savings →", "href": "/solar-panels" }
     },
@@ -20,10 +20,10 @@
       "image": { "src": "/images/commercial/17.webp", "alt": "Commercial Solar Installation" },
       "tag": "For Your Business",
       "title": "Commercial Solar",
-      "description": "Slash your overheads and go green at the same time. We design systems that fit your business like a glove.",
+      "description": "We specialise in delivering high-quality, customised solar solutions for commercial properties. Expert installation tailored to your business's specific energy needs.",
       "bullets": [
-        "Tailored to your energy needs",
-        "Ongoing support when you need it",
+        "Tailored to your unique energy goals",
+        "Ongoing maintenance and support",
         "Boost your property value"
       ],
       "cta": { "value": "40-50%", "label": "Bill Reduction →", "href": "/commercial-solar" }

@@ -2,10 +2,10 @@
   "enabled": true,
   "eyebrow": "Since 2006",
   "title": "Why Go With Green-House?",
-  "description": "We've been doing this since 2006 — so yeah, we know our stuff! From cosy family homes to massive commercial projects, we design energy solutions that actually work for you. No cookie-cutter installs here — everything is tailored to your space and your needs.",
+  "description": "Green-House are one of Ireland's leading renewable and mechanical installers, specialising in both domestic and commercial projects of any size. From our vast experience we know that every home and family have different requirements. We tailor our renewable systems to match your needs, treating every project as if it was our own home.",
   "image": {
-    "src": "/images/team.jpg",
-    "alt": "Green-House Renewables Team"
+    "src": "/images/green-house-van.avif",
+    "alt": "Green-House Renewables Van"
   },
   "award": {
     "icon": "🏆",
@@ -14,13 +14,14 @@
   },
   "trustItems": [
     "✓ SEAI Approved Installer",
-    "✓ Lifetime Guarantee",
+    "✓ Lifetime Workmanship Guarantee",
     "✓ 20+ Years Experience",
+    "✓ No Sub-Contracting",
     "✓ Bespoke Energy Solutions"
   ],
   "stats": [
     { "value": "1,000+", "label": "Happy Customers" },
-    { "value": "18+", "label": "Years Experience" },
+    { "value": "20+", "label": "Years Experience" },
     { "value": "2,800+", "label": "Projects Completed" },
     { "value": "15+", "label": "Dedicated Employees" }
   ],

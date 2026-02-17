@@ -7,11 +7,11 @@
   },
   "eyebrow": "Renewable Home Energy Solutions",
   "headlineLines": [
-    "Power Your",
-    "Home With"
+    "Power and Heat",
+    "Your Home With"
   ],
-  "headlineHighlight": "Solar !",
-  "subheading": "Your local solar experts — making clean energy easy and affordable for every Irish home.",
+  "headlineHighlight": "The Sun & The Air",
+  "subheading": "Your one-stop-shop for solar panels, heat pumps, EV chargers, and underfloor heating. Serving Irish homes and businesses since 2006.",
   "cta": [
     {
       "label": "Get a Free Quote",
@@ -20,15 +20,15 @@
     },
     {
       "label": "Speak to an Expert",
-      "href": "",
+      "href": "/contact",
       "variant": "business"
     }
   ],
   "ctaArrow": "→",
   "badges": [
-    "",
-    "",
-    ""
+    "SEAI Approved",
+    "20+ Years Experience",
+    "Lifetime Guarantee"
   ],
   "mobileStats": [
     {
@@ -37,10 +37,10 @@
     },
     {
       "value": "2,800+",
-      "label": "Projects"
+      "label": "Projects Completed"
     },
     {
-      "value": "18+",
+      "value": "20+",
       "label": "Years Experience"
     }
   ],
@@ -60,9 +60,9 @@
     "reviews": "1,000+ Happy Customers"
   },
   "floatCert": {
-    "icon": "",
-    "title": "",
-    "sub": ""
+    "icon": "🛡️",
+    "title": "Safe Electric",
+    "sub": "Certified"
   },
   "scrollLabel": "Explore"
 }

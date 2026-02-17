@@ -2,31 +2,31 @@
   "enabled": true,
   "eyebrow": "Easy as 1-2-3",
   "title": "How It Works",
-  "subtitle": "We handle all the boring stuff — paperwork, installation, the lot!",
+  "subtitle": "We handle everything — from paperwork and grants to installation and setup!",
   "steps": [
     {
       "number": "1",
       "icon": "📋",
       "time": "5 mins",
-      "title": "Grab Your Quote",
-      "description": "Fill in our quick form and get a tailored quote — takes less time than making a cuppa!",
-      "bullets": ["Free instant estimate", "Zero obligation", "SEAI grant included"]
+      "title": "Get Your Free Quote",
+      "description": "Fill in our quick form and get a tailored quote. We'll also guide you through SEAI grants and available funding.",
+      "bullets": ["Free no-obligation quote", "SEAI grant guidance", "Tailored to your needs"]
     },
     {
       "number": "2",
       "icon": "🔍",
       "time": "1 hour",
-      "title": "We Pop Over for a Look",
-      "description": "Our friendly experts visit your place and figure out the perfect setup for you",
-      "bullets": ["Expert assessment", "Roof analysis", "Custom solution"]
+      "title": "Free Site Survey",
+      "description": "Our experts visit your property to assess your roof, energy usage, and design the perfect system for your home.",
+      "bullets": ["Expert energy assessment", "Roof and property analysis", "Custom system design"]
     },
     {
       "number": "3",
       "icon": "🔧",
       "time": "1-2 days",
-      "title": "Sit Back & Relax",
-      "description": "Our crew handles everything — clean, tidy, on time, and on budget. Easy!",
-      "bullets": ["Certified installers", "Spotlessly clean", "Lifetime guarantee"]
+      "title": "Professional Installation",
+      "description": "Our own qualified team handles the full installation — no sub-contracting. Clean, tidy, on time, and on budget.",
+      "bullets": ["Certified installers", "No sub-contracting", "Lifetime workmanship guarantee"]
     }
   ],
   "cta": { "label": "Get Your Free Quote", "href": "/quote-builder" }
