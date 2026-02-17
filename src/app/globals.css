@@ -1010,7 +1010,7 @@ ul {
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
 .hero-badges svg {
-  color: var(--aqua);
+  color: var(--amber);
 }
 
 .hero-mobile-stats {
