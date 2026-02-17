@@ -1620,14 +1620,14 @@ ul {
   background: linear-gradient(135deg, #009968 0%, #007a54 50%, #112F5B 100%);
   color: #fff;
 }
-.why-choose .section-title {
-  color: #fff;
+section.why-choose .section-title {
+  color: #fff !important;
 }
-.why-choose .section-eyebrow {
-  color: #CBB492;
+section.why-choose .section-eyebrow {
+  color: #CBB492 !important;
 }
-.why-choose .section-subtitle {
-  color: rgba(255, 255, 255, 0.85);
+section.why-choose .section-subtitle {
+  color: rgba(255, 255, 255, 0.85) !important;
 }
 .grid-2 {
   display: grid;
