@@ -2,8 +2,8 @@
   "enabled": true,
   "overlayOpacity": 5,
   "image": {
-    "src": "/images/hero/green-house-hero1.png",
-    "alt": "Solar panel installer on rooftop"
+    "src": "/images/hero/green-house-hero-home.png",
+    "alt": "Solar engineer inspecting panels at sunset"
   },
   "eyebrow": "Renewable Home Energy Solutions for Ireland",
   "headlineLines": [
