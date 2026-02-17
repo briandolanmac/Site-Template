@@ -1,16 +1,16 @@
 {
   "hero": {
-    "eyebrow": "Smart Energy Management",
-    "title": "Battery Storage Solutions",
-    "subtitle": "Adding battery storage to your solar PV installation transforms how you use the energy generated. Store excess electricity for use at night or during price spikes."
+    "eyebrow": "Energy Storage",
+    "title": "Home Battery Storage",
+    "subtitle": "Store your solar energy and use it when you need it most. Certified Sigenergy battery systems for maximum independence."
   },
   "about": {
-    "eyebrow": "Battery Storage Integration",
-    "title": "Maximise Your Solar Investment",
+    "eyebrow": "Sigenergy Battery Systems",
+    "title": "Power Your Home Day & Night",
     "paragraphs": [
-      "Battery storage allows you to store excess electricity produced during daylight hours for use at night or during power price spikes. With a hybrid inverter, you stay in control of your own power, even when demand on the national grid is high.",
-      "Modern lithium-ion battery systems integrate seamlessly with solar PV panels through advanced hybrid inverter technology. This combination creates a comprehensive energy solution that maximises the value of your solar investment.",
-      "For properties with higher electricity demand or those seeking greater energy independence, battery storage represents a logical extension of solar power technology, complementing the solar array and enhancing overall system performance."
+      "Without battery storage, excess solar energy generated during the day is exported to the grid. A home battery stores this energy so you can use it in the evening and at night — when electricity costs are highest.",
+      "As Certified Sigenergy Installers, we provide cutting-edge battery systems that integrate seamlessly with your solar panels. Sigenergy batteries are known for their reliability, efficiency, and sleek design.",
+      "A typical home battery can store 5-15kWh of energy, enough to power your home through the evening and overnight. Combined with solar panels, you can achieve up to 90% energy independence."
     ],
     "image": {
       "src": "/images/case-studies/battery_storage.webp",
@@ -20,17 +20,17 @@
   "benefits": {
     "title": "Benefits of Battery Storage",
     "items": [
-      { "title": "Store Excess Electricity", "desc": "Store excess electricity produced during daylight hours for use when you need it most", "icon": "☀️" },
-      { "title": "Use Solar at Night", "desc": "Use your own solar electricity during evening periods when grid rates are highest", "icon": "🌙" },
-      { "title": "Grid Independence", "desc": "Reduce dependence on the national grid and maintain power during outages", "icon": "🔋" },
-      { "title": "Optimise Self-Consumption", "desc": "Ensure more of the electricity generated remains available for your use", "icon": "📊" },
-      { "title": "Hybrid Inverter Technology", "desc": "Advanced hybrid inverter technology enables efficient energy management", "icon": "⚡" },
-      { "title": "Seamless Integration", "desc": "Our systems integrate perfectly with your existing solar PV setup", "icon": "🔄" }
+      { "title": "Energy Independence", "desc": "Reduce your reliance on the grid and protect against rising energy prices", "icon": "🔋" },
+      { "title": "Use Solar at Night", "desc": "Store daytime solar energy and use it in the evening when you need it most", "icon": "🌙" },
+      { "title": "Backup Power", "desc": "Keep essential appliances running during power outages with battery backup", "icon": "⚡" },
+      { "title": "Smart Management", "desc": "Intelligent energy management optimises when to store, use, or export energy", "icon": "🧠" },
+      { "title": "Maximise Savings", "desc": "Use more of your own solar energy instead of buying expensive grid electricity", "icon": "💰" },
+      { "title": "Future Proof", "desc": "Scalable systems that can grow with your energy needs over time", "icon": "🔄" }
     ]
   },
   "cta": {
-    "title": "Add Battery Storage to Your Solar System",
-    "subtitle": "Contact Solar Path for a free consultation about battery storage. We'll design the perfect solution for your energy needs.",
-    "primaryButton": { "label": "Request Quotation", "href": "/quote-builder" }
+    "title": "Add Battery Storage to Your Home",
+    "subtitle": "Whether you already have solar panels or are starting fresh, we can design the perfect battery storage solution for your home.",
+    "primaryButton": { "label": "Get Free Quote", "href": "/quote-builder" }
   }
 }

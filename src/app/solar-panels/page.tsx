@@ -3,8 +3,8 @@ import PageLayout from "../components/PageLayout";
 import pageData from "../data/pages/SolarPanelsPage.json";
 
 export const metadata: Metadata = {
-  title: "Solar Panels Ireland | Solar Path",
-  description: "Residential solar PV systems installed across Ireland. Up to €2,100 SEAI grant, 0% VAT. Save up to 70% on electricity bills with Solar Path.",
+  title: "Solar Panels Ireland | Green-House Renewables",
+  description: "Residential solar PV systems installed across Ireland. Up to €2,100 SEAI grant, 0% VAT. Save up to 70% on electricity bills with Green-House Renewables.",
 };
 
 export default function SolarPanelsPage() {
@@ -14,7 +14,7 @@ export default function SolarPanelsPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
+          background: "linear-gradient(135deg, #007a54 0%, #009968 50%, #00b377 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -36,7 +36,7 @@ export default function SolarPanelsPage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#F5A623" }}>
+              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
                 {whySolar.eyebrow}
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -48,7 +48,7 @@ export default function SolarPanelsPage() {
               <ul className="space-y-3">
                 {whySolar.bullets.map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <span style={{ color: "#F5A623" }} className="font-bold mt-0.5">✓</span>
+                    <span style={{ color: "#009968" }} className="font-bold mt-0.5">✓</span>
                     <span className="text-gray-600">{item}</span>
                   </li>
                 ))}
@@ -68,7 +68,7 @@ export default function SolarPanelsPage() {
       <section className="py-16 md:py-20" style={{ background: "var(--bg-secondary)" }}>
         <div className="container">
           <div className="text-center mb-12">
-            <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#F5A623" }}>
+            <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
               {process.eyebrow}
             </p>
             <h2 className="text-3xl font-extrabold">{process.title}</h2>
@@ -78,7 +78,7 @@ export default function SolarPanelsPage() {
               <div key={item.step} className="text-center">
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4"
-                  style={{ background: "#0B1D3A" }}
+                  style={{ background: "#009968" }}
                 >
                   {item.step}
                 </div>
@@ -113,7 +113,7 @@ export default function SolarPanelsPage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
+          background: "linear-gradient(135deg, #007a54 0%, #009968 50%, #00b377 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -130,7 +130,7 @@ export default function SolarPanelsPage() {
               href={cta.primaryButton.href}
               style={{
                 background: "#fff",
-                color: "#F5A623",
+                color: "#009968",
                 padding: "0.875rem 2rem",
                 borderRadius: "0.5rem",
                 fontWeight: 700,

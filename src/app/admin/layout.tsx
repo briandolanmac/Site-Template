@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Admin - Solar Path",
+  title: "Admin - Green-House Renewables",
   robots: "noindex, nofollow",
 };
 

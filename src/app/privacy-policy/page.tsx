@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Solar Path",
-  description: "Read the Solar Path privacy policy. Learn how we collect, use, and protect your personal data.",
+  title: "Privacy Policy | Green-House Renewables",
+  description: "Read the Green-House Renewables privacy policy. Learn how we collect, use, and protect your personal data.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -11,7 +11,7 @@ export default function PrivacyPolicyPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #2B475C 0%, #12222E 50%, #162D50 100%)",
+          background: "linear-gradient(135deg, #2B475C 0%, #12222E 50%, #112F5B 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -21,7 +21,7 @@ export default function PrivacyPolicyPage() {
             Privacy Policy
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-            How Solar Path collects, uses, and protects your personal data.
+            How Green-House Renewables collects, uses, and protects your personal data.
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function PrivacyPolicyPage() {
             <div>
               <h2 className="text-2xl font-extrabold mb-4">1. Introduction</h2>
               <p className="text-gray-600 leading-relaxed">
-                Solar Path (&ldquo;we&rdquo;, &ldquo;our&rdquo;, &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. We are based in Cork, Ireland, and operate in accordance with the General Data Protection Regulation (GDPR) and the Irish Data Protection Act 2018.
+                Green-House Renewables (&ldquo;we&rdquo;, &ldquo;our&rdquo;, &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. We are based in Blackrock, Dublin, Ireland, and operate in accordance with the General Data Protection Regulation (GDPR) and the Irish Data Protection Act 2018.
               </p>
             </div>
 
@@ -42,11 +42,11 @@ export default function PrivacyPolicyPage() {
                 We may collect the following personal information:
               </p>
               <ul className="space-y-2 text-gray-600">
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> Name, email address, phone number, and postal address when you contact us or request a quote</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> Property details including Eircode, property type, and energy usage information</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> Technical data such as your IP address, browser type, and device information</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> Usage data about how you interact with our website</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> Cookie data as described in our Cookie Policy</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Name, email address, phone number, and postal address when you contact us or request a quote</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Property details including Eircode, property type, and energy usage information</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Technical data such as your IP address, browser type, and device information</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Usage data about how you interact with our website</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Cookie data as described in our Cookie Policy</li>
               </ul>
             </div>
 
@@ -56,11 +56,11 @@ export default function PrivacyPolicyPage() {
                 We use the information we collect for the following purposes:
               </p>
               <ul className="space-y-2 text-gray-600">
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> To provide quotes, arrange site surveys, and deliver our solar installation services</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> To process SEAI grant applications on your behalf</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> To communicate with you about your enquiry, project, or aftercare</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> To improve our website and services</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> To comply with legal and regulatory obligations</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> To provide quotes, arrange site surveys, and deliver our solar installation services</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> To process SEAI grant applications on your behalf</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> To communicate with you about your enquiry, project, or aftercare</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> To improve our website and services</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> To comply with legal and regulatory obligations</li>
               </ul>
             </div>
 
@@ -91,19 +91,19 @@ export default function PrivacyPolicyPage() {
                 Under GDPR, you have the following rights:
               </p>
               <ul className="space-y-2 text-gray-600">
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> Right to access your personal data</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> Right to rectification of inaccurate data</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> Right to erasure (&ldquo;right to be forgotten&rdquo;)</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> Right to restrict processing</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> Right to data portability</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> Right to object to processing</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Right to access your personal data</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Right to rectification of inaccurate data</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Right to erasure (&ldquo;right to be forgotten&rdquo;)</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Right to restrict processing</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Right to data portability</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Right to object to processing</li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-2xl font-extrabold mb-4">8. Contact Us</h2>
               <p className="text-gray-600 leading-relaxed">
-                If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us at: <a href="mailto:sales@solarpath.ie" style={{ color: "#F5A623" }} className="hover:underline">sales@solarpath.ie</a> or call <a href="tel:+353872591114" style={{ color: "#F5A623" }} className="hover:underline">087 259 1114</a>.
+                If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us at: <a href="mailto:info@green-house.ie" style={{ color: "#009968" }} className="hover:underline">info@green-house.ie</a> or call <a href="tel:+35312070006" style={{ color: "#009968" }} className="hover:underline">+353 1 207 0006</a>.
               </p>
             </div>
 

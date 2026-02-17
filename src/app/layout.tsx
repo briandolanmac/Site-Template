@@ -18,7 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Solar Path | Renewable Home Energy Solutions",
+  title: "Green-House Renewables | Renewable Home Energy Solutions",
   description:
     "Your Sustainability Partner. Renewable Home Energy Solutions providing quality solar PV systems, battery storage & EV chargers. SEAI grants available. Serving residential and commercial customers across Ireland.",
   icons: {

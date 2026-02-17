@@ -1,12 +1,12 @@
 {
   "enabled": true,
-  "eyebrow": "See Our Work",
-  "title": "Solar Path in Action",
-  "subtitle": "All Solar Path installations include real-time monitoring via mobile, so you can track your generation daily. Watch how we deliver professional solar PV installations across Ireland.",
+  "eyebrow": "Get to Know Us",
+  "title": "Say Hello to Green-House!",
+  "subtitle": "We're on a mission to make clean energy the easiest decision you'll ever make. Hit play and see what we're all about!",
   "video": {
     "src": "/videos/Introductory Video.mp4",
     "playIcon": "▶",
     "playLabel": "Play video"
   },
-  "caption": "Professional solar PV installations across Cork and Ireland."
+  "caption": "Spoiler: we're pretty passionate about saving you money and saving the planet."
 }

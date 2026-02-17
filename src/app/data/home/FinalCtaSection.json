@@ -1,16 +1,16 @@
 {
   "enabled": true,
-  "title": "Book an Expert Solar PV Assessment",
-  "subtitle": "Contact Solar Path for a free consultation about your solar project. Our team will conduct a site survey and provide a detailed quote for your solar PV design and installation.",
+  "title": "Ready to Make the Switch?",
+  "subtitle": "Join 1,000+ happy customers who've already gone solar with us. Grab your free quote — it only takes a minute!",
   "buttons": [
     {
-      "label": "Request Quotation",
+      "label": "Get a Free Quote",
       "href": "/quote-builder",
       "variant": "primary"
     },
     {
-      "label": "Call 087 259 1114",
-      "href": "tel:+353872591114",
+      "label": "Chat With Us",
+      "href": "/contact",
       "variant": "outline"
     }
   ]

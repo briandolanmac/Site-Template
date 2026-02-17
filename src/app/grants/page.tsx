@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "SEAI Grants for Solar Panels | Solar Path",
-  description: "Get up to €2,100 SEAI grant for solar panels in Ireland. 0% VAT on solar installations. Solar Path handles your grant application.",
+  title: "SEAI Grants for Solar Panels | Green-House Renewables",
+  description: "Get up to €2,100 SEAI grant for solar panels in Ireland. 0% VAT on solar installations. Green-House Renewables handles your grant application.",
 };
 
 export default function GrantsPage() {
@@ -11,7 +11,7 @@ export default function GrantsPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
+          background: "linear-gradient(135deg, #007a54 0%, #009968 50%, #112F5B 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -34,7 +34,7 @@ export default function GrantsPage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#F5A623" }}>
+              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
                 Grant Details
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -51,7 +51,7 @@ export default function GrantsPage() {
                 of up to 70%, solar panels pay for themselves within a few years.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                As SEAI Registered installers, Solar Path handles the entire grant
+                As SEAI Registered installers, Green-House Renewables handles the entire grant
                 application process on your behalf — so you can sit back and enjoy the savings.
               </p>
             </div>
@@ -69,7 +69,7 @@ export default function GrantsPage() {
                 },
                 {
                   title: "We Handle Everything",
-                  desc: "Solar Path manages your full SEAI grant application process",
+                  desc: "Green-House Renewables manages your full SEAI grant application process",
                   icon: "📋",
                 },
                 {
@@ -98,7 +98,7 @@ export default function GrantsPage() {
       <section className="py-16 md:py-20" style={{ background: "var(--bg-secondary)" }}>
         <div className="container">
           <div className="text-center mb-12">
-            <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#F5A623" }}>
+            <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
               Eligibility
             </p>
             <h2 className="text-3xl font-extrabold">Who Can Apply?</h2>
@@ -139,7 +139,7 @@ export default function GrantsPage() {
               <div key={item.step} className="text-center">
                 <div
                   className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-lg mx-auto mb-4"
-                  style={{ background: "#0B1D3A" }}
+                  style={{ background: "#009968" }}
                 >
                   {item.step}
                 </div>
@@ -153,7 +153,7 @@ export default function GrantsPage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
+          background: "linear-gradient(135deg, #007a54 0%, #009968 50%, #112F5B 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -169,7 +169,7 @@ export default function GrantsPage() {
             href="/quote-builder"
             style={{
               background: "#fff",
-              color: "#F5A623",
+              color: "#009968",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

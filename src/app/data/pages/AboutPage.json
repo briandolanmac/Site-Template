@@ -1,20 +1,20 @@
 {
   "hero": {
-    "eyebrow": "About Solar Path",
-    "title": "Shaping a Sustainable Future",
-    "description": "At Solar Path, our mission is to lead the solar industry in Ireland by providing professional, expert, and honest advice to deliver sustainable, customer-focused solutions."
+    "eyebrow": "Who We Are",
+    "title": "About Green-House Renewables",
+    "description": "Your sustainability partner — helping homeowners and businesses across Ireland save money while reducing their carbon footprint."
   },
   "story": {
-    "eyebrow": "Our Mission",
-    "title": "Solar Energy Experts in Ireland",
+    "eyebrow": "Our Story",
+    "title": "Powering Ireland's Green Future",
     "paragraphs": [
-      "At Solar Path, our mission is to lead the solar industry in Ireland by providing professional, expert, and honest advice to deliver sustainable, customer-focused solutions. We set new standards in reliability, environmental responsibility, and cleanliness, ensuring excellence at every stage.",
-      "Our vision is to be at the forefront of Ireland's renewable energy transformation by pioneering solar advancements and driving large-scale projects, while continually evolving to meet the energy needs of homes, businesses, and communities.",
-      "At Solar Path, our team's expertise and dedication drive our mission to create sustainable solar solutions. Led by co-founders Ken Hegarty and John Dennehy, our team brings together backgrounds in law, property development, and Internet technology to deliver the best solar PV installations in Cork and across Ireland."
+      "Based in Deansgrange Business Park, Blackrock, Dublin and serving all of Ireland, Green-House Renewables was founded with a clear mission: to make renewable energy accessible and affordable for every Irish home and business. We are proud Certified Sigenergy Installers, SEAI Registered, and Safe Electric Certified.",
+      "With over 1,000 successful installations and 100+ five-star reviews, we have built a reputation for quality workmanship, transparent pricing, and exceptional customer service. Our team of qualified engineers and electricians bring years of expertise to every project.",
+      "We are honoured to have won the Carlow Business Awards in both 2024 and 2025, recognising our commitment to excellence and community impact."
     ],
     "image": {
-      "src": "/images/hero/hero-residential-new.jpg",
-      "alt": "Solar Path installation"
+      "src": "/images/green-house-van.avif",
+      "alt": "Green-House Renewables van"
     }
   },
   "values": {
@@ -22,19 +22,19 @@
     "title": "Our Values",
     "items": [
       {
-        "title": "Customer Focused",
-        "desc": "We prioritise each customer's specific requirements, treating every home with the utmost care. Our approach ensures you get a customised solution that matches your energy needs.",
-        "icon": "🎯"
-      },
-      {
-        "title": "Technical Excellence",
-        "desc": "Certified commercial PV installers with extensive industry experience. Advanced system design for seamless integration, comprehensive maintenance and technical support.",
+        "title": "Quality First",
+        "desc": "We use only premium components and follow best-practice installation standards. Every system is designed to deliver maximum performance for decades.",
         "icon": "⭐"
       },
       {
-        "title": "End-to-End Service",
-        "desc": "Detailed site assessments and energy analysis, bespoke solar power system designs, professional installations by accredited teams, and ongoing support with real-time system monitoring.",
+        "title": "Customer Focus",
+        "desc": "From initial consultation to aftercare, we guide you through every step. Our 100+ five-star reviews speak to the experience we deliver.",
         "icon": "🤝"
+      },
+      {
+        "title": "Sustainability",
+        "desc": "We are passionate about reducing Ireland's carbon emissions. Every solar panel we install helps create a cleaner, greener future for generations to come.",
+        "icon": "🌱"
       }
     ]
   },
@@ -47,24 +47,24 @@
         "icon": "✅"
       },
       {
-        "label": "Certified Electrical Contractors",
+        "label": "Safe Electric Certified",
         "icon": "🔒"
       },
       {
-        "label": "5-Star Customer Rating",
+        "label": "Certified Sigenergy Installers",
         "icon": "🏆"
       },
       {
-        "label": "Full Warranty on All Installations",
-        "icon": "🛡️"
+        "label": "Carlow Business Awards 2024 & 2025",
+        "icon": "🥇"
       }
     ]
   },
   "cta": {
-    "title": "Get Expert Solar PV Installation Today",
-    "description": "Contact Solar Path for a free consultation about your solar project. Our team will conduct a site survey and provide a detailed quote.",
+    "title": "Ready to Start Your Solar Journey?",
+    "description": "Get a free, no-obligation quote from our expert team today.",
     "primaryButton": {
-      "label": "Request Quotation",
+      "label": "Get Free Quote",
       "href": "/quote-builder"
     },
     "secondaryButton": {

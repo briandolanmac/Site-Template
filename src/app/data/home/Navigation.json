@@ -1,17 +1,17 @@
 {
   "enabled": true,
-  "logoAlt": "Solar Path - Leading Solar Panel Installers Cork Ireland",
-  "logoSrc": "/images/branding/solarpath-logo.png",
+  "logoAlt": "Green House Renewables",
+  "logoSrc": "/images/branding/greenhouse-logo.jpg",
   "contact": {
     "phone": {
       "icon": "📞",
-      "label": "087 259 1114",
-      "href": "tel:+353872591114"
+      "label": "+353 1 207 0006",
+      "href": "tel:+35312070006"
     },
     "email": {
       "icon": "✉️",
-      "label": "sales@solarpath.ie",
-      "href": "mailto:sales@solarpath.ie"
+      "label": "info@green-house.ie",
+      "href": "mailto:info@green-house.ie"
     }
   },
   "utilityLinks": [
@@ -22,11 +22,15 @@
   "socialLinks": [
     {
       "label": "Facebook",
-      "href": "https://www.facebook.com/solarpathire"
+      "href": "https://www.facebook.com/greenhouserenewables"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/green-house-renewables"
     },
     {
       "label": "Instagram",
-      "href": "https://www.instagram.com/solarpath.ireland/"
+      "href": "https://www.instagram.com/greenhouserenewables"
     }
   ],
   "dropdowns": [

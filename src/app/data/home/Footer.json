@@ -1,20 +1,24 @@
 {
   "enabled": true,
-  "logoAlt": "Solar Path",
-  "logoSrc": "/images/branding/solarpath-logo.png",
-  "tagline": "Solar Path delivers professional, expert, and honest solar PV solutions across Cork and Ireland. We set new standards in reliability, environmental responsibility, and customer-focused service.",
+  "logoAlt": "Green House Renewables",
+  "logoSrc": "/images/branding/greenhouse-logo.jpg",
+  "tagline": "Helping Ireland go green since 2006! We design bespoke, energy-efficient solutions for homes and businesses all over the country.",
   "badges": {
-    "primary": "SEAI Registered Installer",
-    "secondary": "Full Warranty on All Installations"
+    "primary": "SEAI Approved Installer",
+    "secondary": "Lifetime Workmanship Guarantee"
   },
   "socialLinks": [
     {
       "label": "Facebook",
-      "href": "https://www.facebook.com/solarpathire"
+      "href": "https://www.facebook.com/greenhouserenewables"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/green-house-renewables"
     },
     {
       "label": "Instagram",
-      "href": "https://www.instagram.com/solarpath.ireland/"
+      "href": "https://www.instagram.com/greenhouserenewables"
     }
   ],
   "columns": [
@@ -40,24 +44,24 @@
     }
   ],
   "contact": {
-    "heading": "Get in Touch",
+    "heading": "Come Say Hello",
     "phoneIcon": "📞",
     "phone": {
-      "label": "087 259 1114",
-      "href": "tel:+353872591114"
+      "label": "+353 1 207 0006",
+      "href": "tel:+35312070006"
     },
     "emailIcon": "✉️",
     "email": {
-      "label": "sales@solarpath.ie",
-      "href": "mailto:sales@solarpath.ie"
+      "label": "info@green-house.ie",
+      "href": "mailto:info@green-house.ie"
     },
     "locationIcon": "📍",
-    "location": "82 South Mall, Cork, T12 E3TT",
-    "cta": { "label": "Get a Quote", "href": "/quote-builder" },
-    "hours": "Mon - Fri: 9am - 5pm"
+    "location": "Deansgrange Business Park, Blackrock, Dublin",
+    "cta": { "label": "Get a Quote", "href": "/contact" },
+    "hours": "Mon - Fri: 9am - 4pm"
   },
   "bottom": {
-    "copyright": "© 2025 Solar Path. All rights reserved.",
+    "copyright": "© 2025 Green-House Renewables. All rights reserved.",
     "links": [
       { "label": "Privacy Policy", "href": "/privacy-policy" },
       { "label": "Cookie Policy", "href": "/cookies" },

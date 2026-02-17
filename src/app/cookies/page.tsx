@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy | Solar Path",
-  description: "Learn about how Solar Path uses cookies on our website. Manage your cookie preferences.",
+  title: "Cookie Policy | Green-House Renewables",
+  description: "Learn about how Green-House Renewables uses cookies on our website. Manage your cookie preferences.",
 };
 
 export default function CookiesPage() {
@@ -11,7 +11,7 @@ export default function CookiesPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #2B475C 0%, #12222E 50%, #162D50 100%)",
+          background: "linear-gradient(135deg, #2B475C 0%, #12222E 50%, #112F5B 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -21,7 +21,7 @@ export default function CookiesPage() {
             Cookie Policy
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-            How Solar Path uses cookies and similar technologies on our website.
+            How Green-House Renewables uses cookies and similar technologies on our website.
           </p>
         </div>
       </section>
@@ -39,7 +39,7 @@ export default function CookiesPage() {
             <div>
               <h2 className="text-2xl font-extrabold mb-4">How We Use Cookies</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Solar Path uses cookies for the following purposes:
+                Green-House Renewables uses cookies for the following purposes:
               </p>
               <div className="space-y-4">
                 {[
@@ -99,9 +99,9 @@ export default function CookiesPage() {
                 You can control and manage cookies in several ways:
               </p>
               <ul className="space-y-2 text-gray-600">
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> Most browsers allow you to refuse or delete cookies through their settings</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> You can set your browser to notify you when a cookie is being set</li>
-                <li className="flex items-start gap-2"><span style={{ color: "#F5A623" }} className="mt-1">•</span> You can delete cookies that have already been stored on your device</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> Most browsers allow you to refuse or delete cookies through their settings</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> You can set your browser to notify you when a cookie is being set</li>
+                <li className="flex items-start gap-2"><span style={{ color: "#009968" }} className="mt-1">•</span> You can delete cookies that have already been stored on your device</li>
               </ul>
               <p className="text-gray-600 leading-relaxed mt-3">
                 Please note that disabling cookies may affect the functionality of our website and your user experience.
@@ -118,7 +118,7 @@ export default function CookiesPage() {
             <div>
               <h2 className="text-2xl font-extrabold mb-4">Contact Us</h2>
               <p className="text-gray-600 leading-relaxed">
-                If you have any questions about our use of cookies, please contact us at <a href="mailto:sales@solarpath.ie" style={{ color: "#F5A623" }} className="hover:underline">sales@solarpath.ie</a> or call <a href="tel:+353872591114" style={{ color: "#F5A623" }} className="hover:underline">087 259 1114</a>.
+                If you have any questions about our use of cookies, please contact us at <a href="mailto:info@green-house.ie" style={{ color: "#009968" }} className="hover:underline">info@green-house.ie</a> or call <a href="tel:+35312070006" style={{ color: "#009968" }} className="hover:underline">+353 1 207 0006</a>.
               </p>
             </div>
 

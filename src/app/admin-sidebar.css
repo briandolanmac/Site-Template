@@ -6,7 +6,7 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: #162D50;
+  background: #112F5B;
   color: #fff;
   border: none;
   font-size: 1.25rem;
@@ -19,7 +19,7 @@
 }
 
 .sb-toggle-btn:hover {
-  background: #0B1D3A;
+  background: #009968;
   transform: scale(1.08);
 }
 
@@ -61,7 +61,7 @@
 .sb-auth-title {
   font-size: 1.125rem;
   font-weight: 700;
-  color: #162D50;
+  color: #112F5B;
   margin: 0;
 }
 
@@ -74,7 +74,7 @@
 .sb-btn-login {
   width: 100%;
   padding: 0.625rem;
-  background: #0B1D3A;
+  background: #009968;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -84,7 +84,7 @@
 }
 
 .sb-btn-login:hover {
-  background: #091528;
+  background: #007a53;
 }
 
 .sb-header {
@@ -104,14 +104,14 @@
   border-radius: 6px;
   font-size: 0.875rem;
   font-weight: 600;
-  color: #162D50;
+  color: #112F5B;
   background: #fff;
   outline: none;
   cursor: pointer;
 }
 
 .sb-select:focus {
-  border-color: #F5A623;
+  border-color: #009968;
 }
 
 .sb-header-actions {
@@ -127,7 +127,7 @@
 }
 
 .sb-status-ok {
-  color: #F5A623;
+  color: #009968;
 }
 
 .sb-status-err {
@@ -140,7 +140,7 @@
   background: none;
   border: 1.5px solid #e5e7eb;
   border-radius: 6px;
-  color: #162D50;
+  color: #112F5B;
   font-size: 1rem;
   cursor: pointer;
   display: flex;
@@ -150,8 +150,8 @@
 }
 
 .sb-btn-refresh:hover {
-  border-color: #F5A623;
-  color: #F5A623;
+  border-color: #009968;
+  color: #009968;
 }
 
 .sb-btn-refresh:disabled {
@@ -161,7 +161,7 @@
 
 .sb-btn-save {
   padding: 0.375rem 1rem;
-  background: #0B1D3A;
+  background: #009968;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -172,7 +172,7 @@
 }
 
 .sb-btn-save:hover {
-  background: #091528;
+  background: #007a53;
 }
 
 .sb-btn-save:disabled {
@@ -205,7 +205,7 @@
   display: block;
   font-size: 0.7rem;
   font-weight: 700;
-  color: #162D50;
+  color: #112F5B;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   margin-bottom: 0.25rem;
@@ -224,7 +224,7 @@
 }
 
 .sb-input:focus {
-  border-color: #F5A623;
+  border-color: #009968;
   background: #fff;
 }
 
@@ -244,7 +244,7 @@
 }
 
 .sb-textarea:focus {
-  border-color: #F5A623;
+  border-color: #009968;
   background: #fff;
 }
 
@@ -256,7 +256,7 @@
 }
 
 .sb-toggle input {
-  accent-color: #F5A623;
+  accent-color: #009968;
 }
 
 .sb-toggle-text {
@@ -316,14 +316,14 @@
   background: none;
   border: 1.5px dashed #ccc;
   border-radius: 5px;
-  color: #F5A623;
+  color: #009968;
   font-size: 0.75rem;
   font-weight: 600;
   cursor: pointer;
 }
 
 .sb-btn-add:hover {
-  border-color: #F5A623;
+  border-color: #009968;
 }
 
 .sb-array-item .sb-field {

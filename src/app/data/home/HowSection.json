@@ -1,33 +1,33 @@
 {
   "enabled": true,
-  "eyebrow": "Solar PV Process",
-  "title": "From Quote to Power On",
-  "subtitle": "Solar Path follows a structured, professional process to deliver the best solar PV solution for your property.",
+  "eyebrow": "Easy as 1-2-3",
+  "title": "How It Works",
+  "subtitle": "We handle all the boring stuff — paperwork, installation, the lot!",
   "steps": [
     {
       "number": "1",
       "icon": "📋",
-      "time": "Free",
-      "title": "Initial Consultation & Bill Analysis",
-      "description": "We examine your electricity usage to propose the right solar system for your needs and budget.",
-      "bullets": ["Free no-obligation consultation", "Electricity bill analysis", "SEAI grant guidance"]
+      "time": "5 mins",
+      "title": "Grab Your Quote",
+      "description": "Fill in our quick form and get a tailored quote — takes less time than making a cuppa!",
+      "bullets": ["Free instant estimate", "Zero obligation", "SEAI grant included"]
     },
     {
       "number": "2",
       "icon": "🔍",
-      "time": "Free",
-      "title": "Free Site Survey",
-      "description": "Our engineers assess your property for ideal system size, layout, and optimal panel placement.",
-      "bullets": ["Expert property assessment", "Roof and orientation analysis", "Custom system design"]
+      "time": "1 hour",
+      "title": "We Pop Over for a Look",
+      "description": "Our friendly experts visit your place and figure out the perfect setup for you",
+      "bullets": ["Expert assessment", "Roof analysis", "Custom solution"]
     },
     {
       "number": "3",
       "icon": "🔧",
       "time": "1-2 days",
-      "title": "Installation & Commissioning",
-      "description": "Our SEAI-registered team installs your system to certified standards, then connects and tests to verify performance.",
-      "bullets": ["Certified installers", "Transparent pricing", "Aftercare & support"]
+      "title": "Sit Back & Relax",
+      "description": "Our crew handles everything — clean, tidy, on time, and on budget. Easy!",
+      "bullets": ["Certified installers", "Spotlessly clean", "Lifetime guarantee"]
     }
   ],
-  "cta": { "label": "Request Quotation", "href": "/quote-builder" }
+  "cta": { "label": "Get Your Free Quote", "href": "/quote-builder" }
 }

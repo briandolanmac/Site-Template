@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Finance Options | Solar Path",
+  title: "Finance Options | Green-House Renewables",
   description: "Affordable solar panel finance through our Finance Ireland partnership. Spread the cost with flexible payment plans. Go solar with no large upfront cost.",
 };
 
@@ -11,7 +11,7 @@ export default function FinancePage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
+          background: "linear-gradient(135deg, #112F5B 0%, #2B475C 50%, #009968 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -34,7 +34,7 @@ export default function FinancePage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#F5A623" }}>
+              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
                 Finance Ireland Partnership
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -93,7 +93,7 @@ export default function FinancePage() {
               <div key={item.step} className="text-center p-8 rounded-2xl shadow-sm" style={{ background: "var(--bg-primary)" }}>
                 <div
                   className="w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-xl mx-auto mb-4"
-                  style={{ background: "#0B1D3A" }}
+                  style={{ background: "#009968" }}
                 >
                   {item.step}
                 </div>
@@ -107,7 +107,7 @@ export default function FinancePage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
+          background: "linear-gradient(135deg, #112F5B 0%, #2B475C 50%, #009968 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -123,7 +123,7 @@ export default function FinancePage() {
             href="/quote-builder"
             style={{
               background: "#fff",
-              color: "#F5A623",
+              color: "#009968",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

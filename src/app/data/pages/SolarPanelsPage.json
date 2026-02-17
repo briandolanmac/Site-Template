@@ -1,23 +1,23 @@
 {
   "hero": {
-    "eyebrow": "Leading Solar Panel Company in Ireland",
-    "title": "Solar PV Panel Installation",
-    "subtitle": "Contact Solar Path for a free consultation about your solar project. We cover your €1,800 SEAI grant — no upfront cost."
+    "eyebrow": "Residential Solar",
+    "title": "Solar Panels for Your Home",
+    "subtitle": "Generate your own clean electricity, reduce your bills by up to 70%, and increase your property value with a premium solar PV system."
   },
   "whySolar": {
-    "eyebrow": "Why Choose Solar Path?",
-    "title": "Leading Solar Panel Company in Ireland",
+    "eyebrow": "Why Solar PV?",
+    "title": "Power Your Home with Sunshine",
     "paragraphs": [
-      "When choosing a solar installer, proven ability and background matter. At Solar Path, we stand among Ireland's top providers, delivering customised solar panel installation packages for homeowners, businesses, and the agri sector. Our priority on quality, reliability, and client satisfaction positions us as the go-to name in solar panels.",
-      "We supply a full service, handling every stage from initial consultation to final handover. Our expert solar PV team concentrates on domestic solar panel installation, matching each system to your household's energy requirements and budget. We also offer follow-up assistance to strengthen your peace of mind."
+      "Solar PV panels convert sunlight into electricity for your home. Even in Ireland's climate, solar panels generate significant energy — enough to reduce your electricity bills by up to 70% per year.",
+      "With the SEAI grant of up to €2,100 and 0% VAT, there has never been a better time to invest in solar. Combined with the microgeneration scheme, you can even sell excess electricity back to the grid."
     ],
     "bullets": [
-      "SEAI solar grants available — up to €1,800",
-      "Sell excess electricity to the grid",
-      "Increase your property's value",
-      "Add optional battery storage",
-      "Real-time monitoring via mobile app",
-      "Full warranty on all installations"
+      "Save up to 70% on electricity bills",
+      "Up to €2,100 SEAI grant available",
+      "0% VAT on residential installations",
+      "25+ year panel warranty",
+      "Increase your property value",
+      "Sell excess energy back to the grid"
     ],
     "image": {
       "src": "/images/hero/hero-residential-new.jpg",
@@ -25,30 +25,30 @@
     }
   },
   "process": {
-    "eyebrow": "Solar PV Process",
-    "title": "From Quote to Power On",
+    "eyebrow": "Our Process",
+    "title": "From Consultation to Installation",
     "steps": [
-      { "step": "1", "title": "Initial Consultation & Bill Analysis", "desc": "We examine your electricity usage to propose the right solar system for your needs" },
-      { "step": "2", "title": "Free Site Survey", "desc": "Our engineers assess your property for ideal system size and layout" },
-      { "step": "3", "title": "Custom System Design", "desc": "We design a solar PV array optimised for your specific requirements" },
-      { "step": "4", "title": "Installation & Commissioning", "desc": "Our SEAI-registered team installs your system to certified standards and verifies performance" }
+      { "step": "1", "title": "Free Survey", "desc": "Our experts assess your roof, energy usage, and design the optimal system" },
+      { "step": "2", "title": "Custom Design", "desc": "We design a bespoke solar PV system tailored to your home and needs" },
+      { "step": "3", "title": "Professional Install", "desc": "Our certified electricians install your system in just 1-2 days" },
+      { "step": "4", "title": "Start Saving", "desc": "Your system goes live and you immediately start generating free electricity" }
     ]
   },
   "included": {
-    "title": "Benefits of Installing Solar Panels",
+    "title": "What's Included",
     "items": [
-      { "title": "Reduced Energy Bills", "desc": "Cut monthly costs with a solar PV system, creating free power and saving up to 70%", "icon": "💰" },
-      { "title": "Sustainable Choice", "desc": "Use renewable energy to reduce your carbon footprint and generate clean electricity from the sun", "icon": "🌱" },
-      { "title": "Higher Property Value", "desc": "Homes with solar panels attract more buyers and command higher prices", "icon": "🏠" },
-      { "title": "SEAI Grants", "desc": "Access a solar electricity grant of up to €1,800 — we handle the paperwork", "icon": "📋" },
-      { "title": "Minimal Upkeep", "desc": "Solar panels work efficiently with little or no maintenance for 25+ years", "icon": "🔧" },
-      { "title": "Fast Setup", "desc": "Solar panel installation can finish quickly, letting you enjoy energy savings right away", "icon": "⚡" }
+      { "title": "Premium Solar Panels", "desc": "Tier 1 panels with 25+ year performance warranty and maximum efficiency", "icon": "☀️" },
+      { "title": "Hybrid Inverter", "desc": "High-efficiency inverters that convert solar energy for home use and battery storage", "icon": "🔌" },
+      { "title": "Full Monitoring", "desc": "Real-time monitoring app so you can track your energy generation and savings", "icon": "📱" },
+      { "title": "SEAI Grant Handling", "desc": "We manage your complete SEAI grant application from start to finish", "icon": "📋" },
+      { "title": "Certified Installation", "desc": "Installed by Safe Electric certified electricians to the highest standards", "icon": "🔒" },
+      { "title": "Aftercare Support", "desc": "Ongoing support and maintenance to ensure your system performs optimally", "icon": "🛠️" }
     ]
   },
   "cta": {
-    "title": "Get Expert Solar PV Installation Today",
-    "subtitle": "Contact Solar Path for a free consultation. Our team will conduct a site survey and provide a detailed quote for your solar PV design and installation.",
-    "primaryButton": { "label": "Request Quotation", "href": "/quote-builder" },
+    "title": "Ready to Go Solar?",
+    "subtitle": "Get a free, no-obligation quote and start saving on your energy bills today.",
+    "primaryButton": { "label": "Get Free Quote", "href": "/quote-builder" },
     "secondaryButton": { "label": "Learn About Grants", "href": "/grants" }
   }
 }

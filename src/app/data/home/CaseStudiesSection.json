@@ -1,8 +1,8 @@
 {
   "enabled": true,
-  "eyebrow": "Case Studies & Stories",
-  "title": "Proven Results From Real Solar Path Customers",
-  "subtitle": "See how real homes, schools, and businesses across Ireland benefit from our solar PV systems. These projects show what happens after the install — real savings, performance data, and long-term satisfaction.",
+  "eyebrow": "Our Work",
+  "title": "Check Out What We've Done",
+  "subtitle": "Real projects, real results. See why hundreds of homeowners and businesses trust us to power their properties with clean energy!",
   "cards": [
     {
       "image": { "src": "/images/case-studies/msd.webp", "alt": "Residential Solar Installation" },
@@ -11,8 +11,8 @@
         "alt": "Residential"
       },
       "sub": "Residential Solar",
-      "title": "Home Solar PV Installation",
-      "description": "A full solar PV system designed to maximise energy generation, lower electricity bills, and increase home value. Professional installation by our certified team in Cork.",
+      "title": "Home Solar Installation",
+      "description": "A full solar PV system designed to squeeze every bit of energy from the sky and slash this family's electricity bills.",
       "stats": [
         { "value": "10", "label": "kWp" },
         { "value": "24", "label": "Panels" },
@@ -28,7 +28,7 @@
       },
       "sub": "Commercial Solar",
       "title": "Business Solar Installation",
-      "description": "A large-scale commercial install delivering optimal energy efficiency, significant cost savings, and demonstrating a commitment to sustainability.",
+      "description": "A large-scale commercial install that's saving this business serious money while shrinking their carbon footprint.",
       "stats": [
         { "value": "100+", "label": "kWp" },
         { "value": "250+", "label": "Panels" },
@@ -37,18 +37,18 @@
       "cta": { "label": "Get a Similar Quote →", "href": "/commercial-solar" }
     },
     {
-      "image": { "src": "/images/case-studies/UISCE.png", "alt": "Farm Solar Installation" },
+      "image": { "src": "/images/case-studies/UISCE.png", "alt": "New Build Development" },
       "logo": {
         "src": "/images/logos/Untitled-design-2024-02-22T213115.801.webp",
-        "alt": "Farm"
+        "alt": "New Build"
       },
-      "sub": "Agricultural Solar",
-      "title": "Farm Solar PV System",
-      "description": "Agricultural solar PV installations offering farmers significant savings on energy costs, supporting agricultural electrification and energy independence.",
+      "sub": "New Build Development",
+      "title": "Residential Development",
+      "description": "Full renewable systems for an entire housing development — heat pumps, underfloor heating, the works. Every home is A-rated!",
       "stats": [
-        { "value": "50+", "label": "kWp" },
-        { "value": "120", "label": "Panels" },
-        { "value": "€15k/yr", "label": "Savings", "highlight": true }
+        { "value": "26", "label": "Houses" },
+        { "value": "Full", "label": "Renewable" },
+        { "value": "A-Rated", "label": "BER", "highlight": true }
       ],
       "cta": { "label": "Get a Similar Quote →", "href": "/commercial-solar" }
     }

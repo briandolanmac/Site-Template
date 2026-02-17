@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Solar Path",
-  description: "Get in touch with Solar Path. Call 087 259 1114 or email sales@solarpath.ie. Based in Cork, serving all of Ireland.",
+  title: "Contact Us | Green-House Renewables",
+  description: "Get in touch with Green-House Renewables. Call +353 1 207 0006 or email info@green-house.ie. Based in Blackrock, Dublin, serving all of Ireland.",
 };
 
 export default function ContactPage() {
@@ -11,7 +11,7 @@ export default function ContactPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
+          background: "linear-gradient(135deg, #009968 0%, #00b377 50%, #007a54 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -100,7 +100,7 @@ export default function ContactPage() {
                 <button
                   type="submit"
                   className="w-full py-3 rounded-lg text-white font-bold text-lg"
-                  style={{ background: "#0B1D3A" }}
+                  style={{ background: "#009968" }}
                 >
                   Send Message
                 </button>
@@ -115,19 +115,19 @@ export default function ContactPage() {
                     {
                       icon: "📞",
                       title: "Phone",
-                      content: "087 259 1114",
-                      href: "tel:+353872591114",
+                      content: "+353 1 207 0006",
+                      href: "tel:+35312070006",
                     },
                     {
                       icon: "✉️",
                       title: "Email",
-                      content: "sales@solarpath.ie",
-                      href: "mailto:sales@solarpath.ie",
+                      content: "info@green-house.ie",
+                      href: "mailto:info@green-house.ie",
                     },
                     {
                       icon: "📍",
                       title: "Location",
-                      content: "82 South Mall, Cork, T12 E3TT",
+                      content: "Deansgrange Business Park, Blackrock, Dublin",
                       href: null,
                     },
                     {
@@ -147,7 +147,7 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-bold mb-1">{item.title}</h3>
                         {item.href ? (
-                          <a href={item.href} style={{ color: "#F5A623" }} className="hover:underline">
+                          <a href={item.href} style={{ color: "#009968" }} className="hover:underline">
                             {item.content}
                           </a>
                         ) : (
@@ -172,7 +172,7 @@ export default function ContactPage() {
                     "Carlow Business Awards Winner 2024 & 2025",
                   ].map((cert) => (
                     <li key={cert} className="flex items-center gap-2 text-gray-600">
-                      <span style={{ color: "#F5A623" }}>✓</span> {cert}
+                      <span style={{ color: "#009968" }}>✓</span> {cert}
                     </li>
                   ))}
                 </ul>
@@ -191,7 +191,7 @@ export default function ContactPage() {
                   href="/quote-builder"
                   className="inline-block font-bold"
                   style={{
-                    background: "#0B1D3A",
+                    background: "#009968",
                     color: "#fff",
                     padding: "0.75rem 1.5rem",
                     borderRadius: "0.5rem",

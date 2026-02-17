@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Customer Testimonials | Solar Path",
-  description: "Read five-star reviews from happy Solar Path customers across Ireland. See why homeowners and businesses trust us for solar installations.",
+  title: "Customer Testimonials | Green-House Renewables",
+  description: "Read 100+ five-star reviews from happy Green-House Renewables customers across Ireland. See why homeowners and businesses trust us for solar installations.",
 };
 
 export default function TestimonialsPage() {
@@ -11,7 +11,7 @@ export default function TestimonialsPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
+          background: "linear-gradient(135deg, #112F5B 0%, #009968 50%, #00b377 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -45,7 +45,7 @@ export default function TestimonialsPage() {
                 name: "Mary Fitzgerald",
                 location: "Kilkenny",
                 rating: 5,
-                text: "We were unsure about solar at first, but Solar Path made the whole process so easy. They handled the SEAI grant application, and the installation was done in just one day. Absolutely delighted with the results.",
+                text: "We were unsure about solar at first, but Green-House Renewables made the whole process so easy. They handled the SEAI grant application, and the installation was done in just one day. Absolutely delighted with the results.",
                 service: "Solar PV",
               },
               {
@@ -59,7 +59,7 @@ export default function TestimonialsPage() {
                 name: "Aoife Murphy",
                 location: "Dublin",
                 rating: 5,
-                text: "From the initial survey to the final handover, everything was handled with care. The panels look great on our roof and we're already seeing significant savings. Highly recommend Solar Path.",
+                text: "From the initial survey to the final handover, everything was handled with care. The panels look great on our roof and we're already seeing significant savings. Highly recommend Green-House Renewables.",
                 service: "Solar PV",
               },
               {
@@ -73,7 +73,7 @@ export default function TestimonialsPage() {
                 name: "Ciara Brennan",
                 location: "Waterford",
                 rating: 5,
-                text: "As a business owner, I was looking to reduce our energy costs. Solar Path designed a system that cut our bills in half. The installation caused zero disruption to our operations. Top class.",
+                text: "As a business owner, I was looking to reduce our energy costs. Green-House Renewables designed a system that cut our bills in half. The installation caused zero disruption to our operations. Top class.",
                 service: "Commercial Solar",
               },
               {
@@ -87,14 +87,14 @@ export default function TestimonialsPage() {
                 name: "Niamh Doyle",
                 location: "Wicklow",
                 rating: 5,
-                text: "The battery storage has been a game changer. We barely use any grid electricity now. Solar Path explained all the options clearly and helped us choose the right system for our home.",
+                text: "The battery storage has been a game changer. We barely use any grid electricity now. Green-House Renewables explained all the options clearly and helped us choose the right system for our home.",
                 service: "Battery Storage",
               },
               {
                 name: "Michael Kelly",
                 location: "Cork",
                 rating: 5,
-                text: "We got quotes from five different companies. Solar Path were the most knowledgeable and their quote was very competitive. The installation quality is superb. Very happy customers.",
+                text: "We got quotes from five different companies. Green-House Renewables were the most knowledgeable and their quote was very competitive. The installation quality is superb. Very happy customers.",
                 service: "Solar PV & Battery",
               },
             ].map((review, index) => (
@@ -133,15 +133,15 @@ export default function TestimonialsPage() {
         <div className="container text-center">
           <div className="grid grid-cols-3 gap-8 max-w-lg mx-auto mb-8">
             <div>
-              <div className="text-3xl font-extrabold" style={{ color: "#F5A623" }}>100+</div>
+              <div className="text-3xl font-extrabold" style={{ color: "#009968" }}>100+</div>
               <div className="text-sm text-gray-600">5-Star Reviews</div>
             </div>
             <div>
-              <div className="text-3xl font-extrabold" style={{ color: "#F5A623" }}>5★</div>
-              <div className="text-sm text-gray-600">Customer Rating</div>
+              <div className="text-3xl font-extrabold" style={{ color: "#009968" }}>1,000+</div>
+              <div className="text-sm text-gray-600">Installations</div>
             </div>
             <div>
-              <div className="text-3xl font-extrabold" style={{ color: "#F5A623" }}>4.9</div>
+              <div className="text-3xl font-extrabold" style={{ color: "#009968" }}>4.9</div>
               <div className="text-sm text-gray-600">Average Rating</div>
             </div>
           </div>
@@ -150,7 +150,7 @@ export default function TestimonialsPage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
+          background: "linear-gradient(135deg, #112F5B 0%, #009968 50%, #00b377 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -160,14 +160,14 @@ export default function TestimonialsPage() {
             Join Our Happy Customers
           </h2>
           <p className="text-lg mb-8 opacity-90 max-w-xl mx-auto">
-            Get a free quote and see why Irish homes and businesses trust
-            Solar Path.
+            Get a free quote and see why over 1,000 Irish homes and businesses trust
+            Green-House Renewables.
           </p>
           <a
             href="/quote-builder"
             style={{
               background: "#fff",
-              color: "#F5A623",
+              color: "#009968",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,

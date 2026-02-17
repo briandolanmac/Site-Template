@@ -1,36 +1,36 @@
 {
   "hero": {
-    "eyebrow": "EV Car Chargers",
+    "eyebrow": "Electric Vehicle Charging",
     "title": "EV Charger Installation",
-    "subtitle": "Effortless, reliable charging solutions for a sustainable future. Powering your drive toward a greener tomorrow."
+    "subtitle": "Charge your electric vehicle at home or work with a professionally installed EV charger. Pair with solar panels for free motoring."
   },
   "about": {
     "eyebrow": "Home EV Charging",
-    "title": "Powering Your Drive Toward a Greener Future",
+    "title": "Charge at Home, Save Every Day",
     "paragraphs": [
-      "At Solar Path, we're driving the future of sustainable living with our range of high-quality car chargers designed for every lifestyle. Whether you're upgrading to an electric vehicle or enhancing your eco-friendly home, our chargers combine efficiency, reliability, and smart technology.",
-      "We offer premium brands like myenergi Zappi, ensuring high-quality, reliable, and future-proof charging solutions. Our skilled professionals provide seamless, safe, and efficient installation for both residential and commercial properties.",
-      "Enjoy intuitive app controls, scheduling, and monitoring with smart chargers, giving you full control over your EV charging. Zappi chargers integrate with renewable energy sources, reducing your carbon footprint even further."
+      "A home EV charger is up to 3x faster than a standard plug socket and far safer for daily use. Our Safe Electric certified electricians install your charger to the highest safety standards.",
+      "Pair your EV charger with a solar PV system and charge your car with free, clean energy from your roof. This combination can save you thousands per year compared to petrol or diesel.",
+      "SEAI grants are available for home EV charger installations, further reducing the cost of making the switch to electric driving."
     ],
     "features": [
-      { "title": "Top-Tier Equipment", "desc": "Premium brands like myenergi Zappi — high-quality, reliable, and future-proof", "icon": "⚡" },
-      { "title": "Expert Installation", "desc": "Skilled professionals providing seamless, safe, and efficient installation", "icon": "🔧" },
-      { "title": "Solar Integration", "desc": "Zappi chargers integrate with renewable energy sources, charging from your own solar", "icon": "☀️" },
-      { "title": "Smart Features", "desc": "App controls, scheduling, and monitoring for full control over your EV charging", "icon": "📱" }
+      { "title": "Fast Charging", "desc": "Up to 7.4kW home chargers — fully charge overnight", "icon": "⚡" },
+      { "title": "Solar Compatible", "desc": "Integrate with your solar panels for free charging", "icon": "☀️" },
+      { "title": "Smart Features", "desc": "Schedule charging, monitor usage, and optimise costs via app", "icon": "📱" },
+      { "title": "SEAI Grant", "desc": "Grants available for home EV charger installations", "icon": "💰" }
     ]
   },
   "business": {
-    "title": "Why Make The Switch to Electric",
-    "subtitle": "Discover the benefits of driving electric and charging at home with Solar Path.",
+    "title": "Business EV Charging",
+    "subtitle": "We also install commercial EV charging stations for workplaces, car parks, and public locations.",
     "items": [
-      { "title": "Environmentally Friendly", "desc": "Zero tailpipe emissions — drive cleaner and reduce your carbon footprint every day", "icon": "🌱" },
-      { "title": "Lower Running Costs", "desc": "Electricity is significantly cheaper than petrol or diesel — save money on every journey", "icon": "💰" },
-      { "title": "Government Incentives", "desc": "SEAI grants available to help with the cost of installing your home EV charger", "icon": "📋" }
+      { "title": "Workplace Charging", "desc": "Provide charging for employees and visitors at your business premises", "icon": "🏢" },
+      { "title": "Fleet Charging", "desc": "Charge your company fleet vehicles efficiently and cost-effectively", "icon": "🚐" },
+      { "title": "Public Charging", "desc": "Install public EV chargers for retail, hospitality, and leisure venues", "icon": "🅿️" }
     ]
   },
   "cta": {
     "title": "Get an EV Charger Installed",
-    "subtitle": "Fast, professional installation by our expert team. Contact Solar Path today for a free, no-obligation quote.",
-    "primaryButton": { "label": "Request Quotation", "href": "/quote-builder" }
+    "subtitle": "Fast, professional installation by certified electricians. Contact us today.",
+    "primaryButton": { "label": "Get a Quote", "href": "/contact" }
   }
 }

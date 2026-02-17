@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageLayout from "../components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Get a Free Quote | Solar Path",
+  title: "Get a Free Quote | Green-House Renewables",
   description: "Get a free, no-obligation quote for solar panels, battery storage, or EV chargers. Serving all of Ireland with SEAI grants available.",
 };
 
@@ -11,7 +11,7 @@ export default function QuoteBuilderPage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
+          background: "linear-gradient(135deg, #009968 0%, #00b377 50%, #007a54 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -96,10 +96,10 @@ export default function QuoteBuilderPage() {
                   ].map((option) => (
                     <label
                       key={option}
-                      className="flex items-center gap-3 p-4 rounded-lg border cursor-pointer hover:border-amber-500 transition-colors"
+                      className="flex items-center gap-3 p-4 rounded-lg border cursor-pointer hover:border-emerald-500 transition-colors"
                       style={{ borderColor: "var(--gray-300)" }}
                     >
-                      <input type="checkbox" className="w-4 h-4 accent-amber-500" />
+                      <input type="checkbox" className="w-4 h-4 accent-cyan-600" />
                       <span className="text-sm font-medium">{option}</span>
                     </label>
                   ))}
@@ -156,7 +156,7 @@ export default function QuoteBuilderPage() {
               <button
                 type="submit"
                 className="w-full py-4 rounded-lg text-white font-bold text-lg"
-                style={{ background: "#0B1D3A" }}
+                style={{ background: "#009968" }}
               >
                 Get My Free Quote
               </button>

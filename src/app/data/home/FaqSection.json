@@ -1,40 +1,40 @@
 {
   "enabled": true,
   "eyebrow": "Got Questions?",
-  "title": "Solar Energy FAQs",
-  "subtitle": "More questions? Feel free to contact us",
+  "title": "We've Got Answers",
+  "subtitle": "Everything you need to know about going solar (without the jargon!)",
   "items": [
     {
-      "question": "How do solar panels work in Ireland?",
-      "answer": "Solar PV panels work through a process that converts sunlight directly into usable electricity. Each photovoltaic cell contains semiconductor material that creates an electric current when exposed to light. Modern solar cells work efficiently even in diffuse light conditions, making them ideal for Irish weather. The average Irish home can generate more than half its electricity needs through properly installed solar PV."
+      "question": "So how does solar actually work?",
+      "answer": "In a nutshell, solar panels use clever cells to turn daylight (not just sunshine!) into electricity for your home. Any extra energy? Store it in a battery, heat your water, or charge your EV. Pretty neat, right?"
     },
     {
-      "question": "How much will I save on my electricity bills?",
-      "answer": "A Solar Path solar PV system can reduce your electricity bills by up to 70%, depending on your property's solar exposure and electricity demand. Solar panels typically last 25+ years, providing decades of reduced energy costs. Plus, you can sell excess electricity back to the national grid through the Microgeneration Support Scheme."
+      "question": "How much will I actually save?",
+      "answer": "It depends on your setup, but we aim for at least a 70% drop in your electricity bills. Most systems pay for themselves in 4-6 years, and after that you're looking at free electricity for decades."
     },
     {
-      "question": "What SEAI grants are available?",
-      "answer": "The SEAI offers up to €1,800 for residential solar PV systems. For commercial installations, grants range from €2,400 up to €162,600. Solar Path handles the full grant application process, minimising hassle and maximising your grant potential."
+      "question": "What grants can I get?",
+      "answer": "The SEAI offers up to €1,800 for residential solar PV systems and up to €300 for EV chargers. Don't worry about the paperwork — we'll walk you through the whole thing and make sure you claim every cent."
     },
     {
-      "question": "How much solar power does it take to run a house?",
-      "answer": "The average Irish home requires a 3-4kWp solar PV system to generate significant electricity savings. This typically means installing 8-12 solar panels, depending on their individual power rating. A properly sized solar PV system can produce 2,500-3,500 kWh annually, supplying 50-70% of a typical household's electricity demand."
+      "question": "Do I need planning permission?",
+      "answer": "Nope, not usually! The rules changed so most homes can get rooftop solar without any planning hassle. There are a few exceptions (like if you live near an airport or in a protected building), but we'll let you know."
     },
     {
-      "question": "Is it worth getting solar panels in Ireland?",
-      "answer": "Yes, solar panels are increasingly worthwhile investments in Ireland. Modern solar PV technology works efficiently even in Ireland's climate, and with rising electricity prices, solar power typically delivers a return on investment within 5-7 years. Government incentives through the solar PV grant and payments for excess electricity further enhance the financial benefits."
+      "question": "Is battery storage worth it?",
+      "answer": "Absolutely! Think of it like a piggy bank for energy. Store up the power you generate during the day and use it at night or on cloudy days. It means less reliance on the grid and more savings in your pocket."
     },
     {
-      "question": "What is battery storage and how does it work?",
-      "answer": "Battery storage allows you to store excess electricity produced during daylight hours for use at night or during power price spikes. With a hybrid inverter, you stay in control of your own power, even when demand on the national grid is high. Modern lithium-ion battery systems integrate seamlessly with solar PV panels."
+      "question": "What about maintenance?",
+      "answer": "Barely any! Irish rain does most of the cleaning for you (finally, a perk of the weather!). Our systems come with a lifetime workmanship guarantee plus manufacturer warranties, so you're totally covered."
+    },
+    {
+      "question": "How long does installation take?",
+      "answer": "Most home installations are done in just 1-2 days. Our team shows up on time, keeps everything spotless, and gets you up and running before you know it."
     },
     {
       "question": "What areas do you cover?",
-      "answer": "Solar Path is based at 82 South Mall, Cork and covers Cork, Dublin, Limerick, Wicklow, and nationwide across Ireland. Contact us wherever you are — we'd love to help with your solar project."
-    },
-    {
-      "question": "What warranty do you offer?",
-      "answer": "We provide full warranty on all installations. Modern commercial solar panels have a typical lifespan of 25 to 30 years, with most reputable manufacturers providing 25-year or longer production warranties. We also offer comprehensive after-sales support."
+      "answer": "We're based in Dublin but cover Wicklow, Kildare, Meath, and beyond. Give us a shout wherever you are — we'll sort you out!"
     }
   ]
 }

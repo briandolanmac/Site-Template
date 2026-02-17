@@ -3,7 +3,7 @@ import PageLayout from "../components/PageLayout";
 import pageData from "../data/pages/BatteryStoragePage.json";
 
 export const metadata: Metadata = {
-  title: "Battery Storage Solutions | Solar Path",
+  title: "Battery Storage Solutions | Green-House Renewables",
   description: "Home battery storage systems by Sigenergy. Store excess solar energy, reduce grid dependence, and power your home day and night. Certified Sigenergy Installers.",
 };
 
@@ -14,7 +14,7 @@ export default function BatteryStoragePage() {
     <PageLayout>
       <section
         style={{
-          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
+          background: "linear-gradient(135deg, #112F5B 0%, #009968 50%, #007a54 100%)",
           color: "#fff",
           padding: "5rem 0 4rem",
         }}
@@ -36,7 +36,7 @@ export default function BatteryStoragePage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#F5A623" }}>
+              <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#009968" }}>
                 {about.eyebrow}
               </p>
               <h2 className="text-3xl font-extrabold mb-6">
@@ -80,7 +80,7 @@ export default function BatteryStoragePage() {
 
       <section
         style={{
-          background: "linear-gradient(135deg, #0B1D3A, #162D50, #1a3a5c)",
+          background: "linear-gradient(135deg, #112F5B 0%, #009968 50%, #007a54 100%)",
           color: "#fff",
           padding: "4rem 0",
         }}
@@ -96,7 +96,7 @@ export default function BatteryStoragePage() {
             href={cta.primaryButton.href}
             style={{
               background: "#fff",
-              color: "#F5A623",
+              color: "#009968",
               padding: "0.875rem 2rem",
               borderRadius: "0.5rem",
               fontWeight: 700,
