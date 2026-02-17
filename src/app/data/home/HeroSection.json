@@ -1,9 +1,9 @@
 {
   "enabled": true,
-  "overlayOpacity": 5,
+  "overlayOpacity": 0,
   "image": {
     "src": "/images/hero/green-house-hero-home.png",
-    "alt": "Solar engineer inspecting panels at sunset"
+    "alt": "Beautiful Irish home with solar panels"
   },
   "eyebrow": "Renewable Home Energy Solutions for Ireland",
   "headlineLines": [
@@ -11,7 +11,7 @@
     "Your Home With"
   ],
   "headlineHighlight": "The Sun & The Air",
-  "subheading": "Your one-stop-shop for solar panels, heat pumps, EV chargers, and underfloor heating. Serving Irish homes and businesses since 2006.",
+  "subheading": "We are your one-stop-shop for researching, purchasing, and installing advanced clean energy solutions, including electric solar panels, electric car chargers, geothermal heat pumps, and air-to-water heat pumps.",
   "cta": [
     {
       "label": "Get a Free Quote",

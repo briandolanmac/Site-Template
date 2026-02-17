@@ -1617,7 +1617,7 @@ ul {
 /* ===== WHY CHOOSE US ===== */
 .why-choose {
   overflow: hidden;
-  background: linear-gradient(135deg, #12222E, #0a1a20);
+  background: linear-gradient(135deg, #009968 0%, #007a54 50%, #112F5B 100%);
 }
 .grid-2 {
   display: grid;
@@ -1715,7 +1715,7 @@ ul {
   display: block;
   font-size: 1.75rem;
   font-weight: 800;
-  color: var(--aqua);
+  color: #CBB492;
 }
 .why-stats span {
   font-size: 0.8125rem;
