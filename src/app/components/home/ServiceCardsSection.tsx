@@ -47,7 +47,6 @@ const ServiceCardsSection = () => {
               <div className="service-card-v2-img">
                 <img src={(card as any).image} alt={card.title} />
               </div>
-              <div className="service-card-v2-overlay" />
               <div className="service-card-v2-body">
                 <h3>{card.title}</h3>
                 <p>{card.description}</p>
