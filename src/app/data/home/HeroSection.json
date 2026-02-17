@@ -2,12 +2,12 @@
   "enabled": true,
   "overlayOpacity": 5,
   "image": {
-    "src": "/images/hero/hero-residential-new.jpg",
-    "alt": "Beautiful Irish home with solar panels"
+    "src": "/images/hero/green-house-hero1.png",
+    "alt": "Solar panel installer on rooftop"
   },
-  "eyebrow": "Renewable Home Energy Solutions",
+  "eyebrow": "Renewable Home Energy Solutions for Ireland",
   "headlineLines": [
-    "Power and Heat",
+    "Power and Heat ",
     "Your Home With"
   ],
   "headlineHighlight": "The Sun & The Air",
