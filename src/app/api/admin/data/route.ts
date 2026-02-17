@@ -27,6 +27,7 @@ const VALID_FILES = [
   "pages/BatteryStoragePage.json",
   "pages/EvChargersPage.json",
   "seo.json",
+  "home/SiteSettings.json",
 ];
 
 function toApiKey(fullPath: string): string {

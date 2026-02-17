@@ -4,6 +4,7 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import "./admin-sidebar.css";
 import AdminSidebar from "./components/AdminSidebar";
+import FontLoader from "./components/FontLoader";
 import seoData from "./data/seo.json";
 
 const leagueSpartan = League_Spartan({
@@ -77,6 +78,7 @@ export default function RootLayout({
         className={`${leagueSpartan.variable} ${inter.variable} antialiased`}
       >
         <ThemeProvider attribute="data-theme" defaultTheme="light">
+          <FontLoader />
           {children}
           <AdminSidebar />
         </ThemeProvider>
