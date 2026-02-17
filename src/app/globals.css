@@ -722,14 +722,14 @@ ul {
   position: absolute;
   top: 8rem;
   right: 2rem;
-  background: linear-gradient(135deg, var(--amber), #e89a1d);
+  background: linear-gradient(135deg, var(--amber), #d4952a);
   padding: 1rem 1.25rem;
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-2xl);
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  color: #1a1a1a;
+  color: #fff;
   pointer-events: auto;
   animation: float 4s ease-in-out infinite;
 }
@@ -764,9 +764,9 @@ ul {
   top: 50%;
   right: 2rem;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 30, 20, 0.75);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 1.5rem;
   border-radius: var(--radius-2xl);
   box-shadow: var(--shadow-2xl);
@@ -809,9 +809,9 @@ ul {
   position: absolute;
   bottom: 12rem;
   right: 2rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 30, 20, 0.75);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 0.75rem 1.25rem;
   border-radius: 9999px;
   display: flex;
