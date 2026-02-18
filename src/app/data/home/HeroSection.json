@@ -8,18 +8,18 @@
   },
   "eyebrow": "Renewable Home Energy Solutions",
   "headlineLines": [
-    "Power & Heat Your",
-    "Home with The Sun"
+    "Power & Heat Your Home With The Sun And The Air",
+    ""
   ],
   "headlineFontSizes": {
     "line1Desktop": "3.75rem",
     "line2Desktop": "3.75rem",
     "line3Desktop": "3.75rem",
-    "line1Mobile": "2.25rem",
-    "line2Mobile": "2.25rem",
-    "line3Mobile": "2.25rem"
+    "line1Mobile": "4.00rem",
+    "line2Mobile": "4.00rem",
+    "line3Mobile": "4.00rem"
   },
-  "headlineHighlight": "And the Air",
+  "headlineHighlight": "",
   "subheading": "We are your one-stop-shop for advanced clean energy solutions, including Solar panels, EV Chargers, Geothermal heat pumps, and Air-to-water heat pumps.",
   "cta": [
     {
