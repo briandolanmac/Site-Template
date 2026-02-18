@@ -42,8 +42,11 @@ export default function SolarPanelsPage() {
               <h2 className="text-3xl font-extrabold mb-6">
                 {whySolar.title}
               </h2>
-              {whySolar.paragraphs.map((p, i) => (
-                <p key={i} className="text-gray-600 mb-4 leading-relaxed">{p}</p>
+              {whySolar.contentBlocks.map((block, i) => (
+                <div key={i} className="mb-5">
+                  <h3 className="font-bold text-lg mb-1" style={{ color: "var(--text-primary)" }}>{block.subHeading}</h3>
+                  <p className="text-gray-600 leading-relaxed">{block.paragraph}</p>
+                </div>
               ))}
               <ul className="space-y-3">
                 {whySolar.bullets.map((item) => (

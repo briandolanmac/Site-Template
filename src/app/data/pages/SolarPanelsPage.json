@@ -2,14 +2,20 @@
   "hero": {
     "eyebrow": "Trusted Home Solar Installers",
     "title": "Solar Panel Installation",
-    "subtitle": "Get your free quote today and see why hundreds of homeowners trust Green-House to power their homes with clean, reliable solar energy."
+    "subtitle": "Hundreds of homeowners have trusted Green-House to power their homes with clean, reliable solar energy.  Check out why below.  Hopefully it will answer all your questions on \"Solar PV\""
   },
   "whySolar": {
     "eyebrow": "Why Choose Green-House?",
     "title": "A Smart Investment That Pays for Itself",
-    "paragraphs": [
-      "With over 20 years in business and more than 1,000 installations completed, Green-House is one of South Dublin's most experienced and trusted solar energy providers. As an SEAI-approved installer, we make the switch to solar simple, affordable, and completely hassle-free for homeowners across Dublin, Wicklow, Kildare, Meath and beyond.",
-      "Solar PV doesn't just lower your energy bills — it adds value to your home and gives you independence from rising electricity costs. Our systems are designed for long-term performance and backed by our lifetime guarantee."
+    "contentBlocks": [
+      {
+        "subHeading": "What is Solar PV?",
+        "paragraph": "Let's start by explaining what it is and how it works.  With over 20 years in business and more than 1,000 installations completed, Green-House is one of South Dublin's most experienced and trusted solar energy providers. As an SEAI-approved installer, we make the switch to solar simple, affordable, and completely hassle-free for homeowners across Dublin, Wicklow, Kildare, Meath and beyond."
+      },
+      {
+        "subHeading": "A Long-Term Investment",
+        "paragraph": "Solar PV doesn't just lower your energy bills — it adds value to your home and gives you independence from rising electricity costs. Our systems are designed for long-term performance and backed by our lifetime guarantee."
+      }
     ],
     "bullets": [
       "SEAI Grants Available — up to €1,800 towards your solar system",
@@ -28,27 +34,73 @@
     "eyebrow": "Our Process",
     "title": "From Consultation to Installation",
     "steps": [
-      { "step": "1", "title": "Free Site Survey", "desc": "We visit your property to assess your roof, energy usage, and advise on the best solar system for your needs" },
-      { "step": "2", "title": "Custom Design", "desc": "We design a bespoke solar PV system tailored to your home for maximum energy generation" },
-      { "step": "3", "title": "Professional Install", "desc": "Our own certified team installs your system — no sub-contracting. Clean, tidy, and on budget" },
-      { "step": "4", "title": "Start Saving", "desc": "Your system goes live and you immediately start generating your own clean electricity" }
+      {
+        "step": "1",
+        "title": "Free Site Survey",
+        "desc": "We visit your property to assess your roof, energy usage, and advise on the best solar system for your needs"
+      },
+      {
+        "step": "2",
+        "title": "Custom Design",
+        "desc": "We design a bespoke solar PV system tailored to your home for maximum energy generation"
+      },
+      {
+        "step": "3",
+        "title": "Professional Install",
+        "desc": "Our own certified team installs your system — no sub-contracting. Clean, tidy, and on budget"
+      },
+      {
+        "step": "4",
+        "title": "Start Saving",
+        "desc": "Your system goes live and you immediately start generating your own clean electricity"
+      }
     ]
   },
   "included": {
     "title": "What's Included",
     "items": [
-      { "title": "Premium Solar Panels", "desc": "Cutting-edge solar technology with 25+ year performance warranty and maximum efficiency", "icon": "☀️" },
-      { "title": "Hybrid Inverter", "desc": "High-efficiency inverters that convert solar energy for home use and battery storage", "icon": "🔌" },
-      { "title": "Full Monitoring", "desc": "Real-time monitoring app so you can track your energy generation and savings", "icon": "📱" },
-      { "title": "SEAI Grant Handling", "desc": "We guide you through the grant process and help you claim up to €1,800", "icon": "📋" },
-      { "title": "Certified Installation", "desc": "Installed by our own Safe Electric certified electricians — no sub-contracting", "icon": "🔒" },
-      { "title": "Lifetime Guarantee", "desc": "We stand over our work with a lifetime workmanship guarantee for your total peace of mind", "icon": "🛡️" }
+      {
+        "title": "Premium Solar Panels",
+        "desc": "Cutting-edge solar technology with 25+ year performance warranty and maximum efficiency",
+        "icon": "☀️"
+      },
+      {
+        "title": "Hybrid Inverter",
+        "desc": "High-efficiency inverters that convert solar energy for home use and battery storage",
+        "icon": "🔌"
+      },
+      {
+        "title": "Full Monitoring",
+        "desc": "Real-time monitoring app so you can track your energy generation and savings",
+        "icon": "📱"
+      },
+      {
+        "title": "SEAI Grant Handling",
+        "desc": "We guide you through the grant process and help you claim up to €1,800",
+        "icon": "📋"
+      },
+      {
+        "title": "Certified Installation",
+        "desc": "Installed by our own Safe Electric certified electricians — no sub-contracting",
+        "icon": "🔒"
+      },
+      {
+        "title": "Lifetime Guarantee",
+        "desc": "We stand over our work with a lifetime workmanship guarantee for your total peace of mind",
+        "icon": "🛡️"
+      }
     ]
   },
   "cta": {
     "title": "Ready to Go Solar?",
     "subtitle": "Fill in the quick form to receive your tailored home solar panel installation quote. We also offer a free site survey to advise on the best solar system for your needs.",
-    "primaryButton": { "label": "Get Free Quote", "href": "/quote-builder" },
-    "secondaryButton": { "label": "Learn About Grants", "href": "/grants" }
+    "primaryButton": {
+      "label": "Get Free Quote",
+      "href": "/quote-builder"
+    },
+    "secondaryButton": {
+      "label": "Learn About Grants",
+      "href": "/grants"
+    }
   }
 }

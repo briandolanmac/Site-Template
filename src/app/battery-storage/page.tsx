@@ -42,8 +42,11 @@ export default function BatteryStoragePage() {
               <h2 className="text-3xl font-extrabold mb-6">
                 {about.title}
               </h2>
-              {about.paragraphs.map((p, i) => (
-                <p key={i} className={`text-gray-600 leading-relaxed ${i < about.paragraphs.length - 1 ? "mb-4" : ""}`}>{p}</p>
+              {about.contentBlocks.map((block, i) => (
+                <div key={i} className="mb-5">
+                  <h3 className="font-bold text-lg mb-1" style={{ color: "var(--text-primary)" }}>{block.subHeading}</h3>
+                  <p className="text-gray-600 leading-relaxed">{block.paragraph}</p>
+                </div>
               ))}
             </div>
             <div>

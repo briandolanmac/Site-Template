@@ -7,10 +7,19 @@
   "about": {
     "eyebrow": "Home EV Charging",
     "title": "Powering Your Drive Toward a Greener Future",
-    "paragraphs": [
-      "At Green-House, we're driving the future of sustainable living with our range of high-quality car chargers designed for every lifestyle. Whether you're upgrading to an electric vehicle or enhancing your eco-friendly home, our chargers combine efficiency, reliability, and smart technology to keep you moving.",
-      "We offer premium brands like Hypervolt and Zappi, ensuring high-quality, reliable, and future-proof charging solutions. Our skilled professionals provide seamless, safe, and efficient installation for both residential and commercial properties.",
-      "Enjoy intuitive app controls, scheduling, and monitoring with Hypervolt and Zappi chargers, giving you full control over your EV charging. Enhance your property's value and sustainability with the latest EV charging technology that's built to last and backed by strong warranties."
+    "contentBlocks": [
+      {
+        "subHeading": "Smart EV Charging Solutions",
+        "paragraph": "At Green-House, we're driving the future of sustainable living with our range of high-quality car chargers designed for every lifestyle. Whether you're upgrading to an electric vehicle or enhancing your eco-friendly home, our chargers combine efficiency, reliability, and smart technology to keep you moving."
+      },
+      {
+        "subHeading": "Premium Brands You Can Trust",
+        "paragraph": "We offer premium brands like Hypervolt and Zappi, ensuring high-quality, reliable, and future-proof charging solutions. Our skilled professionals provide seamless, safe, and efficient installation for both residential and commercial properties."
+      },
+      {
+        "subHeading": "Full Control at Your Fingertips",
+        "paragraph": "Enjoy intuitive app controls, scheduling, and monitoring with Hypervolt and Zappi chargers, giving you full control over your EV charging. Enhance your property's value and sustainability with the latest EV charging technology that's built to last and backed by strong warranties."
+      }
     ],
     "features": [
       { "title": "Top-Tier Equipment", "desc": "Premium brands like Hypervolt and Zappi — high-quality, reliable, and future-proof", "icon": "⚡" },
