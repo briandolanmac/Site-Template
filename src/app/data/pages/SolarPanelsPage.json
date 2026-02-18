@@ -10,11 +10,15 @@
     "contentBlocks": [
       {
         "subHeading": "What is Solar PV?",
-        "paragraph": "Let's start by explaining what it is and how it works.  With over 20 years in business and more than 1,000 installations completed, Green-House is one of South Dublin's most experienced and trusted solar energy providers. As an SEAI-approved installer, we make the switch to solar simple, affordable, and completely hassle-free for homeowners across Dublin, Wicklow, Kildare, Meath and beyond."
+        "paragraph": "Let's start by explaining what it is and how it works.  Solar PV (photovoltaic) is a renewable technology that converts sunlight directly into electricity using semiconductor materials, typically silicon, in panels. \"Photo\" means light and \"voltaic\" means electricity. So the panels use the sun's light to make electricity that you can use to power your home.\n"
       },
       {
-        "subHeading": "A Long-Term Investment",
-        "paragraph": "Solar PV doesn't just lower your energy bills — it adds value to your home and gives you independence from rising electricity costs. Our systems are designed for long-term performance and backed by our lifetime guarantee."
+        "subHeading": "How much electricity does it create?",
+        "paragraph": "The panels today are quite efficient.  Most houses in Ireland can fit enough panels on their roof to meet a majority of their needs.  One thing worth noting is that in the winter you won't generate as much but in the summer you will generate a lot.  Ireland has very long days in the summer.  Adding a battery will also significantly help you manage your electricity.  Check out the Battery section of this site for more information on that.\n"
+      },
+      {
+        "subHeading": "Why choose Green-House Renewables?",
+        "paragraph": ""
       }
     ],
     "bullets": [

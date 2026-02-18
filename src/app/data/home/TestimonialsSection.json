@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "ratingLabel": "5.0 Rating",
+  "ratingLabel": "4.5 Rating",
   "ratingStars": "★★★★★",
   "quoteMark": "\"",
   "title": "Don't Just Take Our Word For It",
@@ -12,56 +12,104 @@
       "items": [
         {
           "company": "",
-          "quote": "Honestly, Green-House made the whole thing a breeze. From the first chat to flipping the switch, everything was smooth and stress-free. Our electricity bills? Way, way down!",
-          "author": "Sarah M.",
+          "quote": "Professional service from beginning to end. I was happy with all aspects of this company for my solar panel installation. Roofers and electrician were competent and professional — listened to the customer and explained everything. Office staff speedy to respond and made the whole process easy.",
+          "author": "Miriam Murphy",
           "role": "Dublin",
-          "avatar": "S",
-          "variant": "residential"
-        },
-        {
-          "company": "",
-          "quote": "We picked Green-House because everyone said they were brilliant — and they totally lived up to it. The team were super tidy, finished on time, and left our roof looking great. Can't recommend them enough!",
-          "author": "Michael O.",
-          "role": "Wicklow",
           "avatar": "M",
           "variant": "residential"
         },
         {
           "company": "",
-          "quote": "Brilliant from start to finish! They sorted all the SEAI paperwork for us (huge relief) and had the panels up in two days. Absolutely delighted with the results.",
-          "author": "James K.",
-          "role": "Kildare",
-          "avatar": "J",
+          "quote": "I couldn't recommend Green House highly enough. From the outset they were professional, friendly and experts in what they delivered. From the office team, to the on site consultant, roofing team and electricians they all knew what they were doing. Really competitively priced too.",
+          "author": "Enda Collins",
+          "role": "Dublin",
+          "avatar": "E",
+          "variant": "residential"
+        },
+        {
+          "company": "",
+          "quote": "The Green House team were amazing from start to finish. Super easy to deal with, clear communication, install completed quickly and seamlessly, the panels look great and work a dream. Couldn't recommend them more!",
+          "author": "Carol Dalton",
+          "role": "Dublin",
+          "avatar": "C",
+          "variant": "residential"
+        },
+        {
+          "company": "",
+          "quote": "We can only speak in the highest possible terms of our experience with Green House Renewables. From the very initial visit right through to the completion, all work was carried out in a timely and professional way by all the courteous and pleasant Green House team.",
+          "author": "Patrick J Cusack",
+          "role": "Dublin",
+          "avatar": "P",
+          "variant": "residential"
+        },
+        {
+          "company": "",
+          "quote": "Installed a 6.3 kWh system on my house with a 5.3 kW battery — great job, very professional and system running smoothly. Have recommended them to a friend also who is looking at getting it done.",
+          "author": "Derek Boyle",
+          "role": "Dublin",
+          "avatar": "D",
+          "variant": "residential"
+        },
+        {
+          "company": "",
+          "quote": "One of the best contractors I've dealt with in my 72 years. Very responsive from first contact until the job was done. Came on time, did what needed to be done very quickly and told me what I needed to know. Can't recommend all of them highly enough.",
+          "author": "Tom Farrell",
+          "role": "Dublin",
+          "avatar": "T",
           "variant": "residential"
         }
       ]
     },
     {
-      "label": "Commercial",
+      "label": "More Reviews",
       "tone": "aqua",
       "items": [
         {
-          "company": "Commercial Client",
-          "quote": "Green-House really knocked it out of the park for us. They put together a solar setup that's already outperforming what they promised. Seriously impressed!",
-          "author": "Patrick D.",
-          "role": "Business Owner",
-          "avatar": "P",
-          "variant": "b2b"
+          "company": "",
+          "quote": "Everyone at Green-House was fantastic, from those in the office to everybody on site. The work is so meticulous, clean, and neat that you'd think we had solar power forever. Everyone was pleasant, informative, and proud of their work.",
+          "author": "Tom Johnson",
+          "role": "Dublin",
+          "avatar": "T",
+          "variant": "residential"
         },
         {
-          "company": "Retail Business",
-          "quote": "These guys just get it. They designed a system that was spot-on for our needs, and we're already seeing the savings roll in. Total pros from day one.",
-          "author": "Emma R.",
-          "role": "Operations Manager",
+          "company": "",
+          "quote": "GreenHouse team did a really excellent job and surpassed my expectations in terms of the quality of the work done and their professionalism. Cabling was well thought through and none visible by the time they had finished. After sales service is second to none.",
+          "author": "Eugene Hughes",
+          "role": "Dublin",
           "avatar": "E",
-          "variant": "b2b"
+          "variant": "residential"
         },
         {
-          "company": "Property Developer",
-          "quote": "We keep going back to Green-House for our developments because they're reliable, knowledgeable, and always deliver top-notch work. Wouldn't use anyone else!",
-          "author": "David C.",
-          "role": "Project Director",
+          "company": "",
+          "quote": "Team Greenhouse deserve 10 stars. The guys did a fantastic retrofit for new HP and PV array. They made a potentially disruptive install a dream! All the works done and dusted on schedule and exceptionally tidy. We are super pleased with the performance.",
+          "author": "D Judge",
+          "role": "Dublin",
           "avatar": "D",
+          "variant": "residential"
+        },
+        {
+          "company": "",
+          "quote": "Good company. Price was competitive, installation was clean and efficient, and everything has been working great.",
+          "author": "James Carroll",
+          "role": "Dublin",
+          "avatar": "J",
+          "variant": "residential"
+        },
+        {
+          "company": "",
+          "quote": "We are very pleased with the installation and performance of the solar PV system and look forward to what it will do on the long hot sunny days of summer! It was a pleasure to deal with Green House and I highly recommend them.",
+          "author": "Jim Smith",
+          "role": "Dublin",
+          "avatar": "J",
+          "variant": "residential"
+        },
+        {
+          "company": "Commercial Client",
+          "quote": "They installed solar panels and underfloor heating for our business. We then went with their heat pumps as the services, quality and price was pretty good compared to others in the market.",
+          "author": "Smarketing Cloud",
+          "role": "Business Owner",
+          "avatar": "S",
           "variant": "b2b"
         }
       ]
