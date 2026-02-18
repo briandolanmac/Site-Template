@@ -99,6 +99,38 @@
         "label": "Get a Similar Quote →",
         "href": "/commercial-solar"
       }
+    },
+    {
+      "image": {
+        "src": "/images/case-studies/msd.webp",
+        "alt": "Underfloor Heating"
+      },
+      "logo": {
+        "src": "/images/logos/Untitled-design-2024-02-22T220539.960.webp",
+        "alt": "Residential"
+      },
+      "sub": "Residential Solar",
+      "title": "Home Solar Installation",
+      "description": "A full solar PV system designed to maximise energy generation, lower electricity bills, and increase home value. Professional installation by our certified team.",
+      "stats": [
+        {
+          "value": "10",
+          "label": "kWp"
+        },
+        {
+          "value": "24",
+          "label": "Panels"
+        },
+        {
+          "value": "€1,200/yr",
+          "label": "Savings",
+          "highlight": true
+        }
+      ],
+      "cta": {
+        "label": "Get a Similar Quote →",
+        "href": "/solar-panels"
+      }
     }
   ],
   "footerCta": {
