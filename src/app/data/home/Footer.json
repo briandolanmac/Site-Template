@@ -35,7 +35,7 @@
     {
       "title": "Resources",
       "links": [
-        { "label": "Our Projects", "href": "/projects" },
+        { "label": "Our Work", "href": "/#case-studies" },
         { "label": "Testimonials", "href": "/testimonials" },
         { "label": "Finance Options", "href": "/finance" },
         { "label": "About Us", "href": "/about" },
