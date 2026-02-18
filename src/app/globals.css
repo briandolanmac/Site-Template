@@ -2263,18 +2263,26 @@ ul {
   scroll-behavior: smooth;
   text-align: left;
 }
-.testimonials-track .testimonial-card {
-  min-width: calc(100% - 0px);
-  flex-shrink: 0;
+.testimonials-track > .testimonial-card {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  flex: 0 0 100%;
 }
 @media (min-width: 640px) {
-  .testimonials-track .testimonial-card {
-    min-width: calc(50% - 0.625rem);
+  .testimonials-track > .testimonial-card {
+    width: calc((100% - 1.25rem) / 2);
+    min-width: calc((100% - 1.25rem) / 2);
+    max-width: calc((100% - 1.25rem) / 2);
+    flex: 0 0 calc((100% - 1.25rem) / 2);
   }
 }
-@media (min-width: 1024px) {
-  .testimonials-track .testimonial-card {
-    min-width: calc(33.333% - 0.833rem);
+@media (min-width: 768px) {
+  .testimonials-track > .testimonial-card {
+    width: calc((100% - 2.5rem) / 3);
+    min-width: calc((100% - 2.5rem) / 3);
+    max-width: calc((100% - 2.5rem) / 3);
+    flex: 0 0 calc((100% - 2.5rem) / 3);
   }
 }
 .carousel-arrow {

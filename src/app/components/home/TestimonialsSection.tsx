@@ -57,7 +57,7 @@ function TestimonialsCarousel({ items }: { items: CarouselItem[] }) {
   const updateVisibleCount = useCallback(() => {
     const width = window.innerWidth;
     if (width < 640) setVisibleCount(1);
-    else if (width < 1024) setVisibleCount(2);
+    else if (width < 768) setVisibleCount(2);
     else setVisibleCount(3);
   }, []);
 
