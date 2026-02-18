@@ -14,12 +14,9 @@
   "headlineFontSizes": {
     "line1Desktop": "3.75rem",
     "line2Desktop": "3.75rem",
-    "line3Desktop": "3.75rem",
     "line1Mobile": "4.00rem",
-    "line2Mobile": "4.00rem",
-    "line3Mobile": "4.00rem"
+    "line2Mobile": "4.00rem"
   },
-  "headlineHighlight": "",
   "subheading": "We are your one-stop-shop for advanced clean energy solutions, including Solar panels, EV Chargers, Geothermal heat pumps, and Air-to-water heat pumps.",
   "cta": [
     {

@@ -11,11 +11,9 @@ const HeroSection = () => {
     <style dangerouslySetInnerHTML={{ __html: `
       .hero-line-1 { font-size: ${fs.line1Mobile || "2.25rem"}; }
       .hero-line-2 { font-size: ${fs.line2Mobile || "2.25rem"}; }
-      .hero-line-3 { font-size: ${fs.line3Mobile || "2.25rem"}; }
       @media (min-width: 768px) {
         .hero-line-1 { font-size: ${fs.line1Desktop || "3.75rem"}; }
         .hero-line-2 { font-size: ${fs.line2Desktop || "3.75rem"}; }
-        .hero-line-3 { font-size: ${fs.line3Desktop || "3.75rem"}; }
       }
     `}} />
     <div className="hero-bg">
@@ -64,8 +62,6 @@ const HeroSection = () => {
           <span className="hero-line-1">{heroData.headlineLines[0]}</span>
           <br />
           <span className="hero-line-2">{heroData.headlineLines[1]}</span>
-          <br />
-          <span className="gradient-text hero-line-3">{heroData.headlineHighlight}</span>
         </h1>
         <p className="hero-sub">{heroData.subheading}</p>
         <div className="hero-ctas">
