@@ -58,7 +58,7 @@
   "mobileArrow": "›",
   "primaryLinks": [
     { "label": "EV Chargers", "href": "/ev-chargers" },
-    { "label": "Our Work", "href": "/projects" },
+    { "label": "Our Work", "href": "/#case-studies" },
     { "label": "Contact", "href": "/contact" }
   ],
   "cta": { "label": "Get a Quote", "href": "/quote-builder" },
@@ -68,7 +68,7 @@
     "closeMenuLabel": "Close menu",
     "links": [
       { "label": "🔌 EV Chargers", "href": "/ev-chargers" },
-      { "label": "Our Work", "href": "/projects" },
+      { "label": "Our Work", "href": "/#case-studies" },
       { "label": "Contact", "href": "/contact" }
     ],
     "cta": { "label": "Get a Quote", "href": "/quote-builder" },

@@ -4,7 +4,7 @@ const CaseStudiesSection = () => {
   if (!caseStudiesData.enabled) return null;
 
   return (
-    <section className="section case-studies">
+    <section id="case-studies" className="section case-studies">
     <div className="container">
       <p className="section-eyebrow">{caseStudiesData.eyebrow}</p>
       <h2 className="section-title">{caseStudiesData.title}</h2>
