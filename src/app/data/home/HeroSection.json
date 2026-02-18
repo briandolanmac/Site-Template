@@ -1,11 +1,12 @@
 {
   "enabled": true,
+  "showEyebrow": true,
   "overlayOpacity": 8,
   "image": {
     "src": "/images/hero/green-house-hero-home.png",
     "alt": "Beautiful Irish home with solar panels"
   },
-  "eyebrow": "Renewable Home Energy Solutions for Ireland",
+  "eyebrow": "Renewable Home Energy Solutions",
   "headlineLines": [
     "Power and Heat ",
     "Your Home With"

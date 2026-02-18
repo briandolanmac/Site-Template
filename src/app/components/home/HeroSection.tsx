@@ -42,10 +42,12 @@ const HeroSection = () => {
 
     <div className="hero-content container">
       <div className="hero-text">
+        {(heroData as any).showEyebrow !== false && (
         <div className="eyebrow-wrap">
           <span className="pulse"></span>
           <span className="eyebrow">{heroData.eyebrow}</span>
         </div>
+        )}
         <h1 className="hero-headline">
           {heroData.headlineLines[0]}
           <br />
