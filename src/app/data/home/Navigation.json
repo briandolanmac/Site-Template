@@ -15,9 +15,18 @@
     }
   },
   "utilityLinks": [
-    { "label": "About Us", "href": "/about" },
-    { "label": "Grants", "href": "/grants" },
-    { "label": "Finance", "href": "/finance" }
+    {
+      "label": "About Us",
+      "href": "/about"
+    },
+    {
+      "label": "Grants",
+      "href": "/grants"
+    },
+    {
+      "label": "Finance",
+      "href": "/finance"
+    }
   ],
   "socialLinks": [
     {
@@ -39,9 +48,18 @@
       "label": "For Home",
       "mobileLabel": "🏠 For Home",
       "links": [
-        { "label": "Solar Panels", "href": "/solar-panels" },
-        { "label": "Battery Storage", "href": "/battery-storage" },
-        { "label": "Grants", "href": "/grants" }
+        {
+          "label": "Solar Panels",
+          "href": "/solar-panels"
+        },
+        {
+          "label": "Battery Storage",
+          "href": "/battery-storage"
+        },
+        {
+          "label": "Grants",
+          "href": "/grants"
+        }
       ]
     },
     {
@@ -49,29 +67,59 @@
       "label": "For Business",
       "mobileLabel": "🏢 For Business",
       "links": [
-        { "label": "Commercial Solar", "href": "/commercial-solar" },
-        { "label": "Funding Options", "href": "/funding-options" }
+        {
+          "label": "Commercial Solar",
+          "href": "/commercial-solar"
+        },
+        {
+          "label": "Funding Options",
+          "href": "/funding-options"
+        }
       ]
     }
   ],
   "chevron": "▾",
   "mobileArrow": "›",
   "primaryLinks": [
-    { "label": "EV Chargers", "href": "/ev-chargers" },
-    { "label": "Our Work", "href": "/#case-studies" },
-    { "label": "Contact", "href": "/contact" }
+    {
+      "label": "EV Chargers",
+      "href": "/ev-chargers"
+    },
+    {
+      "label": "Our Work",
+      "href": "/#case-studies"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
   ],
-  "cta": { "label": "Get a Quote", "href": "/quote-builder" },
+  "cta": {
+    "label": "Get a Quote",
+    "href": "/quote-builder"
+  },
   "mobile": {
     "closeLabel": "✕",
     "openMenuLabel": "Open menu",
     "closeMenuLabel": "Close menu",
     "links": [
-      { "label": "🔌 EV Chargers", "href": "/ev-chargers" },
-      { "label": "Our Work", "href": "/#case-studies" },
-      { "label": "Contact", "href": "/contact" }
+      {
+        "label": "🔌 EV Chargers",
+        "href": "/ev-chargers"
+      },
+      {
+        "label": "Our Work",
+        "href": "/#case-studies"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
     ],
-    "cta": { "label": "Get a Quote", "href": "/quote-builder" },
+    "cta": {
+      "label": "Get a Quote",
+      "href": "https://green-house.comprehensive.voltflo.ie/"
+    },
     "themeLabel": "Theme:"
   }
 }
