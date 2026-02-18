@@ -2,6 +2,7 @@ import PageLayout from "../components/PageLayout";
 import aboutData from "../data/pages/AboutPage.json";
 import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
+import { getVoltfloUrl } from "../lib/siteSettings";
 
 export const metadata = generatePageMetadata("/about");
 
@@ -120,7 +121,7 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href={aboutData.cta.primaryButton.href}
+              href={getVoltfloUrl()}
               className="btn btn-cta"
               style={{
                 background: "#fff",

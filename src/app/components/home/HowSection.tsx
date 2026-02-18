@@ -1,4 +1,5 @@
 import howData from "../../data/home/HowSection.json";
+import { getVoltfloUrl } from "../../lib/siteSettings";
 
 const HowSection = () => {
   if (!howData.enabled) return null;
@@ -26,7 +27,7 @@ const HowSection = () => {
         ))}
       </div>
       <div className="how-cta">
-        <a href={howData.cta.href} className="btn btn-primary">
+        <a href={getVoltfloUrl()} className="btn btn-primary">
           {howData.cta.label}
         </a>
       </div>

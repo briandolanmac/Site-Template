@@ -3,6 +3,7 @@ import pageData from "../data/pages/SolarPanelsPage.json";
 import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
 import RelatedServices from "../components/RelatedServices";
+import { getVoltfloUrl } from "../lib/siteSettings";
 
 export const metadata = generatePageMetadata("/solar-panels");
 
@@ -133,7 +134,7 @@ export default function SolarPanelsPage() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href={cta.primaryButton.href}
+              href={getVoltfloUrl()}
               style={{
                 background: "#fff",
                 color: "var(--teal)",

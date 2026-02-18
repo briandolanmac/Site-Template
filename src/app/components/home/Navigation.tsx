@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import navData from "../../data/home/Navigation.json";
+import { getVoltfloUrl } from "../../lib/siteSettings";
 
 const socialIcons: Record<string, ReactNode> = {
   Facebook: (
@@ -119,7 +120,7 @@ const Navigation = () => {
               {link.label}
             </a>
           ))}
-          <a href={navData.cta.href} className="btn btn-cta">
+          <a href={getVoltfloUrl()} className="btn btn-cta">
             {navData.cta.label}
           </a>
         </div>
@@ -169,7 +170,7 @@ const Navigation = () => {
             {link.label}
           </a>
         ))}
-        <a href={navData.mobile.cta.href} className="btn btn-cta mobile-cta">
+        <a href={getVoltfloUrl()} className="btn btn-cta mobile-cta">
           {navData.mobile.cta.label}
         </a>
       </div>

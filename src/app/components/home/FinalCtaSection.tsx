@@ -1,4 +1,5 @@
 import finalCtaData from "../../data/home/FinalCtaSection.json";
+import { getVoltfloUrl } from "../../lib/siteSettings";
 
 const FinalCtaSection = () => {
   if (!finalCtaData.enabled) return null;
@@ -11,8 +12,8 @@ const FinalCtaSection = () => {
       <div className="final-cta-btns">
         {finalCtaData.buttons.map((button) => (
           <a
-            key={button.href}
-            href={button.href}
+            key={button.label}
+            href={button.variant === "primary" ? getVoltfloUrl() : button.href}
             className={button.variant === "primary" ? "btn btn-white" : "btn btn-outline-white"}
           >
             {button.label}

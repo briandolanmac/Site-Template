@@ -65,7 +65,7 @@
     "description": "Get a free, no-obligation quote from our expert team today. We'll guide you through the entire process.",
     "primaryButton": {
       "label": "Get Free Quote",
-      "href": "/quote-builder"
+      "href": "https://green-house.comprehensive.voltflo.ie/"
     },
     "secondaryButton": {
       "label": "Contact Us",

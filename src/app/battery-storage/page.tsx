@@ -3,6 +3,7 @@ import pageData from "../data/pages/BatteryStoragePage.json";
 import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
 import RelatedServices from "../components/RelatedServices";
+import { getVoltfloUrl } from "../lib/siteSettings";
 
 export const metadata = generatePageMetadata("/battery-storage");
 
@@ -99,7 +100,7 @@ export default function BatteryStoragePage() {
             {cta.subtitle}
           </p>
           <a
-            href={cta.primaryButton.href}
+            href={getVoltfloUrl()}
             style={{
               background: "#fff",
               color: "var(--teal)",

@@ -40,6 +40,6 @@
   "cta": {
     "title": "Get an EV Charger Installed",
     "subtitle": "Fast, professional installation by our expert team. Contact us today for a free, no-obligation quote.",
-    "primaryButton": { "label": "Get a Quote", "href": "/quote-builder" }
+    "primaryButton": { "label": "Get a Quote", "href": "https://green-house.comprehensive.voltflo.ie/" }
   }
 }

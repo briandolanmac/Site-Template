@@ -1,6 +1,7 @@
 import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
+import { getVoltfloUrl } from "../lib/siteSettings";
 
 export const metadata = generatePageMetadata("/contact");
 
@@ -187,7 +188,7 @@ export default function ContactPage() {
                   installation.
                 </p>
                 <a
-                  href="/quote-builder"
+                  href={getVoltfloUrl()}
                   className="inline-block font-bold"
                   style={{
                     background: "var(--teal)",

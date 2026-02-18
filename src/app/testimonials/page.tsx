@@ -1,6 +1,7 @@
 import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
+import { getVoltfloUrl } from "../lib/siteSettings";
 
 export const metadata = generatePageMetadata("/testimonials");
 
@@ -163,7 +164,7 @@ export default function TestimonialsPage() {
             Green-House Renewables.
           </p>
           <a
-            href="/quote-builder"
+            href={getVoltfloUrl()}
             style={{
               background: "#fff",
               color: "var(--teal)",

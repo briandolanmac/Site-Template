@@ -1,5 +1,6 @@
 import Image from "next/image";
 import heroData from "../../data/home/HeroSection.json";
+import { getVoltfloUrl } from "../../lib/siteSettings";
 
 const HeroSection = () => {
   if (!heroData.enabled) return null;
@@ -65,7 +66,7 @@ const HeroSection = () => {
         </h1>
         <p className="hero-sub">{heroData.subheading}</p>
         <div className="hero-ctas">
-          <a href={heroData.cta[0].href} className="btn btn-primary">
+          <a href={getVoltfloUrl()} className="btn btn-primary">
             <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
               <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
               <polyline points="9 22 9 12 15 12 15 22" />

@@ -1,6 +1,7 @@
 import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
+import { getVoltfloUrl } from "../lib/siteSettings";
 
 export const metadata = generatePageMetadata("/grants");
 
@@ -165,7 +166,7 @@ export default function GrantsPage() {
             Let our team handle the grant process from start to finish.
           </p>
           <a
-            href="/quote-builder"
+            href={getVoltfloUrl()}
             style={{
               background: "#fff",
               color: "var(--teal)",

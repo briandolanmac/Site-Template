@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import footerData from "../../data/home/Footer.json";
+import { getVoltfloUrl } from "../../lib/siteSettings";
 
 const socialIcons: Record<string, ReactNode> = {
   Facebook: (
@@ -73,7 +74,7 @@ const Footer = () => {
         <p>
           <span className="footer-icon">{footerData.contact.locationIcon}</span> {footerData.contact.location}
         </p>
-        <a href={footerData.contact.cta.href} className="btn btn-footer-cta">
+        <a href={getVoltfloUrl()} className="btn btn-footer-cta">
           {footerData.contact.cta.label}
         </a>
         <p className="footer-hours">{footerData.contact.hours}</p>
