@@ -11,6 +11,14 @@
     "Power & Heat Your",
     "Home with The Sun"
   ],
+  "headlineFontSizes": {
+    "line1Desktop": "3.75rem",
+    "line1Mobile": "2.25rem",
+    "line2Desktop": "3.75rem",
+    "line2Mobile": "2.25rem",
+    "line3Desktop": "3.75rem",
+    "line3Mobile": "2.25rem"
+  },
   "headlineHighlight": "And the Air",
   "subheading": "We are your one-stop-shop for advanced clean energy solutions, including Solar panels, EV Chargers, Geothermal heat pumps, and Air-to-water heat pumps.",
   "cta": [
