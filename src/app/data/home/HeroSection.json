@@ -13,10 +13,10 @@
   ],
   "headlineFontSizes": {
     "line1Desktop": "3.75rem",
-    "line1Mobile": "2.25rem",
     "line2Desktop": "3.75rem",
-    "line2Mobile": "2.25rem",
     "line3Desktop": "3.75rem",
+    "line1Mobile": "2.25rem",
+    "line2Mobile": "2.25rem",
     "line3Mobile": "2.25rem"
   },
   "headlineHighlight": "And the Air",
