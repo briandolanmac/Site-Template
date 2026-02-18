@@ -1,10 +1,13 @@
 import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
+import pageData from "../data/pages/CookiesPage.json";
 
 export const metadata = generatePageMetadata("/cookies");
 
 export default function CookiesPage() {
+  const { hero, sections, lastUpdated } = pageData;
+
   return (
     <PageLayout>
       <StructuredData pageType="default" pagePath="/cookies" />
@@ -17,10 +20,10 @@ export default function CookiesPage() {
       >
         <div className="container text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-            Cookie Policy
+            {hero.title}
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-            How Green-House Renewables uses cookies and similar technologies on our website.
+            {hero.subtitle}
           </p>
         </div>
       </section>
@@ -28,105 +31,64 @@ export default function CookiesPage() {
       <section className="py-16 md:py-20">
         <div className="container max-w-3xl">
           <div className="space-y-8">
-            <div>
-              <h2 className="text-2xl font-extrabold mb-4">What Are Cookies?</h2>
-              <p className="text-gray-600 leading-relaxed">
-                Cookies are small text files that are placed on your device when you visit a website. They are widely used to make websites work more efficiently, provide a better user experience, and give website owners useful information about how their site is being used.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-extrabold mb-4">How We Use Cookies</h2>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                Green-House Renewables uses cookies for the following purposes:
-              </p>
-              <div className="space-y-4">
-                {[
-                  {
-                    title: "Essential Cookies",
-                    desc: "These cookies are necessary for the website to function properly. They enable basic features like page navigation, secure access, and form submissions. The website cannot function without these cookies.",
-                    required: true,
-                  },
-                  {
-                    title: "Analytics Cookies",
-                    desc: "We use analytics cookies to understand how visitors interact with our website. This helps us improve the site experience, identify popular content, and fix any issues. These cookies collect anonymous, aggregated data.",
-                    required: false,
-                  },
-                  {
-                    title: "Functional Cookies",
-                    desc: "These cookies remember your preferences, such as your chosen theme or language settings, to provide a more personalised experience when you return to our site.",
-                    required: false,
-                  },
-                  {
-                    title: "Marketing Cookies",
-                    desc: "These cookies may be set by our advertising partners. They are used to build a profile of your interests and show you relevant advertisements on other websites. They do not directly store personal data.",
-                    required: false,
-                  },
-                ].map((cookie) => (
-                  <div
-                    key={cookie.title}
-                    className="p-6 rounded-xl border"
-                    style={{ borderColor: "var(--gray-200)", background: "var(--bg-primary)" }}
-                  >
-                    <div className="flex items-center justify-between mb-2">
-                      <h3 className="font-bold text-lg">{cookie.title}</h3>
-                      {cookie.required && (
-                        <span
-                          className="text-xs font-semibold px-3 py-1 rounded-full"
-                          style={{ background: "#e0f2fe", color: "#0284c7" }}
-                        >
-                          Required
-                        </span>
-                      )}
-                    </div>
-                    <p className="text-gray-600 text-sm leading-relaxed">{cookie.desc}</p>
+            {sections.map((section, i) => (
+              <div key={i}>
+                <h2 className="text-2xl font-extrabold mb-4">{section.title}</h2>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  {section.body}
+                  {section.contactEmail && (
+                    <>{" "}<a href={`mailto:${section.contactEmail}`} className="text-brand hover:underline">{section.contactEmail}</a>{" "}or call{" "}<a href={`tel:${section.contactPhone?.replace(/\s/g, "")}`} className="text-brand hover:underline">{section.contactPhone}</a>.</>
+                  )}
+                </p>
+                {section.cookieTypes && (
+                  <div className="space-y-4">
+                    {section.cookieTypes.map((cookie) => (
+                      <div
+                        key={cookie.title}
+                        className="p-6 rounded-xl border"
+                        style={{ borderColor: "var(--gray-200)", background: "var(--bg-primary)" }}
+                      >
+                        <div className="flex items-center justify-between mb-2">
+                          <h3 className="font-bold text-lg">{cookie.title}</h3>
+                          {cookie.required && (
+                            <span
+                              className="text-xs font-semibold px-3 py-1 rounded-full"
+                              style={{ background: "#e0f2fe", color: "#0284c7" }}
+                            >
+                              Required
+                            </span>
+                          )}
+                        </div>
+                        <p className="text-gray-600 text-sm leading-relaxed">{cookie.desc}</p>
+                      </div>
+                    ))}
                   </div>
-                ))}
+                )}
+                {section.bullets && (
+                  <>
+                    <ul className="space-y-2 text-gray-600">
+                      {section.bullets.map((bullet, j) => (
+                        <li key={j} className="flex items-start gap-2">
+                          <span className="text-brand mt-1">•</span> {bullet}
+                        </li>
+                      ))}
+                    </ul>
+                    {section.afterBullets && (
+                      <p className="text-gray-600 leading-relaxed mt-3">
+                        {section.afterBullets}
+                      </p>
+                    )}
+                  </>
+                )}
               </div>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-extrabold mb-4">Third-Party Cookies</h2>
-              <p className="text-gray-600 leading-relaxed">
-                Some cookies on our website are set by third-party services that appear on our pages. We use third-party services for analytics, social media integration, and advertising. These third parties may set their own cookies subject to their own privacy policies.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-extrabold mb-4">Managing Cookies</h2>
-              <p className="text-gray-600 leading-relaxed mb-3">
-                You can control and manage cookies in several ways:
-              </p>
-              <ul className="space-y-2 text-gray-600">
-                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> Most browsers allow you to refuse or delete cookies through their settings</li>
-                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> You can set your browser to notify you when a cookie is being set</li>
-                <li className="flex items-start gap-2"><span className="text-brand mt-1">•</span> You can delete cookies that have already been stored on your device</li>
-              </ul>
-              <p className="text-gray-600 leading-relaxed mt-3">
-                Please note that disabling cookies may affect the functionality of our website and your user experience.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-extrabold mb-4">Updates to This Policy</h2>
-              <p className="text-gray-600 leading-relaxed">
-                We may update this Cookie Policy from time to time to reflect changes in technology, regulation, or our business practices. Any updates will be posted on this page with a revised date.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-extrabold mb-4">Contact Us</h2>
-              <p className="text-gray-600 leading-relaxed">
-                If you have any questions about our use of cookies, please contact us at <a href="mailto:info@green-house.ie" className="text-brand hover:underline">info@green-house.ie</a> or call <a href="tel:+35312070006" className="text-brand hover:underline">+353 1 207 0006</a>.
-              </p>
-            </div>
+            ))}
 
             <div
               className="p-6 rounded-xl mt-8"
               style={{ background: "var(--bg-secondary)" }}
             >
               <p className="text-sm text-gray-500">
-                This Cookie Policy was last updated in January 2025.
+                {lastUpdated}
               </p>
             </div>
           </div>

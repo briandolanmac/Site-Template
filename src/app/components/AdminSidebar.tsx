@@ -46,6 +46,15 @@ const SECTION_LABELS: Record<string, string> = {
   "pages/SolarPanelsPage.json": "Solar Panels Page",
   "pages/BatteryStoragePage.json": "Battery Storage Page",
   "pages/EvChargersPage.json": "EV Chargers Page",
+  "pages/CommercialSolarPage.json": "Commercial Solar Page",
+  "pages/GrantsPage.json": "Grants Page",
+  "pages/FinancePage.json": "Finance Page",
+  "pages/FundingOptionsPage.json": "Funding Options Page",
+  "pages/ContactPage.json": "Contact Page",
+  "pages/TestimonialsPage.json": "Testimonials Page",
+  "pages/QuoteBuilderPage.json": "Quote Builder Page",
+  "pages/PrivacyPolicyPage.json": "Privacy Policy Page",
+  "pages/CookiesPage.json": "Cookies Page",
   "seo.json": "SEO Settings",
 };
 
@@ -73,6 +82,15 @@ const SECTION_ORDER = [
   "pages/SolarPanelsPage.json",
   "pages/BatteryStoragePage.json",
   "pages/EvChargersPage.json",
+  "pages/CommercialSolarPage.json",
+  "pages/GrantsPage.json",
+  "pages/FinancePage.json",
+  "pages/FundingOptionsPage.json",
+  "pages/ContactPage.json",
+  "pages/TestimonialsPage.json",
+  "pages/QuoteBuilderPage.json",
+  "pages/PrivacyPolicyPage.json",
+  "pages/CookiesPage.json",
 ];
 
 interface FileData {

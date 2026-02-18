@@ -1,10 +1,13 @@
 import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
+import pageData from "../data/pages/FundingOptionsPage.json";
 
 export const metadata = generatePageMetadata("/funding-options");
 
 export default function FundingOptionsPage() {
+  const { hero, fundingSchemes, helpSection, cta } = pageData;
+
   return (
     <PageLayout>
       <StructuredData pageType="default" pagePath="/funding-options" />
@@ -17,14 +20,13 @@ export default function FundingOptionsPage() {
       >
         <div className="container text-center">
           <p className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-80">
-            Business Grants
+            {hero.eyebrow}
           </p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-            Business Funding Options
+            {hero.title}
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-            Discover grants, tax incentives, and funding support available for commercial
-            solar installations in Ireland.
+            {hero.subtitle}
           </p>
         </div>
       </section>
@@ -32,31 +34,10 @@ export default function FundingOptionsPage() {
       <section className="py-16 md:py-20">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold">Available Funding Schemes</h2>
+            <h2 className="text-3xl font-extrabold">{fundingSchemes.title}</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
-            {[
-              {
-                title: "SEAI Support Scheme for Renewable Heat (SSRH)",
-                desc: "Grants for businesses investing in renewable energy systems. The scheme provides financial support to help businesses transition to cleaner energy sources and reduce operating costs.",
-                icon: "🏛️",
-              },
-              {
-                title: "Accelerated Capital Allowances (ACA)",
-                desc: "Write off 100% of the cost of qualifying energy-efficient equipment in year one against your corporation tax. This significantly reduces the effective cost of your solar investment.",
-                icon: "📊",
-              },
-              {
-                title: "SEAI Community & Business Grants",
-                desc: "SEAI offers various grant programmes for businesses and community energy projects. Our team stays up to date with all available schemes to maximise your funding.",
-                icon: "💶",
-              },
-              {
-                title: "Commercial Finance Options",
-                desc: "We work with leading finance providers to offer flexible commercial lending solutions. Asset finance, leasing, and green loans are all available for qualifying businesses.",
-                icon: "🏦",
-              },
-            ].map((item) => (
+            {fundingSchemes.items.map((item) => (
               <div
                 key={item.title}
                 className="p-8 rounded-2xl shadow-md border"
@@ -76,20 +57,15 @@ export default function FundingOptionsPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-extrabold mb-6">
-                We Help You Access Every Euro Available
+                {helpSection.title}
               </h2>
-              <p className="text-gray-600 mb-4 leading-relaxed">
-                Navigating business grants and funding schemes can be complex. Our team has
-                extensive experience helping businesses access all available funding, ensuring
-                you minimise your upfront investment.
-              </p>
-              <p className="text-gray-600 mb-4 leading-relaxed">
-                We provide a comprehensive breakdown of all applicable grants, tax incentives,
-                and finance options as part of your free consultation — so you can make an
-                informed decision with full visibility of costs and savings.
-              </p>
+              {helpSection.paragraphs.map((paragraph, i) => (
+                <p key={i} className="text-gray-600 mb-4 leading-relaxed">
+                  {paragraph}
+                </p>
+              ))}
               <a
-                href="/contact"
+                href={helpSection.button.href}
                 className="inline-block mt-4"
                 style={{
                   background: "var(--teal)",
@@ -99,16 +75,11 @@ export default function FundingOptionsPage() {
                   fontWeight: 700,
                 }}
               >
-                Speak to Our Team
+                {helpSection.button.label}
               </a>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              {[
-                { value: "100%", label: "ACA Tax Write-Off" },
-                { value: "3-5yr", label: "Typical Payback" },
-                { value: "50%", label: "Bill Reduction" },
-                { value: "25yr+", label: "Panel Warranty" },
-              ].map((stat) => (
+              {helpSection.stats.map((stat) => (
                 <div
                   key={stat.label}
                   className="p-6 rounded-xl text-center"
@@ -132,13 +103,13 @@ export default function FundingOptionsPage() {
       >
         <div className="container text-center">
           <h2 className="text-3xl font-extrabold mb-4">
-            Let&apos;s Find the Right Funding for Your Business
+            {cta.title}
           </h2>
           <p className="text-lg mb-8 opacity-90 max-w-xl mx-auto">
-            Contact us for a free consultation and funding assessment.
+            {cta.subtitle}
           </p>
           <a
-            href="/contact"
+            href={cta.primaryButton.href}
             style={{
               background: "#fff",
               color: "var(--teal)",
@@ -148,7 +119,7 @@ export default function FundingOptionsPage() {
               display: "inline-block",
             }}
           >
-            Get in Touch
+            {cta.primaryButton.label}
           </a>
         </div>
       </section>

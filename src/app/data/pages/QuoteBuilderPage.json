@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "eyebrow": "Free Quote",
+    "title": "Get Your Free Solar Quote",
+    "subtitle": "Tell us about your property and energy needs, and we'll provide a tailored quote — completely free and with no obligation."
+  },
+  "form": {
+    "heading": "Tell Us About Your Project",
+    "fields": {
+      "fullName": {
+        "label": "Full Name *",
+        "placeholder": "John Smith",
+        "type": "text"
+      },
+      "phone": {
+        "label": "Phone Number *",
+        "placeholder": "087 123 4567",
+        "type": "tel"
+      },
+      "email": {
+        "label": "Email Address *",
+        "placeholder": "john@example.com",
+        "type": "email"
+      },
+      "eircode": {
+        "label": "Eircode / Address *",
+        "placeholder": "R93 AB12 or full address",
+        "type": "text"
+      },
+      "additionalDetails": {
+        "label": "Additional Details",
+        "placeholder": "Any additional information about your property or requirements...",
+        "rows": 4
+      }
+    },
+    "interests": {
+      "label": "What are you interested in? *",
+      "options": [
+        "Solar Panels",
+        "Battery Storage",
+        "EV Charger",
+        "Commercial Solar"
+      ]
+    },
+    "propertyType": {
+      "label": "Property Type",
+      "placeholder": "Select property type",
+      "options": [
+        { "value": "detached", "label": "Detached House" },
+        { "value": "semi-detached", "label": "Semi-Detached House" },
+        { "value": "terraced", "label": "Terraced House" },
+        { "value": "bungalow", "label": "Bungalow" },
+        { "value": "apartment", "label": "Apartment" },
+        { "value": "commercial", "label": "Commercial Property" },
+        { "value": "farm", "label": "Farm / Agricultural" }
+      ]
+    },
+    "electricityBill": {
+      "label": "Average Monthly Electricity Bill",
+      "placeholder": "Select range",
+      "options": [
+        { "value": "under-100", "label": "Under €100" },
+        { "value": "100-150", "label": "€100 – €150" },
+        { "value": "150-200", "label": "€150 – €200" },
+        { "value": "200-300", "label": "€200 – €300" },
+        { "value": "300-plus", "label": "€300+" },
+        { "value": "commercial", "label": "Commercial (€500+)" }
+      ]
+    },
+    "submitButton": "Get My Free Quote",
+    "disclaimer": "No obligation. We'll get back to you within 24 hours."
+  },
+  "bottomCards": [
+    { "icon": "⚡", "title": "Fast Response", "desc": "We respond to all enquiries within 24 hours" },
+    { "icon": "🏠", "title": "Free Site Survey", "desc": "No-obligation home assessment included" },
+    { "icon": "💰", "title": "SEAI Grant", "desc": "We handle your grant application for you" }
+  ]
+}

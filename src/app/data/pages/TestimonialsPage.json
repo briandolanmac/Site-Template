@@ -1,0 +1,85 @@
+{
+  "hero": {
+    "eyebrow": "Customer Reviews",
+    "title": "What Our Customers Say",
+    "subtitle": "Over 100 five-star reviews from homeowners and businesses across Ireland. Don't just take our word for it."
+  },
+  "reviews": [
+    {
+      "name": "Seán O'Brien",
+      "location": "Carlow",
+      "rating": 5,
+      "text": "Brilliant service from start to finish. The team were professional, tidy, and explained everything clearly. Our electricity bills have dropped by over 60% since installation. Couldn't recommend them enough!",
+      "service": "Solar PV & Battery"
+    },
+    {
+      "name": "Mary Fitzgerald",
+      "location": "Kilkenny",
+      "rating": 5,
+      "text": "We were unsure about solar at first, but Green-House Renewables made the whole process so easy. They handled the SEAI grant application, and the installation was done in just one day. Absolutely delighted with the results.",
+      "service": "Solar PV"
+    },
+    {
+      "name": "Patrick Walsh",
+      "location": "Wexford",
+      "rating": 5,
+      "text": "Had solar panels and a Sigenergy battery installed. The monitoring app is fantastic — I can see exactly how much energy we're generating and saving. The team were excellent throughout.",
+      "service": "Solar PV & Battery"
+    },
+    {
+      "name": "Aoife Murphy",
+      "location": "Dublin",
+      "rating": 5,
+      "text": "From the initial survey to the final handover, everything was handled with care. The panels look great on our roof and we're already seeing significant savings. Highly recommend Green-House Renewables.",
+      "service": "Solar PV"
+    },
+    {
+      "name": "Dermot Kavanagh",
+      "location": "Laois",
+      "rating": 5,
+      "text": "We had an EV charger and solar panels installed at the same time. Now we charge our car for free with solar energy! The savings are incredible. Professional team, great communication.",
+      "service": "Solar PV & EV Charger"
+    },
+    {
+      "name": "Ciara Brennan",
+      "location": "Waterford",
+      "rating": 5,
+      "text": "As a business owner, I was looking to reduce our energy costs. Green-House Renewables designed a system that cut our bills in half. The installation caused zero disruption to our operations. Top class.",
+      "service": "Commercial Solar"
+    },
+    {
+      "name": "Tomás Ryan",
+      "location": "Tipperary",
+      "rating": 5,
+      "text": "Excellent experience all round. Competitive pricing, quality panels, and the lads who did the install were friendly and professional. Our neighbours have since booked with them too!",
+      "service": "Solar PV"
+    },
+    {
+      "name": "Niamh Doyle",
+      "location": "Wicklow",
+      "rating": 5,
+      "text": "The battery storage has been a game changer. We barely use any grid electricity now. Green-House Renewables explained all the options clearly and helped us choose the right system for our home.",
+      "service": "Battery Storage"
+    },
+    {
+      "name": "Michael Kelly",
+      "location": "Cork",
+      "rating": 5,
+      "text": "We got quotes from five different companies. Green-House Renewables were the most knowledgeable and their quote was very competitive. The installation quality is superb. Very happy customers.",
+      "service": "Solar PV & Battery"
+    }
+  ],
+  "stats": [
+    { "value": "100+", "label": "5-Star Reviews" },
+    { "value": "1,000+", "label": "Installations" },
+    { "value": "4.9", "label": "Average Rating" }
+  ],
+  "cta": {
+    "title": "Join Our Happy Customers",
+    "subtitle": "Get a free quote and see why over 1,000 Irish homes and businesses trust Green-House Renewables.",
+    "primaryButton": {
+      "label": "Get Free Quote",
+      "href": "https://green-house.comprehensive.voltflo.ie/"
+    }
+  }
+}

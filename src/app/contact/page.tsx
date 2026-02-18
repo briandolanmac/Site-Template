@@ -2,10 +2,13 @@ import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
 import { getVoltfloUrl } from "../lib/siteSettings";
+import pageData from "../data/pages/ContactPage.json";
 
 export const metadata = generatePageMetadata("/contact");
 
 export default function ContactPage() {
+  const { hero, form, contactInfo, certifications, quickQuote } = pageData;
+
   return (
     <PageLayout>
       <StructuredData pageType="contact" pagePath="/contact" />
@@ -18,14 +21,13 @@ export default function ContactPage() {
       >
         <div className="container text-center">
           <p className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-80">
-            Get in Touch
+            {hero.eyebrow}
           </p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-            Contact Us
+            {hero.title}
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-            Ready to start your solar journey? Our friendly team is here to help.
-            Get in touch today for a free, no-obligation consultation.
+            {hero.subtitle}
           </p>
         </div>
       </section>
@@ -34,67 +36,51 @@ export default function ContactPage() {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-extrabold mb-8">Send Us a Message</h2>
+              <h2 className="text-3xl font-extrabold mb-8">{form.title}</h2>
               <form className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-sm font-semibold mb-2">First Name</label>
+                  {form.fields.filter(f => f.half).map((field) => (
+                    <div key={field.name}>
+                      <label className="block text-sm font-semibold mb-2">{field.label}</label>
+                      <input
+                        type={field.type}
+                        className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                        style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
+                        placeholder={field.placeholder}
+                      />
+                    </div>
+                  ))}
+                </div>
+                {form.fields.filter(f => !f.half).map((field) => (
+                  <div key={field.name}>
+                    <label className="block text-sm font-semibold mb-2">{field.label}</label>
                     <input
-                      type="text"
+                      type={field.type}
                       className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                       style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
-                      placeholder="John"
+                      placeholder={field.placeholder}
                     />
                   </div>
-                  <div>
-                    <label className="block text-sm font-semibold mb-2">Last Name</label>
-                    <input
-                      type="text"
-                      className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
-                      style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
-                      placeholder="Smith"
-                    />
-                  </div>
-                </div>
+                ))}
                 <div>
-                  <label className="block text-sm font-semibold mb-2">Email Address</label>
-                  <input
-                    type="email"
-                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
-                    style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
-                    placeholder="john@example.com"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-semibold mb-2">Phone Number</label>
-                  <input
-                    type="tel"
-                    className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
-                    style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
-                    placeholder="087 123 4567"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-semibold mb-2">Service Interested In</label>
+                  <label className="block text-sm font-semibold mb-2">{form.serviceSelect.label}</label>
                   <select
                     className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                   >
-                    <option value="">Select a service</option>
-                    <option value="solar-residential">Residential Solar Panels</option>
-                    <option value="solar-commercial">Commercial Solar</option>
-                    <option value="battery">Battery Storage</option>
-                    <option value="ev-charger">EV Charger</option>
-                    <option value="other">Other</option>
+                    <option value="">{form.serviceSelect.placeholder}</option>
+                    {form.serviceSelect.options.map((opt) => (
+                      <option key={opt.value} value={opt.value}>{opt.label}</option>
+                    ))}
                   </select>
                 </div>
                 <div>
-                  <label className="block text-sm font-semibold mb-2">Message</label>
+                  <label className="block text-sm font-semibold mb-2">{form.message.label}</label>
                   <textarea
                     rows={5}
                     className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
-                    placeholder="Tell us about your project..."
+                    placeholder={form.message.placeholder}
                   ></textarea>
                 </div>
                 <button
@@ -102,41 +88,16 @@ export default function ContactPage() {
                   className="w-full py-3 rounded-lg text-white font-bold text-lg"
                   style={{ background: "var(--teal)" }}
                 >
-                  Send Message
+                  {form.submitButton}
                 </button>
               </form>
             </div>
 
             <div className="space-y-8">
               <div>
-                <h2 className="text-3xl font-extrabold mb-8">Contact Information</h2>
+                <h2 className="text-3xl font-extrabold mb-8">{contactInfo.title}</h2>
                 <div className="space-y-6">
-                  {[
-                    {
-                      icon: "📞",
-                      title: "Phone",
-                      content: "+353 1 207 0006",
-                      href: "tel:+35312070006",
-                    },
-                    {
-                      icon: "✉️",
-                      title: "Email",
-                      content: "info@green-house.ie",
-                      href: "mailto:info@green-house.ie",
-                    },
-                    {
-                      icon: "📍",
-                      title: "Location",
-                      content: "Deansgrange Business Park, Blackrock, Dublin",
-                      href: null,
-                    },
-                    {
-                      icon: "🕐",
-                      title: "Office Hours",
-                      content: "Monday – Friday: 9:00am – 5:00pm",
-                      href: null,
-                    },
-                  ].map((item) => (
+                  {contactInfo.items.map((item) => (
                     <div key={item.title} className="flex gap-4 items-start">
                       <div
                         className="w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0"
@@ -163,14 +124,9 @@ export default function ContactPage() {
                 className="p-6 rounded-2xl"
                 style={{ background: "var(--bg-secondary)" }}
               >
-                <h3 className="font-bold text-lg mb-3">Our Certifications</h3>
+                <h3 className="font-bold text-lg mb-3">{certifications.title}</h3>
                 <ul className="space-y-2">
-                  {[
-                    "SEAI Registered Installer",
-                    "Safe Electric Certified",
-                    "Certified Sigenergy Installers",
-                    "Carlow Business Awards Winner 2024 & 2025",
-                  ].map((cert) => (
+                  {certifications.items.map((cert) => (
                     <li key={cert} className="flex items-center gap-2 text-gray-600">
                       <span className="text-brand">✓</span> {cert}
                     </li>
@@ -182,10 +138,9 @@ export default function ContactPage() {
                 className="p-6 rounded-2xl"
                 style={{ background: "#e0f2fe" }}
               >
-                <h3 className="font-bold text-lg mb-2">Prefer a Quick Quote?</h3>
+                <h3 className="font-bold text-lg mb-2">{quickQuote.title}</h3>
                 <p className="text-gray-600 mb-4">
-                  Use our online quote builder to get an instant estimate for your solar
-                  installation.
+                  {quickQuote.description}
                 </p>
                 <a
                   href={getVoltfloUrl()}
@@ -197,7 +152,7 @@ export default function ContactPage() {
                     borderRadius: "0.5rem",
                   }}
                 >
-                  Get Free Quote →
+                  {quickQuote.buttonLabel}
                 </a>
               </div>
             </div>

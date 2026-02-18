@@ -1,10 +1,13 @@
 import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
+import pageData from "../data/pages/QuoteBuilderPage.json";
 
 export const metadata = generatePageMetadata("/quote-builder");
 
 export default function QuoteBuilderPage() {
+  const { hero, form, bottomCards } = pageData;
+
   return (
     <PageLayout>
       <StructuredData pageType="default" pagePath="/quote-builder" />
@@ -17,14 +20,13 @@ export default function QuoteBuilderPage() {
       >
         <div className="container text-center">
           <p className="text-sm font-semibold uppercase tracking-widest mb-4 opacity-80">
-            Free Quote
+            {hero.eyebrow}
           </p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-            Get Your Free Solar Quote
+            {hero.title}
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90">
-            Tell us about your property and energy needs, and we&apos;ll provide a
-            tailored quote — completely free and with no obligation.
+            {hero.subtitle}
           </p>
         </div>
       </section>
@@ -36,63 +38,58 @@ export default function QuoteBuilderPage() {
             style={{ background: "var(--bg-primary)" }}
           >
             <h2 className="text-2xl font-extrabold mb-8 text-center">
-              Tell Us About Your Project
+              {form.heading}
             </h2>
             <form className="space-y-6">
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-semibold mb-2">Full Name *</label>
+                  <label className="block text-sm font-semibold mb-2">{form.fields.fullName.label}</label>
                   <input
-                    type="text"
+                    type={form.fields.fullName.type}
                     required
                     className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
-                    placeholder="John Smith"
+                    placeholder={form.fields.fullName.placeholder}
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-semibold mb-2">Phone Number *</label>
+                  <label className="block text-sm font-semibold mb-2">{form.fields.phone.label}</label>
                   <input
-                    type="tel"
+                    type={form.fields.phone.type}
                     required
                     className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                     style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
-                    placeholder="087 123 4567"
+                    placeholder={form.fields.phone.placeholder}
                   />
                 </div>
               </div>
 
               <div>
-                <label className="block text-sm font-semibold mb-2">Email Address *</label>
+                <label className="block text-sm font-semibold mb-2">{form.fields.email.label}</label>
                 <input
-                  type="email"
+                  type={form.fields.email.type}
                   required
                   className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                   style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
-                  placeholder="john@example.com"
+                  placeholder={form.fields.email.placeholder}
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-semibold mb-2">Eircode / Address *</label>
+                <label className="block text-sm font-semibold mb-2">{form.fields.eircode.label}</label>
                 <input
-                  type="text"
+                  type={form.fields.eircode.type}
                   required
                   className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                   style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
-                  placeholder="R93 AB12 or full address"
+                  placeholder={form.fields.eircode.placeholder}
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-semibold mb-2">What are you interested in? *</label>
+                <label className="block text-sm font-semibold mb-2">{form.interests.label}</label>
                 <div className="grid grid-cols-2 gap-3">
-                  {[
-                    "Solar Panels",
-                    "Battery Storage",
-                    "EV Charger",
-                    "Commercial Solar",
-                  ].map((option) => (
+                  {form.interests.options.map((option) => (
                     <label
                       key={option}
                       className="flex items-center gap-3 p-4 rounded-lg border cursor-pointer hover:border-emerald-500 transition-colors"
@@ -106,49 +103,42 @@ export default function QuoteBuilderPage() {
               </div>
 
               <div>
-                <label className="block text-sm font-semibold mb-2">Property Type</label>
+                <label className="block text-sm font-semibold mb-2">{form.propertyType.label}</label>
                 <select
                   className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                   style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                 >
-                  <option value="">Select property type</option>
-                  <option value="detached">Detached House</option>
-                  <option value="semi-detached">Semi-Detached House</option>
-                  <option value="terraced">Terraced House</option>
-                  <option value="bungalow">Bungalow</option>
-                  <option value="apartment">Apartment</option>
-                  <option value="commercial">Commercial Property</option>
-                  <option value="farm">Farm / Agricultural</option>
+                  <option value="">{form.propertyType.placeholder}</option>
+                  {form.propertyType.options.map((opt) => (
+                    <option key={opt.value} value={opt.value}>{opt.label}</option>
+                  ))}
                 </select>
               </div>
 
               <div>
                 <label className="block text-sm font-semibold mb-2">
-                  Average Monthly Electricity Bill
+                  {form.electricityBill.label}
                 </label>
                 <select
                   className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                   style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
                 >
-                  <option value="">Select range</option>
-                  <option value="under-100">Under €100</option>
-                  <option value="100-150">€100 – €150</option>
-                  <option value="150-200">€150 – €200</option>
-                  <option value="200-300">€200 – €300</option>
-                  <option value="300-plus">€300+</option>
-                  <option value="commercial">Commercial (€500+)</option>
+                  <option value="">{form.electricityBill.placeholder}</option>
+                  {form.electricityBill.options.map((opt) => (
+                    <option key={opt.value} value={opt.value}>{opt.label}</option>
+                  ))}
                 </select>
               </div>
 
               <div>
                 <label className="block text-sm font-semibold mb-2">
-                  Additional Details
+                  {form.fields.additionalDetails.label}
                 </label>
                 <textarea
-                  rows={4}
+                  rows={form.fields.additionalDetails.rows}
                   className="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-emerald-500"
                   style={{ borderColor: "var(--gray-300)", background: "var(--bg-primary)" }}
-                  placeholder="Any additional information about your property or requirements..."
+                  placeholder={form.fields.additionalDetails.placeholder}
                 ></textarea>
               </div>
 
@@ -157,21 +147,17 @@ export default function QuoteBuilderPage() {
                 className="w-full py-4 rounded-lg text-white font-bold text-lg"
                 style={{ background: "#009968" }}
               >
-                Get My Free Quote
+                {form.submitButton}
               </button>
 
               <p className="text-center text-sm text-gray-500">
-                No obligation. We&apos;ll get back to you within 24 hours.
+                {form.disclaimer}
               </p>
             </form>
           </div>
 
           <div className="mt-12 grid md:grid-cols-3 gap-6">
-            {[
-              { icon: "⚡", title: "Fast Response", desc: "We respond to all enquiries within 24 hours" },
-              { icon: "🏠", title: "Free Site Survey", desc: "No-obligation home assessment included" },
-              { icon: "💰", title: "SEAI Grant", desc: "We handle your grant application for you" },
-            ].map((item) => (
+            {bottomCards.map((item) => (
               <div key={item.title} className="text-center p-6">
                 <div className="text-3xl mb-2">{item.icon}</div>
                 <h3 className="font-bold mb-1">{item.title}</h3>
