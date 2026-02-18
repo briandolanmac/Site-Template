@@ -74,8 +74,8 @@ function CaseStudiesCarousel({ cards }: { cards: CaseCard[] }) {
 
       <div className="case-track-wrapper">
         <div className="case-track" ref={trackRef}>
-          {cards.map((card) => (
-            <a key={card.title} href={card.cta.href} className="case-card case-card-link">
+          {cards.map((card, i) => (
+            <a key={i} href={card.cta.href} className="case-card case-card-link">
               <div className="case-img">
                 <img src={card.image.src} alt={card.image.alt} />
                 <div className="case-overlay"></div>
