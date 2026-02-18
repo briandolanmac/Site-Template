@@ -25,14 +25,6 @@ const CaseStudiesSection = () => {
             </div>
             <div className="case-body">
               <p>{card.description}</p>
-              <div className="case-stats">
-                {card.stats.map((stat) => (
-                  <div key={stat.label} className={stat.highlight ? "highlight" : undefined}>
-                    <strong>{stat.value}</strong>
-                    <span>{stat.label}</span>
-                  </div>
-                ))}
-              </div>
               <a href={card.cta.href} className="case-cta">
                 {card.cta.label}
               </a>
