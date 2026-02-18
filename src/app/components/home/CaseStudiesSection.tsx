@@ -32,11 +32,6 @@ const CaseStudiesSection = () => {
           </div>
         ))}
       </div>
-      <div className="case-cta-wrap">
-        <a href={caseStudiesData.footerCta.href} className="btn btn-primary">
-          {caseStudiesData.footerCta.label}
-        </a>
-      </div>
     </div>
     </section>
   );
