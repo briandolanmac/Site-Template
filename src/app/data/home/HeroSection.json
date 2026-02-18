@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "showEyebrow": true,
+  "showEyebrow": false,
   "overlayOpacity": 8,
   "image": {
     "src": "/images/hero/green-house-hero-home.png",
@@ -8,10 +8,10 @@
   },
   "eyebrow": "Renewable Home Energy Solutions",
   "headlineLines": [
-    "Power and Heat ",
-    "Your Home With"
+    "Power & Heat Your",
+    "Home with The Sun"
   ],
-  "headlineHighlight": "The Sun & The Air",
+  "headlineHighlight": "And the Air",
   "subheading": "We are your one-stop-shop for researching, purchasing, and installing advanced clean energy solutions, including electric solar panels, electric car chargers, geothermal heat pumps, and air-to-water heat pumps.",
   "cta": [
     {
