@@ -954,12 +954,12 @@ ul {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #009968, #112F5B);
-  color: #fff;
-  box-shadow: 0 4px 14px rgba(0, 153, 104, 0.35);
+  background: #fff;
+  color: #112F5B;
+  box-shadow: 0 4px 14px rgba(255, 255, 255, 0.3);
 }
 .btn-primary:hover {
-  box-shadow: 0 8px 25px rgba(0, 153, 104, 0.45);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.45);
   transform: translateY(-2px) scale(1.02);
 }
 .btn .arrow {
