@@ -898,6 +898,11 @@ ul {
   line-height: 0.95;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
+.sun-text {
+  color: #FFD700 !important;
+  -webkit-text-fill-color: #FFD700 !important;
+  text-shadow: 0 0 12px rgba(255, 215, 0, 0.4), 0 2px 8px rgba(0, 0, 0, 0.15);
+}
 .gradient-text {
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
