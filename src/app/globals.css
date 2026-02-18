@@ -1001,6 +1001,11 @@ ul {
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
+@media (min-width: 768px) {
+  .hero-badges {
+    margin-top: 0;
+  }
+}
 .hero-badges span {
   display: inline-flex;
   align-items: center;
