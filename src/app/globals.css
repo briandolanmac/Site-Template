@@ -931,6 +931,10 @@ ul {
   gap: 1rem;
   margin-bottom: 2rem;
 }
+.hero-ctas .btn {
+  min-width: 260px;
+  justify-content: center;
+}
 
 .btn {
   display: inline-flex;
