@@ -1,11 +1,6 @@
 import Image from "next/image";
 import heroData from "../../data/home/HeroSection.json";
 
-const highlightSun = (text: string) =>
-  text.split(/(Sun)/i).map((part, i) =>
-    /^sun$/i.test(part) ? <span key={i} className="sun-text">{part}</span> : part
-  );
-
 const HeroSection = () => {
   if (!heroData.enabled) return null;
 
@@ -54,13 +49,11 @@ const HeroSection = () => {
         </div>
         )}
         <h1 className="hero-headline">
-          {highlightSun(heroData.headlineLines[0])}
+          {heroData.headlineLines[0]}
           <br />
-          {highlightSun(heroData.headlineLines[1])}
+          {heroData.headlineLines[1]}
           <br />
-          <span className="gradient-text">
-            {highlightSun(heroData.headlineHighlight)}
-          </span>
+          <span className="gradient-text">{heroData.headlineHighlight}</span>
         </h1>
         <p className="hero-sub">{heroData.subheading}</p>
         <div className="hero-ctas">
