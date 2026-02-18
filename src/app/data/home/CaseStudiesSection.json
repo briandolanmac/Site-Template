@@ -1,11 +1,14 @@
 {
-  "enabled": true,
+  "enabled": false,
   "eyebrow": "Our Work",
   "title": "See Our Recent Projects",
   "subtitle": "From residential homes to large-scale commercial installations, we've completed over 2,800 projects across Ireland. Here's a glimpse of our recent work.",
   "cards": [
     {
-      "image": { "src": "/images/case-studies/msd.webp", "alt": "Residential Solar Installation" },
+      "image": {
+        "src": "/images/case-studies/msd.webp",
+        "alt": "Residential Solar Installation"
+      },
       "logo": {
         "src": "/images/logos/Untitled-design-2024-02-22T220539.960.webp",
         "alt": "Residential"
@@ -14,14 +17,30 @@
       "title": "Home Solar Installation",
       "description": "A full solar PV system designed to maximise energy generation, lower electricity bills, and increase home value. Professional installation by our certified team.",
       "stats": [
-        { "value": "10", "label": "kWp" },
-        { "value": "24", "label": "Panels" },
-        { "value": "€1,200/yr", "label": "Savings", "highlight": true }
+        {
+          "value": "10",
+          "label": "kWp"
+        },
+        {
+          "value": "24",
+          "label": "Panels"
+        },
+        {
+          "value": "€1,200/yr",
+          "label": "Savings",
+          "highlight": true
+        }
       ],
-      "cta": { "label": "Get a Similar Quote →", "href": "/solar-panels" }
+      "cta": {
+        "label": "Get a Similar Quote →",
+        "href": "/solar-panels"
+      }
     },
     {
-      "image": { "src": "/images/case-studies/abott.webp", "alt": "Commercial Solar Installation" },
+      "image": {
+        "src": "/images/case-studies/abott.webp",
+        "alt": "Commercial Solar Installation"
+      },
       "logo": {
         "src": "/images/logos/Untitled-design-2024-02-22T215828.183.webp",
         "alt": "Commercial"
@@ -30,14 +49,30 @@
       "title": "Business Solar Installation",
       "description": "A large-scale commercial install delivering optimal energy efficiency, significant cost savings, and demonstrating a commitment to sustainability.",
       "stats": [
-        { "value": "100+", "label": "kWp" },
-        { "value": "250+", "label": "Panels" },
-        { "value": "€30k/yr", "label": "Savings", "highlight": true }
+        {
+          "value": "100+",
+          "label": "kWp"
+        },
+        {
+          "value": "250+",
+          "label": "Panels"
+        },
+        {
+          "value": "€30k/yr",
+          "label": "Savings",
+          "highlight": true
+        }
       ],
-      "cta": { "label": "Get a Similar Quote →", "href": "/commercial-solar" }
+      "cta": {
+        "label": "Get a Similar Quote →",
+        "href": "/commercial-solar"
+      }
     },
     {
-      "image": { "src": "/images/case-studies/UISCE.png", "alt": "New Build Development" },
+      "image": {
+        "src": "/images/case-studies/UISCE.png",
+        "alt": "New Build Development"
+      },
       "logo": {
         "src": "/images/logos/Untitled-design-2024-02-22T213115.801.webp",
         "alt": "New Build"
@@ -46,12 +81,28 @@
       "title": "Residential Development",
       "description": "Full renewable mechanical systems for an entire housing development — heat pumps, underfloor heating, and solar. Every home meets strict building regulations.",
       "stats": [
-        { "value": "26", "label": "Houses" },
-        { "value": "Full", "label": "Renewable" },
-        { "value": "A-Rated", "label": "BER", "highlight": true }
+        {
+          "value": "26",
+          "label": "Houses"
+        },
+        {
+          "value": "Full",
+          "label": "Renewable"
+        },
+        {
+          "value": "A-Rated",
+          "label": "BER",
+          "highlight": true
+        }
       ],
-      "cta": { "label": "Get a Similar Quote →", "href": "/commercial-solar" }
+      "cta": {
+        "label": "Get a Similar Quote →",
+        "href": "/commercial-solar"
+      }
     }
   ],
-  "footerCta": { "label": "See All Our Projects →", "href": "/projects" }
+  "footerCta": {
+    "label": "See All Our Projects →",
+    "href": "/projects"
+  }
 }
