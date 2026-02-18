@@ -1037,20 +1037,23 @@ ul {
 }
 .hero-mobile-stats > div {
   text-align: center;
-  padding: 1rem;
-  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem 0.5rem;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(8px);
   border-radius: var(--radius-lg);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .hero-mobile-stats strong {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 800;
-  color: var(--aqua);
+  color: #fff;
 }
 .hero-mobile-stats span {
-  font-size: 0.75rem;
-  color: var(--gray-400);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.02em;
 }
 
 .scroll-indicator {
