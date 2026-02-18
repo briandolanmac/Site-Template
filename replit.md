@@ -71,7 +71,16 @@ public/               - Static assets (images, videos, SVGs)
 - **Internal Linking**: `src/app/components/RelatedServices.tsx` — "Our Other Services" section on service pages, sourced from seo.json services array
 - **Image Optimization**: Hero image uses next/image with priority loading; service card images use next/image; inner page images use loading="lazy"
 
+## Content Management
+- **All page content** is stored in JSON files under `src/app/data/` and editable via the admin panel
+- **Homepage sections**: 17 JSON files in `src/app/data/home/` (Hero, Services, FAQ, Testimonials, etc.)
+- **Inner pages**: 13 JSON files in `src/app/data/pages/` (About, Solar Panels, Battery Storage, EV Chargers, Commercial Solar, Grants, Finance, Funding Options, Contact, Testimonials, Quote Builder, Privacy Policy, Cookies)
+- **Site Settings**: `src/app/data/home/SiteSettings.json` — includes VoltFlo Calculator URL used by all quote CTAs
+- **VoltFlo URL**: Centralized via `src/app/lib/siteSettings.ts` → `getVoltfloUrl()` — all "Get a Quote" buttons use this
+- **Admin panel**: 32 total editable sections registered in SECTION_LABELS/SECTION_ORDER (admin/page.tsx + AdminSidebar.tsx) and VALID_FILES (API route)
+
 ## Recent Changes
+- 2026-02-18: All remaining pages converted to JSON data files (Commercial Solar, Grants, Finance, Funding Options, Contact, Testimonials, Quote Builder, Privacy Policy, Cookies) — 32 total admin-editable sections
 - 2026-02-17: Comprehensive SEO implementation — structured data, meta tags, sitemap.xml, robots.txt, canonical URLs, OG/Twitter cards, internal linking, image optimization via next/image
 - 2026-02-17: Refactored CSS to remove all hardcoded title/eyebrow colors; unified typography via CSS variables and section-on-dark modifier
 - 2026-02-16: Added JSON data files and admin editing for Solar Panels, Battery Storage, and EV Chargers pages
