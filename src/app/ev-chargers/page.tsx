@@ -2,7 +2,6 @@ import PageLayout from "../components/PageLayout";
 import pageData from "../data/pages/EvChargersPage.json";
 import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
-import RelatedServices from "../components/RelatedServices";
 import { getVoltfloUrl } from "../lib/siteSettings";
 
 export const metadata = generatePageMetadata("/ev-chargers");
@@ -90,8 +89,6 @@ export default function EvChargersPage() {
           </div>
         </div>
       </section>
-
-      <RelatedServices currentPath="/ev-chargers" />
 
       <section
         style={{

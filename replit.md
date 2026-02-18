@@ -68,7 +68,6 @@ public/               - Static assets (images, videos, SVGs)
 - **Structured Data**: `src/app/components/StructuredData.tsx` (client component) — renders JSON-LD schemas (LocalBusiness, WebSite, Service, FAQ, Review, BreadcrumbList) based on page type
 - **Sitemap**: `src/app/sitemap.ts` — auto-generated from seo.json pages with priority/changeFrequency
 - **Robots**: `src/app/robots.ts` — blocks /admin and /api/, points to sitemap
-- **Internal Linking**: `src/app/components/RelatedServices.tsx` — "Our Other Services" section on service pages, sourced from seo.json services array
 - **Image Optimization**: Hero image uses next/image with priority loading; service card images use next/image; inner page images use loading="lazy"
 
 ## Content Management

@@ -1,7 +1,6 @@
 import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
 import PageLayout from "../components/PageLayout";
-import RelatedServices from "../components/RelatedServices";
 import pageData from "../data/pages/CommercialSolarPage.json";
 import { getVoltfloUrl } from "../lib/siteSettings";
 
@@ -94,8 +93,6 @@ export default function CommercialSolarPage() {
           </div>
         </div>
       </section>
-
-      <RelatedServices currentPath="/commercial-solar" />
 
       <section
         style={{

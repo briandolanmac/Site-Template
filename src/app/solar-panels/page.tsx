@@ -2,7 +2,6 @@ import PageLayout from "../components/PageLayout";
 import pageData from "../data/pages/SolarPanelsPage.json";
 import { generatePageMetadata } from "../components/SeoHead";
 import StructuredData from "../components/StructuredData";
-import RelatedServices from "../components/RelatedServices";
 import { getVoltfloUrl } from "../lib/siteSettings";
 
 export const metadata = generatePageMetadata("/solar-panels");
@@ -115,8 +114,6 @@ export default function SolarPanelsPage() {
           </div>
         </div>
       </section>
-
-      <RelatedServices currentPath="/solar-panels" />
 
       <section
         style={{
